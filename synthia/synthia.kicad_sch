@@ -1,0 +1,552 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "b7ca07b0-c23c-4333-a610-582d2798793b")
+	(paper "A4")
+	(title_block
+		(title "Synthia Test Sheet")
+		(date "01/17/2026")
+		(rev "1")
+		(company "E House")
+		(comment 1 "Main Sheet")
+	)
+	(lib_symbols
+		(symbol "power:+5V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 137.16 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8cd178c4-01d3-47fc-902c-eef5d92d93dc")
+	)
+	(wire
+		(pts
+			(xy 130.81 86.36) (xy 137.16 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "600da88f-c729-4854-9759-a29082ff8c1c")
+	)
+	(wire
+		(pts
+			(xy 144.78 83.82) (xy 144.78 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1dcda95-32d2-4833-9810-7c2a687a9ff2")
+	)
+	(wire
+		(pts
+			(xy 130.81 96.52) (xy 143.51 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2d16070-d6cd-41b4-b015-719d00cc3b47")
+	)
+	(wire
+		(pts
+			(xy 137.16 86.36) (xy 144.78 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3a6f78a-07fa-4735-a825-bd045f62d00e")
+	)
+	(global_label "global test label"
+		(shape input)
+		(at 143.51 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b46fa942-7540-4e5b-9b1d-ac927238d65f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 162.6419 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 144.78 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c077da2-95cc-4eac-a8f1-3ee1fa09fe36")
+		(property "Reference" "#PWR02"
+			(at 144.78 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 144.78 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 144.78 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de5fb9f1-f558-4f95-968e-415c2b0ea356")
+		)
+		(instances
+			(project ""
+				(path "/b7ca07b0-c23c-4333-a610-582d2798793b"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 137.16 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9c714fcb-9a99-4df0-92a8-ceeb3ecbab70")
+		(property "Reference" "#FLG01"
+			(at 137.16 84.455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 137.16 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 137.16 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "222e2f0e-a104-455e-923d-55b927c6b0a0")
+		)
+		(instances
+			(project ""
+				(path "/b7ca07b0-c23c-4333-a610-582d2798793b"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 85.09 82.55)
+		(size 45.72 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "dde05494-1c2c-4937-a2ca-747ed3c77836")
+		(property "Sheetname" "Synthia_test_subsheet"
+			(at 85.09 81.8384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "synthia_test_subsheet.kicad_sch"
+			(at 85.09 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Test Label" input
+			(at 130.81 86.36 0)
+			(uuid "783ed673-136b-48da-abca-b3ba492789a5")
+			(effects
+				(font
+					(size 3.81 3.81)
+				)
+				(justify right)
+			)
+		)
+		(pin "Test Label 2" output
+			(at 130.81 96.52 0)
+			(uuid "0f5b8d22-c160-4863-b998-93888f42959d")
+			(effects
+				(font
+					(size 3.81 3.81)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "synthia"
+				(path "/b7ca07b0-c23c-4333-a610-582d2798793b"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "synthia_test_subsheet.kicad_sch")
+			(type other)
+			(data |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
+				Cc6eRhhBBQ==|
+			)
+			(checksum "597B2DAD5748CEDBE90C928C7E6D1EE7")
+		)
+	)
+)
