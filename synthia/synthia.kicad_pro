@@ -615,8 +615,12 @@
       "Root"
     ],
     [
-      "dde05494-1c2c-4937-a2ca-747ed3c77836",
-      "Synthia_test_subsheet"
+      "86a9dea5-c947-4457-90b9-a8bfd3e7797e",
+      "Button_Matrix"
+    ],
+    [
+      "8e49bd71-c5a7-4127-9715-1bad639b8fa0",
+      "DAC_schematic"
     ]
   ],
   "text_variables": {}
