@@ -345,7 +345,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Synthia_Button_Symbol:TL1105BF160Q"
+		(symbol "Synthia_Symbol_Library:TL1105BF160Q"
 			(pin_names
 				(offset 1.016)
 			)
@@ -3129,7 +3129,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00e25442-9f4f-4f53-b6e5-d77cbd26746b")
-		(property "Reference" "R?"
+		(property "Reference" "R9"
 			(at 80.01 99.06 90)
 			(effects
 				(font
@@ -3203,7 +3203,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "085de373-303e-404b-bc09-d24440713e73")
-		(property "Reference" "D?"
+		(property "Reference" "D27"
 			(at 195.5799 109.22 90)
 			(effects
 				(font
@@ -3297,7 +3297,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "08a204db-1689-4cc2-aba9-26cd6642d0ad")
-		(property "Reference" "R?"
+		(property "Reference" "R8"
 			(at 194.31 99.06 90)
 			(effects
 				(font
@@ -3371,7 +3371,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ad13eb7-46f0-4203-81f4-9016605bf6e1")
-		(property "Reference" "D?"
+		(property "Reference" "D10"
 			(at 287.0199 137.16 90)
 			(effects
 				(font
@@ -3465,7 +3465,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0cdcaab2-5ccb-4853-b1ad-be08cace25be")
-		(property "Reference" "D?"
+		(property "Reference" "D17"
 			(at 241.2999 109.22 90)
 			(effects
 				(font
@@ -3559,7 +3559,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0dcee089-9164-4be5-8cb9-a080e4912486")
-		(property "Reference" "D?"
+		(property "Reference" "D5"
 			(at 309.8799 137.16 90)
 			(effects
 				(font
@@ -3653,7 +3653,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e0401c1-8c77-48ce-aa29-584f82841bd4")
-		(property "Reference" "R?"
+		(property "Reference" "R14"
 			(at 331.47 99.06 90)
 			(effects
 				(font
@@ -3727,7 +3727,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "143fc6f2-5676-465c-9565-2bd5d05051f5")
-		(property "Reference" "D?"
+		(property "Reference" "D22"
 			(at 149.8599 137.16 90)
 			(effects
 				(font
@@ -3821,7 +3821,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "162093b9-d250-438c-82f2-13dd1e57de7a")
-		(property "Reference" "D?"
+		(property "Reference" "D36"
 			(at 126.9999 109.22 90)
 			(effects
 				(font
@@ -3906,7 +3906,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Synthia_Button_Symbol:TL1105BF160Q")
+		(lib_id "Synthia_Symbol_Library:TL1105BF160Q")
 		(at 76.2 175.26 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3915,23 +3915,25 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1661cfa7-c10f-4866-a921-8e525354cc99")
-		(property "Reference" "S?"
-			(at 67.31 175.26 0)
+		(property "Reference" "S28"
+			(at 80.01 173.9899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "TL1105BF160Q"
-			(at 69.85 175.26 0)
+			(at 80.01 176.5299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "TL1105BF160Q:SW_TL1105BF160Q"
+		(property "Footprint" "Synthia_footprint_library:SW_TL1105BF160Q"
 			(at 76.2 175.26 0)
 			(effects
 				(font
@@ -4117,7 +4119,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Synthia_Button_Symbol:TL1105BF160Q")
+		(lib_id "Synthia_Symbol_Library:TL1105BF160Q")
 		(at 190.5 175.26 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4126,23 +4128,25 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ade9cb4-a07d-43ec-acc0-e9368f4a93e2")
-		(property "Reference" "S?"
-			(at 181.61 175.26 0)
+		(property "Reference" "S21"
+			(at 194.31 173.9899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "TL1105BF160Q"
-			(at 184.15 175.26 0)
+			(at 194.31 176.5299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "TL1105BF160Q:SW_TL1105BF160Q"
+		(property "Footprint" "Synthia_footprint_library:SW_TL1105BF160Q"
 			(at 190.5 175.26 0)
 			(effects
 				(font
@@ -4337,7 +4341,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1efb9745-93f6-4463-9ad7-d92811cdcf71")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR020"
 			(at 325.12 91.44 0)
 			(effects
 				(font
@@ -4400,7 +4404,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Synthia_Button_Symbol:TL1105BF160Q")
+		(lib_id "Synthia_Symbol_Library:TL1105BF160Q")
 		(at 144.78 175.26 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4409,23 +4413,25 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2141e21c-f47d-463e-b1c6-6406371d1fbb")
-		(property "Reference" "S?"
-			(at 135.89 175.26 0)
+		(property "Reference" "S19"
+			(at 148.59 173.9899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "TL1105BF160Q"
-			(at 138.43 175.26 0)
+			(at 148.59 176.5299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "TL1105BF160Q:SW_TL1105BF160Q"
+		(property "Footprint" "Synthia_footprint_library:SW_TL1105BF160Q"
 			(at 144.78 175.26 0)
 			(effects
 				(font
@@ -4620,7 +4626,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "24248804-93ed-4123-a72e-7fe5dd5fa0d6")
-		(property "Reference" "D?"
+		(property "Reference" "D16"
 			(at 218.4399 109.22 90)
 			(effects
 				(font
@@ -4714,7 +4720,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26fde040-2d80-470b-a807-f5acceef5550")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR023"
 			(at 302.26 91.44 0)
 			(effects
 				(font
@@ -4786,7 +4792,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2cebb641-7cab-4055-a32a-9e9c2520c9a4")
-		(property "Reference" "R?"
+		(property "Reference" "R7"
 			(at 171.45 99.06 90)
 			(effects
 				(font
@@ -4860,7 +4866,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d1da2e8-a7cb-4abf-8855-6ecd7eede09c")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR018"
 			(at 142.24 91.44 0)
 			(effects
 				(font
@@ -4932,7 +4938,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "32c94d6a-9c70-4640-a485-fa0cc7ccac9d")
-		(property "Reference" "D?"
+		(property "Reference" "D32"
 			(at 104.1399 137.16 90)
 			(effects
 				(font
@@ -5017,7 +5023,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Synthia_Button_Symbol:TL1105BF160Q")
+		(lib_id "Synthia_Symbol_Library:TL1105BF160Q")
 		(at 236.22 175.26 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5026,23 +5032,25 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "33870238-3bb0-440d-9c18-5ea4348b584b")
-		(property "Reference" "S?"
-			(at 227.33 175.26 0)
+		(property "Reference" "S9"
+			(at 240.03 173.9899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "TL1105BF160Q"
-			(at 229.87 175.26 0)
+			(at 240.03 176.5299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "TL1105BF160Q:SW_TL1105BF160Q"
+		(property "Footprint" "Synthia_footprint_library:SW_TL1105BF160Q"
 			(at 236.22 175.26 0)
 			(effects
 				(font
@@ -5237,7 +5245,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a1a65de-ec62-477a-b0b6-ad0f25c69d60")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR011"
 			(at 256.54 91.44 0)
 			(effects
 				(font
@@ -5300,7 +5308,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Synthia_Button_Symbol:TL1105BF160Q")
+		(lib_id "Synthia_Symbol_Library:TL1105BF160Q")
 		(at 259.08 119.38 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5309,23 +5317,25 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3dfce3d4-6db3-43f0-bc5f-53d3ec826623")
-		(property "Reference" "S?"
-			(at 250.19 119.38 0)
+		(property "Reference" "S18"
+			(at 262.89 118.1099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "TL1105BF160Q"
-			(at 252.73 119.38 0)
+			(at 262.89 120.6499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "TL1105BF160Q:SW_TL1105BF160Q"
+		(property "Footprint" "Synthia_footprint_library:SW_TL1105BF160Q"
 			(at 259.08 119.38 0)
 			(effects
 				(font
@@ -5511,7 +5521,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Synthia_Button_Symbol:TL1105BF160Q")
+		(lib_id "Synthia_Symbol_Library:TL1105BF160Q")
 		(at 327.66 119.38 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5520,23 +5530,25 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40a84db6-08d1-492b-ac9a-65d1258b08f9")
-		(property "Reference" "S?"
-			(at 318.77 119.38 0)
+		(property "Reference" "S3"
+			(at 331.47 118.1099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "TL1105BF160Q"
-			(at 321.31 119.38 0)
+			(at 331.47 120.6499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "TL1105BF160Q:SW_TL1105BF160Q"
+		(property "Footprint" "Synthia_footprint_library:SW_TL1105BF160Q"
 			(at 327.66 119.38 0)
 			(effects
 				(font
@@ -5722,7 +5734,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Synthia_Button_Symbol:TL1105BF160Q")
+		(lib_id "Synthia_Symbol_Library:TL1105BF160Q")
 		(at 236.22 119.38 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5731,23 +5743,25 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4442ce0c-e323-4802-9d46-2887f2cc65a4")
-		(property "Reference" "S?"
-			(at 227.33 119.38 0)
+		(property "Reference" "S17"
+			(at 240.03 118.1099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "TL1105BF160Q"
-			(at 229.87 119.38 0)
+			(at 240.03 120.6499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "TL1105BF160Q:SW_TL1105BF160Q"
+		(property "Footprint" "Synthia_footprint_library:SW_TL1105BF160Q"
 			(at 236.22 119.38 0)
 			(effects
 				(font
@@ -5942,7 +5956,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4807af88-6083-4008-b6d0-6a6f93cee3bf")
-		(property "Reference" "R?"
+		(property "Reference" "R4"
 			(at 240.03 99.06 90)
 			(effects
 				(font
@@ -6016,7 +6030,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a8fdbf6-e155-4f72-ad63-c378675beee6")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR016"
 			(at 96.52 91.44 0)
 			(effects
 				(font
@@ -6079,7 +6093,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Synthia_Button_Symbol:TL1105BF160Q")
+		(lib_id "Synthia_Symbol_Library:TL1105BF160Q")
 		(at 213.36 175.26 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6088,23 +6102,25 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b697754-483a-4e51-85da-fff1ddfdd798")
-		(property "Reference" "S?"
-			(at 204.47 175.26 0)
+		(property "Reference" "S5"
+			(at 217.17 173.9899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "TL1105BF160Q"
-			(at 207.01 175.26 0)
+			(at 217.17 176.5299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "TL1105BF160Q:SW_TL1105BF160Q"
+		(property "Footprint" "Synthia_footprint_library:SW_TL1105BF160Q"
 			(at 213.36 175.26 0)
 			(effects
 				(font
@@ -6299,7 +6315,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e9ad0af-0507-4d56-b4e5-2a55d352b2b4")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR013"
 			(at 165.1 91.44 0)
 			(effects
 				(font
@@ -6362,7 +6378,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Synthia_Button_Symbol:TL1105BF160Q")
+		(lib_id "Synthia_Symbol_Library:TL1105BF160Q")
 		(at 99.06 119.38 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6371,23 +6387,25 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4fbbcf09-dc1d-4df9-ac67-265e27108245")
-		(property "Reference" "S?"
-			(at 90.17 119.38 0)
+		(property "Reference" "S35"
+			(at 102.87 118.1099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "TL1105BF160Q"
-			(at 92.71 119.38 0)
+			(at 102.87 120.6499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "TL1105BF160Q:SW_TL1105BF160Q"
+		(property "Footprint" "Synthia_footprint_library:SW_TL1105BF160Q"
 			(at 99.06 119.38 0)
 			(effects
 				(font
@@ -6582,7 +6600,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55d33300-8fcf-4e88-96f7-a6fa38a1036a")
-		(property "Reference" "D?"
+		(property "Reference" "D9"
 			(at 241.2999 165.1 90)
 			(effects
 				(font
@@ -6676,7 +6694,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "56acb9bd-51c8-4847-8e42-282015f81d36")
-		(property "Reference" "D?"
+		(property "Reference" "D20"
 			(at 172.7199 165.1 90)
 			(effects
 				(font
@@ -6770,7 +6788,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "59998a4b-e68d-48ef-819d-122c87cdbf24")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR012"
 			(at 279.4 91.44 0)
 			(effects
 				(font
@@ -6833,7 +6851,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Synthia_Button_Symbol:TL1105BF160Q")
+		(lib_id "Synthia_Symbol_Library:TL1105BF160Q")
 		(at 144.78 147.32 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6842,23 +6860,25 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "59cc501b-c578-4561-a8ba-6e51fa6e132d")
-		(property "Reference" "S?"
-			(at 135.89 147.32 0)
+		(property "Reference" "S22"
+			(at 148.59 146.0499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "TL1105BF160Q"
-			(at 138.43 147.32 0)
+			(at 148.59 148.5899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "TL1105BF160Q:SW_TL1105BF160Q"
+		(property "Footprint" "Synthia_footprint_library:SW_TL1105BF160Q"
 			(at 144.78 147.32 0)
 			(effects
 				(font
@@ -7044,7 +7064,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Synthia_Button_Symbol:TL1105BF160Q")
+		(lib_id "Synthia_Symbol_Library:TL1105BF160Q")
 		(at 121.92 147.32 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7053,23 +7073,25 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e5b917e-0040-4ef7-9b8c-ba05c49a3a8c")
-		(property "Reference" "S?"
-			(at 113.03 147.32 0)
+		(property "Reference" "S33"
+			(at 125.73 146.0499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "TL1105BF160Q"
-			(at 115.57 147.32 0)
+			(at 125.73 148.5899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "TL1105BF160Q:SW_TL1105BF160Q"
+		(property "Footprint" "Synthia_footprint_library:SW_TL1105BF160Q"
 			(at 121.92 147.32 0)
 			(effects
 				(font
@@ -7264,7 +7286,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60764f73-a493-4ec5-a17e-db6057f14831")
-		(property "Reference" "D?"
+		(property "Reference" "D26"
 			(at 172.7199 109.22 90)
 			(effects
 				(font
@@ -7349,7 +7371,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Synthia_Button_Symbol:TL1105BF160Q")
+		(lib_id "Synthia_Symbol_Library:TL1105BF160Q")
 		(at 190.5 119.38 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7358,23 +7380,25 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "628770af-2e0c-4b57-be4e-5b4f7183a792")
-		(property "Reference" "S?"
-			(at 181.61 119.38 0)
+		(property "Reference" "S27"
+			(at 194.31 118.1099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "TL1105BF160Q"
-			(at 184.15 119.38 0)
+			(at 194.31 120.6499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "TL1105BF160Q:SW_TL1105BF160Q"
+		(property "Footprint" "Synthia_footprint_library:SW_TL1105BF160Q"
 			(at 190.5 119.38 0)
 			(effects
 				(font
@@ -7560,7 +7584,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Synthia_Button_Symbol:TL1105BF160Q")
+		(lib_id "Synthia_Symbol_Library:TL1105BF160Q")
 		(at 327.66 147.32 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7569,23 +7593,25 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "635d939f-0670-4839-adfb-7bf4f863d74b")
-		(property "Reference" "S?"
-			(at 318.77 147.32 0)
+		(property "Reference" "S2"
+			(at 331.47 146.0499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "TL1105BF160Q"
-			(at 321.31 147.32 0)
+			(at 331.47 148.5899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "TL1105BF160Q:SW_TL1105BF160Q"
+		(property "Footprint" "Synthia_footprint_library:SW_TL1105BF160Q"
 			(at 327.66 147.32 0)
 			(effects
 				(font
@@ -7780,7 +7806,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63972544-1d73-4b52-b0f3-e20c6db76649")
-		(property "Reference" "D?"
+		(property "Reference" "D33"
 			(at 126.9999 137.16 90)
 			(effects
 				(font
@@ -7874,7 +7900,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "65f82efa-deac-4e6c-a822-660475d4d5c3")
-		(property "Reference" "R?"
+		(property "Reference" "R40"
 			(at 285.75 99.06 90)
 			(effects
 				(font
@@ -7948,7 +7974,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66936290-9aad-4f9a-b1bc-4d1ab7f7e41e")
-		(property "Reference" "R?"
+		(property "Reference" "R6"
 			(at 148.59 99.06 90)
 			(effects
 				(font
@@ -8013,7 +8039,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Synthia_Button_Symbol:TL1105BF160Q")
+		(lib_id "Synthia_Symbol_Library:TL1105BF160Q")
 		(at 99.06 147.32 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8022,23 +8048,25 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "69981d3f-1e33-48d8-a784-db327e190958")
-		(property "Reference" "S?"
-			(at 90.17 147.32 0)
+		(property "Reference" "S32"
+			(at 102.87 146.0499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "TL1105BF160Q"
-			(at 92.71 147.32 0)
+			(at 102.87 148.5899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "TL1105BF160Q:SW_TL1105BF160Q"
+		(property "Footprint" "Synthia_footprint_library:SW_TL1105BF160Q"
 			(at 99.06 147.32 0)
 			(effects
 				(font
@@ -8233,7 +8261,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ae66e8d-d357-4c71-9c49-ff4ac3639c72")
-		(property "Reference" "D?"
+		(property "Reference" "D24"
 			(at 195.5799 137.16 90)
 			(effects
 				(font
@@ -8327,7 +8355,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b7b0fcf-091c-4161-b846-14f5e7d2920d")
-		(property "Reference" "D?"
+		(property "Reference" "D25"
 			(at 149.8599 109.22 90)
 			(effects
 				(font
@@ -8421,7 +8449,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c9410b3-8ccf-4ce3-8239-d4a972e953ce")
-		(property "Reference" "R?"
+		(property "Reference" "R5"
 			(at 262.89 99.06 90)
 			(effects
 				(font
@@ -8495,7 +8523,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f583762-62e5-4795-b17d-8629026d9334")
-		(property "Reference" "D?"
+		(property "Reference" "D23"
 			(at 172.7199 137.16 90)
 			(effects
 				(font
@@ -8589,7 +8617,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71e3f478-e4cf-4da4-9097-239569a625c2")
-		(property "Reference" "D?"
+		(property "Reference" "D3"
 			(at 332.7399 109.22 90)
 			(effects
 				(font
@@ -8674,7 +8702,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Synthia_Button_Symbol:TL1105BF160Q")
+		(lib_id "Synthia_Symbol_Library:TL1105BF160Q")
 		(at 259.08 175.26 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8683,23 +8711,25 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "75c217c9-bd4e-4127-be7d-a73de6df8633")
-		(property "Reference" "S?"
-			(at 250.19 175.26 0)
+		(property "Reference" "S12"
+			(at 262.89 173.9899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "TL1105BF160Q"
-			(at 252.73 175.26 0)
+			(at 262.89 176.5299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "TL1105BF160Q:SW_TL1105BF160Q"
+		(property "Footprint" "Synthia_footprint_library:SW_TL1105BF160Q"
 			(at 259.08 175.26 0)
 			(effects
 				(font
@@ -8894,7 +8924,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7835eadb-c8b1-4a5b-8592-1466479b0f2f")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR015"
 			(at 210.82 91.44 0)
 			(effects
 				(font
@@ -8966,7 +8996,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7888f00f-bf10-4ccc-9586-ebe6c683ee6e")
-		(property "Reference" "D?"
+		(property "Reference" "D35"
 			(at 104.1399 109.22 90)
 			(effects
 				(font
@@ -9060,7 +9090,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ae60079-d372-40a3-bf33-1d8d5a1ebead")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR017"
 			(at 119.38 91.44 0)
 			(effects
 				(font
@@ -9132,7 +9162,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80c86ec4-b233-4a64-88e0-5c00671c5719")
-		(property "Reference" "D?"
+		(property "Reference" "D38"
 			(at 332.7399 165.1 90)
 			(effects
 				(font
@@ -9217,7 +9247,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Synthia_Button_Symbol:TL1105BF160Q")
+		(lib_id "Synthia_Symbol_Library:TL1105BF160Q")
 		(at 144.78 119.38 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9226,23 +9256,25 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "834b4cc3-3732-4668-b8dc-7813ec549abf")
-		(property "Reference" "S?"
-			(at 135.89 119.38 0)
+		(property "Reference" "S25"
+			(at 148.59 118.1099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "TL1105BF160Q"
-			(at 138.43 119.38 0)
+			(at 148.59 120.6499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "TL1105BF160Q:SW_TL1105BF160Q"
+		(property "Footprint" "Synthia_footprint_library:SW_TL1105BF160Q"
 			(at 144.78 119.38 0)
 			(effects
 				(font
@@ -9437,7 +9469,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "84a3a011-f785-4e3f-926a-5aa845273a9e")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR010"
 			(at 233.68 91.44 0)
 			(effects
 				(font
@@ -9500,7 +9532,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Synthia_Button_Symbol:TL1105BF160Q")
+		(lib_id "Synthia_Symbol_Library:TL1105BF160Q")
 		(at 259.08 147.32 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9509,23 +9541,25 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a5421ef-60d1-4ed4-b5fe-265904f3fcd0")
-		(property "Reference" "S?"
-			(at 250.19 147.32 0)
+		(property "Reference" "S15"
+			(at 262.89 146.0499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "TL1105BF160Q"
-			(at 252.73 147.32 0)
+			(at 262.89 148.5899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "TL1105BF160Q:SW_TL1105BF160Q"
+		(property "Footprint" "Synthia_footprint_library:SW_TL1105BF160Q"
 			(at 259.08 147.32 0)
 			(effects
 				(font
@@ -9711,7 +9745,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Synthia_Button_Symbol:TL1105BF160Q")
+		(lib_id "Synthia_Symbol_Library:TL1105BF160Q")
 		(at 213.36 119.38 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9720,23 +9754,25 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8aea7fc9-fd02-4f36-af9f-76fdab8d0dbe")
-		(property "Reference" "S?"
-			(at 204.47 119.38 0)
+		(property "Reference" "S16"
+			(at 217.17 118.1099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "TL1105BF160Q"
-			(at 207.01 119.38 0)
+			(at 217.17 120.6499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "TL1105BF160Q:SW_TL1105BF160Q"
+		(property "Footprint" "Synthia_footprint_library:SW_TL1105BF160Q"
 			(at 213.36 119.38 0)
 			(effects
 				(font
@@ -9922,7 +9958,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Synthia_Button_Symbol:TL1105BF160Q")
+		(lib_id "Synthia_Symbol_Library:TL1105BF160Q")
 		(at 327.66 175.26 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9931,23 +9967,25 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97292f8c-9443-4890-a887-a0d221d9dbff")
-		(property "Reference" "S?"
-			(at 318.77 175.26 0)
+		(property "Reference" "S1"
+			(at 331.47 173.9899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "TL1105BF160Q"
-			(at 321.31 175.26 0)
+			(at 331.47 176.5299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "TL1105BF160Q:SW_TL1105BF160Q"
+		(property "Footprint" "Synthia_footprint_library:SW_TL1105BF160Q"
 			(at 327.66 175.26 0)
 			(effects
 				(font
@@ -10133,7 +10171,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Synthia_Button_Symbol:TL1105BF160Q")
+		(lib_id "Synthia_Symbol_Library:TL1105BF160Q")
 		(at 281.94 147.32 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10142,23 +10180,25 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98054075-9e56-484e-979a-e212cfaf5acc")
-		(property "Reference" "S?"
-			(at 273.05 147.32 0)
+		(property "Reference" "S8"
+			(at 285.75 146.0499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "TL1105BF160Q"
-			(at 275.59 147.32 0)
+			(at 285.75 148.5899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "TL1105BF160Q:SW_TL1105BF160Q"
+		(property "Footprint" "Synthia_footprint_library:SW_TL1105BF160Q"
 			(at 281.94 147.32 0)
 			(effects
 				(font
@@ -10353,7 +10393,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a941065-6b83-40a0-b19e-725c174aa096")
-		(property "Reference" "D?"
+		(property "Reference" "D6"
 			(at 309.8799 109.22 90)
 			(effects
 				(font
@@ -10447,7 +10487,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9cd7d64e-f3ca-4550-b035-0a5601d0f9e1")
-		(property "Reference" "D?"
+		(property "Reference" "D28"
 			(at 81.2799 165.1 90)
 			(effects
 				(font
@@ -10541,7 +10581,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a73d4c4a-88ec-4f3c-aba2-9a518d32f821")
-		(property "Reference" "D?"
+		(property "Reference" "D7"
 			(at 218.4399 165.1 90)
 			(effects
 				(font
@@ -10626,7 +10666,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Synthia_Button_Symbol:TL1105BF160Q")
+		(lib_id "Synthia_Symbol_Library:TL1105BF160Q")
 		(at 281.94 119.38 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10635,23 +10675,25 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a86f9cb0-2367-44ce-bd8b-112f91e554bb")
-		(property "Reference" "S?"
-			(at 273.05 119.38 0)
+		(property "Reference" "S10"
+			(at 285.75 118.1099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "TL1105BF160Q"
-			(at 275.59 119.38 0)
+			(at 285.75 120.6499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "TL1105BF160Q:SW_TL1105BF160Q"
+		(property "Footprint" "Synthia_footprint_library:SW_TL1105BF160Q"
 			(at 281.94 119.38 0)
 			(effects
 				(font
@@ -10837,7 +10879,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Synthia_Button_Symbol:TL1105BF160Q")
+		(lib_id "Synthia_Symbol_Library:TL1105BF160Q")
 		(at 304.8 147.32 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10846,23 +10888,25 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8f8a237-8cbf-42fd-930d-a49a250ce96d")
-		(property "Reference" "S?"
-			(at 295.91 147.32 0)
+		(property "Reference" "S11"
+			(at 308.61 146.0499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "TL1105BF160Q"
-			(at 298.45 147.32 0)
+			(at 308.61 148.5899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "TL1105BF160Q:SW_TL1105BF160Q"
+		(property "Footprint" "Synthia_footprint_library:SW_TL1105BF160Q"
 			(at 304.8 147.32 0)
 			(effects
 				(font
@@ -11057,7 +11101,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa5004bb-4e6c-4fa9-820f-cb1ace824e3b")
-		(property "Reference" "D?"
+		(property "Reference" "D21"
 			(at 195.5799 165.1 90)
 			(effects
 				(font
@@ -11142,7 +11186,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Synthia_Button_Symbol:TL1105BF160Q")
+		(lib_id "Synthia_Symbol_Library:TL1105BF160Q")
 		(at 121.92 119.38 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11151,23 +11195,25 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "abe0fa5d-3651-4b35-a336-68e90e88a64a")
-		(property "Reference" "S?"
-			(at 113.03 119.38 0)
+		(property "Reference" "S36"
+			(at 125.73 118.1099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "TL1105BF160Q"
-			(at 115.57 119.38 0)
+			(at 125.73 120.6499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "TL1105BF160Q:SW_TL1105BF160Q"
+		(property "Footprint" "Synthia_footprint_library:SW_TL1105BF160Q"
 			(at 121.92 119.38 0)
 			(effects
 				(font
@@ -11362,7 +11408,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b097c339-7659-4407-920b-8b93348fb0ec")
-		(property "Reference" "D?"
+		(property "Reference" "D29"
 			(at 104.1399 165.1 90)
 			(effects
 				(font
@@ -11456,7 +11502,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3ba1a3f-76cb-478b-9c01-b5d034e5e9af")
-		(property "Reference" "D?"
+		(property "Reference" "D30"
 			(at 126.9999 165.1 90)
 			(effects
 				(font
@@ -11550,7 +11596,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b7d998cd-11f5-4199-9748-f6dc5f2887a6")
-		(property "Reference" "D?"
+		(property "Reference" "D8"
 			(at 287.0199 165.1 90)
 			(effects
 				(font
@@ -11635,7 +11681,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Synthia_Button_Symbol:TL1105BF160Q")
+		(lib_id "Synthia_Symbol_Library:TL1105BF160Q")
 		(at 76.2 119.38 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11644,23 +11690,25 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c611a40f-ab3f-48b2-8b51-9c920731126e")
-		(property "Reference" "S?"
-			(at 67.31 119.38 0)
+		(property "Reference" "S34"
+			(at 80.01 118.1099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "TL1105BF160Q"
-			(at 69.85 119.38 0)
+			(at 80.01 120.6499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "TL1105BF160Q:SW_TL1105BF160Q"
+		(property "Footprint" "Synthia_footprint_library:SW_TL1105BF160Q"
 			(at 76.2 119.38 0)
 			(effects
 				(font
@@ -11855,7 +11903,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c8c0cf1b-c17c-4c60-bc8f-6d3bf81b2dd1")
-		(property "Reference" "D?"
+		(property "Reference" "D15"
 			(at 264.1599 137.16 90)
 			(effects
 				(font
@@ -11940,7 +11988,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Synthia_Button_Symbol:TL1105BF160Q")
+		(lib_id "Synthia_Symbol_Library:TL1105BF160Q")
 		(at 121.92 175.26 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11949,23 +11997,25 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca521aff-d834-4928-961b-e4ee6a5d3166")
-		(property "Reference" "S?"
-			(at 113.03 175.26 0)
+		(property "Reference" "S30"
+			(at 125.73 173.9899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "TL1105BF160Q"
-			(at 115.57 175.26 0)
+			(at 125.73 176.5299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "TL1105BF160Q:SW_TL1105BF160Q"
+		(property "Footprint" "Synthia_footprint_library:SW_TL1105BF160Q"
 			(at 121.92 175.26 0)
 			(effects
 				(font
@@ -12160,7 +12210,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca7d27c8-7874-4e64-aabe-894583231157")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR014"
 			(at 187.96 91.44 0)
 			(effects
 				(font
@@ -12223,7 +12273,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Synthia_Button_Symbol:TL1105BF160Q")
+		(lib_id "Synthia_Symbol_Library:TL1105BF160Q")
 		(at 167.64 119.38 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12232,23 +12282,25 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca954939-c559-4fae-a475-c9ba9abff1da")
-		(property "Reference" "S?"
-			(at 158.75 119.38 0)
+		(property "Reference" "S26"
+			(at 171.45 118.1099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "TL1105BF160Q"
-			(at 161.29 119.38 0)
+			(at 171.45 120.6499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "TL1105BF160Q:SW_TL1105BF160Q"
+		(property "Footprint" "Synthia_footprint_library:SW_TL1105BF160Q"
 			(at 167.64 119.38 0)
 			(effects
 				(font
@@ -12443,7 +12495,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc44976c-5121-4901-9621-cb563d769e11")
-		(property "Reference" "D?"
+		(property "Reference" "D4"
 			(at 309.8799 165.1 90)
 			(effects
 				(font
@@ -12537,7 +12589,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1d0ff59-d7f1-4a69-b8a3-c87b3e4c710c")
-		(property "Reference" "D?"
+		(property "Reference" "D2"
 			(at 332.7399 137.16 90)
 			(effects
 				(font
@@ -12622,7 +12674,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Synthia_Button_Symbol:TL1105BF160Q")
+		(lib_id "Synthia_Symbol_Library:TL1105BF160Q")
 		(at 304.8 119.38 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12631,23 +12683,25 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d80323e0-43f5-442b-887f-0d7866ef48f0")
-		(property "Reference" "S?"
-			(at 295.91 119.38 0)
+		(property "Reference" "S6"
+			(at 308.61 118.1099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "TL1105BF160Q"
-			(at 298.45 119.38 0)
+			(at 308.61 120.6499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "TL1105BF160Q:SW_TL1105BF160Q"
+		(property "Footprint" "Synthia_footprint_library:SW_TL1105BF160Q"
 			(at 304.8 119.38 0)
 			(effects
 				(font
@@ -12833,7 +12887,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Synthia_Button_Symbol:TL1105BF160Q")
+		(lib_id "Synthia_Symbol_Library:TL1105BF160Q")
 		(at 167.64 175.26 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12842,23 +12896,25 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8cb3e30-9fd3-4771-9909-0488677a843d")
-		(property "Reference" "S?"
-			(at 158.75 175.26 0)
+		(property "Reference" "S20"
+			(at 171.45 173.9899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "TL1105BF160Q"
-			(at 161.29 175.26 0)
+			(at 171.45 176.5299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "TL1105BF160Q:SW_TL1105BF160Q"
+		(property "Footprint" "Synthia_footprint_library:SW_TL1105BF160Q"
 			(at 167.64 175.26 0)
 			(effects
 				(font
@@ -13044,7 +13100,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Synthia_Button_Symbol:TL1105BF160Q")
+		(lib_id "Synthia_Symbol_Library:TL1105BF160Q")
 		(at 213.36 147.32 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13053,23 +13109,25 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dcf35aac-44d8-4e8e-923c-093ee738ab72")
-		(property "Reference" "S?"
-			(at 204.47 147.32 0)
+		(property "Reference" "S13"
+			(at 217.17 146.0499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "TL1105BF160Q"
-			(at 207.01 147.32 0)
+			(at 217.17 148.5899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "TL1105BF160Q:SW_TL1105BF160Q"
+		(property "Footprint" "Synthia_footprint_library:SW_TL1105BF160Q"
 			(at 213.36 147.32 0)
 			(effects
 				(font
@@ -13264,7 +13322,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd311e8d-a6db-4243-8c05-7115c12a90fb")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR021"
 			(at 347.98 91.44 0)
 			(effects
 				(font
@@ -13336,7 +13394,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd4f0255-1888-4a8a-a682-da917925ccc3")
-		(property "Reference" "R?"
+		(property "Reference" "R13"
 			(at 308.61 99.06 90)
 			(effects
 				(font
@@ -13410,7 +13468,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de07c97a-bfe6-435b-918e-9282682b8033")
-		(property "Reference" "R?"
+		(property "Reference" "R10"
 			(at 102.87 99.06 90)
 			(effects
 				(font
@@ -13484,7 +13542,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df63f773-e72f-4848-aa43-50a1c9bbe1b3")
-		(property "Reference" "D?"
+		(property "Reference" "D12"
 			(at 287.0199 109.22 90)
 			(effects
 				(font
@@ -13578,7 +13636,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e00bf44d-a1e9-4e17-9a98-420c8b0d191c")
-		(property "Reference" "D?"
+		(property "Reference" "D11"
 			(at 264.1599 165.1 90)
 			(effects
 				(font
@@ -13672,7 +13730,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e3437303-66b7-4ca8-9680-78118710d713")
-		(property "Reference" "D?"
+		(property "Reference" "D18"
 			(at 264.1599 109.22 90)
 			(effects
 				(font
@@ -13766,7 +13824,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e5e58722-4392-4536-96d3-9de1e12523df")
-		(property "Reference" "R?"
+		(property "Reference" "R11"
 			(at 125.73 99.06 90)
 			(effects
 				(font
@@ -13831,7 +13889,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Synthia_Button_Symbol:TL1105BF160Q")
+		(lib_id "Synthia_Symbol_Library:TL1105BF160Q")
 		(at 76.2 147.32 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13840,23 +13898,25 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e7282be1-024a-48ff-951e-f5673deb05b2")
-		(property "Reference" "S?"
-			(at 67.31 147.32 0)
+		(property "Reference" "S31"
+			(at 80.01 146.0499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "TL1105BF160Q"
-			(at 69.85 147.32 0)
+			(at 80.01 148.5899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "TL1105BF160Q:SW_TL1105BF160Q"
+		(property "Footprint" "Synthia_footprint_library:SW_TL1105BF160Q"
 			(at 76.2 147.32 0)
 			(effects
 				(font
@@ -14042,7 +14102,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Synthia_Button_Symbol:TL1105BF160Q")
+		(lib_id "Synthia_Symbol_Library:TL1105BF160Q")
 		(at 236.22 147.32 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14051,23 +14111,25 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea250a09-d5e4-4147-b629-2edb92d100e5")
-		(property "Reference" "S?"
-			(at 227.33 147.32 0)
+		(property "Reference" "S14"
+			(at 240.03 146.0499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "TL1105BF160Q"
-			(at 229.87 147.32 0)
+			(at 240.03 148.5899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "TL1105BF160Q:SW_TL1105BF160Q"
+		(property "Footprint" "Synthia_footprint_library:SW_TL1105BF160Q"
 			(at 236.22 147.32 0)
 			(effects
 				(font
@@ -14253,7 +14315,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Synthia_Button_Symbol:TL1105BF160Q")
+		(lib_id "Synthia_Symbol_Library:TL1105BF160Q")
 		(at 99.06 175.26 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14262,23 +14324,25 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eaeec088-bf84-4cdd-8ed0-65dfacbc1f11")
-		(property "Reference" "S?"
-			(at 90.17 175.26 0)
+		(property "Reference" "S29"
+			(at 102.87 173.9899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "TL1105BF160Q"
-			(at 92.71 175.26 0)
+			(at 102.87 176.5299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "TL1105BF160Q:SW_TL1105BF160Q"
+		(property "Footprint" "Synthia_footprint_library:SW_TL1105BF160Q"
 			(at 99.06 175.26 0)
 			(effects
 				(font
@@ -14464,7 +14528,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Synthia_Button_Symbol:TL1105BF160Q")
+		(lib_id "Synthia_Symbol_Library:TL1105BF160Q")
 		(at 167.64 147.32 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14473,23 +14537,25 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec05a9d9-3eb3-43ab-9e1d-c54fc6200ddf")
-		(property "Reference" "S?"
-			(at 158.75 147.32 0)
+		(property "Reference" "S23"
+			(at 171.45 146.0499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "TL1105BF160Q"
-			(at 161.29 147.32 0)
+			(at 171.45 148.5899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "TL1105BF160Q:SW_TL1105BF160Q"
+		(property "Footprint" "Synthia_footprint_library:SW_TL1105BF160Q"
 			(at 167.64 147.32 0)
 			(effects
 				(font
@@ -14684,7 +14750,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed1e9e89-7276-4af4-9f84-ff45ff3b42de")
-		(property "Reference" "D?"
+		(property "Reference" "D31"
 			(at 81.2799 137.16 90)
 			(effects
 				(font
@@ -14778,7 +14844,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "edcb3d69-0570-40aa-ac95-da3b9602cc06")
-		(property "Reference" "D?"
+		(property "Reference" "D34"
 			(at 81.2799 109.22 90)
 			(effects
 				(font
@@ -14872,7 +14938,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f1acc558-8ed3-4e4d-8796-72211db5ad46")
-		(property "Reference" "R?"
+		(property "Reference" "R3"
 			(at 217.17 99.06 90)
 			(effects
 				(font
@@ -14937,7 +15003,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Synthia_Button_Symbol:TL1105BF160Q")
+		(lib_id "Synthia_Symbol_Library:TL1105BF160Q")
 		(at 190.5 147.32 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14946,23 +15012,25 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f21ccedd-9224-4448-af8a-a007c93ad6c3")
-		(property "Reference" "S?"
-			(at 181.61 147.32 0)
+		(property "Reference" "S24"
+			(at 194.31 146.0499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "TL1105BF160Q"
-			(at 184.15 147.32 0)
+			(at 194.31 148.5899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "TL1105BF160Q:SW_TL1105BF160Q"
+		(property "Footprint" "Synthia_footprint_library:SW_TL1105BF160Q"
 			(at 190.5 147.32 0)
 			(effects
 				(font
@@ -15148,7 +15216,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Synthia_Button_Symbol:TL1105BF160Q")
+		(lib_id "Synthia_Symbol_Library:TL1105BF160Q")
 		(at 304.8 175.26 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15157,23 +15225,25 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f3e92605-003b-470e-92ba-5240e4fd8abe")
-		(property "Reference" "S?"
-			(at 295.91 175.26 0)
+		(property "Reference" "S4"
+			(at 308.61 173.9899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "TL1105BF160Q"
-			(at 298.45 175.26 0)
+			(at 308.61 176.5299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "TL1105BF160Q:SW_TL1105BF160Q"
+		(property "Footprint" "Synthia_footprint_library:SW_TL1105BF160Q"
 			(at 304.8 175.26 0)
 			(effects
 				(font
@@ -15368,7 +15438,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f407e646-e33d-480a-8e78-dfbcda1a85ec")
-		(property "Reference" "D?"
+		(property "Reference" "D19"
 			(at 149.8599 165.1 90)
 			(effects
 				(font
@@ -15462,7 +15532,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f7f1bc28-4d98-4363-8477-ee397780a740")
-		(property "Reference" "D?"
+		(property "Reference" "D14"
 			(at 241.2999 137.16 90)
 			(effects
 				(font
@@ -15556,7 +15626,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f988a4d6-cf66-4d62-a244-97bb73a75d72")
-		(property "Reference" "D?"
+		(property "Reference" "D13"
 			(at 218.4399 137.16 90)
 			(effects
 				(font
@@ -15641,7 +15711,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Synthia_Button_Symbol:TL1105BF160Q")
+		(lib_id "Synthia_Symbol_Library:TL1105BF160Q")
 		(at 281.94 175.26 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15650,23 +15720,25 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ffbb8667-c53c-4e65-9dcf-5811c489d75b")
-		(property "Reference" "S?"
-			(at 273.05 175.26 0)
+		(property "Reference" "S7"
+			(at 285.75 173.9899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "TL1105BF160Q"
-			(at 275.59 175.26 0)
+			(at 285.75 176.5299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "TL1105BF160Q:SW_TL1105BF160Q"
+		(property "Footprint" "Synthia_footprint_library:SW_TL1105BF160Q"
 			(at 281.94 175.26 0)
 			(effects
 				(font
@@ -15857,4 +15929,46 @@
 		)
 	)
 	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "synthia_test_subsheet.kicad_sch")
+			(type other)
+			(data |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
+				Cc6eRhhBBQ==|
+			)
+			(checksum "597B2DAD5748CEDBE90C928C7E6D1EE7")
+		)
+	)
 )

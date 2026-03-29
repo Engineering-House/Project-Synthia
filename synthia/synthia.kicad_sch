@@ -68,33 +68,6 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Device" "V"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Type" "DC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=+ 2=-"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
 			(property "ki_keywords" "batt voltage-source cell"
 				(at 0 0 0)
 				(effects
@@ -2443,7 +2416,7 @@
 				)
 			)
 		)
-		(property "Footprint" "L78M05CV:TO254P450X1020X1935-3P"
+		(property "Footprint" "Synthia_footprint_library:TO254P450X1020X1935-3P"
 			(at 233.68 41.91 0)
 			(effects
 				(font
