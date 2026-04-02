@@ -209,13 +209,13 @@
 	(footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "03a000e8-806c-453f-bb4c-b8bf32d18aba")
-		(at 166.5 318)
+		(at 194.09 313.75)
 		(descr "Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=5.2*2.7mm^2, https://www.diodes.com/assets/Package-Files/DO-41-Plastic.pdf")
 		(tags "Diode DO-41_SOD81 series Axial Horizontal pin pitch 10.16mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D19"
 			(at 5.08 -2.47 0)
 			(layer "F.SilkS")
-			(uuid "dd5dec1c-63a0-4528-a227-5e0172dbe73c")
+			(uuid "baea411f-c809-47c2-a03e-274020f7df9c")
 			(effects
 				(font
 					(size 1 1)
@@ -226,7 +226,7 @@
 		(property "Value" "1N4001"
 			(at 5.08 2.47 0)
 			(layer "F.Fab")
-			(uuid "cee7e712-b749-4648-a1e3-1404e4648d69")
+			(uuid "7ecc3c56-1573-410e-903e-5b1f62298a3e")
 			(effects
 				(font
 					(size 1 1)
@@ -238,7 +238,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b2fb3c4c-b755-486f-a1f8-00ad4fd1f65e")
+			(uuid "b2518d70-cbbe-41a9-8b2f-6d7b16949115")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -250,7 +250,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2f9e2727-7aa2-45b9-9296-c408d8c3374f")
+			(uuid "cd21849a-a41b-48f2-8012-c3df9c682c61")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -494,13 +494,13 @@
 	(footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "0b415448-5b98-4fd8-8ed6-ce050325af58")
-		(at 148.33 318)
+		(at 175.92 313.75)
 		(descr "Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=5.2*2.7mm^2, https://www.diodes.com/assets/Package-Files/DO-41-Plastic.pdf")
 		(tags "Diode DO-41_SOD81 series Axial Horizontal pin pitch 10.16mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D30"
 			(at 5.08 -2.47 0)
 			(layer "F.SilkS")
-			(uuid "39c98601-bbae-4183-a3a2-57705379a139")
+			(uuid "d279794f-7866-4a94-9cf9-abdd73d2928d")
 			(effects
 				(font
 					(size 1 1)
@@ -511,7 +511,7 @@
 		(property "Value" "1N4001"
 			(at 5.08 2.47 0)
 			(layer "F.Fab")
-			(uuid "90e09b40-824b-4274-ae40-01a3bf1a190f")
+			(uuid "fb28ba7a-22ec-4d4d-9e14-ebbae1f89cd2")
 			(effects
 				(font
 					(size 1 1)
@@ -523,7 +523,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d497e402-7fdc-460a-8679-56f9d5ed4cc1")
+			(uuid "5ebbb7d4-ca7f-483b-9ec3-cfabd9c467b4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -535,7 +535,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "02dae2cd-7bc8-430e-b570-e68c4e458a17")
+			(uuid "79a90a8b-c08f-4f4d-afc9-a7fef508acff")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -779,11 +779,11 @@
 	(footprint "Synthia_footprint_library:SW_TL1105BF160Q"
 		(layer "F.Cu")
 		(uuid "0f70f520-3e83-496f-98a6-8d7a725f7603")
-		(at 173.25 285.75)
+		(at 165.5 265.25)
 		(property "Reference" "S25"
 			(at -0.635 -4.699 0)
 			(layer "F.SilkS")
-			(uuid "4e8d0161-3b0b-47f7-bc87-dfca710a7243")
+			(uuid "d11a694c-e7bd-4e2a-886c-ae0c837e1366")
 			(effects
 				(font
 					(size 1.4 1.4)
@@ -794,7 +794,7 @@
 		(property "Value" "TL1105BF160Q"
 			(at 8.255 4.699 0)
 			(layer "F.Fab")
-			(uuid "fd3feeb4-7341-4e3b-97ad-aec4d62b8207")
+			(uuid "01be54ea-16e5-4e36-ab08-dae707ba13da")
 			(effects
 				(font
 					(size 1.4 1.4)
@@ -806,7 +806,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2f293a9b-5aee-46de-b2ef-8ab91d171e88")
+			(uuid "88d4f65e-7d48-4400-a676-318a0a56d7bd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -818,7 +818,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f302c846-3d3d-4b38-9534-2d516a499be9")
+			(uuid "0cc6d518-fd68-4518-a8d5-56565d963edd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1551,13 +1551,13 @@
 	(footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "124e81cb-5e5c-44c5-bf71-62cbb769b5c4")
-		(at 238.5 318)
+		(at 266.09 313.75)
 		(descr "Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=5.2*2.7mm^2, https://www.diodes.com/assets/Package-Files/DO-41-Plastic.pdf")
 		(tags "Diode DO-41_SOD81 series Axial Horizontal pin pitch 10.16mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D9"
 			(at 5.08 -2.47 0)
 			(layer "F.SilkS")
-			(uuid "7201b036-ab9c-4711-8d3f-22be10bcf49a")
+			(uuid "712a536b-640f-4af4-87a5-3c99d7d253c1")
 			(effects
 				(font
 					(size 1 1)
@@ -1568,7 +1568,7 @@
 		(property "Value" "1N4001"
 			(at 5.08 2.47 0)
 			(layer "F.Fab")
-			(uuid "9bd6a78a-45a0-4bd8-85ea-e78995af6999")
+			(uuid "56ce274a-17a7-4667-be03-a578daae0911")
 			(effects
 				(font
 					(size 1 1)
@@ -1580,7 +1580,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2e219bc0-c458-4090-a48f-d551575b2d7f")
+			(uuid "5f200643-c1bb-4e15-803c-c464a421bb8b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1592,7 +1592,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bfb6746e-190b-4991-93d0-3524358d4e3f")
+			(uuid "a2b2b336-47ab-42ca-98ea-0f2f4c3a5e7c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1836,13 +1836,13 @@
 	(footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "12c8d0ad-3d20-4605-ad9b-b492b0f7f724")
-		(at 148.09 277.75)
+		(at 140.34 257.25)
 		(descr "Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=5.2*2.7mm^2, https://www.diodes.com/assets/Package-Files/DO-41-Plastic.pdf")
 		(tags "Diode DO-41_SOD81 series Axial Horizontal pin pitch 10.16mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D36"
 			(at 5.08 -2.47 0)
 			(layer "F.SilkS")
-			(uuid "235f5745-ab29-4120-a874-bb9d20dc8fa2")
+			(uuid "49d89ada-ed5c-45c0-857c-741f2ace332d")
 			(effects
 				(font
 					(size 1 1)
@@ -1853,7 +1853,7 @@
 		(property "Value" "1N4001"
 			(at 5.08 2.47 0)
 			(layer "F.Fab")
-			(uuid "f7e2b743-4a25-4e9d-a59a-c1f3d1df1a9f")
+			(uuid "5f107f4d-f5a8-49f2-8fda-722e1bedfdc7")
 			(effects
 				(font
 					(size 1 1)
@@ -1865,7 +1865,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "804b3fca-5bb0-47c5-b304-4d96d43c96bf")
+			(uuid "b99bca70-c91a-479f-86bf-0de6b48652fd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1877,7 +1877,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "db913573-1fdc-4650-b31f-db29bdb4d89b")
+			(uuid "90b5686a-aa72-4fd0-8270-2481d34997a3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2121,13 +2121,13 @@
 	(footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "17cc496b-aa6c-4435-ac20-99dd70f85d9e")
-		(at 311 318)
+		(at 338.59 313.75)
 		(descr "Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=5.2*2.7mm^2, https://www.diodes.com/assets/Package-Files/DO-41-Plastic.pdf")
 		(tags "Diode DO-41_SOD81 series Axial Horizontal pin pitch 10.16mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D38"
 			(at 5.08 -2.47 0)
 			(layer "F.SilkS")
-			(uuid "69975184-ff07-4e01-aaf3-bd752ce0fbac")
+			(uuid "bf1d65c0-fcbc-42d7-891f-56c7edaadb7f")
 			(effects
 				(font
 					(size 1 1)
@@ -2138,7 +2138,7 @@
 		(property "Value" "1N4001"
 			(at 5.08 2.47 0)
 			(layer "F.Fab")
-			(uuid "9c5eda1e-58c9-40de-a822-0a3a762b485f")
+			(uuid "a26cae83-d6a8-4a65-94b0-0b91d3c3e9be")
 			(effects
 				(font
 					(size 1 1)
@@ -2150,7 +2150,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fccd2c0d-7b53-4c35-b7da-6ed98d830f06")
+			(uuid "fea5b1c6-c529-47e2-b85f-aa56b54395d4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2162,7 +2162,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1995aa12-c972-45d5-89a1-d72a6dc1ea13")
+			(uuid "1b1eca5d-f24e-4306-91a7-2e6e59c771db")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2406,13 +2406,13 @@
 	(footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "1a61855e-3850-4ff1-b06f-15dcd4c1079c")
-		(at 238.09 277.75)
+		(at 230.34 257.25)
 		(descr "Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=5.2*2.7mm^2, https://www.diodes.com/assets/Package-Files/DO-41-Plastic.pdf")
 		(tags "Diode DO-41_SOD81 series Axial Horizontal pin pitch 10.16mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D17"
 			(at 5.08 -2.47 0)
 			(layer "F.SilkS")
-			(uuid "a5bc988f-f8ba-43d1-9bd9-b6072eb79310")
+			(uuid "fe055688-f9ff-4db9-86c0-2b77002caf37")
 			(effects
 				(font
 					(size 1 1)
@@ -2423,7 +2423,7 @@
 		(property "Value" "1N4001"
 			(at 5.08 2.47 0)
 			(layer "F.Fab")
-			(uuid "781b7d62-fc36-4a03-854c-63cda630f3a6")
+			(uuid "fb233dda-9101-4b4a-9e05-2a266940ac03")
 			(effects
 				(font
 					(size 1 1)
@@ -2435,7 +2435,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4943b6d5-1c53-4269-83b9-acf3982fabac")
+			(uuid "a9ed95cb-bfba-4c04-8896-cb89c7f2f021")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2447,7 +2447,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "34e71306-d98c-4de3-9111-645944e88065")
+			(uuid "73f70808-36ab-4b43-8c9a-32960fb34723")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2691,13 +2691,13 @@
 	(footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "1aaba650-c52f-466d-8db1-7f605e20359f")
-		(at 310.09 277.75)
+		(at 302.34 257.25)
 		(descr "Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=5.2*2.7mm^2, https://www.diodes.com/assets/Package-Files/DO-41-Plastic.pdf")
 		(tags "Diode DO-41_SOD81 series Axial Horizontal pin pitch 10.16mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D3"
 			(at 5.08 -2.47 0)
 			(layer "F.SilkS")
-			(uuid "19b5bd42-9f3a-4227-83fd-79fda8a31a2f")
+			(uuid "a6d3180a-4273-432d-8aca-b63e3a5683b7")
 			(effects
 				(font
 					(size 1 1)
@@ -2708,7 +2708,7 @@
 		(property "Value" "1N4001"
 			(at 5.08 2.47 0)
 			(layer "F.Fab")
-			(uuid "894a2af0-10a4-4f75-9337-3ca10952c94c")
+			(uuid "1e7c0e66-7615-4397-97e1-1d483eef4d0b")
 			(effects
 				(font
 					(size 1 1)
@@ -2720,7 +2720,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "db917b52-9a6a-46c8-bb3a-b45a5188c40a")
+			(uuid "84709ca5-333c-42c4-9b7e-cc89abbeab4d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2732,7 +2732,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6766a823-97ea-454c-b53f-40d0fc8aa1b5")
+			(uuid "9ad7a11f-d6e5-417f-8fc0-6cec814a7cad")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2976,13 +2976,13 @@
 	(footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "1ac7c708-58d4-49e2-9984-a56b78f6c904")
-		(at 202.75 318)
+		(at 230.34 313.75)
 		(descr "Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=5.2*2.7mm^2, https://www.diodes.com/assets/Package-Files/DO-41-Plastic.pdf")
 		(tags "Diode DO-41_SOD81 series Axial Horizontal pin pitch 10.16mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D21"
 			(at 5.08 -2.47 0)
 			(layer "F.SilkS")
-			(uuid "6af41fe4-2640-43f3-a141-355b4647787a")
+			(uuid "bebc7cc9-be59-4df4-a06b-86c1f05ceb06")
 			(effects
 				(font
 					(size 1 1)
@@ -2993,7 +2993,7 @@
 		(property "Value" "1N4001"
 			(at 5.08 2.47 0)
 			(layer "F.Fab")
-			(uuid "24b47ae0-a900-4a3a-892f-07aa6d336e33")
+			(uuid "9cce44f0-38f8-4d7b-ae1d-5aa93b47b0be")
 			(effects
 				(font
 					(size 1 1)
@@ -3005,7 +3005,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "aded9c68-05c3-4856-afcf-3f1c7c4c7c99")
+			(uuid "2a631f95-a50d-4de1-8370-dcda68440cd3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3017,7 +3017,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ca914eac-acac-4086-b602-7287ba79ffa6")
+			(uuid "972003e0-f072-4dbf-850d-b208b1364cf3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3261,11 +3261,11 @@
 	(footprint "Synthia_footprint_library:SW_TL1105BF160Q"
 		(layer "F.Cu")
 		(uuid "1d1b4640-effe-409c-9dc3-40dea76c6f43")
-		(at 137.66 325)
+		(at 165.25 320.75)
 		(property "Reference" "S29"
 			(at -0.635 -4.699 0)
 			(layer "F.SilkS")
-			(uuid "b02aaac0-ff06-4159-ba96-f19d50fed76b")
+			(uuid "67c03db1-7216-4535-838e-c9f4051614cc")
 			(effects
 				(font
 					(size 1.4 1.4)
@@ -3276,7 +3276,7 @@
 		(property "Value" "TL1105BF160Q"
 			(at 8.255 4.699 0)
 			(layer "F.Fab")
-			(uuid "27f88cc4-47f1-4a85-94fc-04c29b121d23")
+			(uuid "0413222b-429d-4068-92e3-576210304c84")
 			(effects
 				(font
 					(size 1.4 1.4)
@@ -3288,7 +3288,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cd00e5d3-c76a-4a4d-b835-76ae9766bf96")
+			(uuid "8b7652bd-4942-47fd-8bb9-facefb4f2e11")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3300,7 +3300,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "428710c0-3e0e-477d-9533-6efe338347bb")
+			(uuid "d5d08cd4-57c9-458e-8b44-2af25e572c04")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3672,13 +3672,13 @@
 	(footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "204b146a-b11e-4419-87db-da640c5e4775")
-		(at 130.41 318)
+		(at 158 313.75)
 		(descr "Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=5.2*2.7mm^2, https://www.diodes.com/assets/Package-Files/DO-41-Plastic.pdf")
 		(tags "Diode DO-41_SOD81 series Axial Horizontal pin pitch 10.16mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D29"
 			(at 5.08 -2.47 0)
 			(layer "F.SilkS")
-			(uuid "4c87f29c-f9f5-4a60-9c4a-05190be0ecb7")
+			(uuid "425d3fae-65eb-406a-8c5e-035b2e16e2c2")
 			(effects
 				(font
 					(size 1 1)
@@ -3689,7 +3689,7 @@
 		(property "Value" "1N4001"
 			(at 5.08 2.47 0)
 			(layer "F.Fab")
-			(uuid "e32ebb1d-9e89-461c-8c87-09e42ac99a50")
+			(uuid "c23bbde6-68f6-468f-ba38-f16c022f8cc1")
 			(effects
 				(font
 					(size 1 1)
@@ -3701,7 +3701,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "82ac6791-6949-4211-80e3-7c2515ad425e")
+			(uuid "98755f06-ef23-4452-9e1d-c4f1ada02f9c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3713,7 +3713,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6fd7e39e-39fc-40c1-a439-f396e74c8735")
+			(uuid "2ac83b76-057a-47c6-8ec8-f2d0371eef9c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3957,11 +3957,11 @@
 	(footprint "Synthia_footprint_library:SW_TL1105BF160Q"
 		(layer "F.Cu")
 		(uuid "2642aee6-d3af-460f-979f-739359d84bac")
-		(at 317.25 286.25)
+		(at 309.5 265.75)
 		(property "Reference" "S3"
 			(at -0.635 -4.699 0)
 			(layer "F.SilkS")
-			(uuid "8ae6d8f1-2ff3-42aa-b5c9-1b75f7fc0b4d")
+			(uuid "5ce56238-b405-49a8-a79f-a7869e25fe6e")
 			(effects
 				(font
 					(size 1.4 1.4)
@@ -3972,7 +3972,7 @@
 		(property "Value" "TL1105BF160Q"
 			(at 8.255 4.699 0)
 			(layer "F.Fab")
-			(uuid "dd8f5e10-e019-4a2a-9682-3c839da0c54b")
+			(uuid "06032db4-b7c5-4db7-b194-d3942308d311")
 			(effects
 				(font
 					(size 1.4 1.4)
@@ -3984,7 +3984,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bc340f82-1d9b-401f-807a-140d9c59d6ac")
+			(uuid "2ffc969a-bf9e-4fc2-90be-d0d785c7b072")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3996,7 +3996,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "dfe5c639-7562-475b-ab55-0a56e2a742b8")
+			(uuid "78a7a0a5-3139-46d9-b142-89ab94a90cbd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4368,11 +4368,11 @@
 	(footprint "Synthia_footprint_library:SW_TL1105BF160Q"
 		(layer "F.Cu")
 		(uuid "26907c4b-2809-45e1-8f80-6680b1a746a6")
-		(at 227.5 305.5)
+		(at 237 293.25)
 		(property "Reference" "S13"
 			(at -0.635 -4.699 0)
 			(layer "F.SilkS")
-			(uuid "0ba38a38-4824-44de-aa08-6bf5a627f2a7")
+			(uuid "cbf11373-5c25-4989-b3e4-e723d11980d5")
 			(effects
 				(font
 					(size 1.4 1.4)
@@ -4383,7 +4383,7 @@
 		(property "Value" "TL1105BF160Q"
 			(at 8.255 4.699 0)
 			(layer "F.Fab")
-			(uuid "c7b2cd9e-b621-450a-9fcc-f9e9b035c02b")
+			(uuid "94d7a7f0-8062-4d93-8ffd-1787f31955a3")
 			(effects
 				(font
 					(size 1.4 1.4)
@@ -4395,7 +4395,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e88105fe-b60e-46d9-a449-02e966446842")
+			(uuid "f0e58b6b-925c-4a89-aa35-10451296acb1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4407,7 +4407,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "428e5b84-ce3e-45b6-b73d-7b180dd6232d")
+			(uuid "e8d2371a-08ff-4d28-b949-bda8cd39c4c4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4779,13 +4779,13 @@
 	(footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "27e4264c-8584-4fd1-9184-acb2b5e01f93")
-		(at 166.5 298)
+		(at 176 285.75)
 		(descr "Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=5.2*2.7mm^2, https://www.diodes.com/assets/Package-Files/DO-41-Plastic.pdf")
 		(tags "Diode DO-41_SOD81 series Axial Horizontal pin pitch 10.16mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D22"
 			(at 5.08 -2.47 0)
 			(layer "F.SilkS")
-			(uuid "6991249a-de8f-4471-94a6-af6200b9df29")
+			(uuid "37edd868-3d2a-47ce-9759-9da57a426628")
 			(effects
 				(font
 					(size 1 1)
@@ -4796,7 +4796,7 @@
 		(property "Value" "1N4001"
 			(at 5.08 2.47 0)
 			(layer "F.Fab")
-			(uuid "fca8273d-ba34-4b4d-b32c-f4f8054951e9")
+			(uuid "f8290166-f363-470b-857c-da66250b7664")
 			(effects
 				(font
 					(size 1 1)
@@ -4808,7 +4808,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a5d11e52-7ff4-45ff-92e6-9bf991605c7c")
+			(uuid "9b1f5212-7a48-4328-a19c-ef582210002b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4820,7 +4820,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b9b2ca51-acff-410b-a603-bea93d2430c7")
+			(uuid "ccfd7683-ad28-4806-b038-24979fbd4c04")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5064,13 +5064,13 @@
 	(footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "296fbcc7-96df-4da3-980c-cda7a1aca49c")
-		(at 148.34 298)
+		(at 157.84 285.75)
 		(descr "Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=5.2*2.7mm^2, https://www.diodes.com/assets/Package-Files/DO-41-Plastic.pdf")
 		(tags "Diode DO-41_SOD81 series Axial Horizontal pin pitch 10.16mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D33"
 			(at 5.08 -2.47 0)
 			(layer "F.SilkS")
-			(uuid "43c5c28f-ce70-487b-8e2c-1f64002ea8c9")
+			(uuid "f24da1b3-5d40-4463-ad99-76db56f9eb03")
 			(effects
 				(font
 					(size 1 1)
@@ -5081,7 +5081,7 @@
 		(property "Value" "1N4001"
 			(at 5.08 2.47 0)
 			(layer "F.Fab")
-			(uuid "ade7d161-0be0-41ab-bc85-800de602fd89")
+			(uuid "2fe1c328-87f6-447e-89ab-b9e317257f74")
 			(effects
 				(font
 					(size 1 1)
@@ -5093,7 +5093,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6952651a-cf67-4f11-afdc-506be335ec2f")
+			(uuid "0cb9dc2c-b554-44b4-9785-c357c46fcfdf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5105,7 +5105,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7a167f1f-bec0-4651-ab25-82245808c863")
+			(uuid "c488edf9-959d-4f25-87bf-2941da025dc5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5349,11 +5349,11 @@
 	(footprint "Synthia_footprint_library:SW_TL1105BF160Q"
 		(layer "F.Cu")
 		(uuid "30688320-7f15-4f3a-a3ba-e9dbdd63798d")
-		(at 300 324.25)
+		(at 327.59 320)
 		(property "Reference" "S4"
 			(at -0.635 -4.699 0)
 			(layer "F.SilkS")
-			(uuid "9043aeb2-ab15-470e-bd80-e37c14f61355")
+			(uuid "acd691c9-482f-4c39-b803-37ce9ec26aa1")
 			(effects
 				(font
 					(size 1.4 1.4)
@@ -5364,7 +5364,7 @@
 		(property "Value" "TL1105BF160Q"
 			(at 8.255 4.699 0)
 			(layer "F.Fab")
-			(uuid "dff087cb-7d07-4e8b-a1a1-ae4a6ec9c6a8")
+			(uuid "5ea717ae-7ef7-41a0-952b-d2b7c7608e2c")
 			(effects
 				(font
 					(size 1.4 1.4)
@@ -5376,7 +5376,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "06698714-37fb-4ce2-b705-b4ce56a7701f")
+			(uuid "667b43b0-179b-4173-8098-e39d5d8765de")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5388,7 +5388,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c154cf0e-1f8d-424b-8a41-9371386ff746")
+			(uuid "77f75a50-10d2-47fa-ad8e-6667cf00ddb5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5760,11 +5760,11 @@
 	(footprint "Synthia_footprint_library:SW_TL1105BF160Q"
 		(layer "F.Cu")
 		(uuid "38cd1c21-0c51-4c8e-b17c-2c9231205040")
-		(at 245.66 324.5)
+		(at 273.25 320.25)
 		(property "Reference" "S9"
 			(at -0.635 -4.699 0)
 			(layer "F.SilkS")
-			(uuid "81652033-dead-41d2-9cde-9b4e7dad40b4")
+			(uuid "a86aa00b-83af-41b4-8459-03315c36b90a")
 			(effects
 				(font
 					(size 1.4 1.4)
@@ -5775,7 +5775,7 @@
 		(property "Value" "TL1105BF160Q"
 			(at 8.255 4.699 0)
 			(layer "F.Fab")
-			(uuid "e3d1cb52-ca4b-4026-b8f7-813f99f89556")
+			(uuid "0dd4ac54-1ff4-4ac9-a6d9-60eff4863c22")
 			(effects
 				(font
 					(size 1.4 1.4)
@@ -5787,7 +5787,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c9fe3c87-cf5b-4cbd-9e79-20fda368813e")
+			(uuid "75857a57-a18d-4483-8193-80f1490ae5d7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5799,7 +5799,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0807ca62-d164-4247-a6a1-594d01925134")
+			(uuid "69307588-b0cc-4b0e-8600-354889c893bd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6171,11 +6171,11 @@
 	(footprint "Synthia_footprint_library:SW_TL1105BF160Q"
 		(layer "F.Cu")
 		(uuid "3bb77a87-fbdc-4478-b637-8d7b58720148")
-		(at 209.5 305.5)
+		(at 219 293.25)
 		(property "Reference" "S24"
 			(at -0.635 -4.699 0)
 			(layer "F.SilkS")
-			(uuid "15e3b56a-db30-471f-92bc-5d13d73f93d7")
+			(uuid "3bba55b5-c864-4e67-90bf-97d9dfaebc63")
 			(effects
 				(font
 					(size 1.4 1.4)
@@ -6186,7 +6186,7 @@
 		(property "Value" "TL1105BF160Q"
 			(at 8.255 4.699 0)
 			(layer "F.Fab")
-			(uuid "8b243fb1-a811-4467-b6d4-bab86e2625b6")
+			(uuid "bd8b736e-6f50-4dc3-83d2-a33ae441974a")
 			(effects
 				(font
 					(size 1.4 1.4)
@@ -6198,7 +6198,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d06154b0-e3b2-4241-9401-eb1144bd78d1")
+			(uuid "f6fa3a60-887c-4de9-a2e0-81a1909accdb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6210,7 +6210,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "27dd836d-0021-4abb-9e5b-b2fb4c5f4301")
+			(uuid "0ccea6f6-2e23-465e-8fd3-d6aa01694ffd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6582,11 +6582,11 @@
 	(footprint "Synthia_footprint_library:SW_TL1105BF160Q"
 		(layer "F.Cu")
 		(uuid "4260d10a-d009-4561-9c11-8e03ee8baa77")
-		(at 155.25 285.75)
+		(at 147.5 265.25)
 		(property "Reference" "S36"
 			(at -0.635 -4.699 0)
 			(layer "F.SilkS")
-			(uuid "84b86875-4015-4c99-8828-aa904466ce12")
+			(uuid "8b9394b4-79a9-4c95-99ff-58c214fe00ab")
 			(effects
 				(font
 					(size 1.4 1.4)
@@ -6597,7 +6597,7 @@
 		(property "Value" "TL1105BF160Q"
 			(at 8.255 4.699 0)
 			(layer "F.Fab")
-			(uuid "3c3affb9-f985-46df-ba60-20c8f258ced5")
+			(uuid "98b40d5b-f443-4ce7-90d7-cee322ab7810")
 			(effects
 				(font
 					(size 1.4 1.4)
@@ -6609,7 +6609,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "92ea1233-224b-48e8-9da6-1ca6f8742a16")
+			(uuid "1ab17139-4e0c-4316-9c5d-0fc67483dc4a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6621,7 +6621,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f5b307c0-d890-4918-b8c6-feeb64ff11ac")
+			(uuid "b8fba009-51d3-4cee-ae48-a3d2500428a0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6993,11 +6993,11 @@
 	(footprint "Synthia_footprint_library:SW_TL1105BF160Q"
 		(layer "F.Cu")
 		(uuid "44039480-1343-4b74-b055-019aec3fd452")
-		(at 209.25 285.75)
+		(at 201.5 265.25)
 		(property "Reference" "S27"
 			(at -0.635 -4.699 0)
 			(layer "F.SilkS")
-			(uuid "bcffc4ff-10f2-49d2-8374-0a27f5daffb9")
+			(uuid "87b68d54-e438-469d-868f-ecc9f4b3d83f")
 			(effects
 				(font
 					(size 1.4 1.4)
@@ -7008,7 +7008,7 @@
 		(property "Value" "TL1105BF160Q"
 			(at 8.255 4.699 0)
 			(layer "F.Fab")
-			(uuid "68f1d427-2bf2-4f58-8248-bfa8f9fda594")
+			(uuid "1e7f9fa8-f23c-4e3a-abe4-e3fcf3ba982b")
 			(effects
 				(font
 					(size 1.4 1.4)
@@ -7020,7 +7020,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1399b2fa-e0c5-4795-8b42-dbfa7f1a604a")
+			(uuid "656c58e8-a1fc-4466-8a72-ded05df3ad29")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7032,7 +7032,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "03193953-e4d2-4c4a-a8e9-807bf380b4d0")
+			(uuid "2b89edad-08b4-4fef-b3a9-93140702879c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7404,11 +7404,11 @@
 	(footprint "Synthia_footprint_library:SW_TL1105BF160Q"
 		(layer "F.Cu")
 		(uuid "4a4620a2-32a1-48d2-8099-fd09eebdb74d")
-		(at 155.5 305.5)
+		(at 165 293.25)
 		(property "Reference" "S33"
 			(at -0.635 -4.699 0)
 			(layer "F.SilkS")
-			(uuid "4a01b0dc-719f-4beb-b8ba-2bf34f3d844a")
+			(uuid "2834330f-74f1-4cd6-8ec1-c42e057f5e0a")
 			(effects
 				(font
 					(size 1.4 1.4)
@@ -7419,7 +7419,7 @@
 		(property "Value" "TL1105BF160Q"
 			(at 8.255 4.699 0)
 			(layer "F.Fab")
-			(uuid "af48b532-79e1-40ee-afbd-aba0d12232f5")
+			(uuid "64accfb2-0a93-4796-b579-e2a8c36bb1d3")
 			(effects
 				(font
 					(size 1.4 1.4)
@@ -7431,7 +7431,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2ed9da8a-124e-4b3c-b408-760306fcfd2d")
+			(uuid "f3ec7560-783f-4c54-bd44-3f902b760cd6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7443,7 +7443,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "15d388cb-0831-40fc-9c47-9e17a16dab0b")
+			(uuid "e0adf776-d011-4843-9da6-f4e7c0f60fa3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7815,11 +7815,11 @@
 	(footprint "Synthia_footprint_library:SW_TL1105BF160Q"
 		(layer "F.Cu")
 		(uuid "4bd35020-3b9b-4c8e-a190-4ec4ba9d4947")
-		(at 264 324.5)
+		(at 291.59 320.25)
 		(property "Reference" "S12"
 			(at -0.635 -4.699 0)
 			(layer "F.SilkS")
-			(uuid "95115cc9-1476-4bbc-8074-a812ccfe1e77")
+			(uuid "ba546248-5204-4136-b02b-ebf7e1eb0297")
 			(effects
 				(font
 					(size 1.4 1.4)
@@ -7830,7 +7830,7 @@
 		(property "Value" "TL1105BF160Q"
 			(at 8.255 4.699 0)
 			(layer "F.Fab")
-			(uuid "2a624108-229e-4568-9c64-2df64cbb2b3f")
+			(uuid "7aba7e85-b1e3-4163-be20-abddf922b8fe")
 			(effects
 				(font
 					(size 1.4 1.4)
@@ -7842,7 +7842,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "19168aa6-6e31-4780-989c-9f87c2fd329b")
+			(uuid "1a1581b4-fcdf-4a60-8229-863408d28d79")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7854,7 +7854,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "58642e0b-3ded-4450-a2de-56ef2a2856db")
+			(uuid "ff47b611-adfa-4010-bee9-c40b9dc1b46f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8226,13 +8226,13 @@
 	(footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "4e0340da-a17f-40be-927e-2dce6f4cf018")
-		(at 274.84 318)
+		(at 302.43 313.75)
 		(descr "Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=5.2*2.7mm^2, https://www.diodes.com/assets/Package-Files/DO-41-Plastic.pdf")
 		(tags "Diode DO-41_SOD81 series Axial Horizontal pin pitch 10.16mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D8"
 			(at 5.08 -2.47 0)
 			(layer "F.SilkS")
-			(uuid "d9951135-7c38-4dd8-afba-2b49d6f0af0e")
+			(uuid "17d8053d-5038-453e-962e-a7a33dc49617")
 			(effects
 				(font
 					(size 1 1)
@@ -8243,7 +8243,7 @@
 		(property "Value" "1N4001"
 			(at 5.08 2.47 0)
 			(layer "F.Fab")
-			(uuid "6565b68c-eddb-459e-8efe-d4d5cf3f7e79")
+			(uuid "cfa6a534-71a2-4033-814d-fa9eff90a2b9")
 			(effects
 				(font
 					(size 1 1)
@@ -8255,7 +8255,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f636aadb-6664-40cd-b734-8f4b6f1c84f3")
+			(uuid "9aab35da-765a-4e25-96a2-d1f617461e2c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8267,7 +8267,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "658e7618-d00d-4327-9595-f3bf7cefcf53")
+			(uuid "af2204e5-f2c1-4579-8ab2-0112c2b9a4ff")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8511,11 +8511,11 @@
 	(footprint "Synthia_footprint_library:SW_TL1105BF160Q"
 		(layer "F.Cu")
 		(uuid "4f69f708-e7c3-440a-9de4-105e6bf77fc7")
-		(at 318 324)
+		(at 345.59 319.75)
 		(property "Reference" "S1"
 			(at -0.635 -4.699 0)
 			(layer "F.SilkS")
-			(uuid "db1b1073-1718-47ce-b780-c7359ac61d17")
+			(uuid "9e0d1fa3-8875-40b6-8f15-223355c4cd30")
 			(effects
 				(font
 					(size 1.4 1.4)
@@ -8526,7 +8526,7 @@
 		(property "Value" "TL1105BF160Q"
 			(at 8.255 4.699 0)
 			(layer "F.Fab")
-			(uuid "170b4f73-44e0-4f1b-92f8-2a42eeb31932")
+			(uuid "0a3fcab8-2c02-485e-801b-9a65be6ac4f8")
 			(effects
 				(font
 					(size 1.4 1.4)
@@ -8538,7 +8538,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d43542d7-751e-4f1c-b3c8-9c3fe3a2b640")
+			(uuid "4a589a25-a5c2-4db5-b265-7db8ecea517d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8550,7 +8550,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9b9eca9d-2a31-408e-a045-cd5aca6f4c08")
+			(uuid "027e06f1-b294-40a3-b513-be722fae204a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8922,11 +8922,11 @@
 	(footprint "Synthia_footprint_library:SW_TL1105BF160Q"
 		(layer "F.Cu")
 		(uuid "55d01c19-e7bc-40a7-9dc6-7897d829bd98")
-		(at 173.66 305.5)
+		(at 183.16 293.25)
 		(property "Reference" "S22"
 			(at -0.635 -4.699 0)
 			(layer "F.SilkS")
-			(uuid "45832a8d-dfba-4a0b-a486-5040f04a98c5")
+			(uuid "1609a5bb-7a66-4173-a95d-9a5581faa152")
 			(effects
 				(font
 					(size 1.4 1.4)
@@ -8937,7 +8937,7 @@
 		(property "Value" "TL1105BF160Q"
 			(at 8.255 4.699 0)
 			(layer "F.Fab")
-			(uuid "0a834e64-39b7-4144-b830-40bc10388286")
+			(uuid "7fbe36e3-fc45-43ab-a9d5-1f59b40bab74")
 			(effects
 				(font
 					(size 1.4 1.4)
@@ -8949,7 +8949,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "26fb117a-41be-497d-b611-37d72c9d2dcf")
+			(uuid "f9885226-a892-4703-821c-45424e87fa91")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8961,7 +8961,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "06eedd38-80dd-42ab-ab6a-75e1480d5c9e")
+			(uuid "2a5250a9-55cd-463b-95e6-08e12d72246d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9333,11 +9333,11 @@
 	(footprint "Synthia_footprint_library:SW_TL1105BF160Q"
 		(layer "F.Cu")
 		(uuid "56052aa3-414e-48f6-93ff-5e28c3e6fd9c")
-		(at 227.66 324.5)
+		(at 255.25 320.25)
 		(property "Reference" "S5"
 			(at -0.635 -4.699 0)
 			(layer "F.SilkS")
-			(uuid "65e42995-f5c8-4a2e-894c-b443555e7794")
+			(uuid "4bf9790f-403b-4bd6-aedb-0216b7ed5861")
 			(effects
 				(font
 					(size 1.4 1.4)
@@ -9348,7 +9348,7 @@
 		(property "Value" "TL1105BF160Q"
 			(at 8.255 4.699 0)
 			(layer "F.Fab")
-			(uuid "94d4e06a-7b78-41c4-a3a9-88b215e64751")
+			(uuid "6b086c73-5255-47c9-8180-178439635ed9")
 			(effects
 				(font
 					(size 1.4 1.4)
@@ -9360,7 +9360,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4549bfeb-5b66-4528-ace8-e594a3436295")
+			(uuid "2e36171d-8a78-411e-a393-736f80cfcca6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9372,7 +9372,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "88cbbb10-dcb6-4b89-8408-c3a5e89c2225")
+			(uuid "3a8eeeb3-20a8-4207-8c6f-3e215ab89154")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9744,13 +9744,13 @@
 	(footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "5857219e-f16e-4168-9fc9-0955f67c70e5")
-		(at 274.84 298)
+		(at 284.34 285.75)
 		(descr "Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=5.2*2.7mm^2, https://www.diodes.com/assets/Package-Files/DO-41-Plastic.pdf")
 		(tags "Diode DO-41_SOD81 series Axial Horizontal pin pitch 10.16mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D10"
 			(at 5.08 -2.47 0)
 			(layer "F.SilkS")
-			(uuid "8609dcbf-f914-4fe5-9c74-b682bb39689a")
+			(uuid "8c67b17a-0fe1-44eb-96c5-36197862f876")
 			(effects
 				(font
 					(size 1 1)
@@ -9761,7 +9761,7 @@
 		(property "Value" "1N4001"
 			(at 5.08 2.47 0)
 			(layer "F.Fab")
-			(uuid "ac8c64e3-9319-4c12-815b-70e49031d0a3")
+			(uuid "b50b03e5-bf9b-4554-9cd5-7413f8035b79")
 			(effects
 				(font
 					(size 1 1)
@@ -9773,7 +9773,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "63db6a72-6113-4bd4-b529-e373418b51c7")
+			(uuid "3ba4a067-8fda-4697-8e76-0da3ac97038b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9785,7 +9785,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "585c5a7b-453f-4d09-8725-0c33d2da074b")
+			(uuid "62007f52-926c-4875-81bf-e3f650d067ab")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10029,11 +10029,11 @@
 	(footprint "Synthia_footprint_library:SW_TL1105BF160Q"
 		(layer "F.Cu")
 		(uuid "64574428-e328-4a7d-aaf1-886635bde541")
-		(at 264.16 306)
+		(at 273.66 293.75)
 		(property "Reference" "S15"
 			(at -0.635 -4.699 0)
 			(layer "F.SilkS")
-			(uuid "a17e6122-369f-422b-9f3a-399ae93a0d2b")
+			(uuid "50a1e614-9fd4-49de-9f0d-13d7d7f18c4f")
 			(effects
 				(font
 					(size 1.4 1.4)
@@ -10044,7 +10044,7 @@
 		(property "Value" "TL1105BF160Q"
 			(at 8.255 4.699 0)
 			(layer "F.Fab")
-			(uuid "b597099f-3cc8-4c13-bd08-0ba6c479f16b")
+			(uuid "c126b9bd-0ef7-4619-b604-c2b5b1ce7cf8")
 			(effects
 				(font
 					(size 1.4 1.4)
@@ -10056,7 +10056,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6545408c-7032-4e05-9a5b-d2ba07cbcaf7")
+			(uuid "161b3349-3920-4c7d-8fd5-44a2696a1d92")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10068,7 +10068,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a7b4baa7-089d-492f-9c24-ec4524e57692")
+			(uuid "bc7e3729-3b88-420b-bd4a-91125ea56b1b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10440,11 +10440,11 @@
 	(footprint "Synthia_footprint_library:SW_TL1105BF160Q"
 		(layer "F.Cu")
 		(uuid "64b920df-ebfa-42f9-955b-a05ba9abfb21")
-		(at 191.66 325)
+		(at 219.25 320.75)
 		(property "Reference" "S20"
 			(at -0.635 -4.699 0)
 			(layer "F.SilkS")
-			(uuid "3b864904-8411-4a8b-83d0-caecbff47063")
+			(uuid "74b58a4e-b027-413b-9a23-cb9deef78f1b")
 			(effects
 				(font
 					(size 1.4 1.4)
@@ -10455,7 +10455,7 @@
 		(property "Value" "TL1105BF160Q"
 			(at 8.255 4.699 0)
 			(layer "F.Fab")
-			(uuid "010b1f19-93d5-43a0-ba80-8efe3598148b")
+			(uuid "7b64427f-83e4-4ec0-9149-b53b9123076a")
 			(effects
 				(font
 					(size 1.4 1.4)
@@ -10467,7 +10467,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "99366de6-07e9-477e-ad11-c32193790cf4")
+			(uuid "85295097-be74-40fa-a6e1-57b8501ae487")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10479,7 +10479,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1f147bcf-6fa3-4b5b-a632-2cf582c02e61")
+			(uuid "b3a22396-c722-4b3a-b045-5eadcf9e10c8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10851,11 +10851,11 @@
 	(footprint "Synthia_footprint_library:SW_TL1105BF160Q"
 		(layer "F.Cu")
 		(uuid "66b6d054-6ccd-4f91-a6be-926c4a6f631f")
-		(at 119.5 305.5)
+		(at 129 293.25)
 		(property "Reference" "S31"
 			(at -0.635 -4.699 0)
 			(layer "F.SilkS")
-			(uuid "dd041973-21d5-4dfc-bd6e-da76502af8aa")
+			(uuid "7098778e-91c2-497f-bacc-cbd204b57888")
 			(effects
 				(font
 					(size 1.4 1.4)
@@ -10866,7 +10866,7 @@
 		(property "Value" "TL1105BF160Q"
 			(at 8.255 4.699 0)
 			(layer "F.Fab")
-			(uuid "1c4132cf-350b-4358-9e36-02107b6238e8")
+			(uuid "5d421cc7-b656-4c67-8c0a-7ef4874e4926")
 			(effects
 				(font
 					(size 1.4 1.4)
@@ -10878,7 +10878,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cb9aee1e-8d7d-4f83-bec2-468477b2839b")
+			(uuid "5ca807ca-cdf8-43fe-98e7-ce5b27ff23f7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10890,7 +10890,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a9dfa8a5-ca3f-4658-ab2f-fda172f5dc48")
+			(uuid "813b347f-8166-4a3f-87ab-a8734615e640")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11262,13 +11262,13 @@
 	(footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "68cbac38-cec2-4b8c-966c-3cf351bdea5d")
-		(at 293 298)
+		(at 302.5 285.75)
 		(descr "Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=5.2*2.7mm^2, https://www.diodes.com/assets/Package-Files/DO-41-Plastic.pdf")
 		(tags "Diode DO-41_SOD81 series Axial Horizontal pin pitch 10.16mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D5"
 			(at 5.08 -2.47 0)
 			(layer "F.SilkS")
-			(uuid "2a01033d-3795-4c15-ae8a-3a2fc3ecf48a")
+			(uuid "32c3c547-0b98-4e21-92a3-a337546c4698")
 			(effects
 				(font
 					(size 1 1)
@@ -11279,7 +11279,7 @@
 		(property "Value" "1N4001"
 			(at 5.08 2.47 0)
 			(layer "F.Fab")
-			(uuid "65346fd0-858e-43bf-a51f-e12376a3352f")
+			(uuid "91fcd25e-d17e-43aa-b897-80cb5f2d2650")
 			(effects
 				(font
 					(size 1 1)
@@ -11291,7 +11291,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f512faab-96c6-4c46-a520-7fafe3e1bc68")
+			(uuid "486ff8d5-01c8-4f8c-87f1-7e3aaff29183")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11303,7 +11303,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a1212f65-2127-480d-9240-705b9596d614")
+			(uuid "cb2701d6-e436-47ed-a70b-769cb2daab18")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11547,11 +11547,11 @@
 	(footprint "Synthia_footprint_library:SW_TL1105BF160Q"
 		(layer "F.Cu")
 		(uuid "7256fb0f-e985-494d-ae1f-42e8d2e54d25")
-		(at 191.5 305.5)
+		(at 201 293.25)
 		(property "Reference" "S23"
 			(at -0.635 -4.699 0)
 			(layer "F.SilkS")
-			(uuid "4b9727ea-6d57-4006-bd3d-fb6cdc3d9d64")
+			(uuid "a60f6042-58d9-4e32-ba21-53bb750aceed")
 			(effects
 				(font
 					(size 1.4 1.4)
@@ -11562,7 +11562,7 @@
 		(property "Value" "TL1105BF160Q"
 			(at 8.255 4.699 0)
 			(layer "F.Fab")
-			(uuid "b78157af-712e-4348-b568-7e396ac1e69a")
+			(uuid "7d8b1776-cc16-4a71-8b3b-9794d9764805")
 			(effects
 				(font
 					(size 1.4 1.4)
@@ -11574,7 +11574,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4e7e43f5-f363-4c71-8e88-6e4ee131246e")
+			(uuid "efe16ef1-0585-4e29-8bbd-1c6dcc4774d3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11586,7 +11586,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2a9b8f61-d5e5-4a24-9b38-439daaf8ade8")
+			(uuid "0d2ddb46-3b19-4e73-b79f-67d43c66b867")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12194,11 +12194,11 @@
 	(footprint "Synthia_footprint_library:SW_TL1105BF160Q"
 		(layer "F.Cu")
 		(uuid "73f2d29f-8210-488f-9bd5-9c7cde558eb6")
-		(at 299.25 286.25)
+		(at 291.5 265.75)
 		(property "Reference" "S6"
 			(at -0.635 -4.699 0)
 			(layer "F.SilkS")
-			(uuid "7bb7b063-8bc5-444e-ac0a-20ce469e945e")
+			(uuid "9f459318-69d8-4dd3-880c-8ba8cd522f29")
 			(effects
 				(font
 					(size 1.4 1.4)
@@ -12209,7 +12209,7 @@
 		(property "Value" "TL1105BF160Q"
 			(at 8.255 4.699 0)
 			(layer "F.Fab")
-			(uuid "5d515cd3-8ddc-44aa-b020-6b3bc035981a")
+			(uuid "1d7738e0-d1d5-464f-ae94-98004de0f403")
 			(effects
 				(font
 					(size 1.4 1.4)
@@ -12221,7 +12221,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e8ab4fd5-5a92-4b7f-885c-7aec8370837d")
+			(uuid "4743f7c1-7417-4336-9bb2-75bd8a4c1c6d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12233,7 +12233,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "87e326b2-dbb1-4323-88c5-bfd43f22df53")
+			(uuid "e9b77fae-1bd2-40fe-8ca2-c169bfc3e06d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12605,13 +12605,13 @@
 	(footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "7c340ad8-0311-4252-bfe4-057ff2fd53da")
-		(at 202.34 298)
+		(at 211.84 285.75)
 		(descr "Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=5.2*2.7mm^2, https://www.diodes.com/assets/Package-Files/DO-41-Plastic.pdf")
 		(tags "Diode DO-41_SOD81 series Axial Horizontal pin pitch 10.16mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D24"
 			(at 5.08 -2.47 0)
 			(layer "F.SilkS")
-			(uuid "f237d6cf-d9cb-4df3-b3b4-dab332cc5ac5")
+			(uuid "7519b611-45aa-40c6-be6e-6c889123bb3e")
 			(effects
 				(font
 					(size 1 1)
@@ -12622,7 +12622,7 @@
 		(property "Value" "1N4001"
 			(at 5.08 2.47 0)
 			(layer "F.Fab")
-			(uuid "12f6a1d2-4814-4690-bed1-bdaf4af8809c")
+			(uuid "3aad261e-29db-4e52-8a6b-0cfde84c4941")
 			(effects
 				(font
 					(size 1 1)
@@ -12634,7 +12634,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d84b5bce-ac01-4818-9bed-27ecd0b8c03d")
+			(uuid "7cdba402-6564-4f82-8950-cdc475d3ad9d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12646,7 +12646,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "57de21a6-06ec-42e5-ac14-7054267a20ef")
+			(uuid "ca85b663-a74a-46f9-83ed-d0ab8e931b83")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12890,13 +12890,13 @@
 	(footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "8183bf52-3da9-4c26-88c6-9107c818ca7d")
-		(at 310.84 298)
+		(at 320.34 285.75)
 		(descr "Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=5.2*2.7mm^2, https://www.diodes.com/assets/Package-Files/DO-41-Plastic.pdf")
 		(tags "Diode DO-41_SOD81 series Axial Horizontal pin pitch 10.16mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D2"
 			(at 5.08 -2.47 0)
 			(layer "F.SilkS")
-			(uuid "909bd84b-0b54-4972-b57a-fc7fd9e7ddad")
+			(uuid "60fc18a8-d3a1-4d4c-9d03-10d87001ac9b")
 			(effects
 				(font
 					(size 1 1)
@@ -12907,7 +12907,7 @@
 		(property "Value" "1N4001"
 			(at 5.08 2.47 0)
 			(layer "F.Fab")
-			(uuid "584647bc-9cec-4573-998a-272c8ccaeb76")
+			(uuid "d34b84a4-05ad-40ad-8af0-f0a22ab9bc76")
 			(effects
 				(font
 					(size 1 1)
@@ -12919,7 +12919,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ea2fa1c1-9917-4ccc-9755-31b99879cf5c")
+			(uuid "710a2465-10e8-45c0-bc5d-dd295b50b70f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12931,7 +12931,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fb10e323-b74f-4425-a7d5-9ca948080170")
+			(uuid "72145e8d-b7fd-42f9-8015-255533fa9054")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13175,11 +13175,11 @@
 	(footprint "Synthia_footprint_library:SW_TL1105BF160Q"
 		(layer "F.Cu")
 		(uuid "827dac25-219f-470c-a928-becea7a54d10")
-		(at 137.66 305.5)
+		(at 147.16 293.25)
 		(property "Reference" "S32"
 			(at -0.635 -4.699 0)
 			(layer "F.SilkS")
-			(uuid "e2b84c95-6a3b-4e85-a381-438ef925f88e")
+			(uuid "d2036a4c-acbb-429c-bf98-7b0d04ef014a")
 			(effects
 				(font
 					(size 1.4 1.4)
@@ -13190,7 +13190,7 @@
 		(property "Value" "TL1105BF160Q"
 			(at 8.255 4.699 0)
 			(layer "F.Fab")
-			(uuid "327827f0-2da2-4b26-a738-484e37e0e33d")
+			(uuid "7bb64230-36e1-4b91-8cc0-0883df5232e6")
 			(effects
 				(font
 					(size 1.4 1.4)
@@ -13202,7 +13202,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ce470494-5dc7-4d70-ace2-487814cfbf3e")
+			(uuid "fbea6ca9-6036-45b0-942a-245b4fe84532")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13214,7 +13214,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "23b10a6b-f15e-4069-9658-bcab96ea31ce")
+			(uuid "3928ad73-ba1e-403e-a1ad-0566aa707f23")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13586,13 +13586,13 @@
 	(footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "86d692cd-08a0-46bc-8c63-6bab716d76da")
-		(at 112.34 278)
+		(at 104.59 257.5)
 		(descr "Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=5.2*2.7mm^2, https://www.diodes.com/assets/Package-Files/DO-41-Plastic.pdf")
 		(tags "Diode DO-41_SOD81 series Axial Horizontal pin pitch 10.16mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D34"
 			(at 5.08 -2.47 0)
 			(layer "F.SilkS")
-			(uuid "17dc18e9-791b-49ad-9f1d-a87ea85dafee")
+			(uuid "f36c3b4c-6cc0-458a-98e7-6ff045fcf3d0")
 			(effects
 				(font
 					(size 1 1)
@@ -13603,7 +13603,7 @@
 		(property "Value" "1N4001"
 			(at 5.08 2.47 0)
 			(layer "F.Fab")
-			(uuid "c73aabbe-f4b6-4c85-80c9-db095bedeff2")
+			(uuid "e5352cd4-b77c-4e97-9d46-78f62f209912")
 			(effects
 				(font
 					(size 1 1)
@@ -13615,7 +13615,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "73b608d8-fc19-46cc-a603-67af01e3d4d1")
+			(uuid "1a8c755a-6bb1-430d-8005-8bb320203733")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13627,7 +13627,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9ba0a6f6-da63-4ebe-873c-d388ed841e01")
+			(uuid "22ffbdf1-7f08-4911-82e7-d6d08af5f6ca")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13871,11 +13871,11 @@
 	(footprint "Synthia_footprint_library:SW_TL1105BF160Q"
 		(layer "F.Cu")
 		(uuid "8cf9d2c8-d837-4feb-a82d-be8c949fa7c5")
-		(at 191.25 285.75)
+		(at 183.5 265.25)
 		(property "Reference" "S26"
 			(at -0.635 -4.699 0)
 			(layer "F.SilkS")
-			(uuid "08427faf-1959-4d29-8fdb-bda29fab53d5")
+			(uuid "44382f73-6fd9-48c3-886a-32b21bf48f49")
 			(effects
 				(font
 					(size 1.4 1.4)
@@ -13886,7 +13886,7 @@
 		(property "Value" "TL1105BF160Q"
 			(at 8.255 4.699 0)
 			(layer "F.Fab")
-			(uuid "b228e8bd-7216-40de-baf5-a9090d209f37")
+			(uuid "ab002168-9a42-4053-b8a6-9d7f810dd492")
 			(effects
 				(font
 					(size 1.4 1.4)
@@ -13898,7 +13898,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "98fb0d2c-f99c-4845-8c76-88ac50e3fa31")
+			(uuid "2ded3048-0096-42c5-a6fc-5648c784a531")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13910,7 +13910,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d446ab43-6d37-4630-b6ba-89c5c7b64a86")
+			(uuid "1bae6896-9343-4366-ae24-95a747cfb59d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14541,11 +14541,11 @@
 	(footprint "Synthia_footprint_library:SW_TL1105BF160Q"
 		(layer "F.Cu")
 		(uuid "939ea4a2-14da-49c1-8846-dedcb78c2a78")
-		(at 281.25 286)
+		(at 273.5 265.5)
 		(property "Reference" "S10"
 			(at -0.635 -4.699 0)
 			(layer "F.SilkS")
-			(uuid "cf0caa2e-ee82-4409-b99e-eeef4c75e588")
+			(uuid "ff0c26ce-816b-4f7e-ad5b-22be58a42d5c")
 			(effects
 				(font
 					(size 1.4 1.4)
@@ -14556,7 +14556,7 @@
 		(property "Value" "TL1105BF160Q"
 			(at 8.255 4.699 0)
 			(layer "F.Fab")
-			(uuid "ef2aadf7-ad5e-411a-b75d-a93b783b2247")
+			(uuid "6e3d1a37-7487-40ff-b8c6-bd7128e79b18")
 			(effects
 				(font
 					(size 1.4 1.4)
@@ -14568,7 +14568,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fcaf960b-559c-4a6e-9cb4-2ef86af6fc98")
+			(uuid "bbf1bebf-feee-40f2-a10e-b3b782ee5807")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14580,7 +14580,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "588a4529-a73e-49d4-9c1c-6b30554a3ec4")
+			(uuid "2e50e6d4-1f98-497c-af2b-538078f6dbd1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14952,13 +14952,13 @@
 	(footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "95be6a63-3eca-44f3-9efc-a4db0f293780")
-		(at 202.09 277.75)
+		(at 194.34 257.25)
 		(descr "Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=5.2*2.7mm^2, https://www.diodes.com/assets/Package-Files/DO-41-Plastic.pdf")
 		(tags "Diode DO-41_SOD81 series Axial Horizontal pin pitch 10.16mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D27"
 			(at 5.08 -2.47 0)
 			(layer "F.SilkS")
-			(uuid "4d8ec46d-d953-4b50-ab70-143c23088593")
+			(uuid "df3d2523-5484-4b40-8d8b-9c253de0f095")
 			(effects
 				(font
 					(size 1 1)
@@ -14969,7 +14969,7 @@
 		(property "Value" "1N4001"
 			(at 5.08 2.47 0)
 			(layer "F.Fab")
-			(uuid "7ad50e07-df97-495f-b9e1-74a465766e14")
+			(uuid "a8ccd982-fc21-4a45-8d8c-b0d44e749b3c")
 			(effects
 				(font
 					(size 1 1)
@@ -14981,7 +14981,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4b02fce1-9b67-42c0-b385-4fb579402ddf")
+			(uuid "8ff126d9-4664-41f4-89c5-b479f2609565")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14993,7 +14993,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4b2dfd7a-5cf6-4349-b9af-708736923616")
+			(uuid "74a52763-2f73-4f91-8a3b-58da7f8e4e6e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15237,11 +15237,11 @@
 	(footprint "Synthia_footprint_library:SW_TL1105BF160Q"
 		(layer "F.Cu")
 		(uuid "9609aadb-84bb-48c6-ada1-5625a472e208")
-		(at 155.66 325)
+		(at 183.25 320.75)
 		(property "Reference" "S30"
 			(at -0.635 -4.699 0)
 			(layer "F.SilkS")
-			(uuid "4fa19ca5-b7de-47a8-a5e1-4d73bc7dac3a")
+			(uuid "f9fd606f-0929-457c-afad-02e6b6465042")
 			(effects
 				(font
 					(size 1.4 1.4)
@@ -15252,7 +15252,7 @@
 		(property "Value" "TL1105BF160Q"
 			(at 8.255 4.699 0)
 			(layer "F.Fab")
-			(uuid "6e5c66d7-df5e-44e4-8306-a30680241f5b")
+			(uuid "41bc0803-2ec0-4924-996e-94da63039fb6")
 			(effects
 				(font
 					(size 1.4 1.4)
@@ -15264,7 +15264,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "299a3dc2-565b-47d2-88f5-5753135ee803")
+			(uuid "25e55f60-d8e0-4d99-b695-f234251adb7e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15276,7 +15276,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4f828cbc-623c-48d0-9cc1-72fa06a61e8f")
+			(uuid "c600d50f-031e-47d1-b426-34b93a9786e9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15648,13 +15648,13 @@
 	(footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "9673169a-ba7b-4317-bc45-de1d374494f6")
-		(at 130.17 278)
+		(at 122.42 257.5)
 		(descr "Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=5.2*2.7mm^2, https://www.diodes.com/assets/Package-Files/DO-41-Plastic.pdf")
 		(tags "Diode DO-41_SOD81 series Axial Horizontal pin pitch 10.16mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D35"
 			(at 5.08 -2.47 0)
 			(layer "F.SilkS")
-			(uuid "ed997823-49dc-4623-9399-6781fea42fba")
+			(uuid "e980ff1a-05c1-45d1-a443-b566d9c5a04f")
 			(effects
 				(font
 					(size 1 1)
@@ -15665,7 +15665,7 @@
 		(property "Value" "1N4001"
 			(at 5.08 2.47 0)
 			(layer "F.Fab")
-			(uuid "2fe96a80-07cd-47d2-b816-9877044f7ba8")
+			(uuid "1ef5f33b-5a96-45e1-8ae5-c7603be0fc7f")
 			(effects
 				(font
 					(size 1 1)
@@ -15677,7 +15677,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "11295db2-1ad1-4b2d-bbe2-39e66b74793b")
+			(uuid "388983f2-4cde-40ee-b6fe-909c7f17e2ab")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15689,7 +15689,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5720dc07-8c4d-40e1-b9d0-bc32b39d5eca")
+			(uuid "96476810-b859-460a-abd4-e5b0808b8213")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15933,13 +15933,13 @@
 	(footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "970819f7-643d-4121-a524-157d8bbc5e02")
-		(at 256.09 277.75)
+		(at 248.34 257.25)
 		(descr "Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=5.2*2.7mm^2, https://www.diodes.com/assets/Package-Files/DO-41-Plastic.pdf")
 		(tags "Diode DO-41_SOD81 series Axial Horizontal pin pitch 10.16mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D18"
 			(at 5.08 -2.47 0)
 			(layer "F.SilkS")
-			(uuid "f75e2744-5bfa-474e-962c-004bb878462d")
+			(uuid "8d05a7fa-5091-4201-a3a3-9d18ebd89335")
 			(effects
 				(font
 					(size 1 1)
@@ -15950,7 +15950,7 @@
 		(property "Value" "1N4001"
 			(at 5.08 2.47 0)
 			(layer "F.Fab")
-			(uuid "f556dd40-e688-4249-ace5-a7f17e233592")
+			(uuid "608e7dbe-5f8c-4fda-ae53-47a61eb4bcdf")
 			(effects
 				(font
 					(size 1 1)
@@ -15962,7 +15962,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "08352916-9d75-4bd4-8434-e86eb86ea77b")
+			(uuid "1b7958d9-6354-4d6a-a2f2-336c00d4fba0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15974,7 +15974,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "dbe407a6-829e-4d59-97bd-29692af88c2d")
+			(uuid "95bc7ef2-ff80-4a5b-8242-a312b1777c1b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16218,13 +16218,13 @@
 	(footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "996cc545-5ac1-486d-86f1-11db26295831")
-		(at 130.5 298)
+		(at 140 285.75)
 		(descr "Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=5.2*2.7mm^2, https://www.diodes.com/assets/Package-Files/DO-41-Plastic.pdf")
 		(tags "Diode DO-41_SOD81 series Axial Horizontal pin pitch 10.16mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D32"
 			(at 5.08 -2.47 0)
 			(layer "F.SilkS")
-			(uuid "a47786c5-250a-4a9c-8676-c18a8960994e")
+			(uuid "d561739b-20b3-4b47-8886-2db167894afa")
 			(effects
 				(font
 					(size 1 1)
@@ -16235,7 +16235,7 @@
 		(property "Value" "1N4001"
 			(at 5.08 2.47 0)
 			(layer "F.Fab")
-			(uuid "fa0040d7-8c53-440b-b86c-391db8207236")
+			(uuid "2c311d53-b871-4a31-b854-b302e89f4fa6")
 			(effects
 				(font
 					(size 1 1)
@@ -16247,7 +16247,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0427a551-9fc8-432f-8ea5-fc701296ca42")
+			(uuid "f52732c0-b3d7-4d01-9274-02d54a00a113")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16259,7 +16259,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d859bf35-335a-4ccf-834e-f36e8a2317cf")
+			(uuid "612a291f-ddd2-4775-af74-412b9c042c34")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16503,11 +16503,11 @@
 	(footprint "Synthia_footprint_library:SW_TL1105BF160Q"
 		(layer "F.Cu")
 		(uuid "9ed6af8f-11dd-4a69-ade3-7fbb9575cdd3")
-		(at 282 324.5)
+		(at 309.59 320.25)
 		(property "Reference" "S7"
 			(at -0.635 -4.699 0)
 			(layer "F.SilkS")
-			(uuid "ee78c5d0-5f89-48cd-bcca-c67eefa37f6f")
+			(uuid "6fa3d161-f616-451d-8dc5-dccfe8516699")
 			(effects
 				(font
 					(size 1.4 1.4)
@@ -16518,7 +16518,7 @@
 		(property "Value" "TL1105BF160Q"
 			(at 8.255 4.699 0)
 			(layer "F.Fab")
-			(uuid "00d7eb3e-09df-4a64-a8ff-e6c54ad5937b")
+			(uuid "ca96748c-f6f2-4810-820f-fc8eb6fec5ec")
 			(effects
 				(font
 					(size 1.4 1.4)
@@ -16530,7 +16530,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4a8ee42e-05f5-4a3c-9f8f-9ee93776e200")
+			(uuid "3996f6da-497d-4ba1-a2bb-acd90a5c2de7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16542,7 +16542,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "31bc0bd5-1021-48ec-b198-39cfa349caaf")
+			(uuid "4f847ccb-03a2-48d8-9e42-6f81d5210e6f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16914,13 +16914,13 @@
 	(footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "a12745a1-55d7-4097-9b87-0ef8f305a19e")
-		(at 292.75 318)
+		(at 320.34 313.75)
 		(descr "Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=5.2*2.7mm^2, https://www.diodes.com/assets/Package-Files/DO-41-Plastic.pdf")
 		(tags "Diode DO-41_SOD81 series Axial Horizontal pin pitch 10.16mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D4"
 			(at 5.08 -2.47 0)
 			(layer "F.SilkS")
-			(uuid "6d7e59fc-4697-4bf9-bf23-57f8a51e5954")
+			(uuid "5ff64da4-1f55-4655-8fa8-b44300fb805b")
 			(effects
 				(font
 					(size 1 1)
@@ -16931,7 +16931,7 @@
 		(property "Value" "1N4001"
 			(at 5.08 2.47 0)
 			(layer "F.Fab")
-			(uuid "fddb20ba-7033-42d9-80b2-a09ec2c55b16")
+			(uuid "9e0975bc-1350-43f5-9276-bd3f44d0c5c3")
 			(effects
 				(font
 					(size 1 1)
@@ -16943,7 +16943,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f7895ca6-248b-4301-b430-976c9ce21293")
+			(uuid "ae0758bc-9294-4400-a933-27bedd5cd47f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16955,7 +16955,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "563a472f-4c1f-4bd1-9cf1-37c46dc6fc7b")
+			(uuid "b68a32e2-9224-4afd-ad26-c206383a7a1c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17199,13 +17199,13 @@
 	(footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "aa3e9c7b-e3c7-4f81-b5d1-bb5f4a4e516c")
-		(at 184.34 298)
+		(at 193.84 285.75)
 		(descr "Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=5.2*2.7mm^2, https://www.diodes.com/assets/Package-Files/DO-41-Plastic.pdf")
 		(tags "Diode DO-41_SOD81 series Axial Horizontal pin pitch 10.16mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D23"
 			(at 5.08 -2.47 0)
 			(layer "F.SilkS")
-			(uuid "c2704129-13d0-40f0-9d4f-ae548df63a4e")
+			(uuid "74e04b92-a50e-4574-95af-4b719e97a1f8")
 			(effects
 				(font
 					(size 1 1)
@@ -17216,7 +17216,7 @@
 		(property "Value" "1N4001"
 			(at 5.08 2.47 0)
 			(layer "F.Fab")
-			(uuid "f7590556-0afd-49c6-a588-213f737b0f72")
+			(uuid "80defde4-a746-464f-84d9-ab53140af47b")
 			(effects
 				(font
 					(size 1 1)
@@ -17228,7 +17228,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6dfd286d-32bd-4fea-a8e8-bcd849d095e3")
+			(uuid "707528b6-bbe2-41d6-9282-6e22defec0d6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17240,7 +17240,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "54b66e25-49c0-4480-9c51-28f9832f7d84")
+			(uuid "048cdf89-cf7a-4f4c-99b1-c1ed8467cf99")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17484,13 +17484,13 @@
 	(footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "acc2c3f3-c31b-43ca-9f2f-176b4a661dac")
-		(at 166.09 277.75)
+		(at 158.34 257.25)
 		(descr "Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=5.2*2.7mm^2, https://www.diodes.com/assets/Package-Files/DO-41-Plastic.pdf")
 		(tags "Diode DO-41_SOD81 series Axial Horizontal pin pitch 10.16mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D25"
 			(at 5.08 -2.47 0)
 			(layer "F.SilkS")
-			(uuid "306e9054-ba82-48bf-be5c-c7d8b345b539")
+			(uuid "000ce81b-621d-4ad2-aea0-1220dbcf6bb5")
 			(effects
 				(font
 					(size 1 1)
@@ -17501,7 +17501,7 @@
 		(property "Value" "1N4001"
 			(at 5.08 2.47 0)
 			(layer "F.Fab")
-			(uuid "103f51b1-e65b-47ec-9378-6d3e8439ef8b")
+			(uuid "3d4654e4-df58-4995-9a4d-9b36dc6e2f74")
 			(effects
 				(font
 					(size 1 1)
@@ -17513,7 +17513,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6c3dc9ea-732f-4300-97ef-db01466d5733")
+			(uuid "4adfdcfc-1e82-4239-a2a0-a385ad8ad7ed")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17525,7 +17525,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8d572a23-01cf-485e-839f-91fde910e86c")
+			(uuid "484a9fea-95d7-4b79-a677-0e0f562c6b80")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17769,11 +17769,11 @@
 	(footprint "Synthia_footprint_library:SW_TL1105BF160Q"
 		(layer "F.Cu")
 		(uuid "b08f38d4-aed3-4303-9cc9-d766dca4fae3")
-		(at 263.5 286)
+		(at 255.75 265.5)
 		(property "Reference" "S18"
 			(at -0.635 -4.699 0)
 			(layer "F.SilkS")
-			(uuid "22bd129a-d932-43c6-a494-3c0aa24cb3b8")
+			(uuid "74ea062f-5674-426a-9784-ecf050d08381")
 			(effects
 				(font
 					(size 1.4 1.4)
@@ -17784,7 +17784,7 @@
 		(property "Value" "TL1105BF160Q"
 			(at 8.255 4.699 0)
 			(layer "F.Fab")
-			(uuid "374f86a4-149a-41bf-85d1-8662cb90e8c5")
+			(uuid "fabfdd71-e8af-48f2-9d61-764e7fff5a24")
 			(effects
 				(font
 					(size 1.4 1.4)
@@ -17796,7 +17796,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4b83589a-c7e1-4517-8110-d67f672af6b0")
+			(uuid "b0e366c2-60fd-45b7-9e3a-480301b2388f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17808,7 +17808,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7efa3df9-bdf0-492c-856d-619972054501")
+			(uuid "6de638dc-a64c-4d28-bf3a-326d938b702b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18180,11 +18180,11 @@
 	(footprint "Synthia_footprint_library:SW_TL1105BF160Q"
 		(layer "F.Cu")
 		(uuid "b5336c9d-52c4-466f-ba2c-74076eb0c2e8")
-		(at 210.16 324.75)
+		(at 237.75 320.5)
 		(property "Reference" "S21"
 			(at -0.635 -4.699 0)
 			(layer "F.SilkS")
-			(uuid "e23817ba-6ac7-41b8-8959-eaf32b2c6486")
+			(uuid "5cc9f2dd-b50e-4d26-828a-c1d069be9167")
 			(effects
 				(font
 					(size 1.4 1.4)
@@ -18195,7 +18195,7 @@
 		(property "Value" "TL1105BF160Q"
 			(at 8.255 4.699 0)
 			(layer "F.Fab")
-			(uuid "5181ef89-084c-4930-b6c3-84e276aad048")
+			(uuid "1a1bc8a0-ef2d-4d80-b039-f5b755c199e4")
 			(effects
 				(font
 					(size 1.4 1.4)
@@ -18207,7 +18207,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "aff97914-f15f-4a44-8b3b-189fe2a07e65")
+			(uuid "0dd8e2a0-5690-4dae-a181-0ff7ad92473b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18219,7 +18219,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "04ee1603-c85f-445a-ac2d-fc6e87f530fa")
+			(uuid "89438b07-3723-48fd-b0ce-8d4563c46ff3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18591,11 +18591,11 @@
 	(footprint "Synthia_footprint_library:SW_TL1105BF160Q"
 		(layer "F.Cu")
 		(uuid "b7c59d4f-99d4-47ec-b8fd-79cc27f48996")
-		(at 282 306)
+		(at 291.5 293.75)
 		(property "Reference" "S8"
 			(at -0.635 -4.699 0)
 			(layer "F.SilkS")
-			(uuid "528f37f0-0fb8-4f66-a761-fc4f7b658120")
+			(uuid "7ff53d4c-88be-4be8-adc8-e16c77099148")
 			(effects
 				(font
 					(size 1.4 1.4)
@@ -18606,7 +18606,7 @@
 		(property "Value" "TL1105BF160Q"
 			(at 8.255 4.699 0)
 			(layer "F.Fab")
-			(uuid "3a53ba3b-6c8e-46f2-9560-57b8b4b6204d")
+			(uuid "24405b28-12f5-4408-9dc7-ee6000b29ccc")
 			(effects
 				(font
 					(size 1.4 1.4)
@@ -18618,7 +18618,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cb6713b5-961d-4b83-b264-20bab358dc2f")
+			(uuid "01177d70-7245-4e26-9813-75a1f5054d7f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18630,7 +18630,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "375b636a-505c-4680-8e1c-7ed369c7bed7")
+			(uuid "50329a0f-6753-4109-b7a2-7de91d8a2c2f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19002,13 +19002,13 @@
 	(footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "b81a9fd0-6601-406b-a3bb-fb8ba1fb2c51")
-		(at 257 298)
+		(at 266.5 285.75)
 		(descr "Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=5.2*2.7mm^2, https://www.diodes.com/assets/Package-Files/DO-41-Plastic.pdf")
 		(tags "Diode DO-41_SOD81 series Axial Horizontal pin pitch 10.16mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D15"
 			(at 5.08 -2.47 0)
 			(layer "F.SilkS")
-			(uuid "28002899-7824-4018-87ca-c2ab0e805276")
+			(uuid "e7cdccba-f053-4a2d-9cc5-9bb4f9d546d7")
 			(effects
 				(font
 					(size 1 1)
@@ -19019,7 +19019,7 @@
 		(property "Value" "1N4001"
 			(at 5.08 2.47 0)
 			(layer "F.Fab")
-			(uuid "90823d2b-983f-48bd-b5ea-a43b5a0a3608")
+			(uuid "410e801a-c4fd-4cba-b180-f3ebd6f32987")
 			(effects
 				(font
 					(size 1 1)
@@ -19031,7 +19031,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e636ccaf-7aa4-4e3a-abbd-ef947c1e6682")
+			(uuid "a66235ca-a86a-463f-b30f-6aeab22527aa")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19043,7 +19043,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "56bd55b7-753d-497c-aecb-a1e1f447ed19")
+			(uuid "4d0f1ee6-e2b7-426a-8546-3361a773a712")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19287,11 +19287,11 @@
 	(footprint "Synthia_footprint_library:SW_TL1105BF160Q"
 		(layer "F.Cu")
 		(uuid "b96e6614-8947-4d69-8a1a-c5cdd660882d")
-		(at 119.91 325.25)
+		(at 147.5 321)
 		(property "Reference" "S28"
 			(at -0.635 -4.699 0)
 			(layer "F.SilkS")
-			(uuid "4a8ce899-250e-46c1-82be-b8ffddb0a154")
+			(uuid "ddd73572-944c-40cf-b2d1-4509820f98e6")
 			(effects
 				(font
 					(size 1.4 1.4)
@@ -19302,7 +19302,7 @@
 		(property "Value" "TL1105BF160Q"
 			(at 8.255 4.699 0)
 			(layer "F.Fab")
-			(uuid "e941680b-a03d-4a7c-bc0f-3381bb1e9ecb")
+			(uuid "7606e2e0-44ba-4f06-94e0-c3cfd385f98b")
 			(effects
 				(font
 					(size 1.4 1.4)
@@ -19314,7 +19314,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "eb19c009-68f8-42ab-a1f9-635beb96fa28")
+			(uuid "dc62db96-7042-4d5c-858d-6f52c57b0f31")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19326,7 +19326,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2326a0f7-a4ec-49a9-87db-bf28827b125d")
+			(uuid "25fc1aea-9976-4564-abeb-e293fc7993d3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19698,13 +19698,13 @@
 	(footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "ba1e1fcd-e87d-4d7a-99e4-c1cf0c686336")
-		(at 274.09 277.75)
+		(at 266.34 257.25)
 		(descr "Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=5.2*2.7mm^2, https://www.diodes.com/assets/Package-Files/DO-41-Plastic.pdf")
 		(tags "Diode DO-41_SOD81 series Axial Horizontal pin pitch 10.16mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D12"
 			(at 5.08 -2.47 0)
 			(layer "F.SilkS")
-			(uuid "29b1481d-6dc3-4b76-a3c5-89e527d531ff")
+			(uuid "1ce9dbee-3cde-49a2-9976-edb2a2e293c4")
 			(effects
 				(font
 					(size 1 1)
@@ -19715,7 +19715,7 @@
 		(property "Value" "1N4001"
 			(at 5.08 2.47 0)
 			(layer "F.Fab")
-			(uuid "3cf6feef-0f73-458f-96c8-1a58c4a7a94b")
+			(uuid "c3c2c631-c40b-483e-bc37-4fdb7fbe2d88")
 			(effects
 				(font
 					(size 1 1)
@@ -19727,7 +19727,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1f464db0-15d3-4d14-9afb-76e357959fe5")
+			(uuid "9289bf83-f778-462f-af79-5a51a69a57a0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19739,7 +19739,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "18c2bcb9-ddc0-4c51-8e1a-ce300d1ef32b")
+			(uuid "2121b243-5636-488e-ad4b-6e6428fd4e06")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19983,13 +19983,13 @@
 	(footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "ba8c798f-9cc1-4062-bbbc-3e8f5c61dbfa")
-		(at 220.5 318)
+		(at 248.09 313.75)
 		(descr "Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=5.2*2.7mm^2, https://www.diodes.com/assets/Package-Files/DO-41-Plastic.pdf")
 		(tags "Diode DO-41_SOD81 series Axial Horizontal pin pitch 10.16mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D7"
 			(at 5.08 -2.47 0)
 			(layer "F.SilkS")
-			(uuid "c0cb6a06-09b3-4d85-8fb1-7f257f00b444")
+			(uuid "75cf9f9e-ed26-462a-b5bf-6afcc3d33732")
 			(effects
 				(font
 					(size 1 1)
@@ -20000,7 +20000,7 @@
 		(property "Value" "1N4001"
 			(at 5.08 2.47 0)
 			(layer "F.Fab")
-			(uuid "735f4393-ffc1-48d3-bb6e-92601997263b")
+			(uuid "231e909d-8854-47a4-bbc2-6176e5581714")
 			(effects
 				(font
 					(size 1 1)
@@ -20012,7 +20012,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "43b56787-78b1-45fe-89a5-3961de4ebe98")
+			(uuid "773be519-8292-4d80-8d5c-e86aba59325e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20024,7 +20024,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b2fe5bf8-cc00-401a-ac8c-2d0a74998951")
+			(uuid "ceb02b17-d979-47a6-937e-77c52816872f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20268,11 +20268,11 @@
 	(footprint "Synthia_footprint_library:SW_TL1105BF160Q"
 		(layer "F.Cu")
 		(uuid "bf0b26db-04bb-4449-9f2a-bb61bcb72f47")
-		(at 300 306)
+		(at 309.5 293.75)
 		(property "Reference" "S11"
 			(at -0.635 -4.699 0)
 			(layer "F.SilkS")
-			(uuid "eb7342d5-b2c0-47a5-931a-3e08dcba8676")
+			(uuid "1fae6427-0ead-4230-8a66-d72ac577407f")
 			(effects
 				(font
 					(size 1.4 1.4)
@@ -20283,7 +20283,7 @@
 		(property "Value" "TL1105BF160Q"
 			(at 8.255 4.699 0)
 			(layer "F.Fab")
-			(uuid "78173563-f240-4270-8b3c-e663bdc335f7")
+			(uuid "2f98b578-e669-4cb1-b484-a2115c11a18d")
 			(effects
 				(font
 					(size 1.4 1.4)
@@ -20295,7 +20295,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4f0aab0a-0f94-4604-b5a1-b4b94612463c")
+			(uuid "bfa99adf-0ff6-40e2-b5c4-05ae9613b5b9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20307,7 +20307,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "da445501-801d-456f-883d-1c4f0ff3d075")
+			(uuid "0bbbd23c-37d7-4e4b-a00c-b4f40cdad816")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20679,13 +20679,13 @@
 	(footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "c7cf0bf0-8271-4c0a-861c-6d10e5d46956")
-		(at 238.34 298)
+		(at 247.84 285.75)
 		(descr "Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=5.2*2.7mm^2, https://www.diodes.com/assets/Package-Files/DO-41-Plastic.pdf")
 		(tags "Diode DO-41_SOD81 series Axial Horizontal pin pitch 10.16mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D14"
 			(at 5.08 -2.47 0)
 			(layer "F.SilkS")
-			(uuid "0eb668e1-4e04-4ce2-88cb-71ea12a82394")
+			(uuid "be5d6958-10f4-4feb-b0de-c467c30a004e")
 			(effects
 				(font
 					(size 1 1)
@@ -20696,7 +20696,7 @@
 		(property "Value" "1N4001"
 			(at 5.08 2.47 0)
 			(layer "F.Fab")
-			(uuid "4670a2d6-66e7-4e90-abff-64571314ae71")
+			(uuid "ec1cd47c-c790-4f1f-a4c4-4a0ba9e86899")
 			(effects
 				(font
 					(size 1 1)
@@ -20708,7 +20708,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "79d25742-6e36-4670-b7a6-34ed7193d4b9")
+			(uuid "c1068481-5ad7-41ad-849a-26b8afe1a125")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20720,7 +20720,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8fc62426-6472-491f-a431-31534634793e")
+			(uuid "b220c3b4-f746-49c1-8c48-304d9b6d2a0c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20964,13 +20964,13 @@
 	(footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "cd576edf-56b6-484b-b3bb-4e76bb224b8f")
-		(at 220.09 277.75)
+		(at 212.34 257.25)
 		(descr "Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=5.2*2.7mm^2, https://www.diodes.com/assets/Package-Files/DO-41-Plastic.pdf")
 		(tags "Diode DO-41_SOD81 series Axial Horizontal pin pitch 10.16mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D16"
 			(at 5.08 -2.47 0)
 			(layer "F.SilkS")
-			(uuid "1a48e0c2-d309-44c4-bd00-9aa94c4b6ac1")
+			(uuid "f4e43efe-e070-4463-8e8e-0d69ede209df")
 			(effects
 				(font
 					(size 1 1)
@@ -20981,7 +20981,7 @@
 		(property "Value" "1N4001"
 			(at 5.08 2.47 0)
 			(layer "F.Fab")
-			(uuid "6a54bcf7-ba88-4be5-aa62-67c666472a84")
+			(uuid "b1646374-4e99-43c2-8f54-195cbeac944c")
 			(effects
 				(font
 					(size 1 1)
@@ -20993,7 +20993,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "33fc9e98-8070-4866-aed6-1713938b8fcc")
+			(uuid "92995655-4d07-44d4-9c8a-cd89dde1a896")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21005,7 +21005,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "508a4044-4955-4d3c-854e-29876075dd14")
+			(uuid "8843a825-86d6-400e-af33-8a0491ca6676")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21249,11 +21249,11 @@
 	(footprint "Synthia_footprint_library:SW_TL1105BF160Q"
 		(layer "F.Cu")
 		(uuid "cf4e5009-de02-4f6d-9e94-1b99bef3a3ba")
-		(at 137.25 285.5)
+		(at 129.5 265)
 		(property "Reference" "S35"
 			(at -0.635 -4.699 0)
 			(layer "F.SilkS")
-			(uuid "5f4b32b6-637c-4ce8-ba6a-ef686b344160")
+			(uuid "12840ebb-05b4-4aed-b2bb-003ebc91a66a")
 			(effects
 				(font
 					(size 1.4 1.4)
@@ -21264,7 +21264,7 @@
 		(property "Value" "TL1105BF160Q"
 			(at 8.255 4.699 0)
 			(layer "F.Fab")
-			(uuid "2b81823f-a819-4524-8a80-e7464d03b2df")
+			(uuid "14f52331-f09b-4cae-8a15-ab7bb369ac46")
 			(effects
 				(font
 					(size 1.4 1.4)
@@ -21276,7 +21276,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a2b0b16c-4d6e-4874-a5ed-6fb06815899e")
+			(uuid "aa54c926-0269-4f30-8e88-0ef8faf51a19")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21288,7 +21288,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "537ad41c-88be-42bb-af3a-aa820e15dab7")
+			(uuid "3d9e2c97-a343-4cbe-bca5-6a07e3fb5607")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21660,13 +21660,13 @@
 	(footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "cffccd20-8b97-419e-a7aa-e7074734da46")
-		(at 184.5 318)
+		(at 212.09 313.75)
 		(descr "Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=5.2*2.7mm^2, https://www.diodes.com/assets/Package-Files/DO-41-Plastic.pdf")
 		(tags "Diode DO-41_SOD81 series Axial Horizontal pin pitch 10.16mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D20"
 			(at 5.08 -2.47 0)
 			(layer "F.SilkS")
-			(uuid "d2caea2a-b771-42c0-9af8-683cdf61b1e2")
+			(uuid "f1726ff2-4d94-47b2-8081-640a3999648a")
 			(effects
 				(font
 					(size 1 1)
@@ -21677,7 +21677,7 @@
 		(property "Value" "1N4001"
 			(at 5.08 2.47 0)
 			(layer "F.Fab")
-			(uuid "1ae6099b-46bb-418f-bc32-3d4602af3c63")
+			(uuid "cd8e05bb-fb3a-405e-8484-32254f49303d")
 			(effects
 				(font
 					(size 1 1)
@@ -21689,7 +21689,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b57e2c11-df87-4662-bcde-2ae6d447ac0a")
+			(uuid "467484e1-9e38-4135-98b6-c6e9d3832571")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21701,7 +21701,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "34dca5d7-67bc-4c28-b909-d44ccf102aa2")
+			(uuid "66087900-2e81-41e2-b6ff-204cc462e126")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21945,13 +21945,13 @@
 	(footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "d276cd00-2224-485d-8931-cc69eb8601d6")
-		(at 112.5 318)
+		(at 140.09 313.75)
 		(descr "Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=5.2*2.7mm^2, https://www.diodes.com/assets/Package-Files/DO-41-Plastic.pdf")
 		(tags "Diode DO-41_SOD81 series Axial Horizontal pin pitch 10.16mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D28"
 			(at 5.08 -2.47 0)
 			(layer "F.SilkS")
-			(uuid "1d2d6790-8a8e-4d0a-a065-6d513e22251a")
+			(uuid "167df60d-bf18-48aa-98d5-56f1efad101d")
 			(effects
 				(font
 					(size 1 1)
@@ -21962,7 +21962,7 @@
 		(property "Value" "1N4001"
 			(at 5.08 2.47 0)
 			(layer "F.Fab")
-			(uuid "a9cbdbbe-ddd1-40b5-9e6f-47efff87e3fc")
+			(uuid "d614bda1-76f0-4acd-b9c6-591a82dc1b2d")
 			(effects
 				(font
 					(size 1 1)
@@ -21974,7 +21974,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "dff1f288-6c72-4e64-8a2c-fbb9578013f3")
+			(uuid "7b1f528b-e953-4f0e-bf1e-a05fb333d505")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21986,7 +21986,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "69895741-73e3-402c-8982-bb566beafeff")
+			(uuid "cea21ef2-67b8-4eaf-89df-693d9d4f5709")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22230,11 +22230,11 @@
 	(footprint "Synthia_footprint_library:SW_TL1105BF160Q"
 		(layer "F.Cu")
 		(uuid "d2b1000b-1085-4fa1-b1bf-ba088a2758c6")
-		(at 119.5 285.5)
+		(at 111.75 265)
 		(property "Reference" "S34"
 			(at -0.635 -4.699 0)
 			(layer "F.SilkS")
-			(uuid "640d93aa-4985-4a73-b616-018364bafefa")
+			(uuid "96bcc076-29ae-4bcc-b399-0b7a8535be66")
 			(effects
 				(font
 					(size 1.4 1.4)
@@ -22245,7 +22245,7 @@
 		(property "Value" "TL1105BF160Q"
 			(at 8.255 4.699 0)
 			(layer "F.Fab")
-			(uuid "777dbcea-3489-40cd-accc-a273eeac19ec")
+			(uuid "4ef891cf-9296-4c23-bd74-55c5eee44620")
 			(effects
 				(font
 					(size 1.4 1.4)
@@ -22257,7 +22257,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "912a7ac1-7d1f-4c55-9532-9e5303261dec")
+			(uuid "9d3ca59e-1a2d-4585-baed-ba2eb81f3ca0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22269,7 +22269,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "13ebf8d4-6b8f-42c1-be11-48b68cacb0dc")
+			(uuid "0ad48987-76b3-48d7-a54d-478d8322bd30")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22641,11 +22641,11 @@
 	(footprint "Synthia_footprint_library:SW_TL1105BF160Q"
 		(layer "F.Cu")
 		(uuid "dae76874-9f6d-44da-aff1-794a94d1f6b0")
-		(at 245.5 305.75)
+		(at 255 293.5)
 		(property "Reference" "S14"
 			(at -0.635 -4.699 0)
 			(layer "F.SilkS")
-			(uuid "55af84f1-6d75-4e60-bf25-55fb3dbc25c8")
+			(uuid "25fecb4e-c582-410f-82ba-413cf4a3cf1a")
 			(effects
 				(font
 					(size 1.4 1.4)
@@ -22656,7 +22656,7 @@
 		(property "Value" "TL1105BF160Q"
 			(at 8.255 4.699 0)
 			(layer "F.Fab")
-			(uuid "6a81300a-7219-4794-a7a3-d675466cbfea")
+			(uuid "c6c0c049-79ef-4d84-b4d6-a0756086f38c")
 			(effects
 				(font
 					(size 1.4 1.4)
@@ -22668,7 +22668,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f993b449-2705-430e-a3fc-1b4140a38d45")
+			(uuid "44934173-cd2e-4151-9342-46ca9e633f74")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22680,7 +22680,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4a1dc16b-369c-4f5e-a1eb-eefa999fa4b2")
+			(uuid "22eb30cb-73f8-48c7-8f23-02e7c76a96b0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23052,11 +23052,11 @@
 	(footprint "Synthia_footprint_library:SW_TL1105BF160Q"
 		(layer "F.Cu")
 		(uuid "dc557295-1af1-43a5-bdec-11b250b9565d")
-		(at 227.25 285.75)
+		(at 219.5 265.25)
 		(property "Reference" "S16"
 			(at -0.635 -4.699 0)
 			(layer "F.SilkS")
-			(uuid "b23ab3b0-a7df-4759-b970-2fa56e0d780c")
+			(uuid "2a2b135a-af4a-4122-b588-6457b7044b61")
 			(effects
 				(font
 					(size 1.4 1.4)
@@ -23067,7 +23067,7 @@
 		(property "Value" "TL1105BF160Q"
 			(at 8.255 4.699 0)
 			(layer "F.Fab")
-			(uuid "9a0eced4-147d-4ffb-b510-465e5c620667")
+			(uuid "0c0b20d6-d7a0-4cbd-b995-0ca242103b8a")
 			(effects
 				(font
 					(size 1.4 1.4)
@@ -23079,7 +23079,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fdaa087c-a240-4a13-824d-0c17cbf765d3")
+			(uuid "acc2b2d6-af5b-45cc-a701-5539137cbee1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23091,7 +23091,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "45204d6c-efd4-4c60-9242-5d3e8c1af49f")
+			(uuid "906d35b3-c940-418d-bdf1-055270a6e614")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23463,13 +23463,13 @@
 	(footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "e1cf559b-db94-432e-8724-2ec4aa7ca3f6")
-		(at 184.09 277.75)
+		(at 176.34 257.25)
 		(descr "Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=5.2*2.7mm^2, https://www.diodes.com/assets/Package-Files/DO-41-Plastic.pdf")
 		(tags "Diode DO-41_SOD81 series Axial Horizontal pin pitch 10.16mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D26"
 			(at 5.08 -2.47 0)
 			(layer "F.SilkS")
-			(uuid "5709451b-f253-4435-8972-c0cb2e87f259")
+			(uuid "1abbd77a-49cb-4942-9c2a-d09d799f111a")
 			(effects
 				(font
 					(size 1 1)
@@ -23480,7 +23480,7 @@
 		(property "Value" "1N4001"
 			(at 5.08 2.47 0)
 			(layer "F.Fab")
-			(uuid "026ad4cc-0fc1-4ec3-8272-12d57f3eb82b")
+			(uuid "54d6b270-ac0f-4873-a78a-b0db5c29ce8e")
 			(effects
 				(font
 					(size 1 1)
@@ -23492,7 +23492,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6a580471-fbd7-4e73-809d-52ecb4750d2e")
+			(uuid "52ad46f8-9532-4a49-933e-3ea3c0e4bdce")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23504,7 +23504,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "aada4322-b66f-4a9d-b375-c8b0d81650e7")
+			(uuid "d16b60e4-4b10-4126-a383-18ddc0a71c35")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23748,13 +23748,13 @@
 	(footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "e3fff086-12d4-445f-a37e-1ed06149ab6f")
-		(at 220.34 298)
+		(at 229.84 285.75)
 		(descr "Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=5.2*2.7mm^2, https://www.diodes.com/assets/Package-Files/DO-41-Plastic.pdf")
 		(tags "Diode DO-41_SOD81 series Axial Horizontal pin pitch 10.16mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D13"
 			(at 5.08 -2.47 0)
 			(layer "F.SilkS")
-			(uuid "643a22a8-6d13-463b-9b07-a57cc3c21375")
+			(uuid "0d5a246f-16bf-4a8d-9a55-e912c1f4c0ee")
 			(effects
 				(font
 					(size 1 1)
@@ -23765,7 +23765,7 @@
 		(property "Value" "1N4001"
 			(at 5.08 2.47 0)
 			(layer "F.Fab")
-			(uuid "12834a68-a87a-4729-afe4-8aa87937037a")
+			(uuid "a347d980-449b-4880-8c74-65409883b54b")
 			(effects
 				(font
 					(size 1 1)
@@ -23777,7 +23777,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "835fe4ca-d730-43d9-8611-44ea211e9111")
+			(uuid "2d23771e-eea0-4388-b8fb-d1a3ab8a8332")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23789,7 +23789,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e5648232-5ab4-4f22-a2f4-667cdc079d0f")
+			(uuid "2306bb69-7e2a-4c7c-a390-81bc58b18eab")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24033,13 +24033,13 @@
 	(footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "e7edf018-0591-454e-a347-afb0a31d0959")
-		(at 292.09 277.75)
+		(at 284.34 257.25)
 		(descr "Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=5.2*2.7mm^2, https://www.diodes.com/assets/Package-Files/DO-41-Plastic.pdf")
 		(tags "Diode DO-41_SOD81 series Axial Horizontal pin pitch 10.16mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D6"
 			(at 5.08 -2.47 0)
 			(layer "F.SilkS")
-			(uuid "4403bf66-cb91-4c4a-b3e1-77dbbe57a26a")
+			(uuid "285dabc7-028e-4e4c-89aa-482bbff96a0b")
 			(effects
 				(font
 					(size 1 1)
@@ -24050,7 +24050,7 @@
 		(property "Value" "1N4001"
 			(at 5.08 2.47 0)
 			(layer "F.Fab")
-			(uuid "10f1d764-1e24-4f5a-8b21-14e2fa697888")
+			(uuid "bb152e9c-00c0-4d28-9922-f85961600899")
 			(effects
 				(font
 					(size 1 1)
@@ -24062,7 +24062,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "85bdeb15-c4c6-4585-b564-a45f33238bb0")
+			(uuid "1fece49c-7050-4ec1-929a-7c37b3631452")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24074,7 +24074,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "20f707a9-dc40-447f-b666-9ab0ba785b6d")
+			(uuid "c894a30f-a363-476d-8774-154a1a485b52")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24318,11 +24318,11 @@
 	(footprint "Synthia_footprint_library:SW_TL1105BF160Q"
 		(layer "F.Cu")
 		(uuid "e93f03b2-c1cf-48e0-b4d2-6f378b033d3c")
-		(at 245.25 285.75)
+		(at 237.5 265.25)
 		(property "Reference" "S17"
 			(at -0.635 -4.699 0)
 			(layer "F.SilkS")
-			(uuid "e167f8d5-3519-498a-a92c-3a35a61acfac")
+			(uuid "647a65d6-208e-4641-9ac1-b68f67ea39b0")
 			(effects
 				(font
 					(size 1.4 1.4)
@@ -24333,7 +24333,7 @@
 		(property "Value" "TL1105BF160Q"
 			(at 8.255 4.699 0)
 			(layer "F.Fab")
-			(uuid "9694ccc7-0431-4b2c-b64b-f59b034fc439")
+			(uuid "9e258fbb-0011-499b-8233-ed3a57feafd3")
 			(effects
 				(font
 					(size 1.4 1.4)
@@ -24345,7 +24345,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f7bf16d1-5584-4b53-a639-127fe8236118")
+			(uuid "6f92463f-9968-4626-9111-2f87cb88bb55")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24357,7 +24357,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "030a58c2-9a06-4997-86fd-acc6034b2dc3")
+			(uuid "c0c96109-e70c-46cd-8fee-a163dff0ce66")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24729,11 +24729,11 @@
 	(footprint "Synthia_footprint_library:SW_TL1105BF160Q"
 		(layer "F.Cu")
 		(uuid "ec23544c-6e99-4774-a8ac-1ec8bfb7ed74")
-		(at 173.66 325)
+		(at 201.25 320.75)
 		(property "Reference" "S19"
 			(at -0.635 -4.699 0)
 			(layer "F.SilkS")
-			(uuid "6af8341c-1d9c-4da9-9273-531cfcd0c16a")
+			(uuid "01759083-9907-4835-aaba-60dc4d28d056")
 			(effects
 				(font
 					(size 1.4 1.4)
@@ -24744,7 +24744,7 @@
 		(property "Value" "TL1105BF160Q"
 			(at 8.255 4.699 0)
 			(layer "F.Fab")
-			(uuid "dfb0dad2-2571-4cd4-af05-ef5731f218ea")
+			(uuid "4356becc-dcb7-4d11-9595-e3d7cc15e3dc")
 			(effects
 				(font
 					(size 1.4 1.4)
@@ -24756,7 +24756,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "71cb2348-79d9-4fe6-8cfa-f81ff9331d70")
+			(uuid "f0894760-c0d2-4540-8f6c-5051cbd7a6d5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24768,7 +24768,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3d2eaba0-5dd9-45c7-bf72-72a13b66c6da")
+			(uuid "0375d846-d692-4596-91de-b5dc23e5c02e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25140,13 +25140,13 @@
 	(footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "ec3c2f6a-c390-41ff-b6a2-a0e557484876")
-		(at 112.34 298)
+		(at 121.84 285.75)
 		(descr "Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=5.2*2.7mm^2, https://www.diodes.com/assets/Package-Files/DO-41-Plastic.pdf")
 		(tags "Diode DO-41_SOD81 series Axial Horizontal pin pitch 10.16mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D31"
 			(at 5.08 -2.47 0)
 			(layer "F.SilkS")
-			(uuid "14f6b711-f458-42ec-989c-13483ee177c4")
+			(uuid "df0efde5-597e-486f-97f8-dabc8a6a5033")
 			(effects
 				(font
 					(size 1 1)
@@ -25157,7 +25157,7 @@
 		(property "Value" "1N4001"
 			(at 5.08 2.47 0)
 			(layer "F.Fab")
-			(uuid "2356a74a-d759-41e1-84b3-0bcf6e007d5d")
+			(uuid "df4ecc07-08ef-49dd-954f-1be0837ce4da")
 			(effects
 				(font
 					(size 1 1)
@@ -25169,7 +25169,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a7e1b08c-3ebe-4983-8df1-db87f66e015e")
+			(uuid "70ee9081-8109-4730-807b-946610711790")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25181,7 +25181,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6bc9c176-8c92-4b48-a7da-2f2ea63066c0")
+			(uuid "46a4fcb4-13a1-402f-badc-f44b84b60ff9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25425,13 +25425,13 @@
 	(footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "ec8468dd-b4e7-460e-a3e1-1acab698cb51")
-		(at 256.84 318)
+		(at 284.43 313.75)
 		(descr "Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=5.2*2.7mm^2, https://www.diodes.com/assets/Package-Files/DO-41-Plastic.pdf")
 		(tags "Diode DO-41_SOD81 series Axial Horizontal pin pitch 10.16mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D11"
 			(at 5.08 -2.47 0)
 			(layer "F.SilkS")
-			(uuid "8b067283-dc95-48e0-874c-62179f5762a7")
+			(uuid "8ba38ec1-5975-404b-a078-7fd07b5318fd")
 			(effects
 				(font
 					(size 1 1)
@@ -25442,7 +25442,7 @@
 		(property "Value" "1N4001"
 			(at 5.08 2.47 0)
 			(layer "F.Fab")
-			(uuid "6720be9f-9c6c-4926-9ab6-7517e01aa592")
+			(uuid "b4c581ec-22c9-4f08-8ea8-0f7b33c3c60e")
 			(effects
 				(font
 					(size 1 1)
@@ -25454,7 +25454,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "dfb850af-5dbe-468d-8e8d-4c2e0ad2dbd3")
+			(uuid "eed05a28-fdb1-4a6f-b405-1b224d5bf170")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25466,7 +25466,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "873106e5-68f3-42ce-8a4d-5193f7afb303")
+			(uuid "f034ea97-175a-42c0-b474-49116c452709")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25710,11 +25710,11 @@
 	(footprint "Synthia_footprint_library:SW_TL1105BF160Q"
 		(layer "F.Cu")
 		(uuid "f5fcb7b5-5178-4af4-8f7f-2a1177e688cd")
-		(at 318 306)
+		(at 327.5 293.75)
 		(property "Reference" "S2"
 			(at -0.635 -4.699 0)
 			(layer "F.SilkS")
-			(uuid "bb131558-504e-4325-8f2b-002415ebec1f")
+			(uuid "b61bb2f3-462c-4b0c-8ed4-4edb8ad750f1")
 			(effects
 				(font
 					(size 1.4 1.4)
@@ -25725,7 +25725,7 @@
 		(property "Value" "TL1105BF160Q"
 			(at 8.255 4.699 0)
 			(layer "F.Fab")
-			(uuid "8b578152-5033-44c2-b8e3-aea704605c69")
+			(uuid "dbbec3ac-1197-45a5-9150-1eb4874a5b2c")
 			(effects
 				(font
 					(size 1.4 1.4)
@@ -25737,7 +25737,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b20c91a8-48e4-436a-b150-994ceb85ec9d")
+			(uuid "0f836620-1ace-4c5c-a3f0-779e155b2223")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25749,7 +25749,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8c9e77b7-f0e3-49ea-9683-a6a427d9ed93")
+			(uuid "56d6c6b8-594f-4f4f-9bf4-8e66df68c9a9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26129,9 +26129,40 @@
 		(layer "F.Cu")
 		(uuid "c6aabab8-4467-4a45-82b4-0c62cf1a43ea")
 	)
+	(gr_circle
+		(center 193.019769 247)
+		(end 117.019769 323)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill no)
+		(layer "B.Cu")
+		(uuid "f1d38be5-4052-4a9c-88c4-c606d486b5d6")
+	)
+	(gr_line
+		(start 75.5 205)
+		(end -86.5 205)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "B.Cu")
+		(uuid "f227f313-2d82-43e1-8209-9d4e456c041d")
+	)
+	(gr_line
+		(start 356.5 226)
+		(end 376.52907 354.455601)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "B.Cu")
+		(uuid "fb50d11d-887c-47bc-ab5a-09e976cb3dee")
+	)
 	(gr_rect
-		(start 85.5 127.5)
-		(end 356.5 354.5)
+		(start 85.5 96)
+		(end 376.5 354.5)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -26139,6 +26170,16 @@
 		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "1d635e48-ae06-4b2d-820b-340b8673ef38")
+	)
+	(gr_line
+		(start 376.5 226)
+		(end 85.5 226)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "7fb709ee-0545-4996-9fc2-d9575601bd5f")
 	)
 	(embedded_fonts no)
 )
