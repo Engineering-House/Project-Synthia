@@ -1190,7 +1190,7 @@
 	(footprint "Synthia_footprint_library:TO254P450X1020X1935-3P"
 		(layer "F.Cu")
 		(uuid "1135b199-d234-45e9-8ac3-2664845ee8eb")
-		(at 476.7382 166.1138)
+		(at 292.08 183.4078)
 		(property "Reference" "Q2"
 			(at -1.987805 -3.822735 0)
 			(layer "F.SilkS")
@@ -11958,7 +11958,7 @@
 	(footprint "Package_TO_SOT_THT:TO-220-3_Vertical"
 		(layer "F.Cu")
 		(uuid "7285c40e-3cec-4d83-86bd-2998800e089d")
-		(at 471.65 173.45)
+		(at 306.96 178.95)
 		(descr "TO-220-3, Vertical, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf, generated with kicad-footprint-generator TO_SOT_THT_generate.py")
 		(tags "TO-220-3 Vertical RM 2.54mm")
 		(property "Reference" "Q1"
@@ -14282,7 +14282,7 @@
 	(footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "8fb15dd8-a428-4361-a36e-275669515058")
-		(at 470.29 161.66)
+		(at 292 172.5)
 		(descr "Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=5.2*2.7mm^2, https://www.diodes.com/assets/Package-Files/DO-41-Plastic.pdf")
 		(tags "Diode DO-41_SOD81 series Axial Horizontal pin pitch 10.16mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D1"
@@ -26118,28 +26118,6 @@
 		)
 		(embedded_fonts no)
 	)
-	(gr_rect
-		(start 199.86 110.41)
-		(end 221.75 119.6)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(fill no)
-		(layer "F.Cu")
-		(uuid "c6aabab8-4467-4a45-82b4-0c62cf1a43ea")
-	)
-	(gr_circle
-		(center 193.019769 247)
-		(end 117.019769 323)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(fill no)
-		(layer "B.Cu")
-		(uuid "f1d38be5-4052-4a9c-88c4-c606d486b5d6")
-	)
 	(gr_line
 		(start 75.5 205)
 		(end -86.5 205)
@@ -26151,35 +26129,45 @@
 		(uuid "f227f313-2d82-43e1-8209-9d4e456c041d")
 	)
 	(gr_line
-		(start 356.5 226)
-		(end 376.52907 354.455601)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(layer "B.Cu")
-		(uuid "fb50d11d-887c-47bc-ab5a-09e976cb3dee")
-	)
-	(gr_rect
-		(start 85.5 96)
-		(end 376.5 354.5)
+		(start 370.5 90.275)
+		(end 160.967045 147.015676)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
-		(fill no)
 		(layer "Edge.Cuts")
-		(uuid "1d635e48-ae06-4b2d-820b-340b8673ef38")
+		(uuid "90a14523-ca76-4650-9f33-8955c0eb21aa")
 	)
 	(gr_line
-		(start 376.5 226)
-		(end 85.5 226)
+		(start 370.5 347.725)
+		(end 370.5 90.275)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "7fb709ee-0545-4996-9fc2-d9575601bd5f")
+		(uuid "a6d12cc1-e98f-4f97-98b5-f512560c51bc")
+	)
+	(gr_arc
+		(start 187.625 347.725)
+		(mid 86.389039 259.04603)
+		(end 160.967046 147.015676)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "abb8e5ec-7cd3-4b6c-82be-e25b8213bc40")
+	)
+	(gr_line
+		(start 370.5 347.725)
+		(end 187.625 347.725)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "af78ac80-93be-4d94-be76-03da688c63a1")
 	)
 	(embedded_fonts no)
 )
