@@ -8650,7 +8650,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 347.98 144.78 270)
+		(at 407.67 54.61 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8659,7 +8659,7 @@
 		(fields_autoplaced yes)
 		(uuid "66e06504-dc5d-48a1-940a-b20f098adec5")
 		(property "Reference" "TP12"
-			(at 353.06 143.5099 90)
+			(at 412.75 53.3399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8668,7 +8668,7 @@
 			)
 		)
 		(property "Value" "StrumPad Pin #3"
-			(at 353.06 146.0499 90)
+			(at 412.75 55.8799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8677,7 +8677,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
-			(at 347.98 149.86 0)
+			(at 407.67 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8686,7 +8686,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 347.98 149.86 0)
+			(at 407.67 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8695,7 +8695,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 347.98 144.78 0)
+			(at 407.67 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9186,7 +9186,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 347.98 137.16 270)
+		(at 407.67 46.99 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9195,7 +9195,7 @@
 		(fields_autoplaced yes)
 		(uuid "8688d736-e686-451c-a58e-37ed497daf2e")
 		(property "Reference" "TP11"
-			(at 353.06 135.8899 90)
+			(at 412.75 45.7199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9204,7 +9204,7 @@
 			)
 		)
 		(property "Value" "StrumPad Pin #2"
-			(at 353.06 138.4299 90)
+			(at 412.75 48.2599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9213,7 +9213,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
-			(at 347.98 142.24 0)
+			(at 407.67 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9222,7 +9222,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 347.98 142.24 0)
+			(at 407.67 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9231,7 +9231,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 347.98 137.16 0)
+			(at 407.67 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10786,7 +10786,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 347.98 129.54 270)
+		(at 407.67 39.37 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10795,7 +10795,7 @@
 		(fields_autoplaced yes)
 		(uuid "d8727f58-d8e4-4473-9c4a-20d9f5329e9c")
 		(property "Reference" "TP10"
-			(at 353.06 128.2699 90)
+			(at 412.75 38.0999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10804,7 +10804,7 @@
 			)
 		)
 		(property "Value" "StrumPad Pin #1"
-			(at 353.06 130.8099 90)
+			(at 412.75 40.6399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10813,7 +10813,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
-			(at 347.98 134.62 0)
+			(at 407.67 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10822,7 +10822,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 347.98 134.62 0)
+			(at 407.67 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10831,7 +10831,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 347.98 129.54 0)
+			(at 407.67 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
