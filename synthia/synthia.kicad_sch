@@ -1823,7 +1823,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 0 0 0)
 					(length 2.54)
 					(name "1"
@@ -1841,7 +1841,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_out line
 					(at 10.16 7.62 270)
 					(length 2.54)
 					(name "2"
@@ -1859,7 +1859,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 20.32 0 180)
 					(length 2.54)
 					(name "3"
@@ -6060,6 +6060,409 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Synthia_Symbol_Library:TL1105BF160Q"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "S"
+				(at -5.08 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "TL1105BF160Q"
+				(at -5.08 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "TL1105BF160Q:SW_TL1105BF160Q"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MF" "E-Switch"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "13 mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/TL1105BF160Q/E-Switch/view-part/?ref=eda"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "PARTREV" "A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/TL1105BF160Q/E-Switch/view-part/?ref=snap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MP" "TL1105BF160Q"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Description_1" "Tactile Switch, TL1105 Series, SPST-NO, 9.5mm Top Actuated, 0.05A, 12VDC, PC | E-Switch TL1105BF160Q"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MANUFACTURER" "E-Switch"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SNAPEDA_PN" "TL1105DF160Q"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "TL1105BF160Q_0_0"
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy -5.08 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -3.048 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.5875) (xy 0 1.5875)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.54 0)
+					(radius 0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.5875) (xy 0 3.4925)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.5875) (xy 2.54 1.5875)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 0)
+					(radius 0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 3.048 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Synthia_Symbol_Library:TLV272IP"
 			(pin_names
 				(offset 1.016)
@@ -6996,6 +7399,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "MIDI Component to implement Later"
 		(exclude_from_sim no)
@@ -7012,6 +7530,24 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "012731fc-fbc9-469b-89f9-9ec75df75a10")
+	)
+	(junction
+		(at 90.17 232.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "01aa223b-d504-41bc-954f-5c7d2a37e384")
+	)
+	(junction
+		(at 36.83 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "04761215-a9e7-4b05-8960-de127b0ffe13")
+	)
+	(junction
+		(at 82.55 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "06a15e96-7087-4e64-8803-88d7291c95cf")
 	)
 	(junction
 		(at 195.58 175.26)
@@ -7086,22 +7622,58 @@
 		(uuid "2c51e724-6efe-41e5-bae9-2c62fce166b7")
 	)
 	(junction
+		(at 154.94 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "32ccf722-0b67-4293-ab18-370d8b24be48")
+	)
+	(junction
 		(at 238.76 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3413852a-7c27-4f96-a16e-782a401fd86b")
 	)
 	(junction
-		(at 90.17 231.14)
+		(at 116.84 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "410a2ee1-9e89-48ae-b32d-4855801a7624")
+		(uuid "38653364-b5f4-422c-bcd7-28beb49d8031")
 	)
 	(junction
-		(at 154.94 83.82)
+		(at 62.23 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4dc63060-0025-4a01-b4bd-d3ad9423c8f1")
+		(uuid "3ac0c0b6-836c-4e55-ab68-8315653e444a")
+	)
+	(junction
+		(at 82.55 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3ed2295e-686e-4cbc-bdee-72b518d5fee8")
+	)
+	(junction
+		(at 36.83 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4f8a107c-7104-4532-926b-32d015e89bd5")
+	)
+	(junction
+		(at 67.31 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "54bd6efd-ce5b-4428-8c5a-2136d739c17d")
+	)
+	(junction
+		(at 223.52 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5bf64b6d-7c9e-4ff5-a65b-40a5e4fb72ea")
+	)
+	(junction
+		(at 114.3 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "60db03ed-ec92-411d-9d7c-c885ce39268d")
 	)
 	(junction
 		(at 166.37 175.26)
@@ -7122,10 +7694,22 @@
 		(uuid "6a440868-7d41-43e9-912b-39c74e3d73bd")
 	)
 	(junction
+		(at 147.32 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6a9f2574-413a-437f-bd95-0ba5c07c7f6e")
+	)
+	(junction
 		(at 160.02 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6b5fbd69-4029-499a-bbdf-79ff3a43a41f")
+	)
+	(junction
+		(at 77.47 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6e511205-103c-4dba-8fb2-b440cae1be9a")
 	)
 	(junction
 		(at 116.84 46.99)
@@ -7134,10 +7718,34 @@
 		(uuid "6e879fcb-b183-465a-a0e9-9432a68f915e")
 	)
 	(junction
+		(at 129.54 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6e940759-52d9-4dbb-86b7-b46957cd9b75")
+	)
+	(junction
+		(at 179.07 270.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "703c2bd3-5ec7-4bb0-81b2-b1a13e3ff405")
+	)
+	(junction
+		(at 31.75 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "75efe69c-77ec-4613-850c-18cd55d168b0")
+	)
+	(junction
 		(at 140.97 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7da69eb9-73ee-45ab-ae58-bd0d8ed57d8a")
+	)
+	(junction
+		(at 77.47 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "82317fc8-4496-45d7-a206-293accb5897d")
 	)
 	(junction
 		(at 219.71 59.69)
@@ -7152,10 +7760,10 @@
 		(uuid "904499e8-5696-4875-a7c0-1c57ff85355a")
 	)
 	(junction
-		(at 119.38 87.63)
+		(at 67.31 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9598cff2-acfa-46f3-bd62-5a879836d7a0")
+		(uuid "93b40be7-3610-4d44-8d7d-96d65215ec9d")
 	)
 	(junction
 		(at 160.02 52.07)
@@ -7182,10 +7790,34 @@
 		(uuid "a12f3cb3-b666-423a-8efa-5d576c214bab")
 	)
 	(junction
+		(at 340.36 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a592ec40-2ea0-4c57-828c-5b85f66714c2")
+	)
+	(junction
+		(at 46.99 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a8fe592a-83ad-4925-930d-f91c12879793")
+	)
+	(junction
 		(at 316.23 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "adcd014c-ee71-4788-9fe1-7c90b0dd2aac")
+	)
+	(junction
+		(at 62.23 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae33174f-1f9b-4707-ae6a-02fb35d48138")
+	)
+	(junction
+		(at 21.59 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b02bf4dd-5517-4f80-be59-835910c770ec")
 	)
 	(junction
 		(at 109.22 177.8)
@@ -7200,16 +7832,22 @@
 		(uuid "b7179c25-9ce3-4465-ae37-421681491ac6")
 	)
 	(junction
-		(at 121.92 83.82)
+		(at 138.43 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "baf975d3-1f10-4f00-9a23-f92ffaf4446f")
+		(uuid "bcbe292a-a3b9-4baa-b829-b4000f395453")
 	)
 	(junction
 		(at 222.25 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c1ca5569-57d9-4d2a-ace9-13a9990e2b85")
+	)
+	(junction
+		(at 52.07 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c547ce01-a73c-49ff-ae3f-fd5bf1a4b1fa")
 	)
 	(junction
 		(at 100.33 177.8)
@@ -7230,10 +7868,28 @@
 		(uuid "cb36e551-9030-4c1b-9804-f6a7d8ce38de")
 	)
 	(junction
+		(at 31.75 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce14982b-0214-43a7-a278-652400eefb4e")
+	)
+	(junction
+		(at 52.07 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d316ce05-19ac-4557-b660-60ad8e8c8080")
+	)
+	(junction
 		(at 204.47 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d485a051-2ea8-4679-b238-905643adb8e2")
+	)
+	(junction
+		(at 144.78 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d66ece16-7a65-40da-a52b-0d61774dad89")
 	)
 	(junction
 		(at 184.15 43.18)
@@ -7248,10 +7904,16 @@
 		(uuid "d9e74b33-b472-442b-8d39-432265913c18")
 	)
 	(junction
-		(at 129.54 43.18)
+		(at 191.77 270.51)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "de8a8736-5c66-4aae-9697-f9c6d296f233")
+		(uuid "dc83acec-1694-424d-a993-7b04cba976f5")
+	)
+	(junction
+		(at 119.38 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "def977d9-3a42-4793-8b68-563913aea1a1")
 	)
 	(junction
 		(at 133.35 269.24)
@@ -7260,10 +7922,28 @@
 		(uuid "dfbeff96-9756-41a0-b30e-af5645bb8d30")
 	)
 	(junction
+		(at 171.45 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e137388f-075a-451c-969c-a3917626c9cb")
+	)
+	(junction
 		(at 318.77 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e3e9d54b-4a1a-4283-9743-f951fcb334cf")
+	)
+	(junction
+		(at 46.99 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eda73be0-bcd8-4068-8621-e66fc8ef1bc0")
+	)
+	(junction
+		(at 107.95 199.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eff34517-48f5-450b-b371-63a56e4f5d08")
 	)
 	(junction
 		(at 111.76 175.26)
@@ -7272,10 +7952,10 @@
 		(uuid "f256449d-71d4-4de7-bb7e-d89e19521a71")
 	)
 	(junction
-		(at 147.32 43.18)
+		(at 121.92 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "fc94a1d4-6f2a-4488-90d8-4e875a23aa41")
+		(uuid "f3d0d1c0-8509-4acc-9ecd-e17a42ab7533")
 	)
 	(junction
 		(at 238.76 43.18)
@@ -7284,24 +7964,108 @@
 		(uuid "fea3a1cc-d4f7-4b3f-a857-0eb7eff317e5")
 	)
 	(no_connect
-		(at 172.72 193.04)
-		(uuid "3cfd533a-0bf0-4815-a191-1f04ad72c5cd")
+		(at 82.55 127)
+		(uuid "12526e5b-3917-4559-904d-d10c91cd87be")
+	)
+	(no_connect
+		(at 77.47 59.69)
+		(uuid "19a5c145-a296-45fd-938c-08f7312cf944")
+	)
+	(no_connect
+		(at 36.83 127)
+		(uuid "2b7cb360-b263-4c04-8ff6-f67169874778")
+	)
+	(no_connect
+		(at 129.54 95.25)
+		(uuid "35d6c84f-441d-4dd6-bea1-e82daf14734a")
+	)
+	(no_connect
+		(at 31.75 59.69)
+		(uuid "3a2c092c-a72d-41c5-bafb-0a06d9685871")
+	)
+	(no_connect
+		(at 129.54 80.01)
+		(uuid "419ae44a-2ee7-49aa-94d0-ee0787b852b2")
+	)
+	(no_connect
+		(at 16.51 59.69)
+		(uuid "44ad121e-a11a-4c0f-8846-9396d854a377")
 	)
 	(no_connect
 		(at 281.94 187.96)
 		(uuid "57f2fb4b-b82c-4c66-8c52-17154c7c9e49")
 	)
 	(no_connect
+		(at 52.07 111.76)
+		(uuid "658ba227-d090-4592-be8e-a081de8b6818")
+	)
+	(no_connect
+		(at 62.23 59.69)
+		(uuid "6b610948-f983-467b-bca5-7030f034683e")
+	)
+	(no_connect
 		(at 281.94 193.04)
 		(uuid "6c09c65b-ebd1-433d-be5f-3a4e43048725")
+	)
+	(no_connect
+		(at 46.99 59.69)
+		(uuid "76621818-3cf0-43cf-af6c-5af395c84e56")
+	)
+	(no_connect
+		(at 21.59 111.76)
+		(uuid "8517699a-e0e6-4dfb-a9ee-ccbd1ad9f14f")
+	)
+	(no_connect
+		(at 67.31 111.76)
+		(uuid "89b9d5e8-fb60-43c2-bffa-ea727181698c")
+	)
+	(no_connect
+		(at 82.55 111.76)
+		(uuid "9345c5df-ec0e-487b-944a-24b23a4b6a7e")
+	)
+	(no_connect
+		(at 36.83 111.76)
+		(uuid "9f867889-91f7-4550-b3cb-328aca1b8212")
+	)
+	(no_connect
+		(at 21.59 127)
+		(uuid "b497119b-097e-46e7-9997-2df8ff7d0c1a")
+	)
+	(no_connect
+		(at 62.23 74.93)
+		(uuid "b51c48d7-e927-4ae8-a122-e38c0f7b6496")
+	)
+	(no_connect
+		(at 52.07 127)
+		(uuid "bf8cc6fe-f7f5-4efa-9d06-016c4e188aa4")
+	)
+	(no_connect
+		(at 31.75 74.93)
+		(uuid "c55f5a58-b26f-40eb-b68b-1bffb9892577")
+	)
+	(no_connect
+		(at 46.99 74.93)
+		(uuid "c882fc8e-1a98-4736-b534-77adde1ef217")
 	)
 	(no_connect
 		(at 193.04 161.29)
 		(uuid "cb9e0662-81b7-449f-b284-68fb8f070ddb")
 	)
 	(no_connect
+		(at 67.31 127)
+		(uuid "d78a13b8-0052-434b-8500-ceae93613097")
+	)
+	(no_connect
+		(at 77.47 74.93)
+		(uuid "de7fe676-29d0-48f7-a1fa-a7b4c17856b0")
+	)
+	(no_connect
 		(at 110.49 205.74)
 		(uuid "f444c3e4-8dff-45a0-8224-f0eb3957f8be")
+	)
+	(no_connect
+		(at 16.51 74.93)
+		(uuid "fa12f590-5948-4dea-8af4-a35aa2d3a2f2")
 	)
 	(wire
 		(pts
@@ -7335,6 +8099,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 83.82) (xy 62.23 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00f36bde-dd58-4585-bea6-b9035f0f46ec")
+	)
+	(wire
+		(pts
 			(xy 182.88 83.82) (xy 182.88 100.33)
 		)
 		(stroke
@@ -7362,6 +8136,26 @@
 			(type default)
 		)
 		(uuid "0574c01b-5083-4f15-bcb1-99588960ee97")
+	)
+	(wire
+		(pts
+			(xy 82.55 44.45) (xy 91.44 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06170a9c-9b47-4033-aa81-4e1ce723f55d")
+	)
+	(wire
+		(pts
+			(xy 55.88 44.45) (xy 52.07 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0622f43a-8889-4d0e-a0e0-514b56dd891d")
 	)
 	(wire
 		(pts
@@ -7405,16 +8199,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 213.36) (xy 58.42 213.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e262996-47d9-4d98-8103-c5fe98e5e956")
-	)
-	(wire
-		(pts
 			(xy 283.21 125.73) (xy 288.29 125.73)
 		)
 		(stroke
@@ -7445,16 +8229,6 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 226.06) (xy 27.94 259.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f7a1514-012c-449d-a7bb-5a6676e4c932")
-	)
-	(wire
-		(pts
 			(xy 316.23 99.06) (xy 316.23 105.41)
 		)
 		(stroke
@@ -7475,47 +8249,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 193.04) (xy 58.42 193.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15564082-ea04-4dad-9e6f-09187c33d40c")
-	)
-	(wire
-		(pts
-			(xy 83.82 195.58) (xy 83.82 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "158c1a45-6dbd-46ba-bcc8-eeb2d6542bef")
-	)
-	(wire
-		(pts
-			(xy 115.57 256.54) (xy 115.57 257.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15d95cbb-3ba7-4c65-b949-9688c893a5dd")
-	)
-	(wire
-		(pts
-			(xy 115.57 205.74) (xy 115.57 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16056494-03ae-4bd4-a580-981de0059cf1")
-	)
-	(wire
-		(pts
-			(xy 165.1 43.18) (xy 168.91 43.18)
+			(xy 165.1 43.18) (xy 171.45 43.18)
 		)
 		(stroke
 			(width 0)
@@ -7525,13 +8259,23 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 83.82) (xy 121.92 83.82)
+			(xy 114.3 83.82) (xy 116.84 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "17d1c7e6-da74-496f-93ab-dc9b61863f31")
+	)
+	(wire
+		(pts
+			(xy 88.9 142.24) (xy 88.9 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "187652bc-c578-42aa-822e-cca2afe43161")
 	)
 	(wire
 		(pts
@@ -7555,16 +8299,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 201.93) (xy 85.09 201.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1994d17d-709d-4c79-b083-7682cc560311")
-	)
-	(wire
-		(pts
 			(xy 160.02 52.07) (xy 168.91 52.07)
 		)
 		(stroke
@@ -7572,16 +8306,6 @@
 			(type default)
 		)
 		(uuid "1c684da8-a954-4528-a49b-91b86775d7e4")
-	)
-	(wire
-		(pts
-			(xy 168.91 43.18) (xy 184.15 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c68a70a-5c62-4f49-9aea-79e6218ed643")
 	)
 	(wire
 		(pts
@@ -7595,33 +8319,13 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 175.26) (xy 144.78 175.26)
+			(xy 111.76 175.26) (xy 138.43 175.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1cbee6f2-f4b6-4f26-a2a7-5cffc0756e90")
-	)
-	(wire
-		(pts
-			(xy 130.81 195.58) (xy 83.82 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d7a9316-5afa-4d9a-88e9-0c13dc075d4f")
-	)
-	(wire
-		(pts
-			(xy 143.51 205.74) (xy 143.51 191.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e2ed035-836c-4391-b687-b97263e93b9b")
 	)
 	(wire
 		(pts
@@ -7635,16 +8339,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 205.74) (xy 128.27 196.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f19365b-0c5e-4096-8d79-909872f02b29")
-	)
-	(wire
-		(pts
 			(xy 326.39 105.41) (xy 326.39 104.14)
 		)
 		(stroke
@@ -7652,6 +8346,16 @@
 			(type default)
 		)
 		(uuid "1fa6cbc8-f148-4f4e-b08e-348c392db781")
+	)
+	(wire
+		(pts
+			(xy 25.4 44.45) (xy 21.59 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ff363ba-4555-4855-9e34-952a1dc9325c")
 	)
 	(wire
 		(pts
@@ -7665,13 +8369,13 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 260.35) (xy 110.49 256.54)
+			(xy 114.3 83.82) (xy 82.55 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "20ff5809-0109-429c-947c-35cb8f52eb2d")
+		(uuid "216e4431-8448-4959-b743-8d9b88776d09")
 	)
 	(wire
 		(pts
@@ -7685,13 +8389,23 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 204.47) (xy 87.63 204.47)
+			(xy 129.54 43.18) (xy 129.54 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "23beec86-3735-4817-87f0-c72607a7b310")
+		(uuid "22aa68df-0a47-4af0-b32c-0d89b6894523")
+	)
+	(wire
+		(pts
+			(xy 116.84 100.33) (xy 116.84 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23c557a5-c3a1-4828-99eb-b93aa12c4618")
 	)
 	(wire
 		(pts
@@ -7715,13 +8429,43 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 205.74) (xy 135.89 193.04)
+			(xy 52.07 44.45) (xy 48.26 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "279f50e7-7799-4fea-a723-0df737c2474d")
+		(uuid "28c2cc50-867a-4a17-886e-aef3a0e6adb2")
+	)
+	(wire
+		(pts
+			(xy 36.83 44.45) (xy 33.02 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "299c09e6-11ed-4f25-92d3-25a651bf735d")
+	)
+	(wire
+		(pts
+			(xy 107.95 199.39) (xy 107.95 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b0467ed-4133-4c0f-b4cb-1302fdaef10c")
+	)
+	(wire
+		(pts
+			(xy 154.94 74.93) (xy 154.94 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bd8a7f3-84f4-4fd4-a51e-fda5f1711d21")
 	)
 	(wire
 		(pts
@@ -7732,6 +8476,16 @@
 			(type default)
 		)
 		(uuid "2ce4ea6a-62ab-4718-b295-6d782f34dd18")
+	)
+	(wire
+		(pts
+			(xy 77.47 83.82) (xy 67.31 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d3d9ff8-b42f-46c1-aab2-cdd9194e511a")
 	)
 	(wire
 		(pts
@@ -7765,6 +8519,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 83.82) (xy 62.23 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32b26876-1bc1-4e79-a520-1b2f0c944020")
+	)
+	(wire
+		(pts
 			(xy 167.64 93.98) (xy 237.49 93.98)
 		)
 		(stroke
@@ -7775,13 +8539,13 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 205.74) (xy 146.05 190.5)
+			(xy 21.59 74.93) (xy 21.59 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "36810bd2-cb0a-4742-8ac0-d524fa1dc3a7")
+		(uuid "35d917f7-acc7-46dd-b1a0-fad2701f8125")
 	)
 	(wire
 		(pts
@@ -7792,6 +8556,16 @@
 			(type default)
 		)
 		(uuid "376b5aca-8467-48e3-9d24-103a66aebdb6")
+	)
+	(wire
+		(pts
+			(xy 21.59 83.82) (xy 16.51 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3804bc81-182f-43f3-ae0d-a981bd133372")
 	)
 	(wire
 		(pts
@@ -7815,6 +8589,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 142.24) (xy 35.56 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39f4e558-ef2d-4847-aa50-562c2f81a834")
+	)
+	(wire
+		(pts
 			(xy 109.22 177.8) (xy 107.95 177.8)
 		)
 		(stroke
@@ -7832,6 +8616,16 @@
 			(type default)
 		)
 		(uuid "3cdc18ae-2ad7-494b-b85d-9de600301a1a")
+	)
+	(wire
+		(pts
+			(xy 116.84 83.82) (xy 121.92 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d8d5a1a-c3fc-40f9-9b7a-9eb79eaa3b73")
 	)
 	(wire
 		(pts
@@ -7865,7 +8659,17 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 177.8) (xy 107.95 205.74)
+			(xy 31.75 83.82) (xy 31.75 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "409dd8a1-7e00-45c1-afd6-973eac0fbd0f")
+	)
+	(wire
+		(pts
+			(xy 107.95 177.8) (xy 107.95 199.39)
 		)
 		(stroke
 			(width 0)
@@ -7885,13 +8689,13 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 204.47) (xy 87.63 223.52)
+			(xy 134.62 73.66) (xy 134.62 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "44a74989-a70a-4954-a37a-e419c00153bd")
+		(uuid "44da760f-89b9-4bc6-b670-4651a0f7da55")
 	)
 	(wire
 		(pts
@@ -7925,6 +8729,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 43.18) (xy 133.35 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b615049-0cc4-4c6a-96f6-673432238ca1")
+	)
+	(wire
+		(pts
 			(xy 165.1 100.33) (xy 165.1 92.71)
 		)
 		(stroke
@@ -7945,6 +8759,26 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 83.82) (xy 77.47 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fcfeece-25a4-45b3-b8bd-c552e5e6d25e")
+	)
+	(wire
+		(pts
+			(xy 82.55 74.93) (xy 82.55 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50227539-7ef5-467a-9987-57fa2ca2e144")
+	)
+	(wire
+		(pts
 			(xy 238.76 43.18) (xy 238.76 66.04)
 		)
 		(stroke
@@ -7952,26 +8786,6 @@
 			(type default)
 		)
 		(uuid "503486fb-5549-4bcf-bb9e-1fb69858407b")
-	)
-	(wire
-		(pts
-			(xy 133.35 194.31) (xy 85.09 194.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5094ce88-c82d-4559-a333-e9533672f7ee")
-	)
-	(wire
-		(pts
-			(xy 85.09 201.93) (xy 85.09 213.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "512c2e8a-117f-45d6-bd7e-aa863922f6c0")
 	)
 	(wire
 		(pts
@@ -7995,16 +8809,6 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 191.77) (xy 87.63 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54fb5abb-359a-49b3-97b9-8d659868309e")
-	)
-	(wire
-		(pts
 			(xy 129.54 27.94) (xy 129.54 43.18)
 		)
 		(stroke
@@ -8025,13 +8829,13 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 177.8) (xy 90.17 231.14)
+			(xy 179.07 256.54) (xy 179.07 270.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "56cf95a0-ad3b-44bc-b557-9faa31c72192")
+		(uuid "586d0152-bae1-4067-bf15-fc694202ede9")
 	)
 	(wire
 		(pts
@@ -8045,13 +8849,13 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 257.81) (xy 33.02 257.81)
+			(xy 31.75 83.82) (xy 21.59 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5d5465cb-8ba6-4626-af34-c6cddfeb01b0")
+		(uuid "5d0d86e4-5aff-478e-85f7-36bb815d44e5")
 	)
 	(wire
 		(pts
@@ -8065,26 +8869,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 199.39) (xy 82.55 199.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e367fe6-8dee-4580-9980-ffd7767bd9aa")
-	)
-	(wire
-		(pts
-			(xy 83.82 187.96) (xy 58.42 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e3d7068-e2ea-43a9-969c-84c8bb866326")
-	)
-	(wire
-		(pts
 			(xy 222.25 270.51) (xy 222.25 175.26)
 		)
 		(stroke
@@ -8092,6 +8876,16 @@
 			(type default)
 		)
 		(uuid "5f69abc2-f353-492d-8339-531d9f3818c9")
+	)
+	(wire
+		(pts
+			(xy 73.66 142.24) (xy 77.47 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60a426f4-816d-47a3-b4e1-b7e54de333fd")
 	)
 	(wire
 		(pts
@@ -8195,26 +8989,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 182.88) (xy 58.42 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67895d05-977c-4ea1-81c6-ba09fcaa9ae9")
-	)
-	(wire
-		(pts
-			(xy 135.89 193.04) (xy 86.36 193.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "688df1c7-7035-4ff3-a1ef-5fe57190d725")
-	)
-	(wire
-		(pts
 			(xy 114.3 100.33) (xy 114.3 83.82)
 		)
 		(stroke
@@ -8235,13 +9009,23 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 43.18) (xy 147.32 43.18)
+			(xy 143.51 43.18) (xy 144.78 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6983b6b9-dad6-435b-a8df-e2c10cf3dd01")
+	)
+	(wire
+		(pts
+			(xy 138.43 205.74) (xy 138.43 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69a71500-bcd4-4e91-a3a9-4b0e673cffb1")
 	)
 	(wire
 		(pts
@@ -8275,7 +9059,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 100.33) (xy 157.48 86.36)
+			(xy 157.48 100.33) (xy 157.48 78.74)
 		)
 		(stroke
 			(width 0)
@@ -8285,13 +9069,23 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 86.36) (xy 119.38 87.63)
+			(xy 119.38 78.74) (xy 119.38 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6c6e06b9-3de1-4b21-a1a9-7b1c6ff9bb9c")
+	)
+	(wire
+		(pts
+			(xy 58.42 142.24) (xy 62.23 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ca8ab0e-f505-4d0e-8b12-868c35cea2b7")
 	)
 	(wire
 		(pts
@@ -8385,7 +9179,17 @@
 	)
 	(wire
 		(pts
-			(xy 316.23 82.55) (xy 316.23 77.47)
+			(xy 46.99 83.82) (xy 46.99 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7495952e-92f9-4ad4-9381-397b2153d6df")
+	)
+	(wire
+		(pts
+			(xy 316.23 77.47) (xy 316.23 82.55)
 		)
 		(stroke
 			(width 0)
@@ -8415,16 +9219,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 190.5) (xy 88.9 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "795e5827-c7b1-480c-aa3d-91251e554fe8")
-	)
-	(wire
-		(pts
 			(xy 237.49 93.98) (xy 237.49 120.65)
 		)
 		(stroke
@@ -8435,13 +9229,13 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 205.74) (xy 125.73 198.12)
+			(xy 16.51 83.82) (xy 16.51 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7a56601d-730b-4029-a708-c0ee0c2531eb")
+		(uuid "7a98f976-16a9-4449-a6f9-059bb342bb06")
 	)
 	(wire
 		(pts
@@ -8475,16 +9269,6 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 226.06) (xy 22.86 260.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c6c3eff-c545-4592-8b9e-de5757899a37")
-	)
-	(wire
-		(pts
 			(xy 144.78 161.29) (xy 144.78 175.26)
 		)
 		(stroke
@@ -8502,26 +9286,6 @@
 			(type default)
 		)
 		(uuid "7d8bea26-a2c5-4c1e-b991-736e2729b3b3")
-	)
-	(wire
-		(pts
-			(xy 90.17 231.14) (xy 88.9 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e786bd9-f760-4e6d-af53-871da62c8f01")
-	)
-	(wire
-		(pts
-			(xy 128.27 196.85) (xy 82.55 196.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f2ec1c1-154b-4736-ab24-286efa2215d1")
 	)
 	(wire
 		(pts
@@ -8545,6 +9309,26 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 175.26) (xy 144.78 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fc43fee-e9e9-470e-8971-586e3ef95d76")
+	)
+	(wire
+		(pts
+			(xy 179.07 270.51) (xy 191.77 270.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "802187d1-2419-4dde-a0dd-8e4cd2ba623d")
+	)
+	(wire
+		(pts
 			(xy 195.58 175.26) (xy 222.25 175.26)
 		)
 		(stroke
@@ -8552,16 +9336,6 @@
 			(type default)
 		)
 		(uuid "80916671-d86f-49ec-82a6-88b22e63a349")
-	)
-	(wire
-		(pts
-			(xy 88.9 167.64) (xy 58.42 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80dc1e9f-e978-4de5-a035-35ea80e2d5ec")
 	)
 	(wire
 		(pts
@@ -8595,7 +9369,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 269.24) (xy 90.17 231.14)
+			(xy 90.17 177.8) (xy 90.17 232.41)
 		)
 		(stroke
 			(width 0)
@@ -8605,13 +9379,23 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 203.2) (xy 58.42 203.2)
+			(xy 43.18 142.24) (xy 46.99 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "880a1e28-10ff-4460-a4b4-40604cbb05dd")
+		(uuid "8ae62f97-997a-425c-aa1a-6596c4ecee21")
+	)
+	(wire
+		(pts
+			(xy 40.64 44.45) (xy 36.83 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b267984-0a12-4979-84b6-cc29f6d9e605")
 	)
 	(wire
 		(pts
@@ -8655,16 +9439,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 205.74) (xy 123.19 199.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d369ab6-80ec-42ef-b968-6487e3d05d35")
-	)
-	(wire
-		(pts
 			(xy 116.84 63.5) (xy 160.02 63.5)
 		)
 		(stroke
@@ -8695,6 +9469,16 @@
 	)
 	(wire
 		(pts
+			(xy 340.36 90.17) (xy 368.3 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8eba0e16-eca9-4e88-a32c-cfeff1ee938d")
+	)
+	(wire
+		(pts
 			(xy 195.58 161.29) (xy 195.58 175.26)
 		)
 		(stroke
@@ -8715,16 +9499,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 83.82) (xy 154.94 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f2142e7-ab6c-41c8-a5c5-ad7dded8badb")
-	)
-	(wire
-		(pts
 			(xy 162.56 100.33) (xy 162.56 91.44)
 		)
 		(stroke
@@ -8732,16 +9506,6 @@
 			(type default)
 		)
 		(uuid "8f8694fe-8fd7-4e4a-856e-17723069415f")
-	)
-	(wire
-		(pts
-			(xy 86.36 218.44) (xy 58.42 218.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90c97a71-04cf-483f-a75a-e21d01c2253e")
 	)
 	(wire
 		(pts
@@ -8755,33 +9519,53 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 190.5) (xy 88.9 190.5)
+			(xy 326.39 90.17) (xy 340.36 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "91a3d4d5-0c2e-48f6-bf6f-e954468e07a0")
+		(uuid "91f1176b-6f6b-4714-a4de-3361385631f9")
 	)
 	(wire
 		(pts
-			(xy 86.36 193.04) (xy 86.36 177.8)
+			(xy 27.94 142.24) (xy 31.75 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "944640d2-a83e-407b-97c5-83d7b393f407")
+		(uuid "9370c5fc-75cd-4f31-9d5d-dd28beb787a6")
 	)
 	(wire
 		(pts
-			(xy 113.03 205.74) (xy 113.03 204.47)
+			(xy 16.51 142.24) (xy 20.32 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "978eddb8-f255-44a5-a31f-df7357c5f390")
+		(uuid "938581ac-4aaa-4301-9546-20ee772de806")
+	)
+	(wire
+		(pts
+			(xy 121.92 74.93) (xy 121.92 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96f1de3a-9b8e-4651-8343-e1deb54b2a44")
+	)
+	(wire
+		(pts
+			(xy 118.11 199.39) (xy 118.11 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "979486fa-9f23-44b6-8ef9-6aacee1c1248")
 	)
 	(wire
 		(pts
@@ -8815,26 +9599,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 259.08) (xy 27.94 259.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e00f375-94f0-4b2b-bf91-114e95762b2b")
-	)
-	(wire
-		(pts
-			(xy 130.81 205.74) (xy 130.81 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0241337-e9da-4f92-a50e-13adfeeb36b8")
-	)
-	(wire
-		(pts
 			(xy 158.75 269.24) (xy 133.35 269.24)
 		)
 		(stroke
@@ -8855,16 +9619,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 194.31) (xy 85.09 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1ccfd39-c1fa-4c65-98fe-5d5c2d7ebd54")
-	)
-	(wire
-		(pts
 			(xy 189.23 256.54) (xy 189.23 257.81)
 		)
 		(stroke
@@ -8882,6 +9636,16 @@
 			(type default)
 		)
 		(uuid "a209ed78-4890-4fae-a656-50de38414efe")
+	)
+	(wire
+		(pts
+			(xy 223.52 43.18) (xy 228.6 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3d9e4e7-34e5-4464-b24d-ae0a5b9eed31")
 	)
 	(wire
 		(pts
@@ -8925,7 +9689,17 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 270.51) (xy 194.31 270.51)
+			(xy 115.57 199.39) (xy 115.57 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa5203e8-a2e4-45e7-a64b-37fc048bd89f")
+	)
+	(wire
+		(pts
+			(xy 161.29 270.51) (xy 179.07 270.51)
 		)
 		(stroke
 			(width 0)
@@ -8935,13 +9709,13 @@
 	)
 	(wire
 		(pts
-			(xy 368.3 69.85) (xy 368.3 54.61)
+			(xy 67.31 74.93) (xy 67.31 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "abce52ac-aa25-46fd-bc63-d904a4c70c49")
+		(uuid "aba830c1-3b85-4b5c-b0bc-e9259a87f418")
 	)
 	(wire
 		(pts
@@ -8962,16 +9736,6 @@
 			(type default)
 		)
 		(uuid "ada6e6a2-cebc-4502-b255-d8c92dbb6e01")
-	)
-	(wire
-		(pts
-			(xy 129.54 43.18) (xy 133.35 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "adbcb101-b86e-4688-ac2f-7e8f42989d2d")
 	)
 	(wire
 		(pts
@@ -9035,16 +9799,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 205.74) (xy 118.11 201.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5c3a23e-d148-4a29-b402-4f143acce641")
-	)
-	(wire
-		(pts
 			(xy 240.03 110.49) (xy 246.38 110.49)
 		)
 		(stroke
@@ -9065,33 +9819,33 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 177.8) (xy 58.42 177.8)
+			(xy 82.55 44.45) (xy 78.74 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b7c842b6-c367-41e5-b458-042ab4afac4f")
+		(uuid "b93ad8b7-1216-4b05-bd95-b4bc79de7680")
 	)
 	(wire
 		(pts
-			(xy 120.65 205.74) (xy 120.65 200.66)
+			(xy 77.47 83.82) (xy 77.47 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b8f65282-048d-46f9-b080-510d26d24a6d")
+		(uuid "ba8237e6-4e32-4e6e-b8fd-5b167826cb49")
 	)
 	(wire
 		(pts
-			(xy 87.63 223.52) (xy 58.42 223.52)
+			(xy 36.83 83.82) (xy 31.75 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ba426cbe-8bb8-480d-bec8-f179d5129bc2")
+		(uuid "bb1c574e-5f8d-4371-99ac-af23a4a48c48")
 	)
 	(wire
 		(pts
@@ -9105,26 +9859,6 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 203.2) (xy 86.36 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc66f646-eb63-4385-a64c-f733e0b6cb00")
-	)
-	(wire
-		(pts
-			(xy 22.86 260.35) (xy 110.49 260.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bce55931-8fe0-486d-b23d-7cb6a1d31ba0")
-	)
-	(wire
-		(pts
 			(xy 355.6 101.6) (xy 323.85 101.6)
 		)
 		(stroke
@@ -9132,6 +9866,16 @@
 			(type default)
 		)
 		(uuid "bceec297-fb83-43fe-b348-ad7a7cf933ae")
+	)
+	(wire
+		(pts
+			(xy 52.07 83.82) (xy 46.99 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd14020f-d9d8-4c96-b86d-02e3e4d72bc5")
 	)
 	(wire
 		(pts
@@ -9155,26 +9899,6 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 205.74) (xy 133.35 194.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be647f78-5974-42ba-ad6e-b426b7b7d523")
-	)
-	(wire
-		(pts
-			(xy 82.55 196.85) (xy 82.55 193.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bedd3acb-2e0b-4d05-8688-2a1dedf197a0")
-	)
-	(wire
-		(pts
 			(xy 167.64 100.33) (xy 167.64 93.98)
 		)
 		(stroke
@@ -9185,6 +9909,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 232.41) (xy 90.17 269.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfbdb609-38b5-498f-89be-667f3e3e4fa2")
+	)
+	(wire
+		(pts
 			(xy 161.29 256.54) (xy 161.29 270.51)
 		)
 		(stroke
@@ -9192,16 +9926,6 @@
 			(type default)
 		)
 		(uuid "c00e6d24-2649-40e2-b5a9-f12d801e618a")
-	)
-	(wire
-		(pts
-			(xy 82.55 199.39) (xy 82.55 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c010cf38-7075-415e-b894-c78f00df604c")
 	)
 	(wire
 		(pts
@@ -9222,6 +9946,16 @@
 			(type default)
 		)
 		(uuid "c1f6bc4e-d893-4a38-a30a-23a6a46e6603")
+	)
+	(wire
+		(pts
+			(xy 62.23 83.82) (xy 52.07 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c464c1e1-abd4-4841-9d1e-4a9e7b51bbf0")
 	)
 	(wire
 		(pts
@@ -9265,6 +9999,26 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 199.39) (xy 110.49 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9486ac4-4202-4fef-bc9e-a837efb5e5ef")
+	)
+	(wire
+		(pts
+			(xy 36.83 74.93) (xy 36.83 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c94b46c1-10e1-4ed4-91d0-3bcec2b172f6")
+	)
+	(wire
+		(pts
 			(xy 172.72 100.33) (xy 172.72 96.52)
 		)
 		(stroke
@@ -9285,13 +10039,13 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 203.2) (xy 86.36 218.44)
+			(xy 71.12 44.45) (xy 67.31 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cc16079f-ae0d-481e-acca-c52687565993")
+		(uuid "cc2cfef6-13f1-4691-9113-c66fdaca814b")
 	)
 	(wire
 		(pts
@@ -9335,6 +10089,16 @@
 	)
 	(wire
 		(pts
+			(xy 368.3 54.61) (xy 368.3 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2d81b92-a782-49fa-87ab-8ca06c000528")
+	)
+	(wire
+		(pts
 			(xy 189.23 257.81) (xy 223.52 257.81)
 		)
 		(stroke
@@ -9345,23 +10109,13 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 43.18) (xy 228.6 43.18)
+			(xy 219.71 43.18) (xy 223.52 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d439e9d7-e858-4fac-84b3-887a43639f0f")
-	)
-	(wire
-		(pts
-			(xy 58.42 198.12) (xy 125.73 198.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4776496-3360-49cd-8c24-9efc46089365")
 	)
 	(wire
 		(pts
@@ -9395,7 +10149,27 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 86.36) (xy 119.38 86.36)
+			(xy 191.77 256.54) (xy 191.77 270.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc7a93ef-5e2c-4497-894d-0602c22c40c8")
+	)
+	(wire
+		(pts
+			(xy 191.77 270.51) (xy 194.31 270.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcc01f49-7f54-4a2c-9b97-588c995e23b2")
+	)
+	(wire
+		(pts
+			(xy 157.48 78.74) (xy 119.38 78.74)
 		)
 		(stroke
 			(width 0)
@@ -9425,13 +10199,13 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 256.54) (xy 113.03 259.08)
+			(xy 67.31 44.45) (xy 63.5 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e1253337-48d4-443e-9d38-67f98363829a")
+		(uuid "e215848c-6ee4-4588-82ba-913ef5f02c5f")
 	)
 	(wire
 		(pts
@@ -9465,23 +10239,13 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 191.77) (xy 87.63 191.77)
+			(xy 77.47 142.24) (xy 88.9 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e715d663-0454-4f08-97b9-a360fa4ae77c")
-	)
-	(wire
-		(pts
-			(xy 83.82 200.66) (xy 83.82 208.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e81dab6f-a717-43c7-8661-238f097e9171")
+		(uuid "e93969e3-1331-43f5-abd4-a5650e2ec8c1")
 	)
 	(wire
 		(pts
@@ -9495,23 +10259,53 @@
 	)
 	(wire
 		(pts
-			(xy 368.3 90.17) (xy 326.39 90.17)
+			(xy 134.62 95.25) (xy 134.62 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ea42aed3-a76c-4489-9dc8-e027b1be7bac")
+		(uuid "eaebb11c-4516-47a4-80e5-8fc6390b9dd5")
 	)
 	(wire
 		(pts
-			(xy 83.82 208.28) (xy 58.42 208.28)
+			(xy 46.99 83.82) (xy 36.83 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f00a328e-e10e-4384-9a05-e36d5b44f245")
+		(uuid "ed54f022-febb-413e-a800-e2c04e59211a")
+	)
+	(wire
+		(pts
+			(xy 52.07 74.93) (xy 52.07 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef6ed406-8bab-4f65-8e4c-899f6baf1749")
+	)
+	(wire
+		(pts
+			(xy 91.44 44.45) (xy 91.44 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0174e0a-fd62-4ee6-9f9c-afd48fbecd34")
+	)
+	(wire
+		(pts
+			(xy 144.78 43.18) (xy 147.32 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f16a8f21-2bc8-4ffe-865c-334bfad52bb6")
 	)
 	(wire
 		(pts
@@ -9522,16 +10316,6 @@
 			(type default)
 		)
 		(uuid "f18defa0-b201-41d3-97ae-3a45273255f9")
-	)
-	(wire
-		(pts
-			(xy 129.54 58.42) (xy 129.54 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f34670a9-7b66-43db-9db7-fbfbc6dbe2c8")
 	)
 	(wire
 		(pts
@@ -9565,23 +10349,23 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 172.72) (xy 58.42 172.72)
+			(xy 121.92 74.93) (xy 154.94 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f7c45a9f-5540-4c1b-8d2b-185a142b6d50")
+		(uuid "f880ed79-756a-4523-9708-cb6e84d367e7")
 	)
 	(wire
 		(pts
-			(xy 120.65 200.66) (xy 83.82 200.66)
+			(xy 62.23 142.24) (xy 66.04 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f83c9ecf-fc98-4a60-aafd-55f761554db9")
+		(uuid "f98b1e39-ee20-4c07-af64-f34539d38f0f")
 	)
 	(wire
 		(pts
@@ -9625,13 +10409,13 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 257.81) (xy 33.02 226.06)
+			(xy 171.45 43.18) (xy 184.15 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fdeb2981-ae7a-4b4a-9ecb-a8ac1e630602")
+		(uuid "fcb5c7bd-f63f-4fb1-bf38-fa80018e77f4")
 	)
 	(wire
 		(pts
@@ -9642,6 +10426,16 @@
 			(type default)
 		)
 		(uuid "fe7f356f-97f4-4122-96c9-431a2c271e2d")
+	)
+	(wire
+		(pts
+			(xy 46.99 142.24) (xy 50.8 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffdb5048-8171-4ab8-8624-2416edb51cc3")
 	)
 	(symbol
 		(lib_id "Synthia_Symbol_Library:P120PK-Y25BR10K")
@@ -9675,7 +10469,7 @@
 				)
 			)
 		)
-		(property "Footprint" "POT_P120PK-x25_TTE"
+		(property "Footprint" "Synthia_footprint_library:POT_P120PK-x25_TTE"
 			(at 306.07 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -9802,6 +10596,85 @@
 			(project "synthia"
 				(path "/b7ca07b0-c23c-4333-a610-582d2798793b"
 					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 39.37 142.24 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0545663b-2060-4096-8cf0-0f2a770e17e4")
+		(property "Reference" "R62"
+			(at 39.37 144.78 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 39.37 147.574 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Synthia_footprint_library:STA_CF14_STP"
+			(at 39.624 141.224 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 39.37 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f4628099-439f-4db1-97b2-6e584b780127")
+		)
+		(pin "2"
+			(uuid "849bf999-004b-4302-894c-813daecf852f")
+		)
+		(instances
+			(project "synthia"
+				(path "/b7ca07b0-c23c-4333-a610-582d2798793b"
+					(reference "R62")
 					(unit 1)
 				)
 			)
@@ -9967,6 +10840,250 @@
 		)
 	)
 	(symbol
+		(lib_id "Synthia_Symbol_Library:TL1105BF160Q")
+		(at 64.77 119.38 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0eada7dc-b634-4443-9ada-cbacd96aa2ef")
+		(property "Reference" "S38"
+			(at 66.294 107.188 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TL1105BF160Q"
+			(at 76.708 109.474 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Synthia_footprint_library:SW_TL1105BF160Q"
+			(at 64.77 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 64.77 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "E-Switch"
+			(at 64.77 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "13 mm"
+			(at 64.77 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "None"
+			(at 64.77 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 64.77 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TL1105BF160Q/E-Switch/view-part/?ref=eda"
+			(at 64.77 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 64.77 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "A"
+			(at 64.77 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TL1105BF160Q/E-Switch/view-part/?ref=snap"
+			(at 64.77 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "TL1105BF160Q"
+			(at 64.77 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Description_1" "Tactile Switch, TL1105 Series, SPST-NO, 9.5mm Top Actuated, 0.05A, 12VDC, PC | E-Switch TL1105BF160Q"
+			(at 64.77 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "E-Switch"
+			(at 64.77 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 64.77 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SNAPEDA_PN" "TL1105DF160Q"
+			(at 64.77 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "3"
+			(uuid "8ffd0829-51e1-4146-bfad-0f9cf2500d67")
+		)
+		(pin "1"
+			(uuid "f3287e7f-e822-48be-9c41-b378eb175d7f")
+		)
+		(pin "4"
+			(uuid "a50fb075-6256-4376-8d6e-b7352453d9c3")
+		)
+		(pin "2"
+			(uuid "f6f666d3-4395-4845-bc7a-aec02440d8c4")
+		)
+		(instances
+			(project "synthia"
+				(path "/b7ca07b0-c23c-4333-a610-582d2798793b"
+					(reference "S38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 281.94 54.61 270)
 		(unit 1)
@@ -10046,8 +11163,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 62.23 66.04 90)
+		(lib_id "Device:R_US")
+		(at 62.23 130.81 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10056,9 +11173,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "23674d3b-131d-42c4-bc79-12020d502485")
-		(property "Reference" "TP20"
-			(at 57.15 67.3101 90)
+		(uuid "17e7f460-28d5-46e6-843d-155e368cc01f")
+		(property "Reference" "R53"
+			(at 64.77 129.5399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10068,8 +11185,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MicroUSB Pin #2"
-			(at 57.15 64.7701 90)
+		(property "Value" "100k"
+			(at 64.77 132.0799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10079,8 +11196,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
-			(at 62.23 60.96 0)
+		(property "Footprint" "Synthia_footprint_library:STA_CF14_STP"
+			(at 63.246 131.064 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10091,7 +11208,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 60.96 0)
+			(at 62.23 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10101,8 +11218,8 @@
 				)
 			)
 		)
-		(property "Description" "test point"
-			(at 62.23 66.04 0)
+		(property "Description" "Resistor, US symbol"
+			(at 62.23 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10113,12 +11230,258 @@
 			)
 		)
 		(pin "1"
-			(uuid "7cd0da7c-3e06-46e9-a140-277b3387494e")
+			(uuid "c27422c0-3a0a-494e-9fe9-341115c32450")
+		)
+		(pin "2"
+			(uuid "cd9024a2-ba05-46a2-a2e3-56917c84f983")
 		)
 		(instances
 			(project "synthia"
 				(path "/b7ca07b0-c23c-4333-a610-582d2798793b"
-					(reference "TP20")
+					(reference "R53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 74.93 44.45 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "19d36940-7433-4b57-b4fa-93d5c50871e9")
+		(property "Reference" "R67"
+			(at 74.93 41.91 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 74.93 39.116 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Synthia_footprint_library:STA_CF14_STP"
+			(at 74.676 45.466 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 74.93 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "aaa5ce1d-c745-46de-b9f4-1849936a8965")
+		)
+		(pin "2"
+			(uuid "862625cb-7361-4f54-8c9f-a6aca8de4b09")
+		)
+		(instances
+			(project "synthia"
+				(path "/b7ca07b0-c23c-4333-a610-582d2798793b"
+					(reference "R67")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 46.99 130.81 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2505ae6e-3bc8-4229-a076-b1605ca21c86")
+		(property "Reference" "R55"
+			(at 49.53 129.5399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 49.53 132.0799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Synthia_footprint_library:STA_CF14_STP"
+			(at 48.006 131.064 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 46.99 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d808343b-8b08-4218-b6fe-57e6fc6c233f")
+		)
+		(pin "2"
+			(uuid "51fd2047-eb51-41a7-9b51-1cda38acb018")
+		)
+		(instances
+			(project "synthia"
+				(path "/b7ca07b0-c23c-4333-a610-582d2798793b"
+					(reference "R55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 52.07 55.88 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "26b5d727-82dd-4d1a-8bbc-ce5cbf02a5ba")
+		(property "Reference" "R71"
+			(at 49.53 57.1501 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 49.53 54.6101 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Synthia_footprint_library:STA_CF14_STP"
+			(at 51.054 55.626 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 52.07 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "050bf51f-e5bd-48cd-a23f-ff7f27ffe2b2")
+		)
+		(pin "2"
+			(uuid "4fc56da3-930a-4da6-a921-0d4428a7d1d3")
+		)
+		(instances
+			(project "synthia"
+				(path "/b7ca07b0-c23c-4333-a610-582d2798793b"
+					(reference "R71")
 					(unit 1)
 				)
 			)
@@ -10156,7 +11519,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PJ-007:SAMESKY_PJ-007"
+		(property "Footprint" "Synthia_footprint_library:SAMESKY_PJ-007"
 			(at 106.68 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -10353,6 +11716,252 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 21.59 55.88 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "34febdc3-b083-46aa-97f0-3a0bf6bf3f04")
+		(property "Reference" "R77"
+			(at 19.05 57.1501 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 19.05 54.6101 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Synthia_footprint_library:STA_CF14_STP"
+			(at 20.574 55.626 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 21.59 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 21.59 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "71bb21d7-b60b-4677-99ae-a07b4432b7ae")
+		)
+		(pin "2"
+			(uuid "1f11995e-b296-49fe-8310-2d64144a28a8")
+		)
+		(instances
+			(project "synthia"
+				(path "/b7ca07b0-c23c-4333-a610-582d2798793b"
+					(reference "R77")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 36.83 48.26 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "374f5dbe-dc3d-4028-aaca-0439476d38f1")
+		(property "Reference" "R75"
+			(at 34.29 49.5301 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 34.29 46.9901 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Synthia_footprint_library:STA_CF14_STP"
+			(at 35.814 48.006 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 36.83 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cf619079-b176-46dc-943b-14e997e9b505")
+		)
+		(pin "2"
+			(uuid "95039546-464d-4161-8533-db115981f445")
+		)
+		(instances
+			(project "synthia"
+				(path "/b7ca07b0-c23c-4333-a610-582d2798793b"
+					(reference "R75")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 82.55 48.26 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "37700c13-3747-449d-a692-dfc29f4e9b69")
+		(property "Reference" "R66"
+			(at 80.01 49.5301 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 80.01 46.9901 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Synthia_footprint_library:STA_CF14_STP"
+			(at 81.534 48.006 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 82.55 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "95627c0d-c336-4920-a3fe-c2eb5982e766")
+		)
+		(pin "2"
+			(uuid "65cefec5-55fc-4909-ada0-e6e50ea1a066")
+		)
+		(instances
+			(project "synthia"
+				(path "/b7ca07b0-c23c-4333-a610-582d2798793b"
+					(reference "R66")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 326.39 54.61 90)
 		(unit 1)
@@ -10513,6 +12122,170 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 36.83 55.88 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b728fd3-288b-4a04-863e-ccb14353ab74")
+		(property "Reference" "R74"
+			(at 34.29 57.1501 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 34.29 54.6101 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Synthia_footprint_library:STA_CF14_STP"
+			(at 35.814 55.626 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 36.83 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "20fe743c-5419-4117-94dd-d8d5bca8fe84")
+		)
+		(pin "2"
+			(uuid "0c0cd102-81b3-44c5-af70-c0d0abb47131")
+		)
+		(instances
+			(project "synthia"
+				(path "/b7ca07b0-c23c-4333-a610-582d2798793b"
+					(reference "R74")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 16.51 130.81 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ffef19b-2055-4941-9a65-aa9422a6229e")
+		(property "Reference" "R59"
+			(at 19.05 129.5399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 19.05 132.0799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Synthia_footprint_library:STA_CF14_STP"
+			(at 17.526 131.064 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 16.51 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 16.51 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0d93fc16-619c-4c68-91ae-b90f7beef9b7")
+		)
+		(pin "2"
+			(uuid "d3817d14-1cb2-4efd-86ca-2e77f806ab55")
+		)
+		(instances
+			(project "synthia"
+				(path "/b7ca07b0-c23c-4333-a610-582d2798793b"
+					(reference "R59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 293.37 54.61 90)
 		(unit 1)
@@ -10593,8 +12366,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 62.23 71.12 90)
+		(lib_id "Device:R_US")
+		(at 16.51 138.43 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10603,9 +12376,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "43af5af0-e33b-4ead-89a4-2f82c577a7f8")
-		(property "Reference" "TP21"
-			(at 57.15 72.3901 90)
+		(uuid "41a8d544-7595-4a6d-81c1-d4af6ce01022")
+		(property "Reference" "R60"
+			(at 19.05 137.1599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10615,8 +12388,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MicroUSB Pin #3"
-			(at 57.15 69.8501 90)
+		(property "Value" "100k"
+			(at 19.05 139.6999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10626,8 +12399,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
-			(at 62.23 66.04 0)
+		(property "Footprint" "Synthia_footprint_library:STA_CF14_STP"
+			(at 17.526 138.684 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10638,7 +12411,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 66.04 0)
+			(at 16.51 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10648,8 +12421,8 @@
 				)
 			)
 		)
-		(property "Description" "test point"
-			(at 62.23 71.12 0)
+		(property "Description" "Resistor, US symbol"
+			(at 16.51 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10660,12 +12433,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "9f737174-e061-4607-a3a3-08314cb290b5")
+			(uuid "5e5050e8-6351-4fd0-966a-9dc8f81424e0")
+		)
+		(pin "2"
+			(uuid "11f12131-417c-479f-9f9b-125b65df61b9")
 		)
 		(instances
 			(project "synthia"
 				(path "/b7ca07b0-c23c-4333-a610-582d2798793b"
-					(reference "TP21")
+					(reference "R60")
 					(unit 1)
 				)
 			)
@@ -10754,6 +12530,250 @@
 		)
 	)
 	(symbol
+		(lib_id "Synthia_Symbol_Library:TL1105BF160Q")
+		(at 49.53 67.31 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "459289c6-c8b6-4193-80c7-4c9f28152d86")
+		(property "Reference" "S45"
+			(at 48.006 79.502 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TL1105BF160Q"
+			(at 37.592 77.216 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Synthia_footprint_library:SW_TL1105BF160Q"
+			(at 49.53 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 49.53 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "E-Switch"
+			(at 49.53 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "13 mm"
+			(at 49.53 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "None"
+			(at 49.53 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 49.53 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TL1105BF160Q/E-Switch/view-part/?ref=eda"
+			(at 49.53 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 49.53 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "A"
+			(at 49.53 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TL1105BF160Q/E-Switch/view-part/?ref=snap"
+			(at 49.53 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "TL1105BF160Q"
+			(at 49.53 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Description_1" "Tactile Switch, TL1105 Series, SPST-NO, 9.5mm Top Actuated, 0.05A, 12VDC, PC | E-Switch TL1105BF160Q"
+			(at 49.53 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "E-Switch"
+			(at 49.53 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 49.53 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SNAPEDA_PN" "TL1105DF160Q"
+			(at 49.53 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "3"
+			(uuid "1439adab-1542-45f1-9cd8-b4b8b8d93ab0")
+		)
+		(pin "1"
+			(uuid "ee07562b-fa50-4f73-9164-6e1f782223a4")
+		)
+		(pin "4"
+			(uuid "88dde2fb-e3b5-41ae-bc17-31f4be2ad4bc")
+		)
+		(pin "2"
+			(uuid "24ef1de0-e738-4d75-95b4-8611511d52a5")
+		)
+		(instances
+			(project "synthia"
+				(path "/b7ca07b0-c23c-4333-a610-582d2798793b"
+					(reference "S45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 350.52 85.09 90)
 		(unit 1)
@@ -10827,6 +12847,250 @@
 			(project "synthia"
 				(path "/b7ca07b0-c23c-4333-a610-582d2798793b"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Synthia_Symbol_Library:TL1105BF160Q")
+		(at 34.29 119.38 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4f7cb591-0b0a-41df-ba4d-fdf6ff18b07b")
+		(property "Reference" "S40"
+			(at 35.814 107.188 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TL1105BF160Q"
+			(at 46.228 109.474 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Synthia_footprint_library:SW_TL1105BF160Q"
+			(at 34.29 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 34.29 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "E-Switch"
+			(at 34.29 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "13 mm"
+			(at 34.29 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "None"
+			(at 34.29 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 34.29 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TL1105BF160Q/E-Switch/view-part/?ref=eda"
+			(at 34.29 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 34.29 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "A"
+			(at 34.29 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TL1105BF160Q/E-Switch/view-part/?ref=snap"
+			(at 34.29 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "TL1105BF160Q"
+			(at 34.29 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Description_1" "Tactile Switch, TL1105 Series, SPST-NO, 9.5mm Top Actuated, 0.05A, 12VDC, PC | E-Switch TL1105BF160Q"
+			(at 34.29 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "E-Switch"
+			(at 34.29 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 34.29 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SNAPEDA_PN" "TL1105DF160Q"
+			(at 34.29 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "3"
+			(uuid "01810d10-77ea-4c6a-9570-70b6e5fed3e4")
+		)
+		(pin "1"
+			(uuid "f0cf6160-ce06-4ef5-8135-51d64b685894")
+		)
+		(pin "4"
+			(uuid "20d286a4-fb87-4397-ab7c-ad2343c48b54")
+		)
+		(pin "2"
+			(uuid "e3dd9217-5d7e-4865-844e-7bbe04339a87")
+		)
+		(instances
+			(project "synthia"
+				(path "/b7ca07b0-c23c-4333-a610-582d2798793b"
+					(reference "S40")
 					(unit 1)
 				)
 			)
@@ -10995,6 +13259,250 @@
 		)
 	)
 	(symbol
+		(lib_id "Synthia_Symbol_Library:TL1105BF160Q")
+		(at 132.08 87.63 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "51515ce6-459d-4dd5-90ca-8a7142a63359")
+		(property "Reference" "S42"
+			(at 133.604 75.438 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "RESET"
+			(at 134.62 77.724 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Synthia_footprint_library:SW_TL1105BF160Q"
+			(at 132.08 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "E-Switch"
+			(at 132.08 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "13 mm"
+			(at 132.08 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "None"
+			(at 132.08 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 132.08 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TL1105BF160Q/E-Switch/view-part/?ref=eda"
+			(at 132.08 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 132.08 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "A"
+			(at 132.08 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TL1105BF160Q/E-Switch/view-part/?ref=snap"
+			(at 132.08 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "TL1105BF160Q"
+			(at 132.08 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Description_1" "Tactile Switch, TL1105 Series, SPST-NO, 9.5mm Top Actuated, 0.05A, 12VDC, PC | E-Switch TL1105BF160Q"
+			(at 132.08 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "E-Switch"
+			(at 132.08 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 132.08 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SNAPEDA_PN" "TL1105DF160Q"
+			(at 132.08 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "3"
+			(uuid "235c9c7c-3cd5-4190-aa0d-923f0ede697a")
+		)
+		(pin "1"
+			(uuid "be1b825b-5729-42e2-8849-5f07bafd70ac")
+		)
+		(pin "4"
+			(uuid "8c374051-1fcc-4591-aa42-5f2baf9535d5")
+		)
+		(pin "2"
+			(uuid "fdcfe64c-b97e-4dd7-939b-0f263df8d33f")
+		)
+		(instances
+			(project "synthia"
+				(path "/b7ca07b0-c23c-4333-a610-582d2798793b"
+					(reference "S42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 133.35 43.18 270)
 		(unit 1)
@@ -11067,6 +13575,88 @@
 			(project "synthia"
 				(path "/b7ca07b0-c23c-4333-a610-582d2798793b"
 					(reference "TP13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 77.47 138.43 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "54f6fd80-de23-4727-bba9-253cee806158")
+		(property "Reference" "R52"
+			(at 80.01 137.1599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 80.01 139.6999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Synthia_footprint_library:STA_CF14_STP"
+			(at 78.486 138.684 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 77.47 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6d92f265-b32d-4f53-ae0e-bb104c94f5ca")
+		)
+		(pin "2"
+			(uuid "006da9b6-1dd1-48da-b157-96119934b514")
+		)
+		(instances
+			(project "synthia"
+				(path "/b7ca07b0-c23c-4333-a610-582d2798793b"
+					(reference "R52")
 					(unit 1)
 				)
 			)
@@ -11184,7 +13774,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Synthia_footprint_library:POT_P120PK-x25_TTE"
+		(property "Footprint" "Synthia_footprint_library:DIP794W45P254L959H508Q8"
 			(at 335.28 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -11396,6 +13986,162 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 134.62 73.66 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56471864-7b25-489e-ad3d-2633721bfe6b")
+		(property "Reference" "#PWR07"
+			(at 134.62 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 134.62 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 134.62 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fc05a7be-8f13-4088-9435-928ec65531a7")
+		)
+		(instances
+			(project "synthia"
+				(path "/b7ca07b0-c23c-4333-a610-582d2798793b"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 340.36 90.17 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "574817ea-f364-4029-b6bc-c30a9339364d")
+		(property "Reference" "#FLG02"
+			(at 340.36 92.075 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 340.36 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 340.36 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 340.36 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 340.36 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1c5f66c0-86e1-4e45-a430-d8a565928130")
+		)
+		(instances
+			(project "synthia"
+				(path "/b7ca07b0-c23c-4333-a610-582d2798793b"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 285.75 54.61 90)
 		(unit 1)
@@ -11476,6 +14222,163 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 44.45 44.45 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5b398afa-154d-481a-9990-400c2f92777c")
+		(property "Reference" "R73"
+			(at 44.45 41.91 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 44.45 39.116 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Synthia_footprint_library:STA_CF14_STP"
+			(at 44.196 45.466 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 44.45 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "14b3d509-68a6-4fcc-b8cb-07f6839b276f")
+		)
+		(pin "2"
+			(uuid "0478ac7f-989e-4cac-baca-ff8d96993ffb")
+		)
+		(instances
+			(project "synthia"
+				(path "/b7ca07b0-c23c-4333-a610-582d2798793b"
+					(reference "R73")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 223.52 43.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d93e92d-db2b-4542-8a8a-ce17c409b3eb")
+		(property "Reference" "#FLG04"
+			(at 223.52 41.275 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 223.52 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 223.52 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "aa26d6fa-3c0a-4234-b8c2-e82c3f733752")
+		)
+		(instances
+			(project "synthia"
+				(path "/b7ca07b0-c23c-4333-a610-582d2798793b"
+					(reference "#FLG04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Synthia_Symbol_Library:LD1117V33")
 		(at 204.47 45.72 0)
 		(unit 1)
@@ -11507,7 +14410,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LD1117V33:TO255P1020X450X1968-3"
+		(property "Footprint" "Synthia_footprint_library:TO255P1020X450X1968-3"
 			(at 204.47 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -11704,6 +14607,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 59.69 44.45 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "63e8f928-66aa-4145-90e2-9e61fdf93fd1")
+		(property "Reference" "R70"
+			(at 59.69 41.91 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 59.69 39.116 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Synthia_footprint_library:STA_CF14_STP"
+			(at 59.436 45.466 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 59.69 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "71b9d4c1-bff3-4b99-aaef-ddbb7b6fd19c")
+		)
+		(pin "2"
+			(uuid "0a96be70-bc74-4571-ac80-67667c1c7aee")
+		)
+		(instances
+			(project "synthia"
+				(path "/b7ca07b0-c23c-4333-a610-582d2798793b"
+					(reference "R70")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 255.27 81.28 270)
 		(unit 1)
@@ -11783,6 +14765,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 67.31 48.26 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69a3d667-4dac-4fcf-962c-5a01e11ff1cb")
+		(property "Reference" "R69"
+			(at 64.77 49.5301 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 64.77 46.9901 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Synthia_footprint_library:STA_CF14_STP"
+			(at 66.294 48.006 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 67.31 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "268a9ff8-0cd1-4618-8c62-92180a46a4e9")
+		)
+		(pin "2"
+			(uuid "73fa74df-db20-4778-9b48-7fc31731de07")
+		)
+		(instances
+			(project "synthia"
+				(path "/b7ca07b0-c23c-4333-a610-582d2798793b"
+					(reference "R69")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_US")
 		(at 360.68 77.47 270)
 		(unit 1)
@@ -11813,7 +14877,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D5.0mm_P5.00mm"
 			(at 360.68 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -11895,7 +14959,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SDS-50J:CUI_SDS-50J"
+		(property "Footprint" "Synthia_footprint_library:CUI_SDS-50J"
 			(at 292.1 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -12098,6 +15162,494 @@
 			(project "synthia"
 				(path "/b7ca07b0-c23c-4333-a610-582d2798793b"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Synthia_Symbol_Library:TL1105BF160Q")
+		(at 49.53 119.38 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6ebc606b-ff29-48e1-937b-2d2b7f6a1d54")
+		(property "Reference" "S39"
+			(at 51.054 107.188 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TL1105BF160Q"
+			(at 61.468 109.474 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Synthia_footprint_library:SW_TL1105BF160Q"
+			(at 49.53 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 49.53 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "E-Switch"
+			(at 49.53 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "13 mm"
+			(at 49.53 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "None"
+			(at 49.53 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 49.53 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TL1105BF160Q/E-Switch/view-part/?ref=eda"
+			(at 49.53 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 49.53 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "A"
+			(at 49.53 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TL1105BF160Q/E-Switch/view-part/?ref=snap"
+			(at 49.53 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "TL1105BF160Q"
+			(at 49.53 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Description_1" "Tactile Switch, TL1105 Series, SPST-NO, 9.5mm Top Actuated, 0.05A, 12VDC, PC | E-Switch TL1105BF160Q"
+			(at 49.53 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "E-Switch"
+			(at 49.53 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 49.53 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SNAPEDA_PN" "TL1105DF160Q"
+			(at 49.53 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "3"
+			(uuid "54943ed3-2e9d-4613-98e9-21f751d18763")
+		)
+		(pin "1"
+			(uuid "45174adf-d2f0-4c4d-90e1-359b45622a15")
+		)
+		(pin "4"
+			(uuid "21366d6d-21a2-41ca-b337-13b92b8fe320")
+		)
+		(pin "2"
+			(uuid "790f3e2d-01c5-4df2-b325-5d4426cb0ae6")
+		)
+		(instances
+			(project "synthia"
+				(path "/b7ca07b0-c23c-4333-a610-582d2798793b"
+					(reference "S39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Synthia_Symbol_Library:TL1105BF160Q")
+		(at 80.01 119.38 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6f43e235-8ba6-41cc-9dd7-c8697c2665ae")
+		(property "Reference" "S37"
+			(at 81.534 107.188 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TL1105BF160Q"
+			(at 91.948 109.474 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Synthia_footprint_library:SW_TL1105BF160Q"
+			(at 80.01 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 80.01 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "E-Switch"
+			(at 80.01 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "13 mm"
+			(at 80.01 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "None"
+			(at 80.01 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 80.01 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TL1105BF160Q/E-Switch/view-part/?ref=eda"
+			(at 80.01 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 80.01 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "A"
+			(at 80.01 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TL1105BF160Q/E-Switch/view-part/?ref=snap"
+			(at 80.01 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "TL1105BF160Q"
+			(at 80.01 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Description_1" "Tactile Switch, TL1105 Series, SPST-NO, 9.5mm Top Actuated, 0.05A, 12VDC, PC | E-Switch TL1105BF160Q"
+			(at 80.01 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "E-Switch"
+			(at 80.01 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 80.01 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SNAPEDA_PN" "TL1105DF160Q"
+			(at 80.01 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "3"
+			(uuid "50102810-d91f-4d1f-81bf-bfb7cc0b3c4b")
+		)
+		(pin "1"
+			(uuid "018addff-830f-4693-bb47-055414fe9b4b")
+		)
+		(pin "4"
+			(uuid "ab6488fe-d1b6-458b-8fd7-414efe537dac")
+		)
+		(pin "2"
+			(uuid "c72cf20e-be55-4746-b5a0-08c4e7ebab94")
+		)
+		(instances
+			(project "synthia"
+				(path "/b7ca07b0-c23c-4333-a610-582d2798793b"
+					(reference "S37")
 					(unit 1)
 				)
 			)
@@ -12340,6 +15892,250 @@
 		)
 	)
 	(symbol
+		(lib_id "Synthia_Symbol_Library:TL1105BF160Q")
+		(at 34.29 67.31 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "79b19df2-f6cf-4b1d-8b53-d6c2192a1a21")
+		(property "Reference" "S46"
+			(at 32.766 79.502 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TL1105BF160Q"
+			(at 22.352 77.216 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Synthia_footprint_library:SW_TL1105BF160Q"
+			(at 34.29 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 34.29 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "E-Switch"
+			(at 34.29 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "13 mm"
+			(at 34.29 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "None"
+			(at 34.29 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 34.29 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TL1105BF160Q/E-Switch/view-part/?ref=eda"
+			(at 34.29 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 34.29 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "A"
+			(at 34.29 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TL1105BF160Q/E-Switch/view-part/?ref=snap"
+			(at 34.29 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "TL1105BF160Q"
+			(at 34.29 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Description_1" "Tactile Switch, TL1105 Series, SPST-NO, 9.5mm Top Actuated, 0.05A, 12VDC, PC | E-Switch TL1105BF160Q"
+			(at 34.29 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "E-Switch"
+			(at 34.29 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 34.29 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SNAPEDA_PN" "TL1105DF160Q"
+			(at 34.29 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "3"
+			(uuid "7cb882c7-b4a6-4219-aa9a-f0888099a987")
+		)
+		(pin "1"
+			(uuid "69e07314-fc36-4abe-a9cb-070379a3ec6c")
+		)
+		(pin "4"
+			(uuid "8236766c-fb56-47f6-8256-98dc78607433")
+		)
+		(pin "2"
+			(uuid "ebccbc46-e2cf-4365-b1b9-83a3324d0899")
+		)
+		(instances
+			(project "synthia"
+				(path "/b7ca07b0-c23c-4333-a610-582d2798793b"
+					(reference "S46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 116.84 46.99 0)
 		(unit 1)
@@ -12451,7 +16247,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D5.0mm_P5.00mm"
 			(at 228.6 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -12579,6 +16375,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 67.31 55.88 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87e7baf6-0362-4aa0-8e2d-7fa0f0d9f495")
+		(property "Reference" "R68"
+			(at 64.77 57.1501 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 64.77 54.6101 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Synthia_footprint_library:STA_CF14_STP"
+			(at 66.294 55.626 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 67.31 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3a592e06-299f-45ae-a085-6f2043f885e2")
+		)
+		(pin "2"
+			(uuid "43542f20-5138-4607-b547-039ac06f52be")
+		)
+		(instances
+			(project "synthia"
+				(path "/b7ca07b0-c23c-4333-a610-582d2798793b"
+					(reference "R68")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 373.38 77.47 270)
 		(unit 1)
@@ -12652,6 +16530,410 @@
 			(project "synthia"
 				(path "/b7ca07b0-c23c-4333-a610-582d2798793b"
 					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 110.49 199.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8d5d2525-342c-4d68-a8dc-c54600b61758")
+		(property "Reference" "TP21"
+			(at 107.95 194.31 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MicroUSB GND"
+			(at 110.49 194.31 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
+			(at 115.57 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 110.49 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "19943e62-4f90-47ba-8a16-2c84756494b3")
+		)
+		(instances
+			(project "synthia"
+				(path "/b7ca07b0-c23c-4333-a610-582d2798793b"
+					(reference "TP21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 31.75 138.43 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ef55c6d-6bd5-46a1-98e4-4c814f31fff5")
+		(property "Reference" "R58"
+			(at 34.29 137.1599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 34.29 139.6999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Synthia_footprint_library:STA_CF14_STP"
+			(at 32.766 138.684 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 31.75 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "56ffa9ea-ab6a-4754-af6c-daceb82130cd")
+		)
+		(pin "2"
+			(uuid "f1edd4de-b570-4a9f-96bc-15b18766df6c")
+		)
+		(instances
+			(project "synthia"
+				(path "/b7ca07b0-c23c-4333-a610-582d2798793b"
+					(reference "R58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Synthia_Symbol_Library:TL1105BF160Q")
+		(at 19.05 67.31 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "960ff0c6-98e8-4490-8eca-df2514181e1f")
+		(property "Reference" "S47"
+			(at 17.526 79.502 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TL1105BF160Q"
+			(at 7.112 77.216 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Synthia_footprint_library:SW_TL1105BF160Q"
+			(at 19.05 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 19.05 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 19.05 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "E-Switch"
+			(at 19.05 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "13 mm"
+			(at 19.05 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "None"
+			(at 19.05 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 19.05 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TL1105BF160Q/E-Switch/view-part/?ref=eda"
+			(at 19.05 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 19.05 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "A"
+			(at 19.05 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TL1105BF160Q/E-Switch/view-part/?ref=snap"
+			(at 19.05 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "TL1105BF160Q"
+			(at 19.05 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Description_1" "Tactile Switch, TL1105 Series, SPST-NO, 9.5mm Top Actuated, 0.05A, 12VDC, PC | E-Switch TL1105BF160Q"
+			(at 19.05 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "E-Switch"
+			(at 19.05 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 19.05 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SNAPEDA_PN" "TL1105DF160Q"
+			(at 19.05 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "3"
+			(uuid "a771f772-5d34-46e2-8016-517e923fb310")
+		)
+		(pin "1"
+			(uuid "0bf55271-a23b-4b61-ad05-dbee76c6b8a3")
+		)
+		(pin "4"
+			(uuid "2547df96-e6ee-4b26-9b55-2c68a0444783")
+		)
+		(pin "2"
+			(uuid "6be79822-11d1-4abd-a9ab-87880780c0b5")
+		)
+		(instances
+			(project "synthia"
+				(path "/b7ca07b0-c23c-4333-a610-582d2798793b"
+					(reference "S47")
 					(unit 1)
 				)
 			)
@@ -12818,6 +17100,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 144.78 43.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a1ba1587-6ffd-4a09-9df2-49daae6d34ce")
+		(property "Reference" "#FLG01"
+			(at 144.78 41.275 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 145.288 35.814 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 144.78 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "073a30b4-8bab-4677-898f-d7e52da3c606")
+		)
+		(instances
+			(project "synthia"
+				(path "/b7ca07b0-c23c-4333-a610-582d2798793b"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 96.52 46.99 0)
 		(unit 1)
@@ -12896,8 +17255,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 62.23 60.96 90)
+		(lib_id "Device:R_US")
+		(at 62.23 138.43 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12906,9 +17265,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b2544b19-557d-40d8-abe0-e1b472efc6e4")
-		(property "Reference" "TP19"
-			(at 57.15 62.2301 90)
+		(uuid "a6b03a59-fdfc-4558-a88c-0cfcc1407086")
+		(property "Reference" "R54"
+			(at 64.77 137.1599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12918,8 +17277,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MicroUSB Pin #1"
-			(at 57.15 59.6901 90)
+		(property "Value" "100k"
+			(at 64.77 139.6999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12929,8 +17288,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
-			(at 62.23 55.88 0)
+		(property "Footprint" "Synthia_footprint_library:STA_CF14_STP"
+			(at 63.246 138.684 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12941,7 +17300,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 55.88 0)
+			(at 62.23 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12951,8 +17310,8 @@
 				)
 			)
 		)
-		(property "Description" "test point"
-			(at 62.23 60.96 0)
+		(property "Description" "Resistor, US symbol"
+			(at 62.23 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12963,12 +17322,502 @@
 			)
 		)
 		(pin "1"
-			(uuid "51a6f512-995a-4e97-975f-fd3e55b78110")
+			(uuid "7f9c7fc1-b7e2-49a9-bb1e-9828bb33c666")
+		)
+		(pin "2"
+			(uuid "4ce616a4-f1dc-4f0a-b6c0-98aec93e2a3e")
 		)
 		(instances
 			(project "synthia"
 				(path "/b7ca07b0-c23c-4333-a610-582d2798793b"
-					(reference "TP19")
+					(reference "R54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 77.47 130.81 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a716cfbb-3a95-437a-a638-65688e6f3b59")
+		(property "Reference" "R51"
+			(at 80.01 129.5399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 80.01 132.0799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Synthia_footprint_library:STA_CF14_STP"
+			(at 78.486 131.064 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 77.47 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "aa2957db-cc71-455b-beaa-d69b8826fbd7")
+		)
+		(pin "2"
+			(uuid "479b6e43-7fab-453b-847b-52edb134536f")
+		)
+		(instances
+			(project "synthia"
+				(path "/b7ca07b0-c23c-4333-a610-582d2798793b"
+					(reference "R51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Synthia_Symbol_Library:TL1105BF160Q")
+		(at 80.01 67.31 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a928e73f-a016-4f70-86b9-de38e50ecf0b")
+		(property "Reference" "S43"
+			(at 78.486 79.502 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TL1105BF160Q"
+			(at 68.072 77.216 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Synthia_footprint_library:SW_TL1105BF160Q"
+			(at 80.01 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 80.01 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "E-Switch"
+			(at 80.01 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "13 mm"
+			(at 80.01 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "None"
+			(at 80.01 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 80.01 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TL1105BF160Q/E-Switch/view-part/?ref=eda"
+			(at 80.01 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 80.01 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "A"
+			(at 80.01 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TL1105BF160Q/E-Switch/view-part/?ref=snap"
+			(at 80.01 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "TL1105BF160Q"
+			(at 80.01 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Description_1" "Tactile Switch, TL1105 Series, SPST-NO, 9.5mm Top Actuated, 0.05A, 12VDC, PC | E-Switch TL1105BF160Q"
+			(at 80.01 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "E-Switch"
+			(at 80.01 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 80.01 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SNAPEDA_PN" "TL1105DF160Q"
+			(at 80.01 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "3"
+			(uuid "74674acf-84ec-4f4c-bdcb-a044a9e408a1")
+		)
+		(pin "1"
+			(uuid "4d535b76-7dcf-4483-bb0d-9610892fe01c")
+		)
+		(pin "4"
+			(uuid "c71f5dca-166e-4a97-96ea-36287783dc86")
+		)
+		(pin "2"
+			(uuid "dd85dfde-43a0-4ec6-883c-22d40ca6a19a")
+		)
+		(instances
+			(project "synthia"
+				(path "/b7ca07b0-c23c-4333-a610-582d2798793b"
+					(reference "S43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 21.59 48.26 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b687aaad-c151-4e11-841f-24fb04a87915")
+		(property "Reference" "R78"
+			(at 19.05 49.5301 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 19.05 46.9901 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Synthia_footprint_library:STA_CF14_STP"
+			(at 20.574 48.006 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 21.59 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 21.59 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "747fca45-9140-4557-b1a7-08334472d12a")
+		)
+		(pin "2"
+			(uuid "b8891051-35c1-4f01-9ff3-d5705b0c31c8")
+		)
+		(instances
+			(project "synthia"
+				(path "/b7ca07b0-c23c-4333-a610-582d2798793b"
+					(reference "R78")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 54.61 142.24 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b6e06afa-e90f-4063-8b3a-794be59f8151")
+		(property "Reference" "R63"
+			(at 54.61 144.78 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 54.61 147.574 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Synthia_footprint_library:STA_CF14_STP"
+			(at 54.864 141.224 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 54.61 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9e5561d1-bb56-4542-a8e5-942d9d9959f7")
+		)
+		(pin "2"
+			(uuid "b344ba1b-0891-4cfd-99f0-d60a993d7be0")
+		)
+		(instances
+			(project "synthia"
+				(path "/b7ca07b0-c23c-4333-a610-582d2798793b"
+					(reference "R63")
 					(unit 1)
 				)
 			)
@@ -13008,7 +17857,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "MJ-63022B:CUI_MJ-63022B"
+		(property "Footprint" "Synthia_footprint_library:CUI_MJ-63022B"
 			(at 355.6 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -13185,6 +18034,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 29.21 44.45 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c05e66b2-6ebd-438c-8145-24876b605ec0")
+		(property "Reference" "R76"
+			(at 29.21 41.91 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 29.21 39.116 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Synthia_footprint_library:STA_CF14_STP"
+			(at 28.956 45.466 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 29.21 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a66acec9-aec2-4cf5-8afe-c0e5ac455369")
+		)
+		(pin "2"
+			(uuid "601bd33b-7636-46bf-9435-261a9968ce79")
+		)
+		(instances
+			(project "synthia"
+				(path "/b7ca07b0-c23c-4333-a610-582d2798793b"
+					(reference "R76")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 184.15 52.07 0)
 		(unit 1)
@@ -13218,7 +18146,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D5.0mm_P5.00mm"
 			(at 184.15 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -13267,8 +18195,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 62.23 76.2 90)
+		(lib_id "Device:R_US")
+		(at 69.85 142.24 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13276,32 +18204,29 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c3f8ff80-e31e-49c3-89a4-d5ab6024979b")
-		(property "Reference" "TP22"
-			(at 57.15 77.4701 90)
+		(uuid "c3d920fd-c944-4e1b-af7b-f5bb577a0ba4")
+		(property "Reference" "R64"
+			(at 69.85 144.78 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "MicroUSB Pin #4"
-			(at 57.15 74.9301 90)
+		(property "Value" "100k"
+			(at 69.85 147.574 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
-			(at 62.23 71.12 0)
+		(property "Footprint" "Synthia_footprint_library:STA_CF14_STP"
+			(at 70.104 141.224 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13312,7 +18237,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 71.12 0)
+			(at 69.85 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13322,8 +18247,8 @@
 				)
 			)
 		)
-		(property "Description" "test point"
-			(at 62.23 76.2 0)
+		(property "Description" "Resistor, US symbol"
+			(at 69.85 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13334,12 +18259,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "8073176c-f998-494a-a394-96ac652a54ff")
+			(uuid "e6981830-d699-4ea0-89dc-692538fb6e4a")
+		)
+		(pin "2"
+			(uuid "5227581d-6705-43c8-a258-da07c0415641")
 		)
 		(instances
 			(project "synthia"
 				(path "/b7ca07b0-c23c-4333-a610-582d2798793b"
-					(reference "TP22")
+					(reference "R64")
 					(unit 1)
 				)
 			)
@@ -13379,7 +18307,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SJ3-35083C-TR:SAMESKY_SJ3-35083C-TR"
+		(property "Footprint" "Synthia_footprint_library:SAMESKY_SJ3-35083C-TR"
 			(at 321.31 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -13483,6 +18411,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 115.57 199.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c6eb697a-947b-4c77-a077-a3b70ce86b6c")
+		(property "Reference" "TP20"
+			(at 113.03 194.056 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MicroUSB D+ Pin"
+			(at 115.57 194.056 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
+			(at 120.65 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 115.57 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "72e4ce94-71ff-4b90-aa30-3e45695eb4a6")
+		)
+		(instances
+			(project "synthia"
+				(path "/b7ca07b0-c23c-4333-a610-582d2798793b"
+					(reference "TP20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 204.47 62.23 0)
 		(unit 1)
@@ -13562,7 +18568,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 144.78 43.18 90)
+		(at 143.51 43.18 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13570,10 +18576,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c7ef24e0-1b1d-476c-9b70-a86f461833eb")
 		(property "Reference" "TP14"
-			(at 141.478 38.1 90)
+			(at 140.208 41.402 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13583,7 +18588,7 @@
 			)
 		)
 		(property "Value" "Switch Pin #2"
-			(at 141.478 40.64 90)
+			(at 140.208 39.37 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13593,7 +18598,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
-			(at 144.78 38.1 0)
+			(at 143.51 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13604,7 +18609,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 38.1 0)
+			(at 143.51 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13615,7 +18620,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 144.78 43.18 0)
+			(at 143.51 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13639,7 +18644,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 90.17 231.14 270)
+		(at 90.17 232.41 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13650,7 +18655,7 @@
 		(fields_autoplaced yes)
 		(uuid "c91504f9-0532-4d39-95c0-e56fd1bc47ee")
 		(property "Reference" "#PWR06"
-			(at 83.82 231.14 0)
+			(at 83.82 232.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13661,7 +18666,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 86.36 231.1399 90)
+			(at 86.36 232.4099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13672,7 +18677,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 231.14 0)
+			(at 90.17 232.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13683,7 +18688,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 231.14 0)
+			(at 90.17 232.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13694,7 +18699,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 90.17 231.14 0)
+			(at 90.17 232.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13750,7 +18755,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LQFP144_STM"
+		(property "Footprint" "Synthia_footprint_library:LQFP144_STM"
 			(at 195.58 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -14305,6 +19310,166 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 31.75 130.81 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd4113e3-caa0-44b0-8f44-13468e742d9e")
+		(property "Reference" "R57"
+			(at 34.29 129.5399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 34.29 132.0799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Synthia_footprint_library:STA_CF14_STP"
+			(at 32.766 131.064 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 31.75 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "39dd94e7-2f16-444f-82f2-ddf89a49cee2")
+		)
+		(pin "2"
+			(uuid "96bb97d2-3bd0-49fc-92c7-46a5c3489134")
+		)
+		(instances
+			(project "synthia"
+				(path "/b7ca07b0-c23c-4333-a610-582d2798793b"
+					(reference "R57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 171.45 43.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf3adb58-a8cd-4dc3-b15d-c8e10043c671")
+		(property "Reference" "#FLG03"
+			(at 171.45 41.275 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 171.45 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 171.45 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "32708b81-de2a-4fb5-a3b3-2cacef87a9ac")
+		)
+		(instances
+			(project "synthia"
+				(path "/b7ca07b0-c23c-4333-a610-582d2798793b"
+					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 334.01 54.61 90)
 		(unit 1)
@@ -14379,6 +19544,250 @@
 			(project "synthia"
 				(path "/b7ca07b0-c23c-4333-a610-582d2798793b"
 					(reference "R45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Synthia_Symbol_Library:TL1105BF160Q")
+		(at 64.77 67.31 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d2def7d3-96cc-4d1b-b788-88944710d402")
+		(property "Reference" "S44"
+			(at 63.246 79.502 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TL1105BF160Q"
+			(at 52.832 77.216 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Synthia_footprint_library:SW_TL1105BF160Q"
+			(at 64.77 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 64.77 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "E-Switch"
+			(at 64.77 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "13 mm"
+			(at 64.77 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "None"
+			(at 64.77 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 64.77 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TL1105BF160Q/E-Switch/view-part/?ref=eda"
+			(at 64.77 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 64.77 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "A"
+			(at 64.77 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TL1105BF160Q/E-Switch/view-part/?ref=snap"
+			(at 64.77 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "TL1105BF160Q"
+			(at 64.77 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Description_1" "Tactile Switch, TL1105 Series, SPST-NO, 9.5mm Top Actuated, 0.05A, 12VDC, PC | E-Switch TL1105BF160Q"
+			(at 64.77 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "E-Switch"
+			(at 64.77 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 64.77 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SNAPEDA_PN" "TL1105DF160Q"
+			(at 64.77 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "3"
+			(uuid "888689bb-788c-4893-881e-ed78fa70da15")
+		)
+		(pin "1"
+			(uuid "16cd71c7-af7e-479b-8024-c0468876f1b2")
+		)
+		(pin "4"
+			(uuid "64fcdc2d-8ac2-415e-8382-0f5293953326")
+		)
+		(pin "2"
+			(uuid "5a5e4369-e800-469d-afa5-1f1c3ffbc2a6")
+		)
+		(instances
+			(project "synthia"
+				(path "/b7ca07b0-c23c-4333-a610-582d2798793b"
+					(reference "S44")
 					(unit 1)
 				)
 			)
@@ -14463,85 +19872,6 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 62.23 81.28 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d5700c47-c238-4b57-b2c2-1582986169ec")
-		(property "Reference" "TP23"
-			(at 57.15 82.5501 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MicroUSB Pin #5"
-			(at 57.15 80.0101 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
-			(at 62.23 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 62.23 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 62.23 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6581db3e-4749-4c73-b7ef-37dcd5bf5fca")
-		)
-		(instances
-			(project "synthia"
-				(path "/b7ca07b0-c23c-4333-a610-582d2798793b"
-					(reference "TP23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
 		(at 255.27 66.04 270)
 		(unit 1)
 		(body_style 1)
@@ -14614,6 +19944,84 @@
 			(project "synthia"
 				(path "/b7ca07b0-c23c-4333-a610-582d2798793b"
 					(reference "TP10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 118.11 199.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dc9ab9b5-a3ac-4362-a7de-6b881a838a2f")
+		(property "Reference" "TP19"
+			(at 118.11 194.056 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MicroUSB D- Pin"
+			(at 120.65 194.056 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
+			(at 123.19 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 118.11 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b16dbfe2-dca5-4b84-b869-61e1c1494e22")
+		)
+		(instances
+			(project "synthia"
+				(path "/b7ca07b0-c23c-4333-a610-582d2798793b"
+					(reference "TP19")
 					(unit 1)
 				)
 			)
@@ -14940,6 +20348,411 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 82.55 55.88 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef5965a7-ebd0-4369-9bb5-80303d35c767")
+		(property "Reference" "R65"
+			(at 80.01 57.1501 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 80.01 54.6101 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Synthia_footprint_library:STA_CF14_STP"
+			(at 81.534 55.626 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 82.55 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ba312a5a-80b9-4f5f-935a-84931dc7cf61")
+		)
+		(pin "2"
+			(uuid "a8ae952b-d95e-44d2-9e1a-990f05b4e07b")
+		)
+		(instances
+			(project "synthia"
+				(path "/b7ca07b0-c23c-4333-a610-582d2798793b"
+					(reference "R65")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Synthia_Symbol_Library:TL1105BF160Q")
+		(at 19.05 119.38 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ef6a315e-9f81-481f-935d-4dce0f3fe006")
+		(property "Reference" "S41"
+			(at 20.574 107.188 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TL1105BF160Q"
+			(at 30.988 109.474 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Synthia_footprint_library:SW_TL1105BF160Q"
+			(at 19.05 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 19.05 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 19.05 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "E-Switch"
+			(at 19.05 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "13 mm"
+			(at 19.05 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "None"
+			(at 19.05 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 19.05 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TL1105BF160Q/E-Switch/view-part/?ref=eda"
+			(at 19.05 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 19.05 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "A"
+			(at 19.05 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TL1105BF160Q/E-Switch/view-part/?ref=snap"
+			(at 19.05 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "TL1105BF160Q"
+			(at 19.05 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Description_1" "Tactile Switch, TL1105 Series, SPST-NO, 9.5mm Top Actuated, 0.05A, 12VDC, PC | E-Switch TL1105BF160Q"
+			(at 19.05 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "E-Switch"
+			(at 19.05 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 19.05 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SNAPEDA_PN" "TL1105DF160Q"
+			(at 19.05 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "3"
+			(uuid "dc76d28a-eaf6-45a1-85bc-de5693832d32")
+		)
+		(pin "1"
+			(uuid "d5896773-9602-4d3e-a2d5-bd4a1dea63e0")
+		)
+		(pin "4"
+			(uuid "cfc069b5-5a41-4fff-aeeb-ce50aabae930")
+		)
+		(pin "2"
+			(uuid "c2353714-a04e-4bfc-bafb-1f3b47353b26")
+		)
+		(instances
+			(project "synthia"
+				(path "/b7ca07b0-c23c-4333-a610-582d2798793b"
+					(reference "S41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 24.13 142.24 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f2b45868-0dec-42ea-a423-191d57e5c23e")
+		(property "Reference" "R61"
+			(at 24.13 144.78 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 24.13 147.574 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Synthia_footprint_library:STA_CF14_STP"
+			(at 24.384 141.224 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 24.13 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2fef96f0-1fdd-4761-9036-589e8d2a6b99")
+		)
+		(pin "2"
+			(uuid "32f94b7a-31e0-431a-9e4e-fd83ba5e4068")
+		)
+		(instances
+			(project "synthia"
+				(path "/b7ca07b0-c23c-4333-a610-582d2798793b"
+					(reference "R61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 281.94 203.2 270)
 		(unit 1)
@@ -15091,6 +20904,88 @@
 			(project "synthia"
 				(path "/b7ca07b0-c23c-4333-a610-582d2798793b"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 52.07 48.26 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f7444f75-cd97-47b1-b1ad-6756eb58671f")
+		(property "Reference" "R72"
+			(at 49.53 49.5301 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 49.53 46.9901 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Synthia_footprint_library:STA_CF14_STP"
+			(at 51.054 48.006 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 52.07 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f20e4e7b-acc7-4678-abbc-fb1d69cfaaa2")
+		)
+		(pin "2"
+			(uuid "3380745d-6040-4f40-bb9c-a2f19ba2554e")
+		)
+		(instances
+			(project "synthia"
+				(path "/b7ca07b0-c23c-4333-a610-582d2798793b"
+					(reference "R72")
 					(unit 1)
 				)
 			)
@@ -15254,6 +21149,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 46.99 138.43 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd75ef99-a991-4cf1-a81c-e2d935afbd47")
+		(property "Reference" "R56"
+			(at 49.53 137.1599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 49.53 139.6999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Synthia_footprint_library:STA_CF14_STP"
+			(at 48.006 138.684 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 46.99 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "579e4e72-9102-4c27-968d-e119c8c4a55e")
+		)
+		(pin "2"
+			(uuid "16979729-faac-4752-8ac0-c0be4c8ce6c3")
+		)
+		(instances
+			(project "synthia"
+				(path "/b7ca07b0-c23c-4333-a610-582d2798793b"
+					(reference "R56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 106.68 46.99 0)
 		(unit 1)
@@ -15365,7 +21342,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LQFP144_STM"
+		(property "Footprint" "Synthia_footprint_library:LQFP144_STM"
 			(at 194.31 205.74 0)
 			(hide yes)
 			(show_name no)
