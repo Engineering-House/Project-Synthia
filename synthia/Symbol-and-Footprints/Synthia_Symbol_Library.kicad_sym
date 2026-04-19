@@ -975,7 +975,7 @@
 		(symbol "Latching_switch_0_1"
 			(rectangle
 				(start -10.16 6.35)
-				(end 0 -6.35)
+				(end 0 -15.24)
 				(stroke
 					(width 0)
 					(type default)
@@ -986,7 +986,7 @@
 			)
 			(polyline
 				(pts
-					(xy -8.89 6.35) (xy -8.89 2.54)
+					(xy -8.89 6.35) (xy -8.89 -1.27)
 				)
 				(stroke
 					(width 0)
@@ -1008,7 +1008,7 @@
 				)
 			)
 			(circle
-				(center -8.89 2.159)
+				(center -8.89 -1.651)
 				(radius 0.381)
 				(stroke
 					(width 0)
@@ -1019,7 +1019,7 @@
 				)
 			)
 			(circle
-				(center -8.89 -2.159)
+				(center -8.89 -5.969)
 				(radius 0.381)
 				(stroke
 					(width 0)
@@ -1031,7 +1031,7 @@
 			)
 			(polyline
 				(pts
-					(xy -8.89 -6.35) (xy -8.89 -2.54)
+					(xy -8.89 -15.24) (xy -8.89 -6.35)
 				)
 				(stroke
 					(width 0)
@@ -1043,7 +1043,7 @@
 			)
 			(polyline
 				(pts
-					(xy -7.62 2.54) (xy -7.62 -2.54)
+					(xy -7.62 -1.27) (xy -7.62 -6.35)
 				)
 				(stroke
 					(width 0)
@@ -1055,7 +1055,7 @@
 			)
 			(polyline
 				(pts
-					(xy -7.62 0) (xy -6.35 0)
+					(xy -7.62 -3.81) (xy -6.35 -3.81)
 				)
 				(stroke
 					(width 0)
@@ -1067,7 +1067,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 -2.54) (xy -2.54 2.54) (xy -2.54 0) (xy -3.81 0)
+					(xy -2.54 -6.35) (xy -2.54 -1.27) (xy -2.54 -3.81) (xy -3.81 -3.81)
 				)
 				(stroke
 					(width 0)
@@ -1079,7 +1079,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 6.35) (xy -1.27 2.54)
+					(xy -1.27 6.35) (xy -1.27 -1.27)
 				)
 				(stroke
 					(width 0)
@@ -1090,7 +1090,7 @@
 				)
 			)
 			(circle
-				(center -1.27 2.159)
+				(center -1.27 -1.651)
 				(radius 0.381)
 				(stroke
 					(width 0)
@@ -1101,7 +1101,7 @@
 				)
 			)
 			(circle
-				(center -1.27 -2.159)
+				(center -1.27 -5.969)
 				(radius 0.381)
 				(stroke
 					(width 0)
@@ -1113,7 +1113,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 -6.35) (xy -1.27 -2.54)
+					(xy -1.27 -15.24) (xy -1.27 -6.35)
 				)
 				(stroke
 					(width 0)
@@ -1126,16 +1126,16 @@
 		)
 		(symbol "Latching_switch_1_1"
 			(pin input line
-				(at -8.89 -6.35 270)
+				(at -8.89 -17.78 90)
 				(length 2.54)
-				(name "SW1_IN"
+				(name "IN1"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number ""
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1144,9 +1144,9 @@
 				)
 			)
 			(pin input line
-				(at -1.27 -6.35 270)
+				(at -1.27 -17.78 90)
 				(length 2.54)
-				(name "SW2_IN"
+				(name "IN2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1162,9 +1162,9 @@
 				)
 			)
 			(pin output line
-				(at -8.89 6.35 90)
+				(at -8.89 8.89 270)
 				(length 2.54)
-				(name "SW1_OUT"
+				(name "OUT1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1180,9 +1180,9 @@
 				)
 			)
 			(pin output line
-				(at -1.27 6.35 90)
+				(at -1.27 8.89 270)
 				(length 2.54)
-				(name "SW2_OUT"
+				(name "OUT2"
 					(effects
 						(font
 							(size 1.27 1.27)

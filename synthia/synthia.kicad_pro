@@ -836,7 +836,7 @@
         "uuid": "b7ca07b0-c23c-4333-a610-582d2798793b"
       }
     ],
-    "used_designators": "#FLG2,R65-78,TP19-23,S42-47,#PWR7",
+    "used_designators": "RhythmSwitch1,Latching Switch1-2,FontSwitch1",
     "variants": []
   },
   "sheets": [

@@ -1219,6 +1219,293 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Synthia_Symbol_Library:Latching_switch"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Latching Switch"
+				(at -18.288 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Latching_switch_0_1"
+				(rectangle
+					(start -10.16 6.35)
+					(end 0 -15.24)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -8.89 6.35) (xy -8.89 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -8.89 2.54)
+					(radius 0.0001)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -8.89 -1.651)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -8.89 -5.969)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -8.89 -15.24) (xy -8.89 -6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -1.27) (xy -7.62 -6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -3.81) (xy -6.35 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -6.35) (xy -2.54 -1.27) (xy -2.54 -3.81) (xy -3.81 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 6.35) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.27 -1.651)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.27 -5.969)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -15.24) (xy -1.27 -6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Latching_switch_1_1"
+				(pin input line
+					(at -8.89 -17.78 90)
+					(length 2.54)
+					(name "IN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -1.27 -17.78 90)
+					(length 2.54)
+					(name "IN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -8.89 8.89 270)
+					(length 2.54)
+					(name "OUT1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -1.27 8.89 270)
+					(length 2.54)
+					(name "OUT2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Synthia_Symbol_Library:MJ-63022B"
 			(pin_names
 				(offset 1.016)
@@ -7525,6 +7812,26 @@
 		)
 		(uuid "3e99fe10-48ed-426b-ad62-c51efe3133e7")
 	)
+	(text "Font Buttons\n"
+		(exclude_from_sim no)
+		(at 49.784 152.146 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+		)
+		(uuid "81fce57a-77dc-44cf-9541-3310dd1f6979")
+	)
+	(text "Rhythm Buttons\n"
+		(exclude_from_sim no)
+		(at 51.816 34.036 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+		)
+		(uuid "f6968ce4-7631-4ee1-9adf-a782f335cfcb")
+	)
 	(junction
 		(at 107.95 177.8)
 		(diameter 0)
@@ -7680,6 +7987,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "63a5d83e-3552-4b3e-b02d-343bd074de07")
+	)
+	(junction
+		(at 71.12 200.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "641fdf7f-3165-4a9b-a60f-d47ba5630cd1")
 	)
 	(junction
 		(at 142.24 177.8)
@@ -7838,6 +8151,12 @@
 		(uuid "bcbe292a-a3b9-4baa-b829-b4000f395453")
 	)
 	(junction
+		(at 105.41 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bf1b42fc-7fc5-4b7e-89b4-9aa94450fdc5")
+	)
+	(junction
 		(at 222.25 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7992,6 +8311,10 @@
 		(uuid "44ad121e-a11a-4c0f-8846-9396d854a377")
 	)
 	(no_connect
+		(at 60.96 199.39)
+		(uuid "4f74adae-3b4e-4c07-a5f9-ff98cd5b3f49")
+	)
+	(no_connect
 		(at 281.94 187.96)
 		(uuid "57f2fb4b-b82c-4c66-8c52-17154c7c9e49")
 	)
@@ -8016,6 +8339,10 @@
 		(uuid "8517699a-e0e6-4dfb-a9ee-ccbd1ad9f14f")
 	)
 	(no_connect
+		(at 78.74 172.72)
+		(uuid "8929069b-d74a-47bb-8202-d49ddede5b35")
+	)
+	(no_connect
 		(at 67.31 111.76)
 		(uuid "89b9d5e8-fb60-43c2-bffa-ea727181698c")
 	)
@@ -8034,6 +8361,10 @@
 	(no_connect
 		(at 62.23 74.93)
 		(uuid "b51c48d7-e927-4ae8-a122-e38c0f7b6496")
+	)
+	(no_connect
+		(at 60.96 172.72)
+		(uuid "bbf987da-aeb6-4023-934c-41ce6656ee60")
 	)
 	(no_connect
 		(at 52.07 127)
@@ -8058,6 +8389,10 @@
 	(no_connect
 		(at 77.47 74.93)
 		(uuid "de7fe676-29d0-48f7-a1fa-a7b4c17856b0")
+	)
+	(no_connect
+		(at 78.74 199.39)
+		(uuid "efdfb2fd-ea38-472a-b86c-7426cda64a5e")
 	)
 	(no_connect
 		(at 110.49 205.74)
@@ -8509,6 +8844,36 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 200.66) (xy 83.82 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3029b59f-ae6e-44bc-a77c-d8d868eda4ec")
+	)
+	(wire
+		(pts
+			(xy 83.82 175.26) (xy 83.82 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "307b8e8f-23f6-4bb9-863c-a49b47a9f075")
+	)
+	(wire
+		(pts
+			(xy 71.12 199.39) (xy 71.12 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30ffc33d-bde2-4a12-abb6-dbdebde1e7fb")
+	)
+	(wire
+		(pts
 			(xy 105.41 175.26) (xy 111.76 175.26)
 		)
 		(stroke
@@ -8546,6 +8911,16 @@
 			(type default)
 		)
 		(uuid "35d917f7-acc7-46dd-b1a0-fad2701f8125")
+	)
+	(wire
+		(pts
+			(xy 53.34 200.66) (xy 71.12 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35ed65cd-c0f0-43a5-b4b6-4418a02345ed")
 	)
 	(wire
 		(pts
@@ -9439,6 +9814,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 200.66) (xy 53.34 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d12f0f9-eaf8-42a9-884b-a8722f135e08")
+	)
+	(wire
+		(pts
 			(xy 116.84 63.5) (xy 160.02 63.5)
 		)
 		(stroke
@@ -9906,6 +10291,16 @@
 			(type default)
 		)
 		(uuid "beed8c7d-8db7-47ef-b3ab-c536939f6346")
+	)
+	(wire
+		(pts
+			(xy 105.41 175.26) (xy 83.82 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf10569e-a05a-4bc6-a35b-002518a13cd9")
 	)
 	(wire
 		(pts
@@ -10791,7 +11186,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Synthia_footprint_library:STA_CF14_STP"
 			(at 364.49 56.388 90)
 			(hide yes)
 			(show_name no)
@@ -11993,7 +12388,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Synthia_footprint_library:STA_CF14_STP"
 			(at 326.39 56.388 90)
 			(hide yes)
 			(show_name no)
@@ -12073,7 +12468,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Synthia_footprint_library:STA_CF14_STP"
 			(at 341.63 56.388 90)
 			(hide yes)
 			(show_name no)
@@ -12317,7 +12712,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Synthia_footprint_library:STA_CF14_STP"
 			(at 293.37 56.388 90)
 			(hide yes)
 			(show_name no)
@@ -13210,7 +13605,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Synthia_footprint_library:STA_CF14_STP"
 			(at 308.61 56.388 90)
 			(hide yes)
 			(show_name no)
@@ -13694,7 +14089,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Synthia_footprint_library:STA_CF14_STP"
 			(at 300.99 56.388 90)
 			(hide yes)
 			(show_name no)
@@ -14173,7 +14568,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Synthia_footprint_library:STA_CF14_STP"
 			(at 285.75 56.388 90)
 			(hide yes)
 			(show_name no)
@@ -15656,6 +16051,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Synthia_Symbol_Library:Latching_switch")
+		(at 62.23 181.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "70f6d9c1-aed4-445f-b01b-985666e85355")
+		(property "Reference" "FontSwitch1"
+			(at 50.546 185.674 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 62.23 181.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Synthia_footprint_library:Latching Switch"
+			(at 62.23 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 62.23 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "0ac3c846-8ffe-4f77-b855-e8084c638897")
+		)
+		(pin "3"
+			(uuid "9ee9b9bd-2f38-4500-8f61-2e364a2ea6d3")
+		)
+		(pin "4"
+			(uuid "4c4c5044-86d5-4f4b-9a61-bd7fa72c6bdd")
+		)
+		(pin "1"
+			(uuid "04734ebb-3bd7-44ca-94cb-0eb2314c3b12")
+		)
+		(instances
+			(project "synthia"
+				(path "/b7ca07b0-c23c-4333-a610-582d2798793b"
+					(reference "FontSwitch1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 106.68 27.94 180)
 		(unit 1)
@@ -15843,7 +16323,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Synthia_footprint_library:STA_CF14_STP"
 			(at 349.25 56.388 90)
 			(hide yes)
 			(show_name no)
@@ -16457,6 +16937,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Synthia_Symbol_Library:Latching_switch")
+		(at 80.01 181.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8aa31809-7f69-4614-bb2e-43e3c13c11bc")
+		(property "Reference" "RhythmSwitch1"
+			(at 68.326 191.77 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 80.01 181.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Synthia_footprint_library:Latching Switch"
+			(at 80.01 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 80.01 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a76fe347-d84a-4abd-83be-68c4c340c315")
+		)
+		(pin "3"
+			(uuid "d60e61ad-ad3e-4017-9eb4-a34ad495bcc1")
+		)
+		(pin "4"
+			(uuid "2f6caebf-359e-4eb4-a7eb-76cc783e43b6")
+		)
+		(pin "1"
+			(uuid "2633223e-2595-483a-84e1-f66269cf56d1")
+		)
+		(instances
+			(project "synthia"
+				(path "/b7ca07b0-c23c-4333-a610-582d2798793b"
+					(reference "RhythmSwitch1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 373.38 77.47 270)
 		(unit 1)
@@ -16971,7 +17537,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Synthia_footprint_library:STA_CF14_STP"
 			(at 356.87 56.388 90)
 			(hide yes)
 			(show_name no)
@@ -17051,7 +17617,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Synthia_footprint_library:STA_CF14_STP"
 			(at 318.77 56.388 90)
 			(hide yes)
 			(show_name no)
@@ -19501,7 +20067,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Synthia_footprint_library:STA_CF14_STP"
 			(at 334.01 56.388 90)
 			(hide yes)
 			(show_name no)
@@ -21819,8 +22385,8 @@
 		)
 	)
 	(sheet
-		(at 20.32 165.1)
-		(size 38.1 60.96)
+		(at 120.65 307.34)
+		(size 60.96 38.1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -21835,7 +22401,7 @@
 		)
 		(uuid "86a9dea5-c947-4457-90b9-a8bfd3e7797e")
 		(property "Sheetname" "Button_Matrix"
-			(at 20.32 164.3884 0)
+			(at 120.65 306.6284 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21846,7 +22412,7 @@
 			)
 		)
 		(property "Sheetfile" "Button_Matrix_sch.kicad_sch"
-			(at 20.32 226.6446 0)
+			(at 120.65 346.0246 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21857,7 +22423,7 @@
 			)
 		)
 		(pin "ScanCol0" output
-			(at 58.42 223.52 0)
+			(at 179.07 307.34 90)
 			(uuid "ccc68f79-1bd4-4b28-b0e8-2c8356532e12")
 			(effects
 				(font
@@ -21867,7 +22433,7 @@
 			)
 		)
 		(pin "ScanCol1" output
-			(at 58.42 218.44 0)
+			(at 173.99 307.34 90)
 			(uuid "d13fd18e-445e-47f1-b940-16566b5f4ca8")
 			(effects
 				(font
@@ -21877,7 +22443,7 @@
 			)
 		)
 		(pin "ScanCol2" output
-			(at 58.42 213.36 0)
+			(at 168.91 307.34 90)
 			(uuid "5df9db3b-bd3b-483c-bb1c-925670119a90")
 			(effects
 				(font
@@ -21887,7 +22453,7 @@
 			)
 		)
 		(pin "ScanCol3" output
-			(at 58.42 208.28 0)
+			(at 163.83 307.34 90)
 			(uuid "68cc491b-a4fd-4c87-8d89-ff5eadec8277")
 			(effects
 				(font
@@ -21897,7 +22463,7 @@
 			)
 		)
 		(pin "ScanCol4" output
-			(at 58.42 203.2 0)
+			(at 158.75 307.34 90)
 			(uuid "45d13776-0bb3-44ab-a3fc-1e22369122a2")
 			(effects
 				(font
@@ -21907,7 +22473,7 @@
 			)
 		)
 		(pin "ScanCol5" output
-			(at 58.42 198.12 0)
+			(at 153.67 307.34 90)
 			(uuid "ff9da018-1100-464c-b5ed-62114f124746")
 			(effects
 				(font
@@ -21917,7 +22483,7 @@
 			)
 		)
 		(pin "ScanCol6" output
-			(at 58.42 193.04 0)
+			(at 148.59 307.34 90)
 			(uuid "6d2bd265-026d-4f64-8ba0-dd50f3049943")
 			(effects
 				(font
@@ -21927,7 +22493,7 @@
 			)
 		)
 		(pin "ScanCol7" output
-			(at 58.42 187.96 0)
+			(at 143.51 307.34 90)
 			(uuid "ace90dde-c783-4d75-82e4-7202953157e5")
 			(effects
 				(font
@@ -21937,7 +22503,7 @@
 			)
 		)
 		(pin "ScanCol8" output
-			(at 58.42 182.88 0)
+			(at 138.43 307.34 90)
 			(uuid "680a9c0e-54bb-4124-9526-eb0751804eac")
 			(effects
 				(font
@@ -21947,7 +22513,7 @@
 			)
 		)
 		(pin "ScanCol9" output
-			(at 58.42 177.8 0)
+			(at 133.35 307.34 90)
 			(uuid "0a86aab0-2e9d-4d57-beb1-46610ebb830d")
 			(effects
 				(font
@@ -21957,7 +22523,7 @@
 			)
 		)
 		(pin "ScanCol10" output
-			(at 58.42 172.72 0)
+			(at 128.27 307.34 90)
 			(uuid "0fedb7e0-105f-42e1-b7e0-280555ec3fe3")
 			(effects
 				(font
@@ -21967,7 +22533,7 @@
 			)
 		)
 		(pin "ScanCol11" output
-			(at 58.42 167.64 0)
+			(at 123.19 307.34 90)
 			(uuid "13c1e34f-20cf-4960-ad50-a28a520d83f6")
 			(effects
 				(font
@@ -21977,33 +22543,33 @@
 			)
 		)
 		(pin "ScanRow0" input
-			(at 22.86 226.06 270)
+			(at 181.61 342.9 0)
 			(uuid "2c663675-5ac4-42b1-a9a4-48880e331312")
 			(effects
 				(font
 					(size 2.54 2.54)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "ScanRow1" input
-			(at 27.94 226.06 270)
+			(at 181.61 337.82 0)
 			(uuid "9124e30a-94ad-4f55-bb9d-f4f8cc24d4b5")
 			(effects
 				(font
 					(size 2.54 2.54)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "ScanRow2" input
-			(at 33.02 226.06 270)
+			(at 181.61 332.74 0)
 			(uuid "75e1d437-29ba-42e1-a2e0-50f49a526c3d")
 			(effects
 				(font
 					(size 2.54 2.54)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(instances
