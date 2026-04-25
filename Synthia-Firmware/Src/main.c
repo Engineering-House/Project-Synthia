@@ -17,9 +17,24 @@
  */
 
 #include <stdint.h>
+#include "chords.h"
+
+void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim) {
+    if (htim->Instance == TIM2) {          // your scanning timer
+        chords_scan();
+        // If you want to directly push chord to DAC, do it here:
+        // uint8_t root;
+        // ChordType type;
+        // chords_get_current(&root, &type);
+        // update_dac_chord(root, type);
+    }
+    // ...other callbacks...
+}
 
 int main(void)
 {
     /* Loop forever */
+    chords_init();
+    HAL_TIM_Base_Start_IT(&htim2);   // assuming handle is htim2
 	for(;;);
 }
