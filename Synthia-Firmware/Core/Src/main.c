@@ -21,7 +21,10 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+#include "audio_gpio.h"
 
+extern uint8_t supersaw[];
+extern uint32_t supersaw_length;
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -44,7 +47,7 @@
 COM_InitTypeDef BspCOMInit;
 
 /* USER CODE BEGIN PV */
-
+volatile uint32_t audio_index = 0;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -89,7 +92,7 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   /* USER CODE BEGIN 2 */
-
+  AudioGPIO_Init();
   /* USER CODE END 2 */
 
   /* Initialize leds */
@@ -239,7 +242,16 @@ static void MX_GPIO_Init(void)
 }
 
 /* USER CODE BEGIN 4 */
+void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
+{
+    if (htim->Instance == TIM1)
+    {
+        AudioGPIO_Output(supersaw[audio_index++]);
 
+        if (audio_index >= supersaw_length)
+            audio_index = 0; // loop
+    }
+}
 /* USER CODE END 4 */
 
 /* USER CODE BEGIN Header */
