@@ -22385,7 +22385,7 @@
 		)
 	)
 	(sheet
-		(at 120.65 307.34)
+		(at 118.11 287.02)
 		(size 60.96 38.1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22401,7 +22401,7 @@
 		)
 		(uuid "86a9dea5-c947-4457-90b9-a8bfd3e7797e")
 		(property "Sheetname" "Button_Matrix"
-			(at 120.65 306.6284 0)
+			(at 118.11 286.3084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22412,7 +22412,7 @@
 			)
 		)
 		(property "Sheetfile" "Button_Matrix_sch.kicad_sch"
-			(at 120.65 346.0246 0)
+			(at 118.11 325.7046 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22423,7 +22423,7 @@
 			)
 		)
 		(pin "ScanCol0" output
-			(at 179.07 307.34 90)
+			(at 176.53 287.02 90)
 			(uuid "ccc68f79-1bd4-4b28-b0e8-2c8356532e12")
 			(effects
 				(font
@@ -22433,7 +22433,7 @@
 			)
 		)
 		(pin "ScanCol1" output
-			(at 173.99 307.34 90)
+			(at 171.45 287.02 90)
 			(uuid "d13fd18e-445e-47f1-b940-16566b5f4ca8")
 			(effects
 				(font
@@ -22443,7 +22443,7 @@
 			)
 		)
 		(pin "ScanCol2" output
-			(at 168.91 307.34 90)
+			(at 166.37 287.02 90)
 			(uuid "5df9db3b-bd3b-483c-bb1c-925670119a90")
 			(effects
 				(font
@@ -22453,7 +22453,7 @@
 			)
 		)
 		(pin "ScanCol3" output
-			(at 163.83 307.34 90)
+			(at 161.29 287.02 90)
 			(uuid "68cc491b-a4fd-4c87-8d89-ff5eadec8277")
 			(effects
 				(font
@@ -22463,7 +22463,7 @@
 			)
 		)
 		(pin "ScanCol4" output
-			(at 158.75 307.34 90)
+			(at 156.21 287.02 90)
 			(uuid "45d13776-0bb3-44ab-a3fc-1e22369122a2")
 			(effects
 				(font
@@ -22473,7 +22473,7 @@
 			)
 		)
 		(pin "ScanCol5" output
-			(at 153.67 307.34 90)
+			(at 151.13 287.02 90)
 			(uuid "ff9da018-1100-464c-b5ed-62114f124746")
 			(effects
 				(font
@@ -22483,7 +22483,7 @@
 			)
 		)
 		(pin "ScanCol6" output
-			(at 148.59 307.34 90)
+			(at 146.05 287.02 90)
 			(uuid "6d2bd265-026d-4f64-8ba0-dd50f3049943")
 			(effects
 				(font
@@ -22493,7 +22493,7 @@
 			)
 		)
 		(pin "ScanCol7" output
-			(at 143.51 307.34 90)
+			(at 140.97 287.02 90)
 			(uuid "ace90dde-c783-4d75-82e4-7202953157e5")
 			(effects
 				(font
@@ -22503,7 +22503,7 @@
 			)
 		)
 		(pin "ScanCol8" output
-			(at 138.43 307.34 90)
+			(at 135.89 287.02 90)
 			(uuid "680a9c0e-54bb-4124-9526-eb0751804eac")
 			(effects
 				(font
@@ -22513,7 +22513,7 @@
 			)
 		)
 		(pin "ScanCol9" output
-			(at 133.35 307.34 90)
+			(at 130.81 287.02 90)
 			(uuid "0a86aab0-2e9d-4d57-beb1-46610ebb830d")
 			(effects
 				(font
@@ -22523,7 +22523,7 @@
 			)
 		)
 		(pin "ScanCol10" output
-			(at 128.27 307.34 90)
+			(at 125.73 287.02 90)
 			(uuid "0fedb7e0-105f-42e1-b7e0-280555ec3fe3")
 			(effects
 				(font
@@ -22533,7 +22533,7 @@
 			)
 		)
 		(pin "ScanCol11" output
-			(at 123.19 307.34 90)
+			(at 120.65 287.02 90)
 			(uuid "13c1e34f-20cf-4960-ad50-a28a520d83f6")
 			(effects
 				(font
@@ -22543,7 +22543,7 @@
 			)
 		)
 		(pin "ScanRow0" input
-			(at 181.61 342.9 0)
+			(at 179.07 322.58 0)
 			(uuid "2c663675-5ac4-42b1-a9a4-48880e331312")
 			(effects
 				(font
@@ -22553,7 +22553,7 @@
 			)
 		)
 		(pin "ScanRow1" input
-			(at 181.61 337.82 0)
+			(at 179.07 317.5 0)
 			(uuid "9124e30a-94ad-4f55-bb9d-f4f8cc24d4b5")
 			(effects
 				(font
@@ -22563,7 +22563,7 @@
 			)
 		)
 		(pin "ScanRow2" input
-			(at 181.61 332.74 0)
+			(at 179.07 312.42 0)
 			(uuid "75e1d437-29ba-42e1-a2e0-50f49a526c3d")
 			(effects
 				(font
