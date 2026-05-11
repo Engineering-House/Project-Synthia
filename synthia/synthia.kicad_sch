@@ -1219,293 +1219,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Synthia_Symbol_Library:Latching_switch"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Latching Switch"
-				(at -18.288 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Latching_switch_0_1"
-				(rectangle
-					(start -10.16 6.35)
-					(end 0 -15.24)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -8.89 6.35) (xy -8.89 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -8.89 2.54)
-					(radius 0.0001)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -8.89 -1.651)
-					(radius 0.381)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -8.89 -5.969)
-					(radius 0.381)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -8.89 -15.24) (xy -8.89 -6.35)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -7.62 -1.27) (xy -7.62 -6.35)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -7.62 -3.81) (xy -6.35 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -6.35) (xy -2.54 -1.27) (xy -2.54 -3.81) (xy -3.81 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 6.35) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -1.27 -1.651)
-					(radius 0.381)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -1.27 -5.969)
-					(radius 0.381)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -15.24) (xy -1.27 -6.35)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Latching_switch_1_1"
-				(pin input line
-					(at -8.89 -17.78 90)
-					(length 2.54)
-					(name "IN1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -1.27 -17.78 90)
-					(length 2.54)
-					(name "IN2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -8.89 8.89 270)
-					(length 2.54)
-					(name "OUT1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -1.27 8.89 270)
-					(length 2.54)
-					(name "OUT2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Synthia_Symbol_Library:MJ-63022B"
 			(pin_names
 				(offset 1.016)
@@ -2855,6 +2568,226 @@
 						(effects
 							(font
 								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Synthia_Symbol_Library:PVA1EEH31.2NV2"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 20.32 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "PVA1EEH31.2NV2"
+				(at 20.32 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "SWITCH_H31.2NV2"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Datasheet" "PVA1EEH31.2NV2"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "PVA1EEH31.2NV2"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SWITCH_H31.2NV2"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PVA1EEH31.2NV2_0_1"
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 -7.62)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -7.62) (xy 33.02 -7.62)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 33.02 5.08) (xy 7.62 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 33.02 -7.62) (xy 33.02 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 7.62)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -2.54 0)
+					(length 7.62)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 40.64 -2.54 180)
+					(length 7.62)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 40.64 0 180)
+					(length 7.62)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -8311,7 +8244,7 @@
 		(uuid "44ad121e-a11a-4c0f-8846-9396d854a377")
 	)
 	(no_connect
-		(at 60.96 199.39)
+		(at 55.88 199.39)
 		(uuid "4f74adae-3b4e-4c07-a5f9-ff98cd5b3f49")
 	)
 	(no_connect
@@ -8339,7 +8272,7 @@
 		(uuid "8517699a-e0e6-4dfb-a9ee-ccbd1ad9f14f")
 	)
 	(no_connect
-		(at 78.74 172.72)
+		(at 73.66 158.75)
 		(uuid "8929069b-d74a-47bb-8202-d49ddede5b35")
 	)
 	(no_connect
@@ -8363,7 +8296,7 @@
 		(uuid "b51c48d7-e927-4ae8-a122-e38c0f7b6496")
 	)
 	(no_connect
-		(at 60.96 172.72)
+		(at 55.88 158.75)
 		(uuid "bbf987da-aeb6-4023-934c-41ce6656ee60")
 	)
 	(no_connect
@@ -8391,7 +8324,7 @@
 		(uuid "de7fe676-29d0-48f7-a1fa-a7b4c17856b0")
 	)
 	(no_connect
-		(at 78.74 199.39)
+		(at 73.66 199.39)
 		(uuid "efdfb2fd-ea38-472a-b86c-7426cda64a5e")
 	)
 	(no_connect
@@ -16051,8 +15984,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Synthia_Symbol_Library:Latching_switch")
-		(at 62.23 181.61 0)
+		(lib_id "Synthia_Symbol_Library:PVA1EEH31.2NV2")
+		(at 53.34 199.39 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16060,51 +15993,56 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "70f6d9c1-aed4-445f-b01b-985666e85355")
-		(property "Reference" "FontSwitch1"
-			(at 50.546 185.674 90)
+		(fields_autoplaced yes)
+		(uuid "723bfd23-c721-412a-9fee-f2f17f9231dc")
+		(property "Reference" "U4"
+			(at 62.23 177.7999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" ""
-			(at 62.23 181.61 0)
+		(property "Value" "PVA1EEH31.2NV2"
+			(at 62.23 180.3399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Synthia_footprint_library:Latching Switch"
-			(at 62.23 181.61 0)
+		(property "Footprint" "SWITCH_H31.2NV2"
+			(at 53.34 199.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 62.23 181.61 0)
+		(property "Datasheet" "PVA1EEH31.2NV2"
+			(at 53.34 199.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
 		(property "Description" ""
-			(at 62.23 181.61 0)
+			(at 53.34 199.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16114,22 +16052,22 @@
 				)
 			)
 		)
-		(pin "2"
-			(uuid "0ac3c846-8ffe-4f77-b855-e8084c638897")
-		)
 		(pin "3"
-			(uuid "9ee9b9bd-2f38-4500-8f61-2e364a2ea6d3")
-		)
-		(pin "4"
-			(uuid "4c4c5044-86d5-4f4b-9a61-bd7fa72c6bdd")
+			(uuid "cc7fb6a9-f92b-4700-ba42-ced950975fbd")
 		)
 		(pin "1"
-			(uuid "04734ebb-3bd7-44ca-94cb-0eb2314c3b12")
+			(uuid "53d6938f-6d67-4724-b1d0-09cacf29e528")
+		)
+		(pin "2"
+			(uuid "9816718f-ad11-4668-ba5f-32b5a5e6b0f2")
+		)
+		(pin "4"
+			(uuid "c23cfbe4-bed3-4cd9-8462-b4e700251a07")
 		)
 		(instances
 			(project "synthia"
 				(path "/b7ca07b0-c23c-4333-a610-582d2798793b"
-					(reference "FontSwitch1")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -16931,92 +16869,6 @@
 			(project "synthia"
 				(path "/b7ca07b0-c23c-4333-a610-582d2798793b"
 					(reference "R68")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Synthia_Symbol_Library:Latching_switch")
-		(at 80.01 181.61 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8aa31809-7f69-4614-bb2e-43e3c13c11bc")
-		(property "Reference" "RhythmSwitch1"
-			(at 68.326 191.77 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" ""
-			(at 80.01 181.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Synthia_footprint_library:Latching Switch"
-			(at 80.01 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 80.01 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 80.01 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a76fe347-d84a-4abd-83be-68c4c340c315")
-		)
-		(pin "3"
-			(uuid "d60e61ad-ad3e-4017-9eb4-a34ad495bcc1")
-		)
-		(pin "4"
-			(uuid "2f6caebf-359e-4eb4-a7eb-76cc783e43b6")
-		)
-		(pin "1"
-			(uuid "2633223e-2595-483a-84e1-f66269cf56d1")
-		)
-		(instances
-			(project "synthia"
-				(path "/b7ca07b0-c23c-4333-a610-582d2798793b"
-					(reference "RhythmSwitch1")
 					(unit 1)
 				)
 			)
@@ -20110,6 +19962,96 @@
 			(project "synthia"
 				(path "/b7ca07b0-c23c-4333-a610-582d2798793b"
 					(reference "R45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Synthia_Symbol_Library:PVA1EEH31.2NV2")
+		(at 71.12 199.39 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d2d4e3ca-8723-4fb2-a7c5-09ada988903b")
+		(property "Reference" "U5"
+			(at 80.01 177.7999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PVA1EEH31.2NV2"
+			(at 80.01 180.3399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SWITCH_H31.2NV2"
+			(at 71.12 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "PVA1EEH31.2NV2"
+			(at 71.12 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "93b80d86-cbf8-4457-9571-f3849ee9a616")
+		)
+		(pin "1"
+			(uuid "63909318-cdc4-46fb-8753-448c94580927")
+		)
+		(pin "2"
+			(uuid "6c5485f0-9a6c-4f5f-aad8-967216f02662")
+		)
+		(pin "4"
+			(uuid "1b7df7ef-9ad1-453b-8601-7c274c47e8f8")
+		)
+		(instances
+			(project "synthia"
+				(path "/b7ca07b0-c23c-4333-a610-582d2798793b"
+					(reference "U5")
 					(unit 1)
 				)
 			)
