@@ -376,7 +376,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "L78M05CV:TO254P450X1020X1935-3P"
+		(property "Footprint" "Synthia_footprint_library:TO254P450X1020X1935-3P"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -666,7 +666,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "LD1117V33:TO255P1020X450X1968-3"
+		(property "Footprint" "Synthia_footprint_library:TO255P1020X450X1968-3"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -846,8 +846,8 @@
 		)
 		(symbol "LD1117V33_0_0"
 			(rectangle
-				(start -10.16 -5.08)
-				(end 10.16 5.08)
+				(start -10.16 5.08)
+				(end 10.16 -5.08)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -944,7 +944,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "MJ-63022B:CUI_MJ-63022B"
+		(property "Footprint" "Synthia_footprint_library:CUI_MJ-63022B"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1028,8 +1028,8 @@
 		)
 		(symbol "MJ-63022B_0_0"
 			(rectangle
-				(start -7.62 -7.62)
-				(end 7.62 7.62)
+				(start -7.62 7.62)
+				(end 7.62 -7.62)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -1293,7 +1293,7 @@
 				)
 			)
 		)
-		(property "Footprint" "POT_P120PK-x25_TTE"
+		(property "Footprint" "Synthia_footprint_library:POT_P120PK-x25_TTE"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1322,16 +1322,6 @@
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1817,7 +1807,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "PJ-007:SAMESKY_PJ-007"
+		(property "Footprint" "Synthia_footprint_library:SAMESKY_PJ-007"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2298,7 +2288,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SWITCH_H31.2NV2"
+		(property "Footprint" "Synthia_footprint_library:SWITCH_H31.2NV2"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2510,7 +2500,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "SDS-50J:CUI_SDS-50J"
+		(property "Footprint" "Synthia_footprint_library:CUI_SDS-50J"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2690,8 +2680,8 @@
 		)
 		(symbol "SDS-50J_0_0"
 			(rectangle
-				(start -5.08 -10.16)
-				(end 5.08 10.16)
+				(start -5.08 10.16)
+				(end 5.08 -10.16)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -2861,7 +2851,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "SJ3-35083C-TR:SAMESKY_SJ3-35083C-TR"
+		(property "Footprint" "Synthia_footprint_library:SAMESKY_SJ3-35083C-TR"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3203,7 +3193,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LQFP144_STM"
+		(property "Footprint" "Synthia_footprint_library:LQFP144_STM"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5995,7 +5985,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "TL1105BF160Q:SW_TL1105BF160Q"
+		(property "Footprint" "Synthia_footprint_library:SW_TL1105BF160Q"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6398,7 +6388,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "TLV272IP:DIP794W45P254L959H508Q8"
+		(property "Footprint" "Synthia_footprint_library:DIP794W45P254L959H508Q8"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)

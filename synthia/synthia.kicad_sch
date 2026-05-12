@@ -972,7 +972,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "LD1117V33:TO255P1020X450X1968-3"
+			(property "Footprint" "Synthia_footprint_library:TO255P1020X450X1968-3"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1152,8 +1152,8 @@
 			)
 			(symbol "LD1117V33_0_0"
 				(rectangle
-					(start -10.16 -5.08)
-					(end 10.16 5.08)
+					(start -10.16 5.08)
+					(end 10.16 -5.08)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1250,7 +1250,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "MJ-63022B:CUI_MJ-63022B"
+			(property "Footprint" "Synthia_footprint_library:CUI_MJ-63022B"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1334,8 +1334,8 @@
 			)
 			(symbol "MJ-63022B_0_0"
 				(rectangle
-					(start -7.62 -7.62)
-					(end 7.62 7.62)
+					(start -7.62 7.62)
+					(end 7.62 -7.62)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1599,7 +1599,7 @@
 					)
 				)
 			)
-			(property "Footprint" "POT_P120PK-x25_TTE"
+			(property "Footprint" "Synthia_footprint_library:POT_P120PK-x25_TTE"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1628,16 +1628,6 @@
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2123,7 +2113,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "PJ-007:SAMESKY_PJ-007"
+			(property "Footprint" "Synthia_footprint_library:SAMESKY_PJ-007"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2604,7 +2594,7 @@
 					)
 				)
 			)
-			(property "Footprint" "SWITCH_H31.2NV2"
+			(property "Footprint" "Synthia_footprint_library:SWITCH_H31.2NV2"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2633,16 +2623,6 @@
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2826,7 +2806,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "SDS-50J:CUI_SDS-50J"
+			(property "Footprint" "Synthia_footprint_library:CUI_SDS-50J"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3006,8 +2986,8 @@
 			)
 			(symbol "SDS-50J_0_0"
 				(rectangle
-					(start -5.08 -10.16)
-					(end 5.08 10.16)
+					(start -5.08 10.16)
+					(end 5.08 -10.16)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -3177,7 +3157,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "SJ3-35083C-TR:SAMESKY_SJ3-35083C-TR"
+			(property "Footprint" "Synthia_footprint_library:SAMESKY_SJ3-35083C-TR"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3519,7 +3499,7 @@
 					)
 				)
 			)
-			(property "Footprint" "LQFP144_STM"
+			(property "Footprint" "Synthia_footprint_library:LQFP144_STM"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6311,7 +6291,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "TL1105BF160Q:SW_TL1105BF160Q"
+			(property "Footprint" "Synthia_footprint_library:SW_TL1105BF160Q"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6714,7 +6694,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "TLV272IP:DIP794W45P254L959H508Q8"
+			(property "Footprint" "Synthia_footprint_library:DIP794W45P254L959H508Q8"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -7796,22 +7776,10 @@
 		(uuid "07b33c75-ca47-4d4f-abb0-4c7a860cc8b5")
 	)
 	(junction
-		(at 323.85 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "07d96269-b0f9-4816-80a5-f2e959be48b6")
-	)
-	(junction
 		(at 106.68 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0b02d75a-695e-4e25-b769-687da06cb839")
-	)
-	(junction
-		(at 116.84 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "10883978-e505-4aeb-b236-df492d01b8dd")
 	)
 	(junction
 		(at 144.78 175.26)
@@ -7826,16 +7794,16 @@
 		(uuid "16ec0fa6-88cf-48c5-8682-b448a99a041a")
 	)
 	(junction
-		(at 350.52 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "19861742-eda9-44f4-9a4f-8f41d4cf2eb6")
-	)
-	(junction
 		(at 167.64 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1f9cbc14-dc2e-4686-8148-4c9b7e740eb0")
+	)
+	(junction
+		(at 311.15 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "20f55611-fe36-425a-a975-83e2052def6a")
 	)
 	(junction
 		(at 151.13 43.18)
@@ -7850,16 +7818,16 @@
 		(uuid "27f3effa-77eb-4660-9c2c-f156b99ba37d")
 	)
 	(junction
+		(at 106.68 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "292391e7-4611-44f4-bbc4-d55b63caf602")
+	)
+	(junction
 		(at 168.91 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2a9dc791-034a-40e7-8068-e761945d9238")
-	)
-	(junction
-		(at 326.39 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2c51e724-6efe-41e5-bae9-2c62fce166b7")
 	)
 	(junction
 		(at 154.94 83.82)
@@ -7890,6 +7858,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3ed2295e-686e-4cbc-bdee-72b518d5fee8")
+	)
+	(junction
+		(at 116.84 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4536bbd8-4749-481b-85ec-33daeb5d642e")
+	)
+	(junction
+		(at 350.52 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4cfe65d0-74ea-4bf4-af68-66998a4e7600")
 	)
 	(junction
 		(at 36.83 83.82)
@@ -8000,6 +7980,12 @@
 		(uuid "827e5ae1-a316-4210-a620-c02dfc9cc425")
 	)
 	(junction
+		(at 347.98 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d56ccd6-1618-4a30-b378-62d58b2152df")
+	)
+	(junction
 		(at 351.79 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8046,12 +8032,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a8fe592a-83ad-4925-930d-f91c12879793")
-	)
-	(junction
-		(at 316.23 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "adcd014c-ee71-4788-9fe1-7c90b0dd2aac")
 	)
 	(junction
 		(at 62.23 83.82)
@@ -8106,12 +8086,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c8dec499-0a1c-46ad-8144-f03a88043196")
-	)
-	(junction
-		(at 106.68 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "caa0d4e8-e9c5-4d8a-8992-1d0b46473d81")
 	)
 	(junction
 		(at 222.25 175.26)
@@ -8178,12 +8152,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e137388f-075a-451c-969c-a3917626c9cb")
-	)
-	(junction
-		(at 318.77 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e3e9d54b-4a1a-4283-9743-f951fcb334cf")
 	)
 	(junction
 		(at 46.99 83.82)
@@ -8397,7 +8365,7 @@
 	)
 	(wire
 		(pts
-			(xy 316.23 99.06) (xy 299.72 99.06)
+			(xy 299.72 99.06) (xy 311.15 99.06)
 		)
 		(stroke
 			(width 0)
@@ -8497,16 +8465,6 @@
 	)
 	(wire
 		(pts
-			(xy 316.23 99.06) (xy 316.23 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "114420c7-f0da-4829-9096-3ded0c7ef84e")
-	)
-	(wire
-		(pts
 			(xy 162.56 91.44) (xy 240.03 91.44)
 		)
 		(stroke
@@ -8567,6 +8525,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 27.94) (xy 97.79 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c22119b-0ff8-4967-8625-19814ccd1a44")
+	)
+	(wire
+		(pts
 			(xy 160.02 52.07) (xy 168.91 52.07)
 		)
 		(stroke
@@ -8604,16 +8572,6 @@
 			(type default)
 		)
 		(uuid "1e35e2c7-5f75-45d4-a69f-0d345d92b55c")
-	)
-	(wire
-		(pts
-			(xy 326.39 105.41) (xy 326.39 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1fa6cbc8-f148-4f4e-b08e-348c392db781")
 	)
 	(wire
 		(pts
@@ -8757,16 +8715,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 27.94) (xy 116.84 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2dea3eeb-d66d-415f-9fb8-29476825560b")
-	)
-	(wire
-		(pts
 			(xy 168.91 44.45) (xy 168.91 43.18)
 		)
 		(stroke
@@ -8867,6 +8815,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 27.94) (xy 107.95 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37855050-ea80-45d8-9011-073be2d74632")
+	)
+	(wire
+		(pts
 			(xy 21.59 83.82) (xy 16.51 83.82)
 		)
 		(stroke
@@ -8904,6 +8862,16 @@
 			(type default)
 		)
 		(uuid "39f4e558-ef2d-4847-aa50-562c2f81a834")
+	)
+	(wire
+		(pts
+			(xy 116.84 27.94) (xy 119.38 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a33bc12-1731-4566-a049-fb0c66c570e2")
 	)
 	(wire
 		(pts
@@ -9057,6 +9025,16 @@
 	)
 	(wire
 		(pts
+			(xy 347.98 99.06) (xy 373.38 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d1539f9-b71b-4de1-8296-340b8b4ac880")
+	)
+	(wire
+		(pts
 			(xy 170.18 161.29) (xy 170.18 175.26)
 		)
 		(stroke
@@ -9094,6 +9072,16 @@
 			(type default)
 		)
 		(uuid "503486fb-5549-4bcf-bb9e-1fb69858407b")
+	)
+	(wire
+		(pts
+			(xy 355.6 101.6) (xy 355.6 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5169744b-44fc-447c-b8c3-5eff76043d4b")
 	)
 	(wire
 		(pts
@@ -9257,16 +9245,6 @@
 	)
 	(wire
 		(pts
-			(xy 350.52 99.06) (xy 316.23 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62ceaffc-c176-430a-8850-b903f430a04a")
-	)
-	(wire
-		(pts
 			(xy 234.95 96.52) (xy 234.95 130.81)
 		)
 		(stroke
@@ -9314,6 +9292,26 @@
 			(type default)
 		)
 		(uuid "69174170-9bdc-4396-933a-70c87cb4e499")
+	)
+	(wire
+		(pts
+			(xy 350.52 105.41) (xy 358.14 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "693f114f-44ab-470c-9667-e1146082c53d")
+	)
+	(wire
+		(pts
+			(xy 316.23 105.41) (xy 350.52 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "695bd2a2-cd87-4753-b42f-1e5571e93185")
 	)
 	(wire
 		(pts
@@ -9407,7 +9405,17 @@
 	)
 	(wire
 		(pts
-			(xy 288.29 101.6) (xy 323.85 101.6)
+			(xy 311.15 99.06) (xy 347.98 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6de5ae85-be61-43bc-9cc9-3bc634fc061d")
+	)
+	(wire
+		(pts
+			(xy 288.29 101.6) (xy 355.6 101.6)
 		)
 		(stroke
 			(width 0)
@@ -9467,16 +9475,6 @@
 	)
 	(wire
 		(pts
-			(xy 323.85 105.41) (xy 323.85 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70e00678-166d-468f-93fa-15b5dc1808d5")
-	)
-	(wire
-		(pts
 			(xy 222.25 83.82) (xy 222.25 175.26)
 		)
 		(stroke
@@ -9504,6 +9502,16 @@
 			(type default)
 		)
 		(uuid "74e94b34-06c7-410a-8a60-0335910b5dde")
+	)
+	(wire
+		(pts
+			(xy 358.14 105.41) (xy 358.14 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75983d60-9874-4118-9d0b-34563b6d7187")
 	)
 	(wire
 		(pts
@@ -9647,16 +9655,6 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 104.14) (xy 353.06 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "824f54cc-b33c-4064-8778-12b9bc521399")
-	)
-	(wire
-		(pts
 			(xy 316.23 77.47) (xy 320.04 77.47)
 		)
 		(stroke
@@ -9784,6 +9782,16 @@
 			(type default)
 		)
 		(uuid "8e421350-a07d-405d-a826-4a2650794d52")
+	)
+	(wire
+		(pts
+			(xy 127 27.94) (xy 129.54 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e99c621-cf73-4c4e-b74e-6e6235bbf8bf")
 	)
 	(wire
 		(pts
@@ -9967,16 +9975,6 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 104.14) (xy 318.77 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6460420-d8b2-4aa4-87df-b5e13ef4d238")
-	)
-	(wire
-		(pts
 			(xy 160.02 50.8) (xy 160.02 52.07)
 		)
 		(stroke
@@ -10057,16 +10055,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 27.94) (xy 106.68 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b089246c-104f-4a52-86bc-ec7daf61eaac")
-	)
-	(wire
-		(pts
 			(xy 160.02 63.5) (xy 160.02 64.77)
 		)
 		(stroke
@@ -10104,16 +10092,6 @@
 			(type default)
 		)
 		(uuid "b500addf-b5e9-467b-ad9a-069a136fc592")
-	)
-	(wire
-		(pts
-			(xy 353.06 105.41) (xy 353.06 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5098243-496e-431e-b1e6-42d51cf6444a")
 	)
 	(wire
 		(pts
@@ -10177,16 +10155,6 @@
 	)
 	(wire
 		(pts
-			(xy 355.6 101.6) (xy 323.85 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bceec297-fb83-43fe-b348-ad7a7cf933ae")
-	)
-	(wire
-		(pts
 			(xy 52.07 83.82) (xy 46.99 83.82)
 		)
 		(stroke
@@ -10214,6 +10182,16 @@
 			(type default)
 		)
 		(uuid "bd659eb9-674c-494e-83e4-24247b24f851")
+	)
+	(wire
+		(pts
+			(xy 350.52 105.41) (xy 350.52 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be9bc857-d684-40c7-bc9c-e83a5cb166fd")
 	)
 	(wire
 		(pts
@@ -10264,16 +10242,6 @@
 			(type default)
 		)
 		(uuid "c058c263-4083-4daf-85d3-ac7e46e2b34e")
-	)
-	(wire
-		(pts
-			(xy 350.52 99.06) (xy 350.52 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1f6bc4e-d893-4a38-a30a-23a6a46e6603")
 	)
 	(wire
 		(pts
@@ -10357,7 +10325,7 @@
 	)
 	(wire
 		(pts
-			(xy 288.29 104.14) (xy 318.77 104.14)
+			(xy 288.29 104.14) (xy 313.69 104.14)
 		)
 		(stroke
 			(width 0)
@@ -10407,6 +10375,16 @@
 	)
 	(wire
 		(pts
+			(xy 311.15 99.06) (xy 311.15 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cea6ef6e-96ba-4430-9d2e-47e331244e49")
+	)
+	(wire
+		(pts
 			(xy 142.24 161.29) (xy 142.24 177.8)
 		)
 		(stroke
@@ -10444,6 +10422,16 @@
 			(type default)
 		)
 		(uuid "d439e9d7-e858-4fac-84b3-887a43639f0f")
+	)
+	(wire
+		(pts
+			(xy 115.57 27.94) (xy 116.84 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d56437e1-6dd3-4309-a4dc-8745d2a704cf")
 	)
 	(wire
 		(pts
@@ -10537,13 +10525,13 @@
 	)
 	(wire
 		(pts
-			(xy 355.6 105.41) (xy 355.6 101.6)
+			(xy 105.41 27.94) (xy 106.68 27.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e308e5ca-b7c3-42d3-a0b1-47759985236e")
+		(uuid "e51c5da0-9d3b-4ebb-b1b7-a35e765ef828")
 	)
 	(wire
 		(pts
@@ -10577,13 +10565,13 @@
 	)
 	(wire
 		(pts
-			(xy 373.38 99.06) (xy 350.52 99.06)
+			(xy 313.69 104.14) (xy 313.69 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e9cca4d2-1061-4c16-a823-ddf4b9b50910")
+		(uuid "e9a8f909-472a-4beb-b2da-33b079be2153")
 	)
 	(wire
 		(pts
@@ -10717,16 +10705,6 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 104.14) (xy 318.77 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb71d28d-03aa-41b3-9d62-fff1e64045fc")
-	)
-	(wire
-		(pts
 			(xy 170.18 95.25) (xy 236.22 95.25)
 		)
 		(stroke
@@ -10747,13 +10725,13 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 27.94) (xy 129.54 27.94)
+			(xy 347.98 99.06) (xy 347.98 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fe7f356f-97f4-4122-96c9-431a2c271e2d")
+		(uuid "fecea4dc-54dc-417d-9efb-eaa7198343b4")
 	)
 	(wire
 		(pts
@@ -11491,6 +11469,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N47xxA")
+		(at 123.19 27.94 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1723f566-1dac-4cb8-b3df-848da8bd4eec")
+		(property "Reference" "D40"
+			(at 123.19 21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4742A"
+			(at 123.19 24.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 123.19 23.495 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85816/1n4728a.pdf"
+			(at 123.19 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1300mW Silicon planar power Zener diodes, DO-41"
+			(at 123.19 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "45bc96a5-b4ba-432f-80ec-b65f06f28c47")
+		)
+		(pin "2"
+			(uuid "87a7ea71-be26-410b-85ff-117311e564a6")
+		)
+		(instances
+			(project "synthia"
+				(path "/b7ca07b0-c23c-4333-a610-582d2798793b"
+					(reference "D40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 62.23 130.81 0)
 		(unit 1)
@@ -12120,6 +12178,86 @@
 			(project "synthia"
 				(path "/b7ca07b0-c23c-4333-a610-582d2798793b"
 					(reference "R77")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N47xxA")
+		(at 111.76 27.94 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3641819e-c0c7-445d-9558-921236fa17b3")
+		(property "Reference" "D39"
+			(at 111.76 21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4742A"
+			(at 111.76 24.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 111.76 23.495 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85816/1n4728a.pdf"
+			(at 111.76 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1300mW Silicon planar power Zener diodes, DO-41"
+			(at 111.76 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0872e142-ffc1-418f-836d-866e99dc4802")
+		)
+		(pin "2"
+			(uuid "effc7dbc-5a17-44c0-9178-a7c23074c7e0")
+		)
+		(instances
+			(project "synthia"
+				(path "/b7ca07b0-c23c-4333-a610-582d2798793b"
+					(reference "D39")
 					(unit 1)
 				)
 			)
@@ -16017,7 +16155,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SWITCH_H31.2NV2"
+		(property "Footprint" "Synthia_footprint_library:SWITCH_H31.2NV2"
 			(at 53.34 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -18243,7 +18381,7 @@
 	)
 	(symbol
 		(lib_id "Synthia_Symbol_Library:MJ-63022B")
-		(at 355.6 118.11 90)
+		(at 316.23 118.11 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18254,7 +18392,7 @@
 		(fields_autoplaced yes)
 		(uuid "b6e6ef43-aaab-4a59-af4a-0e7a7fa63a03")
 		(property "Reference" "J1"
-			(at 364.49 116.8399 90)
+			(at 325.12 116.8399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18265,7 +18403,7 @@
 			)
 		)
 		(property "Value" "MJ-63022B"
-			(at 364.49 119.3799 90)
+			(at 325.12 119.3799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18276,7 +18414,7 @@
 			)
 		)
 		(property "Footprint" "Synthia_footprint_library:CUI_MJ-63022B"
-			(at 355.6 118.11 0)
+			(at 316.23 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18288,7 +18426,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 355.6 118.11 0)
+			(at 316.23 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18299,7 +18437,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 355.6 118.11 0)
+			(at 316.23 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18310,7 +18448,7 @@
 			)
 		)
 		(property "PARTREV" "1.0"
-			(at 355.6 118.11 0)
+			(at 316.23 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18322,7 +18460,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 355.6 118.11 0)
+			(at 316.23 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18334,7 +18472,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "12.50mm"
-			(at 355.6 118.11 0)
+			(at 316.23 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18346,7 +18484,7 @@
 			)
 		)
 		(property "MANUFACTURER" "CUI Devices"
-			(at 355.6 118.11 0)
+			(at 316.23 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18693,7 +18831,7 @@
 	)
 	(symbol
 		(lib_id "Synthia_Symbol_Library:SJ3-35083C-TR")
-		(at 321.31 115.57 90)
+		(at 353.06 116.84 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18704,7 +18842,7 @@
 		(fields_autoplaced yes)
 		(uuid "c5446a09-febd-4fdd-925f-6c427bee039d")
 		(property "Reference" "J2"
-			(at 327.66 116.4465 90)
+			(at 359.41 117.7165 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18715,7 +18853,7 @@
 			)
 		)
 		(property "Value" "SJ3-35083C-TR"
-			(at 327.66 118.9865 90)
+			(at 359.41 120.2565 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18726,7 +18864,7 @@
 			)
 		)
 		(property "Footprint" "Synthia_footprint_library:SAMESKY_SJ3-35083C-TR"
-			(at 321.31 115.57 0)
+			(at 353.06 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18738,7 +18876,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 321.31 115.57 0)
+			(at 353.06 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18749,7 +18887,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 321.31 115.57 0)
+			(at 353.06 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18760,7 +18898,7 @@
 			)
 		)
 		(property "PARTREV" "1.01"
-			(at 321.31 115.57 0)
+			(at 353.06 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18772,7 +18910,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 321.31 115.57 0)
+			(at 353.06 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18784,7 +18922,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "5.3mm"
-			(at 321.31 115.57 0)
+			(at 353.06 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18796,7 +18934,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Same Sky"
-			(at 321.31 115.57 0)
+			(at 353.06 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20001,7 +20139,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SWITCH_H31.2NV2"
+		(property "Footprint" "Synthia_footprint_library:SWITCH_H31.2NV2"
 			(at 71.12 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -21176,6 +21314,86 @@
 			(project "synthia"
 				(path "/b7ca07b0-c23c-4333-a610-582d2798793b"
 					(reference "S41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N47xxA")
+		(at 101.6 27.94 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f023e487-9c72-47c6-b0df-fee08ef54f02")
+		(property "Reference" "D37"
+			(at 101.6 21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4742A"
+			(at 101.6 24.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 101.6 23.495 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85816/1n4728a.pdf"
+			(at 101.6 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1300mW Silicon planar power Zener diodes, DO-41"
+			(at 101.6 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "13fa9d33-1522-4355-a8e0-5c423ab2ae4a")
+		)
+		(pin "2"
+			(uuid "6b6d0729-1f7e-4e22-82e2-8a00a755ebe4")
+		)
+		(instances
+			(project "synthia"
+				(path "/b7ca07b0-c23c-4333-a610-582d2798793b"
+					(reference "D37")
 					(unit 1)
 				)
 			)
