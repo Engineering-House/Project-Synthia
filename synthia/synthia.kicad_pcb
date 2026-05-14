@@ -81968,6 +81968,18 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "CRYSTAL\n"
+		(at 292.821515 196.976917 0)
+		(layer "F.SilkS")
+		(uuid "fea36478-4cc6-47f1-9a5b-6a530cf54942")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.3)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "USB PGRM"
 		(at 302.308495 251.390856 0)
 		(layer "F.SilkS")
