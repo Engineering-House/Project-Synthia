@@ -76934,7 +76934,7 @@
 	(footprint "Synthia_footprint_library:POT_P120PK-x25_TTE"
 		(layer "F.Cu")
 		(uuid "e6d8e7af-8d27-452f-baa5-4bf321cdf817")
-		(at 167.50925 162.9409)
+		(at 177.75425 178.9677)
 		(tags "P120PK-Y25BR10K ")
 		(property "Reference" "R79"
 			(at 3.7676 2.1646 0)
@@ -78007,7 +78007,7 @@
 	(footprint "LOGO"
 		(layer "F.Cu")
 		(uuid "ea9dac48-51fb-4ce1-a3d7-2121fce30471")
-		(at 373.67 335.98)
+		(at 369.16 319.81)
 		(property "Reference" "LOGO"
 			(at 0 0 0)
 			(layer "F.SilkS")
@@ -82505,7 +82505,7 @@
 	)
 	(gr_line
 		(start 241.782488 124.84112)
-		(end 246.740566 123.510616)
+		(end 246.666174 123.530579)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -82524,7 +82524,7 @@
 		(uuid "a5be267e-e40d-4ddd-ae1f-3eed930e0c2d")
 	)
 	(gr_line
-		(start 251.549526 122.220127)
+		(start 251.623377 122.200309)
 		(end 272.53 116.59)
 		(stroke
 			(width 0.1)
@@ -82728,41 +82728,41 @@
 		(uuid "1a00b323-9f67-479b-b64e-ec698b2df6b2")
 	)
 	(gr_arc
-		(start 203.343931 354.009955)
-		(mid 96.480915 260.325678)
-		(end 175.375179 142.121857)
+		(start 214.326764 337.990435)
+		(mid 113.735931 249.804834)
+		(end 187.999601 138.538835)
 		(stroke
-			(width 0.05)
+			(width 0.047065)
 			(type default)
 		)
 		(layer "Edge.Cuts")
 		(uuid "1880b80d-71c4-42ca-9be7-897e55bbaff8")
 	)
 	(gr_line
-		(start 395.597075 82.93)
-		(end 175.38 142.121857)
+		(start 395.295862 82.821164)
+		(end 188.004137 138.538835)
 		(stroke
-			(width 0.05)
+			(width 0.047065)
 			(type default)
 		)
 		(layer "Edge.Cuts")
 		(uuid "c46f5f33-0807-448d-9b4b-90437e0d14eb")
 	)
 	(gr_line
-		(start 395.597075 353.85)
-		(end 203.34 354.01)
+		(start 395.295862 337.839872)
+		(end 214.323063 337.990478)
 		(stroke
-			(width 0.05)
+			(width 0.047065)
 			(type default)
 		)
 		(layer "Edge.Cuts")
 		(uuid "af78ac80-93be-4d94-be76-03da688c63a1")
 	)
 	(gr_line
-		(start 395.597075 353.85)
-		(end 395.597075 82.929123)
+		(start 395.295862 337.839872)
+		(end 395.295862 82.820341)
 		(stroke
-			(width 0.05)
+			(width 0.047065)
 			(type default)
 		)
 		(layer "Edge.Cuts")
@@ -83401,7 +83401,7 @@
 		)
 	)
 	(gr_text "REV 1.0"
-		(at 357.46 352.41 0)
+		(at 352.95 336.24 0)
 		(layer "F.SilkS")
 		(uuid "747fa51d-ceb4-402c-9588-ccb0c1c82401")
 		(effects
