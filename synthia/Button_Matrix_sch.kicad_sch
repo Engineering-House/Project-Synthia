@@ -412,7 +412,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "TL1105BF160Q:SW_TL1105BF160Q"
+			(property "Footprint" "Synthia_footprint_library:SW_TL1105BF160Q"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)

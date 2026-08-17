@@ -1,0 +1,226 @@
+(footprint "ATS08A-E_CTS"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(tags "ATS08A-E ")
+	(property "Reference" "REF**"
+		(at 2.44 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "00409b6a-6563-486d-9e3f-d8f4bc407234")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "ATS08A-E_CTS"
+		(at 2.44 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "11f125cd-3b43-48a8-9910-918032e77e34")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "44e4f995-7604-4a37-8e3b-c9c1bd0343c2")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f7ef1fb4-a1e8-4616-b6d3-e8fb6ffc271f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -3.1099 -2.3749)
+		(end -3.1099 2.3749)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "48b55b87-df35-406d-b703-28be0c4e05fe")
+	)
+	(fp_line
+		(start 7.9899 -2.3749)
+		(end -3.1099 -2.3749)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b9f81647-3d30-4d87-9b16-4babd9afa8e5")
+	)
+	(fp_line
+		(start 7.9899 -2.3749)
+		(end 7.9899 2.3749)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b9c85869-71af-4764-8ea0-95f08a065f9c")
+	)
+	(fp_line
+		(start 7.9899 2.3749)
+		(end -3.1099 2.3749)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2a555d55-70be-4979-8156-9cde788fe7e0")
+	)
+	(fp_line
+		(start -3.2369 -2.5019)
+		(end 8.1169 -2.5019)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fb7597b7-2880-4f4c-8ad0-1cc4c493f335")
+	)
+	(fp_line
+		(start -3.2369 2.5019)
+		(end -3.2369 -2.5019)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f590e216-7fc8-4a74-9420-89d45238954b")
+	)
+	(fp_line
+		(start 8.1169 -2.5019)
+		(end 8.1169 2.5019)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "278e4666-5f86-41ba-9d61-24434fdaab5d")
+	)
+	(fp_line
+		(start 8.1169 2.5019)
+		(end -3.2369 2.5019)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a71b33b0-42dc-4c6d-b597-d9b8a39caf6d")
+	)
+	(fp_line
+		(start -2.9829 -2.2479)
+		(end -2.9829 2.2479)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6ea4828b-7581-4bb8-844a-a8990cc4d094")
+	)
+	(fp_line
+		(start 7.8629 -2.2479)
+		(end -2.9829 -2.2479)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7bc986f9-aaac-4b1d-9ee4-9eb7d6f5562e")
+	)
+	(fp_line
+		(start 7.8629 -2.2479)
+		(end 7.8629 2.2479)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "63080169-e679-4763-958d-d1b2b1365b27")
+	)
+	(fp_line
+		(start 7.8629 2.2479)
+		(end -2.9829 2.2479)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "87cac251-d2ef-4933-bc68-42ae85bdef22")
+	)
+	(fp_circle
+		(center -2.4749 0)
+		(end -2.4749 0)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "522663cf-b45b-4986-90a8-aec5cf6f6e12")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.44 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "58ac3d56-a994-42c5-a4ee-e6b68b871421")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.1938 1.1938)
+		(drill 0.6858)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a03ac40c-45fd-4836-b7b4-2739cf723894")
+	)
+	(pad "2" thru_hole circle
+		(at 4.880001 0)
+		(size 1.1938 1.1938)
+		(drill 0.6858)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7724208d-3507-4a8a-8472-5f6cb23d46b9")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Symbol-and-Footprints/3D_models/ATS08A-E_CTS.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
