@@ -9588,7 +9588,7 @@
 			(at -0.82 -0.00595 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "1b9f2bee-4830-410d-a78d-d1e6c9f84035")
+			(uuid "a1c60442-6175-48a2-9c60-359275f31867")
 			(effects
 				(font
 					(size 1 1)
@@ -9600,7 +9600,7 @@
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "7c8cc335-0d19-406a-8c01-8f2f03cbc98f")
+			(uuid "4dc08e0d-9829-4b39-99f1-872d1dcb4dc4")
 			(effects
 				(font
 					(size 1 1)
@@ -9612,7 +9612,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "72491552-f61b-4831-8182-5d71849f6d9f")
+			(uuid "fccb509d-1f8d-45ac-878d-9f0dde400bed")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9624,7 +9624,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "de19dece-5f23-41ed-8537-aa72ae9c241e")
+			(uuid "63302b3b-7d82-413c-9d95-5965e1339e35")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -109804,14 +109804,6 @@
 		(uuid "a45deae9-6164-46ae-9578-8a0cb3fada30")
 	)
 	(segment
-		(start 333.71 123.64)
-		(end 344.29 123.64)
-		(width 0.6)
-		(layer "F.Cu")
-		(net "Net-(U1-1OUT)")
-		(uuid "063a9709-7561-4a8f-bc6e-efac6517a931")
-	)
-	(segment
 		(start 354.91 100.93)
 		(end 354.86 100.98)
 		(width 0.6)
@@ -109821,7 +109813,7 @@
 	)
 	(segment
 		(start 342.56 98.78)
-		(end 354.91 98.78)
+		(end 353.43 98.78)
 		(width 0.6)
 		(layer "F.Cu")
 		(net "Net-(U1-1OUT)")
@@ -109852,12 +109844,28 @@
 		(uuid "561800a9-d8a0-4e5f-a3d4-bccf9a074782")
 	)
 	(segment
+		(start 354.86 100.21)
+		(end 354.86 100.98)
+		(width 0.6)
+		(layer "F.Cu")
+		(net "Net-(U1-1OUT)")
+		(uuid "5d6e73a2-df79-4693-888c-dd482e2797f2")
+	)
+	(segment
 		(start 333.71 125.54)
 		(end 333.71 123.64)
 		(width 0.6)
 		(layer "F.Cu")
 		(net "Net-(U1-1OUT)")
 		(uuid "5ed58e94-0357-4ece-8d20-d8100efdea64")
+	)
+	(segment
+		(start 334.21 123.64)
+		(end 344.29 123.64)
+		(width 0.6)
+		(layer "F.Cu")
+		(net "Net-(U1-1OUT)")
+		(uuid "6c86d79a-d913-4f17-a287-8a47603e2580")
 	)
 	(segment
 		(start 360.33 129.49)
@@ -109884,20 +109892,36 @@
 		(uuid "bc4f2c3c-75ab-4333-b89b-cd959ad08a9c")
 	)
 	(segment
-		(start 354.91 98.78)
-		(end 354.91 100.93)
-		(width 0.6)
-		(layer "F.Cu")
-		(net "Net-(U1-1OUT)")
-		(uuid "c77e2400-abc9-45cf-9b35-252d51be8194")
-	)
-	(segment
-		(start 333.71 122.35)
+		(start 333.71 123.14)
 		(end 333.71 123.64)
 		(width 0.6)
 		(layer "F.Cu")
 		(net "Net-(U1-1OUT)")
+		(uuid "c5fa41f4-7a10-4f28-8f10-bd0239929093")
+	)
+	(segment
+		(start 353.43 98.78)
+		(end 354.86 100.21)
+		(width 0.6)
+		(layer "F.Cu")
+		(net "Net-(U1-1OUT)")
+		(uuid "d2dcd477-0719-4a0a-9368-23e2c6bf49f5")
+	)
+	(segment
+		(start 333.71 122.35)
+		(end 333.71 123.14)
+		(width 0.6)
+		(layer "F.Cu")
+		(net "Net-(U1-1OUT)")
 		(uuid "d9e3ad0d-91cf-4977-bf77-3ab477a8ffd3")
+	)
+	(segment
+		(start 333.71 123.14)
+		(end 334.21 123.64)
+		(width 0.6)
+		(layer "F.Cu")
+		(net "Net-(U1-1OUT)")
+		(uuid "dd8c8942-76ff-4a79-9e29-ddd33ad766de")
 	)
 	(segment
 		(start 341.49 99.85)
@@ -110789,7 +110813,7 @@
 	)
 	(segment
 		(start 343.24 130.62)
-		(end 345.16 130.62)
+		(end 344.19 130.62)
 		(width 0.8)
 		(layer "F.Cu")
 		(net "Net-(U1-2IN-)")
@@ -110804,28 +110828,12 @@
 		(uuid "54a10cbd-3cea-4b9c-9d5d-acb6d850d074")
 	)
 	(segment
-		(start 343.24 130.16)
-		(end 343.24 130.62)
+		(start 344.19 130.62)
+		(end 345.16 130.62)
 		(width 0.8)
 		(layer "F.Cu")
 		(net "Net-(U1-2IN-)")
-		(uuid "56045d64-659c-43b8-9955-dc96d5d20fd4")
-	)
-	(segment
-		(start 343.23 130.17)
-		(end 343.24 130.16)
-		(width 0.5)
-		(layer "F.Cu")
-		(net "Net-(U1-2IN-)")
-		(uuid "8bcb2b95-f3e4-4f0c-be52-7e935d5d5b7f")
-	)
-	(segment
-		(start 343.24 130.16)
-		(end 343.24 128.08)
-		(width 0.8)
-		(layer "F.Cu")
-		(net "Net-(U1-2IN-)")
-		(uuid "95f0b4e2-40b2-4a0a-971f-a3701c063b20")
+		(uuid "555cad02-34ae-4b7e-b588-24ff9f95cc17")
 	)
 	(segment
 		(start 372.79 158.25)
@@ -110836,12 +110844,12 @@
 		(uuid "c7b815cd-2acd-41cf-8a52-0bf56feaa59f")
 	)
 	(segment
-		(start 343.24 128.08)
-		(end 341.65 128.08)
+		(start 341.65 128.08)
+		(end 344.19 130.62)
 		(width 0.8)
 		(layer "F.Cu")
 		(net "Net-(U1-2IN-)")
-		(uuid "df7ca3ce-132c-4368-8475-d5b4b9f5e7e3")
+		(uuid "dcf3c7d2-c709-4345-bf3f-dd196260dedb")
 	)
 	(segment
 		(start 174.309987 201.67)
