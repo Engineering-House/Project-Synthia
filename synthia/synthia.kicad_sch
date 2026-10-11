@@ -2147,267 +2147,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Synthia_Symbol_Library:CL05B104KP5NNNC"
-			(body_styles demorgan)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 3.81 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "CL05B104KP5NNNC"
-				(at 3.81 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "Synthia_footprint_library:CAP_CL05_SAM-L"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-				)
-			)
-			(property "Datasheet" "CL05B104KP5NNNC"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "CL05B104KP5NNNC"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "CAP_CL05_SAM CAP_CL05_SAM-M CAP_CL05_SAM-L"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "CL05B104KP5NNNC_1_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 3.4798 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.4798 -1.905) (xy 3.4798 1.905)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.1148 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.1148 -1.905) (xy 4.1148 1.905)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "CL05B104KP5NNNC_1_2"
-				(polyline
-					(pts
-						(xy -1.905 -3.4798) (xy 1.905 -3.4798)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 -4.1148) (xy 1.905 -4.1148)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 -3.4798)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -4.1148) (xy 0 -5.08)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Synthia_Symbol_Library:CL10B105KA8NNNC"
 			(body_styles demorgan)
 			(pin_names
@@ -2843,6 +2582,277 @@
 				)
 			)
 			(symbol "GRM188R71A225KE15D_1_2"
+				(polyline
+					(pts
+						(xy -1.905 -3.4798) (xy 1.905 -3.4798)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -4.1148) (xy 1.905 -4.1148)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -3.4798)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -4.1148) (xy 0 -5.08)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Synthia_Symbol_Library:GRM188R72A104KA35D"
+			(body_styles demorgan)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 3.81 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "GRM188R72A104KA35D"
+				(at 3.81 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "Synthia_footprint_library:GRM188R72A104KA35D"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Datasheet" "GRM188R72A104KA35D"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "GRM188R72A104KA35D"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "G-188_MUR G-188_MUR-M G-188_MUR-L"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GRM188R72A104KA35D_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 3.4798 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.4798 -1.905) (xy 3.4798 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.1148 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.1148 -1.905) (xy 4.1148 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "GRM188R72A104KA35D_1_2"
 				(polyline
 					(pts
 						(xy -1.905 -3.4798) (xy 1.905 -3.4798)
@@ -9875,6 +9885,12 @@
 		(uuid "3413852a-7c27-4f96-a16e-782a401fd86b")
 	)
 	(junction
+		(at 132.08 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "394ef298-2710-46a9-8809-784da4da92a3")
+	)
+	(junction
 		(at 72.39 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9905,12 +9921,6 @@
 		(uuid "4f8a107c-7104-4532-926b-32d015e89bd5")
 	)
 	(junction
-		(at 116.84 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4fac5de7-a44b-4ddf-8d0a-0579546179da")
-	)
-	(junction
 		(at 77.47 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9923,10 +9933,10 @@
 		(uuid "56d91cfb-ea88-40f7-8e45-3bdc1b0f10d7")
 	)
 	(junction
-		(at 132.08 78.74)
+		(at 132.08 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5865e632-6bf8-4efe-a418-0a8266098fa6")
+		(uuid "59256eb6-481a-40a0-9b5f-83bb7f1814c3")
 	)
 	(junction
 		(at 111.76 181.61)
@@ -9987,6 +9997,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6d1c83f3-2752-4900-9000-95194a11ce6e")
+	)
+	(junction
+		(at 116.84 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6df7ea89-3991-4c32-9aa6-7c0fb7c35af9")
 	)
 	(junction
 		(at 193.04 274.32)
@@ -10317,12 +10333,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e141ff39-b061-41ec-8ca8-966e54db574f")
-	)
-	(junction
-		(at 132.08 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e2124673-a866-4db5-8779-d46c8c3d696d")
 	)
 	(junction
 		(at 151.13 181.61)
@@ -11672,16 +11682,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 74.93) (xy 132.08 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4070079a-1e5f-4af8-a09f-e4c93dfaf086")
-	)
-	(wire
-		(pts
 			(xy 41.91 87.63) (xy 41.91 115.57)
 		)
 		(stroke
@@ -11802,7 +11802,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 74.93) (xy 165.1 74.93)
+			(xy 116.84 74.93) (xy 132.08 74.93)
 		)
 		(stroke
 			(width 0)
@@ -11869,16 +11869,6 @@
 			(type default)
 		)
 		(uuid "52a194e5-f66d-457d-926b-761dd3c2cab6")
-	)
-	(wire
-		(pts
-			(xy 116.84 78.74) (xy 132.08 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52f44ec4-6e5d-4295-bd5d-2e403a913c24")
 	)
 	(wire
 		(pts
@@ -12552,6 +12542,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 74.93) (xy 132.08 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ff12fdf-96a4-4330-b717-5af521f5f164")
+	)
+	(wire
+		(pts
 			(xy 254 292.1) (xy 167.64 292.1)
 		)
 		(stroke
@@ -12569,16 +12569,6 @@
 			(type default)
 		)
 		(uuid "8292c833-61b9-4160-8be2-4eb8cf33ce1c")
-	)
-	(wire
-		(pts
-			(xy 132.08 78.74) (xy 132.08 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82de0047-1840-49c0-9e89-e3e5a20921a1")
 	)
 	(wire
 		(pts
@@ -12839,6 +12829,16 @@
 			(type default)
 		)
 		(uuid "8f8694fe-8fd7-4e4a-856e-17723069415f")
+	)
+	(wire
+		(pts
+			(xy 132.08 74.93) (xy 165.1 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90106647-c824-4c9f-a752-d9d00b46259d")
 	)
 	(wire
 		(pts
@@ -13759,6 +13759,16 @@
 			(type default)
 		)
 		(uuid "d08be788-a902-4242-92cb-030b1bbfb0d5")
+	)
+	(wire
+		(pts
+			(xy 116.84 74.93) (xy 116.84 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2134ba7-0467-40bf-800f-8c4ed68bc53e")
 	)
 	(wire
 		(pts
@@ -15424,7 +15434,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Synthia_Symbol_Library:CL05B104KP5NNNC")
+		(lib_id "Synthia_Symbol_Library:GRM188R72A104KA35D")
 		(at 148.59 204.47 0)
 		(unit 1)
 		(body_style 1)
@@ -15445,7 +15455,7 @@
 				)
 			)
 		)
-		(property "Value" "CL05B104KP5NNNC"
+		(property "Value" "GRM188R72A104KA35D"
 			(at 152.4 200.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15455,7 +15465,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Synthia_footprint_library:CAP_CL05_SAM-L"
+		(property "Footprint" "Synthia_footprint_library:GRM188R72A104KA35D"
 			(at 148.59 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -15467,7 +15477,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "CL05B104KP5NNNC"
+		(property "Datasheet" "GRM188R72A104KA35D"
 			(at 148.59 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -15584,7 +15594,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Synthia_Symbol_Library:CL05B104KP5NNNC")
+		(lib_id "Synthia_Symbol_Library:GRM188R72A104KA35D")
 		(at 171.45 264.16 0)
 		(unit 1)
 		(body_style 1)
@@ -15605,7 +15615,7 @@
 				)
 			)
 		)
-		(property "Value" "CL05B104KP5NNNC"
+		(property "Value" "GRM188R72A104KA35D"
 			(at 175.26 260.35 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15615,7 +15625,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Synthia_footprint_library:CAP_CL05_SAM-L"
+		(property "Footprint" "Synthia_footprint_library:GRM188R72A104KA35D"
 			(at 171.45 264.16 0)
 			(hide yes)
 			(show_name no)
@@ -15627,7 +15637,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "CL05B104KP5NNNC"
+		(property "Datasheet" "GRM188R72A104KA35D"
 			(at 171.45 264.16 0)
 			(hide yes)
 			(show_name no)
@@ -19116,7 +19126,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Synthia_Symbol_Library:CL05B104KP5NNNC")
+		(lib_id "Synthia_Symbol_Library:GRM188R72A104KA35D")
 		(at 144.78 97.79 180)
 		(unit 1)
 		(body_style 1)
@@ -19127,7 +19137,7 @@
 		(dnp no)
 		(uuid "56a0baa1-f3f6-4e52-9d7e-044e51e4d8c9")
 		(property "Reference" "C18"
-			(at 157.48 88.392 0)
+			(at 140.97 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19136,8 +19146,8 @@
 				)
 			)
 		)
-		(property "Value" "CL05B104KP5NNNC"
-			(at 159.258 85.852 0)
+		(property "Value" "GRM188R72A104KA35D"
+			(at 140.97 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19146,7 +19156,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Synthia_footprint_library:CAP_CL05_SAM-L"
+		(property "Footprint" "Synthia_footprint_library:GRM188R72A104KA35D"
 			(at 144.78 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -19158,7 +19168,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "CL05B104KP5NNNC"
+		(property "Datasheet" "GRM188R72A104KA35D"
 			(at 144.78 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -20454,7 +20464,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Synthia_Symbol_Library:CL05B104KP5NNNC")
+		(lib_id "Synthia_Symbol_Library:GRM188R72A104KA35D")
 		(at 176.53 204.47 180)
 		(unit 1)
 		(body_style 1)
@@ -20466,7 +20476,7 @@
 		(fields_autoplaced yes)
 		(uuid "6c0cec2c-07f0-475f-b8c0-692391407b7c")
 		(property "Reference" "C17"
-			(at 172.72 210.82 0)
+			(at 172.72 198.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20475,8 +20485,8 @@
 				)
 			)
 		)
-		(property "Value" "CL05B104KP5NNNC"
-			(at 172.72 208.28 0)
+		(property "Value" "GRM188R72A104KA35D"
+			(at 172.72 200.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20485,7 +20495,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Synthia_footprint_library:CAP_CL05_SAM-L"
+		(property "Footprint" "Synthia_footprint_library:GRM188R72A104KA35D"
 			(at 176.53 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -20497,7 +20507,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "CL05B104KP5NNNC"
+		(property "Datasheet" "GRM188R72A104KA35D"
 			(at 176.53 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -22778,7 +22788,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Synthia_Symbol_Library:CL05B104KP5NNNC")
+		(lib_id "Synthia_Symbol_Library:GRM188R72A104KA35D")
 		(at 205.74 167.64 0)
 		(unit 1)
 		(body_style 1)
@@ -22799,7 +22809,7 @@
 				)
 			)
 		)
-		(property "Value" "CL05B104KP5NNNC"
+		(property "Value" "GRM188R72A104KA35D"
 			(at 209.55 163.83 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22809,7 +22819,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Synthia_footprint_library:CAP_CL05_SAM-L"
+		(property "Footprint" "Synthia_footprint_library:GRM188R72A104KA35D"
 			(at 205.74 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -22821,7 +22831,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "CL05B104KP5NNNC"
+		(property "Datasheet" "GRM188R72A104KA35D"
 			(at 205.74 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -23267,7 +23277,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Synthia_Symbol_Library:CL05B104KP5NNNC")
+		(lib_id "Synthia_Symbol_Library:GRM188R72A104KA35D")
 		(at 121.92 170.18 0)
 		(unit 1)
 		(body_style 1)
@@ -23278,7 +23288,7 @@
 		(dnp no)
 		(uuid "8f28c6c4-3819-4bda-b2c8-45b940fd6a06")
 		(property "Reference" "C14"
-			(at 125.73 163.83 0)
+			(at 125.73 166.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23287,8 +23297,8 @@
 				)
 			)
 		)
-		(property "Value" "CL05B104KP5NNNC"
-			(at 125.476 166.37 0)
+		(property "Value" "GRM188R72A104KA35D"
+			(at 125.73 173.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23297,7 +23307,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Synthia_footprint_library:CAP_CL05_SAM-L"
+		(property "Footprint" "Synthia_footprint_library:GRM188R72A104KA35D"
 			(at 121.92 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -23309,7 +23319,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "CL05B104KP5NNNC"
+		(property "Datasheet" "GRM188R72A104KA35D"
 			(at 121.92 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -23348,7 +23358,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Synthia_Symbol_Library:CL05B104KP5NNNC")
+		(lib_id "Synthia_Symbol_Library:GRM188R72A104KA35D")
 		(at 180.34 171.45 0)
 		(unit 1)
 		(body_style 1)
@@ -23369,7 +23379,7 @@
 				)
 			)
 		)
-		(property "Value" "CL05B104KP5NNNC"
+		(property "Value" "GRM188R72A104KA35D"
 			(at 184.15 167.64 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23379,7 +23389,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Synthia_footprint_library:CAP_CL05_SAM-L"
+		(property "Footprint" "Synthia_footprint_library:GRM188R72A104KA35D"
 			(at 180.34 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -23391,7 +23401,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "CL05B104KP5NNNC"
+		(property "Datasheet" "GRM188R72A104KA35D"
 			(at 180.34 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -23508,7 +23518,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Synthia_Symbol_Library:CL05B104KP5NNNC")
+		(lib_id "Synthia_Symbol_Library:GRM188R72A104KA35D")
 		(at 116.84 93.98 0)
 		(unit 1)
 		(body_style 1)
@@ -23529,7 +23539,7 @@
 				)
 			)
 		)
-		(property "Value" "CL05B104KP5NNNC"
+		(property "Value" "GRM188R72A104KA35D"
 			(at 120.65 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23539,7 +23549,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Synthia_footprint_library:CAP_CL05_SAM-L"
+		(property "Footprint" "Synthia_footprint_library:GRM188R72A104KA35D"
 			(at 116.84 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -23551,7 +23561,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "CL05B104KP5NNNC"
+		(property "Datasheet" "GRM188R72A104KA35D"
 			(at 116.84 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -24800,7 +24810,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Synthia_Symbol_Library:CL05B104KP5NNNC")
+		(lib_id "Synthia_Symbol_Library:GRM188R72A104KA35D")
 		(at 165.1 96.52 180)
 		(unit 1)
 		(body_style 1)
@@ -24812,7 +24822,7 @@
 		(fields_autoplaced yes)
 		(uuid "ab7c379a-cddb-420b-92c5-104c0fe214f5")
 		(property "Reference" "C11"
-			(at 161.29 102.87 0)
+			(at 161.29 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24821,8 +24831,8 @@
 				)
 			)
 		)
-		(property "Value" "CL05B104KP5NNNC"
-			(at 161.29 100.33 0)
+		(property "Value" "GRM188R72A104KA35D"
+			(at 161.29 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24831,7 +24841,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Synthia_footprint_library:CAP_CL05_SAM-L"
+		(property "Footprint" "Synthia_footprint_library:GRM188R72A104KA35D"
 			(at 165.1 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -24843,7 +24853,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "CL05B104KP5NNNC"
+		(property "Datasheet" "GRM188R72A104KA35D"
 			(at 165.1 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -25282,7 +25292,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Synthia_Symbol_Library:CL05B104KP5NNNC")
+		(lib_id "Synthia_Symbol_Library:GRM188R72A104KA35D")
 		(at 204.47 264.16 0)
 		(unit 1)
 		(body_style 1)
@@ -25303,7 +25313,7 @@
 				)
 			)
 		)
-		(property "Value" "CL05B104KP5NNNC"
+		(property "Value" "GRM188R72A104KA35D"
 			(at 208.28 260.35 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25313,7 +25323,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Synthia_footprint_library:CAP_CL05_SAM-L"
+		(property "Footprint" "Synthia_footprint_library:GRM188R72A104KA35D"
 			(at 204.47 264.16 0)
 			(hide yes)
 			(show_name no)
@@ -25325,7 +25335,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "CL05B104KP5NNNC"
+		(property "Datasheet" "GRM188R72A104KA35D"
 			(at 204.47 264.16 0)
 			(hide yes)
 			(show_name no)
@@ -25738,7 +25748,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Synthia_Symbol_Library:CL05B104KP5NNNC")
+		(lib_id "Synthia_Symbol_Library:GRM188R72A104KA35D")
 		(at 132.08 100.33 0)
 		(unit 1)
 		(body_style 1)
@@ -25749,7 +25759,7 @@
 		(dnp no)
 		(uuid "b771d9c6-d5f9-4355-b959-01a3e1e2a374")
 		(property "Reference" "C13"
-			(at 129.794 98.044 0)
+			(at 135.89 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25758,8 +25768,8 @@
 				)
 			)
 		)
-		(property "Value" "CL05B104KP5NNNC"
-			(at 128.524 100.33 0)
+		(property "Value" "GRM188R72A104KA35D"
+			(at 135.89 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25768,7 +25778,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Synthia_footprint_library:CAP_CL05_SAM-L"
+		(property "Footprint" "Synthia_footprint_library:GRM188R72A104KA35D"
 			(at 132.08 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -25780,7 +25790,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "CL05B104KP5NNNC"
+		(property "Datasheet" "GRM188R72A104KA35D"
 			(at 132.08 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -25895,7 +25905,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Synthia_Symbol_Library:CL05B104KP5NNNC")
+		(lib_id "Synthia_Symbol_Library:GRM188R72A104KA35D")
 		(at 154.94 171.45 0)
 		(unit 1)
 		(body_style 1)
@@ -25916,7 +25926,7 @@
 				)
 			)
 		)
-		(property "Value" "CL05B104KP5NNNC"
+		(property "Value" "GRM188R72A104KA35D"
 			(at 158.75 167.64 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25926,7 +25936,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Synthia_footprint_library:CAP_CL05_SAM-L"
+		(property "Footprint" "Synthia_footprint_library:GRM188R72A104KA35D"
 			(at 154.94 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -25938,7 +25948,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "CL05B104KP5NNNC"
+		(property "Datasheet" "GRM188R72A104KA35D"
 			(at 154.94 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -26510,7 +26520,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Synthia_Symbol_Library:CL05B104KP5NNNC")
+		(lib_id "Synthia_Symbol_Library:GRM188R72A104KA35D")
 		(at 115.57 203.2 180)
 		(unit 1)
 		(body_style 1)
@@ -26522,7 +26532,7 @@
 		(fields_autoplaced yes)
 		(uuid "c5ca0fba-0d92-408e-aff6-2fe17065cffe")
 		(property "Reference" "C9"
-			(at 111.76 209.55 0)
+			(at 111.76 196.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26531,8 +26541,8 @@
 				)
 			)
 		)
-		(property "Value" "CL05B104KP5NNNC"
-			(at 111.76 207.01 0)
+		(property "Value" "GRM188R72A104KA35D"
+			(at 111.76 199.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26541,7 +26551,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Synthia_footprint_library:CAP_CL05_SAM-L"
+		(property "Footprint" "Synthia_footprint_library:GRM188R72A104KA35D"
 			(at 115.57 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -26553,7 +26563,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "CL05B104KP5NNNC"
+		(property "Datasheet" "GRM188R72A104KA35D"
 			(at 115.57 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -26824,7 +26834,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Synthia_Symbol_Library:CL05B104KP5NNNC")
+		(lib_id "Synthia_Symbol_Library:GRM188R72A104KA35D")
 		(at 146.05 264.16 0)
 		(unit 1)
 		(body_style 1)
@@ -26845,7 +26855,7 @@
 				)
 			)
 		)
-		(property "Value" "CL05B104KP5NNNC"
+		(property "Value" "GRM188R72A104KA35D"
 			(at 149.86 260.35 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26855,7 +26865,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Synthia_footprint_library:CAP_CL05_SAM-L"
+		(property "Footprint" "Synthia_footprint_library:GRM188R72A104KA35D"
 			(at 146.05 264.16 0)
 			(hide yes)
 			(show_name no)
@@ -26867,7 +26877,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "CL05B104KP5NNNC"
+		(property "Datasheet" "GRM188R72A104KA35D"
 			(at 146.05 264.16 0)
 			(hide yes)
 			(show_name no)
@@ -29666,7 +29676,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Synthia_Symbol_Library:CL05B104KP5NNNC")
+		(lib_id "Synthia_Symbol_Library:GRM188R72A104KA35D")
 		(at 193.04 101.6 0)
 		(unit 1)
 		(body_style 1)
@@ -29687,7 +29697,7 @@
 				)
 			)
 		)
-		(property "Value" "CL05B104KP5NNNC"
+		(property "Value" "GRM188R72A104KA35D"
 			(at 196.85 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29697,7 +29707,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Synthia_footprint_library:CAP_CL05_SAM-L"
+		(property "Footprint" "Synthia_footprint_library:GRM188R72A104KA35D"
 			(at 193.04 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -29709,7 +29719,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "CL05B104KP5NNNC"
+		(property "Datasheet" "GRM188R72A104KA35D"
 			(at 193.04 101.6 0)
 			(hide yes)
 			(show_name no)
