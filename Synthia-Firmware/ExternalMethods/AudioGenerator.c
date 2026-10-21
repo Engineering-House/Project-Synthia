@@ -56,23 +56,6 @@ static float relativeFrequencyUp(float frequency, int halfsteps) {
 
 /**
 * @brief Finds magnitude of square wave, assuming a range of [0.0,1.0]
-* 
-* Determine the magnitude of a square wave from the current clock time in
-* milliseconds and the octave and note. The wave begins high. A high value
-* is represented by an output of 1.0f and a low value by 0.0f.
-* 
-* @param timeMS		The current time in ms
-* @param octave		The octave the note is located in
-* @param note		The integer representing a note C-B -> 0-11
-* @return float		The current magnitude of the note 0.0 -> 1.0
-*/
-static float squareWaveMagnitude_Note(float timeMS, int octave, RootNote note) {
-	float frequency = noteFrequency(octave, note);
-	return squareWaveMagnitude_Frequency(timeMS, frequency);
-}
-
-/**
-* @brief Finds magnitude of square wave, assuming a range of [0.0,1.0]
 *
 * Determine the magnitude of a square wave from the current clock time in
 * milliseconds and the frequency. The wave begins high. A high value
@@ -88,6 +71,45 @@ static float squareWaveMagnitude_Frequency(float timeMS, float frequency) {
 		return 1.0f;
 	}
 	return 0.0f;
+}
+
+/**
+* @brief Finds magnitude of square wave, assuming a range of [0.0,1.0]
+*
+* Determine the magnitude of a square wave from the current clock time in
+* milliseconds and the octave and note. The wave begins high. A high value
+* is represented by an output of 1.0f and a low value by 0.0f.
+*
+* @param timeMS		The current time in ms
+* @param octave		The octave the note is located in
+* @param note		The integer representing a note C-B -> 0-11
+* @return float		The current magnitude of the note 0.0 -> 1.0
+*/
+static float squareWaveMagnitude_Note(float timeMS, int octave, RootNote note) {
+	float frequency = noteFrequency(octave, note);
+	return squareWaveMagnitude_Frequency(timeMS, frequency);
+}
+
+/**
+* @brief Finds magnitude of triangle wave, assuming a range of [0.0,1.0]
+*
+* Determine the magnitude of a triangle wave from the current clock time in
+* milliseconds and the frequency. The wave begins low. A high value
+* is represented by an output of 1.0f and a low value by 0.0f.
+*
+* @param timeMS		The current time in ms
+* @param frequency	The frequency of the note
+* @return float		The current magnitude of the note 0.0 -> 1.0
+*/
+static float triangleWaveMagnitude_Frequency(float timeMS, float frequency) {
+	float periodMS = 1000.0f / frequency;
+	float halfPeriod = periodMS / 2.0;
+	float tSubPeriodMS = fmod(timeMS, periodMS);
+
+	if (tSubPeriodMS < halfPeriod) {
+		return tSubPeriodMS / halfPeriod;
+	}
+	return 1.0f - ((tSubPeriodMS - halfPeriod) / halfPeriod);
 }
 
 /**
@@ -143,28 +165,6 @@ static float sawWaveMagnitude_Note(float timeMS, int octave, RootNote note) {
 }
 
 /**
-* @brief Finds magnitude of triangle wave, assuming a range of [0.0,1.0]
-*
-* Determine the magnitude of a triangle wave from the current clock time in
-* milliseconds and the frequency. The wave begins low. A high value
-* is represented by an output of 1.0f and a low value by 0.0f.
-*
-* @param timeMS		The current time in ms
-* @param frequency	The frequency of the note
-* @return float		The current magnitude of the note 0.0 -> 1.0
-*/
-static float triangleWaveMagnitude_Frequency(float timeMS, float frequency) {
-	float periodMS = 1000.0f / frequency;
-	float halfPeriod = periodMS / 2.0;
-	float tSubPeriodMS = fmod(timeMS, periodMS);
-
-	if (tSubPeriodMS < halfPeriod) {
-		return tSubPeriodMS / halfPeriod;
-	}
-	return 1.0f - ((tSubPeriodMS - halfPeriod) / halfPeriod);
-}
-
-/**
  * @brief Generates an 8-bit unsigned value for audio output of a chord
  *
  * Taking various information about the note to be produced, generate audio
@@ -193,7 +193,7 @@ int generateChordValue_Unsigned8Bit(WaveType waveType, ChordType chordType, Root
 			noteTwoHalfSteps = 4;
 			noteThreeHalfSteps = 8;
 			break;
-		case CHORD_DIMINSHED:
+		case CHORD_DIMINISHED:
 			noteTwoHalfSteps = 3;
 			noteThreeHalfSteps = 6;
 			break;

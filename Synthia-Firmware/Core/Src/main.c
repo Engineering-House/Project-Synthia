@@ -99,7 +99,47 @@ int main(void)
 
     /* USER CODE BEGIN 3 */
 
+	  //Determine the state of the chord matrix input pins (currently four pins, but a real matrix will be built for the final project)
+	  /*GPIO_PinState chordMatrixZeroState =  HAL_GPIO_ReadPin(chordMatrix_0_GPIO_Port, chordMatrix_0_Pin);
+	  GPIO_PinState chordMatrixOneState =  HAL_GPIO_ReadPin(chordMatrix_1_GPIO_Port, chordMatrix_1_Pin);
+	  GPIO_PinState chordMatrixTwoState =  HAL_GPIO_ReadPin(chordMatrix_2_GPIO_Port, chordMatrix_2_Pin);
+	  GPIO_PinState chordMatrixThreeState =  HAL_GPIO_ReadPin(chordMatrix_3_GPIO_Port, chordMatrix_3_Pin);*/
 
+	  //Determine current system time in milliseconds
+	  //TODO: Reduce to a higher frequency time measurement (ms is too large)
+	  uint32_t systemTimeMS = HAL_GetTick();
+
+	  //Setup DAC inputs unsigned integer [0,255]
+	  int dacInput;
+	  /*
+	  if(chordMatrixZeroState == GPIO_PIN_SET) {
+		  dacInput = generateChordValue_Unsigned8Bit(SQUARE_WAVE, CHORD_MAJOR, NOTE_CN, 1, systemTimeMS);
+	  } else if (chordMatrixOneState == GPIO_PIN_SET) {
+		  dacInput = generateChordValue_Unsigned8Bit(SQUARE_WAVE, CHORD_MINOR, NOTE_CN, 1, systemTimeMS);
+	  } else if (chordMatrixTwoState == GPIO_PIN_SET) {
+		  dacInput = generateChordValue_Unsigned8Bit(SQUARE_WAVE, CHORD_AUGMENTED, NOTE_CN, 1, systemTimeMS);
+	  } else if (chordMatrixThreeState == GPIO_PIN_SET){
+		  dacInput = generateChordValue_Unsigned8Bit(SQUARE_WAVE, CHORD_DIMINISHED, NOTE_CN, 1, systemTimeMS);
+	  } else {
+		  dacInput = 128;
+	  }*/
+
+	  dacInput = generateChordValue_Unsigned8Bit(SQUARE_WAVE, CHORD_MAJOR, NOTE_CN, 3, systemTimeMS);
+
+	  int bitConversionArray[8];
+
+	  for (int i = 0; i < 8; i++) {
+		  bitConversionArray[i] = (dacInput >> i) & 1;
+	  }
+
+	  HAL_GPIO_WritePin(DAC_7_GPIO_Port, DAC_7_Pin, bitConversionArray[7]);		/* DAC Seven	*/
+	  HAL_GPIO_WritePin(DAC_6_GPIO_Port, DAC_6_Pin, bitConversionArray[6]);		/* DAC Six		*/
+	  HAL_GPIO_WritePin(DAC_5_GPIO_Port, DAC_5_Pin, bitConversionArray[5]);		/* DAC Five		*/
+	  HAL_GPIO_WritePin(DAC_4_GPIO_Port, DAC_4_Pin, bitConversionArray[4]);		/* DAC Four		*/
+	  HAL_GPIO_WritePin(DAC_3_GPIO_Port, DAC_3_Pin, bitConversionArray[3]);		/* DAC Three	*/
+	  HAL_GPIO_WritePin(DAC_2_GPIO_Port, DAC_2_Pin, bitConversionArray[2]);		/* DAC Two		*/
+	  HAL_GPIO_WritePin(DAC_1_GPIO_Port, DAC_1_Pin, bitConversionArray[1]);		/* DAC One		*/
+	  HAL_GPIO_WritePin(DAC_0_GPIO_Port, DAC_0_Pin, bitConversionArray[0]);		/* DAC Zero		*/
   }
   /* USER CODE END 3 */
 }
