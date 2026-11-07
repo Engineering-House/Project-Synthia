@@ -11189,12 +11189,6 @@
 		(uuid "2a9dc791-034a-40e7-8068-e761945d9238")
 	)
 	(junction
-		(at 57.15 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2cdb6b2d-245b-4ce3-8e5f-29e7e8419f9a")
-	)
-	(junction
 		(at 143.51 273.05)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11222,13 +11216,19 @@
 		(at 44.45 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3989f79c-4869-4035-af57-58d20e2a2ae5")
+		(uuid "3df359b1-f98c-4618-aeac-65c419a0be8e")
 	)
 	(junction
 		(at 148.59 204.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "46bcc599-3255-476e-a476-2e3d6899d43c")
+	)
+	(junction
+		(at 57.15 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "488d43ac-9591-491c-b55c-b8e3365e2863")
 	)
 	(junction
 		(at 378.46 111.76)
@@ -11399,12 +11399,6 @@
 		(uuid "895fa0fb-f69b-45c5-ab07-aa1c10b78ed3")
 	)
 	(junction
-		(at 69.85 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8b1d0ee1-8617-440e-971b-e4fdb91fd979")
-	)
-	(junction
 		(at 165.1 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11421,6 +11415,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "90175d1b-347b-41e0-b64d-f5ecf71bf5c1")
+	)
+	(junction
+		(at 82.55 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9054db28-b046-4b46-a4f1-699f1851740f")
+	)
+	(junction
+		(at 69.85 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "915efc34-cf15-4f70-8b4c-c31f23632d2c")
 	)
 	(junction
 		(at 148.59 179.07)
@@ -11445,12 +11451,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9c6bd90f-5a42-4ce9-b661-a427f8da53f7")
-	)
-	(junction
-		(at 82.55 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9d557d35-2254-4c50-b57c-1d8529ab8885")
 	)
 	(junction
 		(at 116.84 83.82)
@@ -16774,7 +16774,7 @@
 	)
 	(symbol
 		(lib_id "Synthia_Symbol_Library:CF14JT10K0")
-		(at 69.85 38.1 0)
+		(at 82.55 38.1 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16784,7 +16784,7 @@
 		(dnp no)
 		(uuid "19d36940-7433-4b57-b4fa-93d5c50871e9")
 		(property "Reference" "R67"
-			(at 75.565 34.29 0)
+			(at 76.835 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16794,7 +16794,7 @@
 			)
 		)
 		(property "Value" "CF14JT10K0"
-			(at 76.2 41.91 0)
+			(at 76.2 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16804,7 +16804,7 @@
 			)
 		)
 		(property "Footprint" "Synthia_footprint_library:STA_CF14_STP"
-			(at 69.85 38.1 0)
+			(at 82.55 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16816,7 +16816,7 @@
 			)
 		)
 		(property "Datasheet" "CF14JT10K0"
-			(at 69.85 38.1 0)
+			(at 82.55 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16828,7 +16828,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 69.85 38.1 0)
+			(at 82.55 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20566,7 +20566,7 @@
 	)
 	(symbol
 		(lib_id "Synthia_Symbol_Library:CF14JT10K0")
-		(at 44.45 38.1 0)
+		(at 57.15 38.1 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20576,7 +20576,7 @@
 		(dnp no)
 		(uuid "5b398afa-154d-481a-9990-400c2f92777c")
 		(property "Reference" "R73"
-			(at 50.165 34.29 0)
+			(at 51.435 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20586,7 +20586,7 @@
 			)
 		)
 		(property "Value" "CF14JT10K0"
-			(at 50.8 41.91 0)
+			(at 50.8 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20596,7 +20596,7 @@
 			)
 		)
 		(property "Footprint" "Synthia_footprint_library:STA_CF14_STP"
-			(at 44.45 38.1 0)
+			(at 57.15 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20608,7 +20608,7 @@
 			)
 		)
 		(property "Datasheet" "CF14JT10K0"
-			(at 44.45 38.1 0)
+			(at 57.15 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20620,7 +20620,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 44.45 38.1 0)
+			(at 57.15 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21111,7 +21111,7 @@
 	)
 	(symbol
 		(lib_id "Synthia_Symbol_Library:CF14JT10K0")
-		(at 57.15 38.1 0)
+		(at 69.85 38.1 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21121,7 +21121,7 @@
 		(dnp no)
 		(uuid "63e8f928-66aa-4145-90e2-9e61fdf93fd1")
 		(property "Reference" "R70"
-			(at 62.865 34.29 0)
+			(at 64.135 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21131,7 +21131,7 @@
 			)
 		)
 		(property "Value" "CF14JT10K0"
-			(at 63.5 41.91 0)
+			(at 63.5 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21141,7 +21141,7 @@
 			)
 		)
 		(property "Footprint" "Synthia_footprint_library:STA_CF14_STP"
-			(at 57.15 38.1 0)
+			(at 69.85 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21153,7 +21153,7 @@
 			)
 		)
 		(property "Datasheet" "CF14JT10K0"
-			(at 57.15 38.1 0)
+			(at 69.85 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21165,7 +21165,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 57.15 38.1 0)
+			(at 69.85 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27548,7 +27548,7 @@
 	)
 	(symbol
 		(lib_id "Synthia_Symbol_Library:CF14JT10K0")
-		(at 31.75 38.1 0)
+		(at 44.45 38.1 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -27558,7 +27558,7 @@
 		(dnp no)
 		(uuid "c05e66b2-6ebd-438c-8145-24876b605ec0")
 		(property "Reference" "R76"
-			(at 37.465 34.29 0)
+			(at 38.735 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27568,7 +27568,7 @@
 			)
 		)
 		(property "Value" "CF14JT10K0"
-			(at 38.1 41.91 0)
+			(at 38.1 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27578,7 +27578,7 @@
 			)
 		)
 		(property "Footprint" "Synthia_footprint_library:STA_CF14_STP"
-			(at 31.75 38.1 0)
+			(at 44.45 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27590,7 +27590,7 @@
 			)
 		)
 		(property "Datasheet" "CF14JT10K0"
-			(at 31.75 38.1 0)
+			(at 44.45 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27602,7 +27602,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 31.75 38.1 0)
+			(at 44.45 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
