@@ -5,12 +5,10 @@
 	(uuid "a4be6836-ace5-4697-a9be-a85e9cf305e3")
 	(paper "A5")
 	(lib_symbols
-		(symbol "Device:R_US"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "Synthia_Symbol_Library:CF14JT10K0"
+			(body_styles demorgan)
 			(pin_names
-				(offset 0)
+				(offset 0.254)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -18,37 +16,50 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
-				(at 2.54 0 90)
+				(at 5.715 3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
 				)
 			)
-			(property "Value" "R_US"
-				(at -2.54 0 90)
+			(property "Value" "CF14JT10K0"
+				(at 6.35 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
 				)
 			)
-			(property "Footprint" ""
-				(at 1.016 -0.254 90)
+			(property "Footprint" "Synthia_footprint_library:STA_CF14_STP"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(italic yes)
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "CF14JT10K0"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Description" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -59,7 +70,17 @@
 					)
 				)
 			)
-			(property "Description" "Resistor, US symbol"
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "CF14JT10K0"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -70,7 +91,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "R res resistor"
+			(property "ki_fp_filters" "STA_CF14_STP"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -81,24 +102,13 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R_US_0_1"
+			(symbol "CF14JT10K0_1_1"
 				(polyline
 					(pts
-						(xy 0 2.286) (xy 0 2.54)
+						(xy 2.54 0) (xy 3.175 1.27)
 					)
 					(stroke
-						(width 0)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -107,10 +117,10 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+						(xy 3.175 1.27) (xy 4.445 -1.27)
 					)
 					(stroke
-						(width 0)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -119,10 +129,10 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+						(xy 4.445 -1.27) (xy 5.715 1.27)
 					)
 					(stroke
-						(width 0)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -131,10 +141,10 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+						(xy 5.715 1.27) (xy 6.985 -1.27)
 					)
 					(stroke
-						(width 0)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -143,21 +153,43 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -2.286) (xy 0 -2.54)
+						(xy 6.985 -1.27) (xy 8.255 1.27)
 					)
 					(stroke
-						(width 0)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-			)
-			(symbol "R_US_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
+				(polyline
+					(pts
+						(xy 8.255 1.27) (xy 9.525 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.525 -1.27) (xy 10.16 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 2.54)
 					(name ""
 						(effects
 							(font
@@ -173,9 +205,131 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
+				(pin unspecified line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "CF14JT10K0_1_2"
+				(polyline
+					(pts
+						(xy -1.27 8.255) (xy 1.27 9.525)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 5.715) (xy 1.27 6.985)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 3.175) (xy 1.27 4.445)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy -1.27 3.175)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 9.525) (xy 0 10.16)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 6.985) (xy -1.27 8.255)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 4.445) (xy -1.27 5.715)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 12.7 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 90)
+					(length 2.54)
 					(name ""
 						(effects
 							(font
@@ -311,56 +465,56 @@
 		)
 	)
 	(junction
-		(at 36.83 73.66)
+		(at 166.37 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "09b92199-859c-4734-bf04-b892020d1926")
+		(uuid "22d3913d-c822-4a39-972f-be595fe3c695")
 	)
 	(junction
-		(at 36.83 63.5)
+		(at 59.69 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "09efe7a6-80a4-48f6-bcb6-08b197106b8f")
+		(uuid "285a83a5-72bb-49dd-aeee-6aa25d7ca01b")
 	)
 	(junction
-		(at 36.83 52.07)
+		(at 105.41 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1498303e-f272-41b1-bf50-0744e50ac608")
+		(uuid "7786ea85-56c3-48d1-a028-807f284e797d")
 	)
 	(junction
-		(at 36.83 85.09)
+		(at 74.93 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5c6cd511-84b7-4699-94e8-95498b43478b")
+		(uuid "81f66e96-27a0-472f-8c30-08ad7f7183ad")
 	)
 	(junction
-		(at 36.83 41.91)
+		(at 135.89 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "64d96da3-5365-468b-b798-7e48d31dcc6a")
+		(uuid "8c3841d3-fc28-47b8-8434-cfdf80e46804")
 	)
 	(junction
-		(at 36.83 30.48)
+		(at 120.65 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "714e8434-5caf-41e1-8911-a7962178e132")
+		(uuid "c1dde226-1b3f-433e-89c4-f5669cd8b1d7")
 	)
 	(junction
-		(at 36.83 106.68)
+		(at 90.17 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ebab2cfa-fd13-4cd4-80fa-13c966de1cce")
+		(uuid "cf90b70e-60eb-4116-a40d-75928dc2697f")
 	)
 	(junction
-		(at 36.83 95.25)
+		(at 151.13 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ff79636f-f476-4b18-8b85-737c265a4634")
+		(uuid "e659ccdd-478a-4528-96ba-594f5ceec506")
 	)
 	(wire
 		(pts
-			(xy 36.83 85.09) (xy 43.18 85.09)
+			(xy 90.17 38.1) (xy 90.17 44.45)
 		)
 		(stroke
 			(width 0)
@@ -370,7 +524,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 95.25) (xy 43.18 95.25)
+			(xy 74.93 38.1) (xy 74.93 44.45)
 		)
 		(stroke
 			(width 0)
@@ -380,7 +534,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 92.71) (xy 36.83 95.25)
+			(xy 76.2 38.1) (xy 74.93 38.1)
 		)
 		(stroke
 			(width 0)
@@ -390,57 +544,197 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 73.66) (xy 43.18 73.66)
+			(xy 166.37 72.39) (xy 166.37 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0ee02ead-7c82-4937-823f-89de9ab843a5")
+		(uuid "0f2b71ce-0a78-46fc-a8b1-d9ab3d917df5")
 	)
 	(wire
 		(pts
-			(xy 36.83 49.53) (xy 36.83 52.07)
+			(xy 120.65 38.1) (xy 121.92 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "12b7c3d2-c147-46f4-9bca-ce6d8b082d69")
+		(uuid "0fbf1e8e-8717-487d-9981-7375fdb971e5")
 	)
 	(wire
 		(pts
-			(xy 36.83 38.1) (xy 36.83 41.91)
+			(xy 105.41 72.39) (xy 105.41 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "182e7595-a3dd-45c5-af3f-29f5866d9c56")
+		(uuid "18d69726-5c3b-4ed7-bea6-a4a488608e41")
 	)
 	(wire
 		(pts
-			(xy 36.83 59.69) (xy 36.83 63.5)
+			(xy 74.93 57.15) (xy 74.93 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4b80af9f-fc9b-4e25-84a6-44eb2fde9f1a")
+		(uuid "19266f4b-d42f-4901-83c5-b5753acf93ee")
 	)
 	(wire
 		(pts
-			(xy 36.83 30.48) (xy 43.18 30.48)
+			(xy 134.62 38.1) (xy 135.89 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "55787d81-7adc-438b-ac1c-1a8ec0464fdb")
+		(uuid "1950611d-387c-4707-a6fb-6d32dac36c33")
 	)
 	(wire
 		(pts
-			(xy 36.83 52.07) (xy 43.18 52.07)
+			(xy 90.17 57.15) (xy 90.17 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "225bce68-f945-4327-a030-427000d6842c")
+	)
+	(wire
+		(pts
+			(xy 74.93 38.1) (xy 73.66 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2caa6986-9da0-48be-8a21-4c6e5012018d")
+	)
+	(wire
+		(pts
+			(xy 120.65 72.39) (xy 120.65 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3207d68c-6d2c-4892-be57-98b9732703fa")
+	)
+	(wire
+		(pts
+			(xy 151.13 57.15) (xy 151.13 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "333bb758-eb9e-4910-93d6-df00327a8086")
+	)
+	(wire
+		(pts
+			(xy 166.37 38.1) (xy 166.37 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ba1e2d1-e183-4cc9-9a52-61f8fab73e22")
+	)
+	(wire
+		(pts
+			(xy 135.89 57.15) (xy 135.89 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d38e2af-6a5c-4012-a2eb-512b14168c2a")
+	)
+	(wire
+		(pts
+			(xy 119.38 38.1) (xy 120.65 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4676c219-36c8-4696-b8cf-82df72e0ab5d")
+	)
+	(wire
+		(pts
+			(xy 59.69 59.69) (xy 59.69 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "589df953-eca5-4189-9ac5-1b0270b0cd80")
+	)
+	(wire
+		(pts
+			(xy 90.17 38.1) (xy 91.44 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b65d066-297a-4103-b5bb-9cd36e268daf")
+	)
+	(wire
+		(pts
+			(xy 135.89 38.1) (xy 137.16 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b6c6184-15bc-4de5-bd8d-090b32819fa2")
+	)
+	(wire
+		(pts
+			(xy 74.93 72.39) (xy 74.93 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74f62c35-e0d6-487e-979c-d3927d910d3a")
+	)
+	(wire
+		(pts
+			(xy 151.13 72.39) (xy 151.13 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d98baf2-6eba-42a3-a0a5-4619877a00cb")
+	)
+	(wire
+		(pts
+			(xy 104.14 38.1) (xy 105.41 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "821aafdf-8f63-4d6a-a6c2-e979ab6d1800")
+	)
+	(wire
+		(pts
+			(xy 45.72 38.1) (xy 46.99 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90a96cee-831f-49bb-aaeb-d9aef2ad1265")
+	)
+	(wire
+		(pts
+			(xy 135.89 38.1) (xy 135.89 44.45)
 		)
 		(stroke
 			(width 0)
@@ -450,7 +744,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 41.91) (xy 43.18 41.91)
+			(xy 151.13 38.1) (xy 151.13 44.45)
 		)
 		(stroke
 			(width 0)
@@ -460,7 +754,17 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 102.87) (xy 36.83 106.68)
+			(xy 149.86 38.1) (xy 151.13 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fd1467b-89a5-4328-a22e-5887987a885d")
+	)
+	(wire
+		(pts
+			(xy 60.96 38.1) (xy 59.69 38.1)
 		)
 		(stroke
 			(width 0)
@@ -470,7 +774,37 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 30.48) (xy 36.83 30.48)
+			(xy 59.69 72.39) (xy 59.69 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae92a9a0-0d83-41c7-a6d2-179c2ecac7fe")
+	)
+	(wire
+		(pts
+			(xy 166.37 57.15) (xy 166.37 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1f4a212-8b43-48c7-b7ca-6dd9ed5dd875")
+	)
+	(wire
+		(pts
+			(xy 135.89 72.39) (xy 135.89 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b283485a-d5bb-48bd-bed9-c50cd45d25b6")
+	)
+	(wire
+		(pts
+			(xy 166.37 27.94) (xy 166.37 38.1)
 		)
 		(stroke
 			(width 0)
@@ -480,17 +814,37 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 71.12) (xy 36.83 73.66)
+			(xy 105.41 38.1) (xy 105.41 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cb7a4144-1f7b-403b-a880-39be60d1fc36")
+		(uuid "b86de4a8-2300-4953-8bd4-4bcdd8d58bf7")
 	)
 	(wire
 		(pts
-			(xy 36.83 106.68) (xy 43.18 106.68)
+			(xy 88.9 38.1) (xy 90.17 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c23bd02f-c180-41b5-9a24-af60b53175dd")
+	)
+	(wire
+		(pts
+			(xy 165.1 38.1) (xy 166.37 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c360d7cf-8d4e-4e9e-ae2b-5f13f84b7543")
+	)
+	(wire
+		(pts
+			(xy 59.69 38.1) (xy 59.69 44.45)
 		)
 		(stroke
 			(width 0)
@@ -500,17 +854,47 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 81.28) (xy 36.83 85.09)
+			(xy 105.41 57.15) (xy 105.41 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e23535f8-c04d-4252-a25c-4a5f7bb90035")
+		(uuid "dca6616d-3729-439f-8ac7-9b64c6f8b2a9")
 	)
 	(wire
 		(pts
-			(xy 36.83 63.5) (xy 43.18 63.5)
+			(xy 90.17 72.39) (xy 90.17 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2ee1911-0648-48cb-85ff-17363e771732")
+	)
+	(wire
+		(pts
+			(xy 105.41 38.1) (xy 106.68 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e75dedc1-f9c1-4ecf-a3c7-74cdc769a5b2")
+	)
+	(wire
+		(pts
+			(xy 151.13 38.1) (xy 152.4 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f641b5cc-d0e6-427d-9452-e507699ef1a5")
+	)
+	(wire
+		(pts
+			(xy 120.65 38.1) (xy 120.65 44.45)
 		)
 		(stroke
 			(width 0)
@@ -518,108 +902,118 @@
 		)
 		(uuid "f83613ca-477a-4324-9b17-c3d43f65890f")
 	)
+	(wire
+		(pts
+			(xy 120.65 57.15) (xy 120.65 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff1ddbf7-faac-4996-999e-dc50ef61d9cc")
+	)
 	(hierarchical_label "DAC6"
 		(shape input)
-		(at 58.42 41.91 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5214560c-005f-4a64-9ec0-ccfc12a90f68")
-	)
-	(hierarchical_label "OUT"
-		(shape output)
-		(at 26.67 30.48 180)
+		(at 151.13 73.66 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "56292315-c18c-4973-942d-ef9fa7b871ca")
+		(uuid "5214560c-005f-4a64-9ec0-ccfc12a90f68")
 	)
-	(hierarchical_label "DAC4"
-		(shape input)
-		(at 58.42 63.5 0)
+	(hierarchical_label "OUT"
+		(shape output)
+		(at 166.37 27.94 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
+		)
+		(uuid "56292315-c18c-4973-942d-ef9fa7b871ca")
+	)
+	(hierarchical_label "DAC4"
+		(shape input)
+		(at 120.65 73.66 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
 		)
 		(uuid "5812da5b-41ed-4c3a-8ab2-1c80e8169dd4")
 	)
 	(hierarchical_label "DAC5"
 		(shape input)
-		(at 58.42 52.07 0)
+		(at 135.89 73.66 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "6d0d073d-2d1e-43ec-9a89-147d8fc4fec7")
 	)
 	(hierarchical_label "DAC1"
 		(shape input)
-		(at 58.42 95.25 0)
+		(at 74.93 73.66 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "812ba6f7-ea34-4196-9e87-0c1a9849a677")
 	)
 	(hierarchical_label "DAC3"
 		(shape input)
-		(at 58.42 73.66 0)
+		(at 105.41 73.66 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "8b291920-17ba-4a76-a4ba-75ad1d5611ae")
 	)
 	(hierarchical_label "DAC7"
 		(shape input)
-		(at 58.42 30.48 0)
+		(at 166.37 73.66 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "af5630bc-63c5-4e63-a4de-423af21fcd37")
 	)
 	(hierarchical_label "DAC0"
 		(shape input)
-		(at 58.42 106.68 0)
+		(at 59.69 73.66 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "c81d524f-58ac-4676-8ed8-7e1d590d29c2")
 	)
 	(hierarchical_label "DAC2"
 		(shape input)
-		(at 58.42 85.09 0)
+		(at 90.17 73.66 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "e318755f-b552-494d-ba2d-48dd71791d65")
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 54.61 30.48 90)
+		(lib_id "Synthia_Symbol_Library:CF14JT10K0")
+		(at 166.37 59.69 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -630,49 +1024,53 @@
 		(fields_autoplaced yes)
 		(uuid "07c44576-c41f-4d6e-9500-ebcdebb2bf27")
 		(property "Reference" "R16"
-			(at 54.61 24.13 90)
+			(at 168.91 64.7699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "100k"
-			(at 54.61 26.67 90)
+		(property "Value" "CF14JT10K0"
+			(at 168.91 67.3099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Synthia_footprint_library:STA_CF14_STP"
-			(at 54.864 29.464 90)
+			(at 166.37 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 54.61 30.48 0)
+		(property "Datasheet" "CF14JT10K0"
+			(at 166.37 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 54.61 30.48 0)
+			(at 166.37 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -698,8 +1096,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 36.83 77.47 180)
+		(lib_id "Synthia_Symbol_Library:CF14JT10K0")
+		(at 104.14 38.1 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -710,49 +1108,51 @@
 		(fields_autoplaced yes)
 		(uuid "15381c52-fde4-41d5-af7b-513ae6b8ffc8")
 		(property "Reference" "R35"
-			(at 30.48 77.47 90)
+			(at 97.79 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Value" "100k"
-			(at 33.02 77.47 90)
+		(property "Value" "CF14JT10K0"
+			(at 97.79 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 			)
 		)
 		(property "Footprint" "Synthia_footprint_library:STA_CF14_STP"
-			(at 35.814 77.216 90)
+			(at 104.14 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 36.83 77.47 0)
+		(property "Datasheet" "CF14JT10K0"
+			(at 104.14 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 36.83 77.47 0)
+			(at 104.14 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -778,8 +1178,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 36.83 110.49 180)
+		(lib_id "Synthia_Symbol_Library:CF14JT10K0")
+		(at 46.99 38.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -790,49 +1190,51 @@
 		(fields_autoplaced yes)
 		(uuid "19788adf-a135-4487-ba5d-faa3c564d0ba")
 		(property "Reference" "R38"
-			(at 30.48 110.49 90)
+			(at 53.34 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Value" "100k"
-			(at 33.02 110.49 90)
+		(property "Value" "CF14JT10K0"
+			(at 53.34 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 			)
 		)
 		(property "Footprint" "Synthia_footprint_library:STA_CF14_STP"
-			(at 35.814 110.236 90)
+			(at 46.99 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 36.83 110.49 0)
+		(property "Datasheet" "CF14JT10K0"
+			(at 46.99 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 36.83 110.49 0)
+			(at 46.99 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -858,8 +1260,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 36.83 34.29 180)
+		(lib_id "Synthia_Symbol_Library:CF14JT10K0")
+		(at 165.1 38.1 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -870,49 +1272,51 @@
 		(fields_autoplaced yes)
 		(uuid "1e486bce-6fdf-4100-9296-a1baeb5058d0")
 		(property "Reference" "R18"
-			(at 30.48 34.29 90)
+			(at 158.75 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Value" "100k"
-			(at 33.02 34.29 90)
+		(property "Value" "CF14JT10K0"
+			(at 158.75 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 			)
 		)
 		(property "Footprint" "Synthia_footprint_library:STA_CF14_STP"
-			(at 35.814 34.036 90)
+			(at 165.1 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 36.83 34.29 0)
+		(property "Datasheet" "CF14JT10K0"
+			(at 165.1 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 36.83 34.29 0)
+			(at 165.1 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -938,8 +1342,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 46.99 41.91 90)
+		(lib_id "Synthia_Symbol_Library:CF14JT10K0")
+		(at 151.13 44.45 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -950,49 +1354,53 @@
 		(fields_autoplaced yes)
 		(uuid "2d2df515-603f-401d-81ac-54ecc2c7e9ff")
 		(property "Reference" "R17"
-			(at 46.99 35.56 90)
+			(at 153.67 49.5299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "100k"
-			(at 46.99 38.1 90)
+		(property "Value" "CF14JT10K0"
+			(at 153.67 52.0699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Synthia_footprint_library:STA_CF14_STP"
-			(at 47.244 40.894 90)
+			(at 151.13 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 46.99 41.91 0)
+		(property "Datasheet" "CF14JT10K0"
+			(at 151.13 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 46.99 41.91 0)
+			(at 151.13 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1018,8 +1426,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 46.99 106.68 90)
+		(lib_id "Synthia_Symbol_Library:CF14JT10K0")
+		(at 59.69 44.45 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1030,49 +1438,53 @@
 		(fields_autoplaced yes)
 		(uuid "52ee230b-fea9-4faa-9f3b-770da9e367ab")
 		(property "Reference" "R30"
-			(at 46.99 100.33 90)
+			(at 62.23 49.5299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "100k"
-			(at 46.99 102.87 90)
+		(property "Value" "CF14JT10K0"
+			(at 62.23 52.0699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Synthia_footprint_library:STA_CF14_STP"
-			(at 47.244 105.664 90)
+			(at 59.69 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 46.99 106.68 0)
+		(property "Datasheet" "CF14JT10K0"
+			(at 59.69 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 46.99 106.68 0)
+			(at 59.69 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1099,7 +1511,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 36.83 121.92 0)
+		(at 33.02 38.1 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1110,7 +1522,7 @@
 		(fields_autoplaced yes)
 		(uuid "61f778a1-fc06-4aa1-9d91-7af8092610eb")
 		(property "Reference" "#PWR022"
-			(at 36.83 128.27 0)
+			(at 26.67 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1121,7 +1533,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 36.83 127 0)
+			(at 31.75 34.29 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1131,7 +1543,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 36.83 121.92 0)
+			(at 33.02 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1142,7 +1554,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 121.92 0)
+			(at 33.02 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1153,7 +1565,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 36.83 121.92 0)
+			(at 33.02 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1176,8 +1588,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 54.61 95.25 90)
+		(lib_id "Synthia_Symbol_Library:CF14JT10K0")
+		(at 74.93 59.69 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1188,49 +1600,53 @@
 		(fields_autoplaced yes)
 		(uuid "643fbe2b-b3e2-4c98-9799-bc27533b8fb1")
 		(property "Reference" "R33"
-			(at 54.61 88.9 90)
+			(at 77.47 64.7699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "100k"
-			(at 54.61 91.44 90)
+		(property "Value" "CF14JT10K0"
+			(at 77.47 67.3099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Synthia_footprint_library:STA_CF14_STP"
-			(at 54.864 94.234 90)
+			(at 74.93 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 54.61 95.25 0)
+		(property "Datasheet" "CF14JT10K0"
+			(at 74.93 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 54.61 95.25 0)
+			(at 74.93 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1256,8 +1672,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 46.99 52.07 90)
+		(lib_id "Synthia_Symbol_Library:CF14JT10K0")
+		(at 135.89 44.45 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1268,49 +1684,53 @@
 		(fields_autoplaced yes)
 		(uuid "6d67b07c-90f0-4eb3-a86a-da0ed02b52b1")
 		(property "Reference" "R21"
-			(at 46.99 45.72 90)
+			(at 138.43 49.5299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "100k"
-			(at 46.99 48.26 90)
+		(property "Value" "CF14JT10K0"
+			(at 138.43 52.0699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Synthia_footprint_library:STA_CF14_STP"
-			(at 47.244 51.054 90)
+			(at 135.89 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 46.99 52.07 0)
+		(property "Datasheet" "CF14JT10K0"
+			(at 135.89 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 46.99 52.07 0)
+			(at 135.89 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1336,8 +1756,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 46.99 63.5 90)
+		(lib_id "Synthia_Symbol_Library:CF14JT10K0")
+		(at 120.65 44.45 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1348,49 +1768,53 @@
 		(fields_autoplaced yes)
 		(uuid "6e17b7a1-623f-4db0-90d9-854e3bc2a55a")
 		(property "Reference" "R22"
-			(at 46.99 57.15 90)
+			(at 123.19 49.5299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "100k"
-			(at 46.99 59.69 90)
+		(property "Value" "CF14JT10K0"
+			(at 123.19 52.0699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Synthia_footprint_library:STA_CF14_STP"
-			(at 47.244 62.484 90)
+			(at 120.65 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 46.99 63.5 0)
+		(property "Datasheet" "CF14JT10K0"
+			(at 120.65 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 46.99 63.5 0)
+			(at 120.65 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1416,8 +1840,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 54.61 41.91 90)
+		(lib_id "Synthia_Symbol_Library:CF14JT10K0")
+		(at 151.13 59.69 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1428,49 +1852,53 @@
 		(fields_autoplaced yes)
 		(uuid "6fd615ca-d1a2-4f33-b0f6-536e4229d28d")
 		(property "Reference" "R19"
-			(at 54.61 35.56 90)
+			(at 153.67 64.7699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "100k"
-			(at 54.61 38.1 90)
+		(property "Value" "CF14JT10K0"
+			(at 153.67 67.3099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Synthia_footprint_library:STA_CF14_STP"
-			(at 54.864 40.894 90)
+			(at 151.13 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 54.61 41.91 0)
+		(property "Datasheet" "CF14JT10K0"
+			(at 151.13 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 54.61 41.91 0)
+			(at 151.13 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1496,8 +1924,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 46.99 73.66 90)
+		(lib_id "Synthia_Symbol_Library:CF14JT10K0")
+		(at 105.41 44.45 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1508,49 +1936,53 @@
 		(fields_autoplaced yes)
 		(uuid "77e93866-0bb5-443d-b332-f5d02d50c78e")
 		(property "Reference" "R27"
-			(at 46.99 67.31 90)
+			(at 107.95 49.5299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "100k"
-			(at 46.99 69.85 90)
+		(property "Value" "CF14JT10K0"
+			(at 107.95 52.0699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Synthia_footprint_library:STA_CF14_STP"
-			(at 47.244 72.644 90)
+			(at 105.41 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 46.99 73.66 0)
+		(property "Datasheet" "CF14JT10K0"
+			(at 105.41 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 46.99 73.66 0)
+			(at 105.41 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1576,8 +2008,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 36.83 67.31 180)
+		(lib_id "Synthia_Symbol_Library:CF14JT10K0")
+		(at 119.38 38.1 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1588,49 +2020,51 @@
 		(fields_autoplaced yes)
 		(uuid "784f12b8-bf43-492b-b22f-44e78fdc557c")
 		(property "Reference" "R26"
-			(at 30.48 67.31 90)
+			(at 113.03 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Value" "100k"
-			(at 33.02 67.31 90)
+		(property "Value" "CF14JT10K0"
+			(at 113.03 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 			)
 		)
 		(property "Footprint" "Synthia_footprint_library:STA_CF14_STP"
-			(at 35.814 67.056 90)
+			(at 119.38 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 36.83 67.31 0)
+		(property "Datasheet" "CF14JT10K0"
+			(at 119.38 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 36.83 67.31 0)
+			(at 119.38 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1656,8 +2090,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 36.83 45.72 180)
+		(lib_id "Synthia_Symbol_Library:CF14JT10K0")
+		(at 149.86 38.1 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1668,49 +2102,51 @@
 		(fields_autoplaced yes)
 		(uuid "8ff60b34-ca9a-4374-9bef-4dbd301f5e20")
 		(property "Reference" "R20"
-			(at 30.48 45.72 90)
+			(at 143.51 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Value" "100k"
-			(at 33.02 45.72 90)
+		(property "Value" "CF14JT10K0"
+			(at 143.51 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 			)
 		)
 		(property "Footprint" "Synthia_footprint_library:STA_CF14_STP"
-			(at 35.814 45.466 90)
+			(at 149.86 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 36.83 45.72 0)
+		(property "Datasheet" "CF14JT10K0"
+			(at 149.86 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 36.83 45.72 0)
+			(at 149.86 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1736,8 +2172,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 36.83 99.06 180)
+		(lib_id "Synthia_Symbol_Library:CF14JT10K0")
+		(at 73.66 38.1 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1748,49 +2184,51 @@
 		(fields_autoplaced yes)
 		(uuid "90af7b71-e80f-4e13-8db2-830e8825f9b0")
 		(property "Reference" "R37"
-			(at 30.48 99.06 90)
+			(at 67.31 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Value" "100k"
-			(at 33.02 99.06 90)
+		(property "Value" "CF14JT10K0"
+			(at 67.31 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 			)
 		)
 		(property "Footprint" "Synthia_footprint_library:STA_CF14_STP"
-			(at 35.814 98.806 90)
+			(at 73.66 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 36.83 99.06 0)
+		(property "Datasheet" "CF14JT10K0"
+			(at 73.66 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 36.83 99.06 0)
+			(at 73.66 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1816,8 +2254,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 46.99 95.25 90)
+		(lib_id "Synthia_Symbol_Library:CF14JT10K0")
+		(at 74.93 44.45 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1828,49 +2266,53 @@
 		(fields_autoplaced yes)
 		(uuid "99dd9476-8b1f-4775-a81a-c288dbb2cf83")
 		(property "Reference" "R29"
-			(at 46.99 88.9 90)
+			(at 77.47 49.5299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "100k"
-			(at 46.99 91.44 90)
+		(property "Value" "CF14JT10K0"
+			(at 77.47 52.0699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Synthia_footprint_library:STA_CF14_STP"
-			(at 47.244 94.234 90)
+			(at 74.93 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 46.99 95.25 0)
+		(property "Datasheet" "CF14JT10K0"
+			(at 74.93 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 46.99 95.25 0)
+			(at 74.93 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1896,8 +2338,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 36.83 55.88 180)
+		(lib_id "Synthia_Symbol_Library:CF14JT10K0")
+		(at 134.62 38.1 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1908,49 +2350,51 @@
 		(fields_autoplaced yes)
 		(uuid "a43d22a5-b1c9-41f7-9a8c-de21a786db69")
 		(property "Reference" "R25"
-			(at 30.48 55.88 90)
+			(at 128.27 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Value" "100k"
-			(at 33.02 55.88 90)
+		(property "Value" "CF14JT10K0"
+			(at 128.27 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 			)
 		)
 		(property "Footprint" "Synthia_footprint_library:STA_CF14_STP"
-			(at 35.814 55.626 90)
+			(at 134.62 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 36.83 55.88 0)
+		(property "Datasheet" "CF14JT10K0"
+			(at 134.62 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 36.83 55.88 0)
+			(at 134.62 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1976,8 +2420,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 46.99 30.48 90)
+		(lib_id "Synthia_Symbol_Library:CF14JT10K0")
+		(at 166.37 44.45 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1988,49 +2432,53 @@
 		(fields_autoplaced yes)
 		(uuid "a5cb474c-0f8d-406a-8dbe-dca7be89eab2")
 		(property "Reference" "R15"
-			(at 46.99 24.13 90)
+			(at 168.91 49.5299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "100k"
-			(at 46.99 26.67 90)
+		(property "Value" "CF14JT10K0"
+			(at 168.91 52.0699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Synthia_footprint_library:STA_CF14_STP"
-			(at 47.244 29.464 90)
+			(at 166.37 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 46.99 30.48 0)
+		(property "Datasheet" "CF14JT10K0"
+			(at 166.37 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 46.99 30.48 0)
+			(at 166.37 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2056,8 +2504,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 36.83 118.11 180)
+		(lib_id "Synthia_Symbol_Library:CF14JT10K0")
+		(at 45.72 38.1 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2068,49 +2516,51 @@
 		(fields_autoplaced yes)
 		(uuid "a84cb8a0-9803-457f-9602-eefbdc18f6d6")
 		(property "Reference" "R39"
-			(at 30.48 118.11 90)
+			(at 39.37 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Value" "100k"
-			(at 33.02 118.11 90)
+		(property "Value" "CF14JT10K0"
+			(at 39.37 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 			)
 		)
 		(property "Footprint" "Synthia_footprint_library:STA_CF14_STP"
-			(at 35.814 117.856 90)
+			(at 45.72 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 36.83 118.11 0)
+		(property "Datasheet" "CF14JT10K0"
+			(at 45.72 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 36.83 118.11 0)
+			(at 45.72 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2136,8 +2586,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 54.61 63.5 90)
+		(lib_id "Synthia_Symbol_Library:CF14JT10K0")
+		(at 120.65 59.69 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2148,49 +2598,53 @@
 		(fields_autoplaced yes)
 		(uuid "a99383e5-1efb-48f2-8099-346df39017a7")
 		(property "Reference" "R24"
-			(at 54.61 57.15 90)
+			(at 123.19 64.7699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "100k"
-			(at 54.61 59.69 90)
+		(property "Value" "CF14JT10K0"
+			(at 123.19 67.3099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Synthia_footprint_library:STA_CF14_STP"
-			(at 54.864 62.484 90)
+			(at 120.65 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 54.61 63.5 0)
+		(property "Datasheet" "CF14JT10K0"
+			(at 120.65 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 54.61 63.5 0)
+			(at 120.65 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2216,8 +2670,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 54.61 73.66 90)
+		(lib_id "Synthia_Symbol_Library:CF14JT10K0")
+		(at 105.41 59.69 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2228,49 +2682,53 @@
 		(fields_autoplaced yes)
 		(uuid "bb9b6858-db4d-4464-ac83-d5282c8156ee")
 		(property "Reference" "R31"
-			(at 54.61 67.31 90)
+			(at 107.95 64.7699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "100k"
-			(at 54.61 69.85 90)
+		(property "Value" "CF14JT10K0"
+			(at 107.95 67.3099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Synthia_footprint_library:STA_CF14_STP"
-			(at 54.864 72.644 90)
+			(at 105.41 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 54.61 73.66 0)
+		(property "Datasheet" "CF14JT10K0"
+			(at 105.41 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 54.61 73.66 0)
+			(at 105.41 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2296,8 +2754,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 46.99 85.09 90)
+		(lib_id "Synthia_Symbol_Library:CF14JT10K0")
+		(at 90.17 44.45 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2308,49 +2766,53 @@
 		(fields_autoplaced yes)
 		(uuid "c7df3107-c36a-4519-9196-4be0c54d106e")
 		(property "Reference" "R28"
-			(at 46.99 78.74 90)
+			(at 92.71 49.5299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "100k"
-			(at 46.99 81.28 90)
+		(property "Value" "CF14JT10K0"
+			(at 92.71 52.0699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Synthia_footprint_library:STA_CF14_STP"
-			(at 47.244 84.074 90)
+			(at 90.17 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 46.99 85.09 0)
+		(property "Datasheet" "CF14JT10K0"
+			(at 90.17 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 46.99 85.09 0)
+			(at 90.17 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2376,8 +2838,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 36.83 88.9 180)
+		(lib_id "Synthia_Symbol_Library:CF14JT10K0")
+		(at 88.9 38.1 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2388,49 +2850,51 @@
 		(fields_autoplaced yes)
 		(uuid "ddaa1780-3475-46de-bccc-3b405c86c678")
 		(property "Reference" "R36"
-			(at 30.48 88.9 90)
+			(at 82.55 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Value" "100k"
-			(at 33.02 88.9 90)
+		(property "Value" "CF14JT10K0"
+			(at 82.55 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 			)
 		)
 		(property "Footprint" "Synthia_footprint_library:STA_CF14_STP"
-			(at 35.814 88.646 90)
+			(at 88.9 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 36.83 88.9 0)
+		(property "Datasheet" "CF14JT10K0"
+			(at 88.9 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 36.83 88.9 0)
+			(at 88.9 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2456,8 +2920,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 54.61 85.09 90)
+		(lib_id "Synthia_Symbol_Library:CF14JT10K0")
+		(at 90.17 59.69 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2468,49 +2932,53 @@
 		(fields_autoplaced yes)
 		(uuid "e733e17f-aad3-429c-a2f0-2de37e14d74b")
 		(property "Reference" "R32"
-			(at 54.61 78.74 90)
+			(at 92.71 64.7699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "100k"
-			(at 54.61 81.28 90)
+		(property "Value" "CF14JT10K0"
+			(at 92.71 67.3099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Synthia_footprint_library:STA_CF14_STP"
-			(at 54.864 84.074 90)
+			(at 90.17 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 54.61 85.09 0)
+		(property "Datasheet" "CF14JT10K0"
+			(at 90.17 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 54.61 85.09 0)
+			(at 90.17 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2536,8 +3004,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 54.61 52.07 90)
+		(lib_id "Synthia_Symbol_Library:CF14JT10K0")
+		(at 135.89 59.69 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2548,49 +3016,53 @@
 		(fields_autoplaced yes)
 		(uuid "e76a8cf3-e4f1-4aea-9f84-81e976e54af0")
 		(property "Reference" "R23"
-			(at 54.61 45.72 90)
+			(at 138.43 64.7699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "100k"
-			(at 54.61 48.26 90)
+		(property "Value" "CF14JT10K0"
+			(at 138.43 67.3099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Synthia_footprint_library:STA_CF14_STP"
-			(at 54.864 51.054 90)
+			(at 135.89 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 54.61 52.07 0)
+		(property "Datasheet" "CF14JT10K0"
+			(at 135.89 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 54.61 52.07 0)
+			(at 135.89 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2616,8 +3088,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 54.61 106.68 90)
+		(lib_id "Synthia_Symbol_Library:CF14JT10K0")
+		(at 59.69 59.69 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2628,49 +3100,53 @@
 		(fields_autoplaced yes)
 		(uuid "eb05d0ea-a70f-4fac-ae3d-3ecd486b1e87")
 		(property "Reference" "R34"
-			(at 54.61 100.33 90)
+			(at 62.23 64.7699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "100k"
-			(at 54.61 102.87 90)
+		(property "Value" "CF14JT10K0"
+			(at 62.23 67.3099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Synthia_footprint_library:STA_CF14_STP"
-			(at 54.864 105.664 90)
+			(at 59.69 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 54.61 106.68 0)
+		(property "Datasheet" "CF14JT10K0"
+			(at 59.69 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 54.61 106.68 0)
+			(at 59.69 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
