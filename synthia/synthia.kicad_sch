@@ -2009,7 +2009,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Synthia_Symbol_Library:C0603C105K4RACTU"
+		(symbol "Synthia_Symbol_Library:C0603C104K5RACTU"
 			(body_styles demorgan)
 			(pin_names
 				(offset 0.254)
@@ -2029,7 +2029,7 @@
 					)
 				)
 			)
-			(property "Value" "C0603C105K4RACTU"
+			(property "Value" "C0603C104K5RACTU"
 				(at 3.81 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2039,7 +2039,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Synthia_footprint_library:CAPC17595_87N_KEM-L"
+			(property "Footprint" "Synthia_footprint_library:CAPC17595_95N_KEM-L"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2074,17 +2074,7 @@
 					)
 				)
 			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "C0603C105K4RACTU"
+			(property "ki_keywords" "C0603C104K5RACTU"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2095,7 +2085,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "CAPC17595_90N_KEM CAPC17595_90N_KEM-M CAPC17595_90N_KEM-L"
+			(property "ki_fp_filters" "CAPC17595_95N_KEM CAPC17595_95N_KEM-M CAPC17595_95N_KEM-L"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2106,7 +2096,7 @@
 					)
 				)
 			)
-			(symbol "C0603C105K4RACTU_1_1"
+			(symbol "C0603C104K5RACTU_1_1"
 				(polyline
 					(pts
 						(xy 2.54 0) (xy 3.4798 0)
@@ -2192,7 +2182,7 @@
 					)
 				)
 			)
-			(symbol "C0603C105K4RACTU_1_2"
+			(symbol "C0603C104K5RACTU_1_2"
 				(polyline
 					(pts
 						(xy -1.905 -3.4798) (xy 1.905 -3.4798)
@@ -4284,16 +4274,6 @@
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -11375,6 +11355,12 @@
 		(uuid "760da4c8-cbf3-42c8-97f9-4f520f2d7b68")
 	)
 	(junction
+		(at 381 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "791c1bc0-6e0f-45f5-9e77-ed3049ddd2e8")
+	)
+	(junction
 		(at 144.78 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12304,6 +12290,16 @@
 	)
 	(wire
 		(pts
+			(xy 381 62.23) (xy 381 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "088d9838-0731-4269-93d9-629a79665453")
+	)
+	(wire
+		(pts
 			(xy 254 99.06) (xy 256.54 99.06)
 		)
 		(stroke
@@ -13114,16 +13110,6 @@
 	)
 	(wire
 		(pts
-			(xy 360.68 95.25) (xy 378.46 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52587766-3c18-4e2d-83b8-ab9502376aee")
-	)
-	(wire
-		(pts
 			(xy 127 55.88) (xy 139.7 55.88)
 		)
 		(stroke
@@ -13224,7 +13210,7 @@
 	)
 	(wire
 		(pts
-			(xy 336.55 95.25) (xy 353.06 95.25)
+			(xy 336.55 95.25) (xy 378.46 95.25)
 		)
 		(stroke
 			(width 0)
@@ -13284,7 +13270,7 @@
 	)
 	(wire
 		(pts
-			(xy 341.63 107.95) (xy 354.33 107.95)
+			(xy 341.63 107.95) (xy 369.57 107.95)
 		)
 		(stroke
 			(width 0)
@@ -13544,7 +13530,7 @@
 	)
 	(wire
 		(pts
-			(xy 381 34.29) (xy 381 68.58)
+			(xy 381 34.29) (xy 381 62.23)
 		)
 		(stroke
 			(width 0)
@@ -14751,16 +14737,6 @@
 			(type default)
 		)
 		(uuid "c2f20a43-1359-4fe6-b462-299df3650b59")
-	)
-	(wire
-		(pts
-			(xy 359.41 107.95) (xy 369.57 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c32c90c7-8611-4bf0-a5a0-3e3d31748314")
 	)
 	(wire
 		(pts
@@ -16040,87 +16016,6 @@
 			(project "synthia"
 				(path "/b7ca07b0-c23c-4333-a610-582d2798793b"
 					(reference "TP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Synthia_Symbol_Library:C0603C105K4RACTU")
-		(at 353.06 95.25 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "07009ddc-2b9b-4215-a0e4-228b509c35d3")
-		(property "Reference" "C26"
-			(at 354.0019 96.5923 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "C0603C105K4RACTU"
-			(at 354.0019 99.1323 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "Synthia_footprint_library:CAPC17595_87N_KEM-L"
-			(at 353.06 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
-			(at 353.06 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 353.06 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a4b2366f-b3ad-4457-a36c-df61f9a4a27d")
-		)
-		(pin "1"
-			(uuid "be0cd499-a124-421b-a7a4-1afdf646b438")
-		)
-		(instances
-			(project "synthia"
-				(path "/b7ca07b0-c23c-4333-a610-582d2798793b"
-					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -18997,6 +18892,85 @@
 			(project "synthia"
 				(path "/b7ca07b0-c23c-4333-a610-582d2798793b"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 388.62 62.23 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45bf7875-e92b-474f-8e34-aaed4dea8dae")
+		(property "Reference" "#PWR052"
+			(at 394.97 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 392.43 62.2299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 388.62 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 388.62 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 388.62 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e2148a30-c1f4-4228-97e8-60f5d27c2bbf")
+		)
+		(instances
+			(project "synthia"
+				(path "/b7ca07b0-c23c-4333-a610-582d2798793b"
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -23757,6 +23731,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Synthia_Symbol_Library:C0603C104K5RACTU")
+		(at 381 62.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "867a4565-a52b-4e9b-9e1f-e0cecfa9da68")
+		(property "Reference" "C29"
+			(at 384.81 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "C0603C104K5RACTU"
+			(at 384.81 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "Synthia_footprint_library:CAPC17595_95N_KEM-L"
+			(at 381 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
+			(at 381 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 381 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4f3bfe10-03f8-4bbd-88eb-39b1a61d9945")
+		)
+		(pin "1"
+			(uuid "f366576f-65fc-4434-b826-9ed721a0671a")
+		)
+		(instances
+			(project "synthia"
+				(path "/b7ca07b0-c23c-4333-a610-582d2798793b"
+					(reference "C29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 265.43 77.47 270)
 		(unit 1)
@@ -25051,86 +25107,6 @@
 			(project "synthia"
 				(path "/b7ca07b0-c23c-4333-a610-582d2798793b"
 					(reference "S47")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "C_Small_1")
-		(lib_id "Device:C_Small")
-		(at 356.87 107.95 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9a56e130-075d-4b91-8d99-37bddafd18cd")
-		(property "Reference" "C25"
-			(at 360.68 104.14 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10 uF"
-			(at 360.68 106.68 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D5.0mm_P5.00mm"
-			(at 356.87 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 356.87 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 356.87 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2f34e349-fe69-48bc-b756-72ac41b8ef83")
-		)
-		(pin "2"
-			(uuid "b45ff43a-4a99-4295-977f-ffc9c1491817")
-		)
-		(instances
-			(project "synthia"
-				(path "/b7ca07b0-c23c-4333-a610-582d2798793b"
-					(reference "C25")
 					(unit 1)
 				)
 			)

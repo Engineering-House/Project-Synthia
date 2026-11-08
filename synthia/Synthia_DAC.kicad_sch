@@ -468,49 +468,49 @@
 		(at 166.37 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "22d3913d-c822-4a39-972f-be595fe3c695")
-	)
-	(junction
-		(at 59.69 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "285a83a5-72bb-49dd-aeee-6aa25d7ca01b")
-	)
-	(junction
-		(at 105.41 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7786ea85-56c3-48d1-a028-807f284e797d")
+		(uuid "066643b7-a665-4dd9-8290-792e8ea8e832")
 	)
 	(junction
 		(at 74.93 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "81f66e96-27a0-472f-8c30-08ad7f7183ad")
+		(uuid "1e17f3fb-cc19-4c2e-b99b-bbdb0fd19eba")
 	)
 	(junction
-		(at 135.89 38.1)
+		(at 59.69 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8c3841d3-fc28-47b8-8434-cfdf80e46804")
-	)
-	(junction
-		(at 120.65 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c1dde226-1b3f-433e-89c4-f5669cd8b1d7")
+		(uuid "38e9240a-f3a6-425a-970b-d31bebfc1752")
 	)
 	(junction
 		(at 90.17 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cf90b70e-60eb-4116-a40d-75928dc2697f")
+		(uuid "7b68a433-7f58-446a-8335-57232595707b")
+	)
+	(junction
+		(at 135.89 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "80f53141-75f5-4e9a-ad2d-f97d663ca5b2")
+	)
+	(junction
+		(at 120.65 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "908fd4bf-1873-474c-b247-7183feb45119")
 	)
 	(junction
 		(at 151.13 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e659ccdd-478a-4528-96ba-594f5ceec506")
+		(uuid "ee91e83b-acd3-4806-ad4b-f4ecbd5a6092")
+	)
+	(junction
+		(at 105.41 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f839e67f-3668-4f20-8e90-8365eaae5daf")
 	)
 	(wire
 		(pts
@@ -534,13 +534,23 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 38.1) (xy 74.93 38.1)
+			(xy 120.65 38.1) (xy 121.92 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0dfe9123-4f8c-4c0d-95e1-49839b18e98c")
+		(uuid "06af4453-3464-4a62-9a83-c94fcbf2a684")
+	)
+	(wire
+		(pts
+			(xy 119.38 38.1) (xy 120.65 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ba5ec1a-8a87-49b1-ba54-e9e46d9124c6")
 	)
 	(wire
 		(pts
@@ -551,16 +561,6 @@
 			(type default)
 		)
 		(uuid "0f2b71ce-0a78-46fc-a8b1-d9ab3d917df5")
-	)
-	(wire
-		(pts
-			(xy 120.65 38.1) (xy 121.92 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0fbf1e8e-8717-487d-9981-7375fdb971e5")
 	)
 	(wire
 		(pts
@@ -584,13 +584,33 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 38.1) (xy 135.89 38.1)
+			(xy 90.17 38.1) (xy 91.44 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1950611d-387c-4707-a6fb-6d32dac36c33")
+		(uuid "1a5fe75b-ba95-421e-855d-e6337561e9b4")
+	)
+	(wire
+		(pts
+			(xy 105.41 38.1) (xy 106.68 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c141040-81eb-44ba-b1c7-44b5954fa915")
+	)
+	(wire
+		(pts
+			(xy 73.66 38.1) (xy 74.93 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21e1fbb3-a3fc-4f9c-9e6a-63a3673dd7db")
 	)
 	(wire
 		(pts
@@ -601,16 +621,6 @@
 			(type default)
 		)
 		(uuid "225bce68-f945-4327-a030-427000d6842c")
-	)
-	(wire
-		(pts
-			(xy 74.93 38.1) (xy 73.66 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2caa6986-9da0-48be-8a21-4c6e5012018d")
 	)
 	(wire
 		(pts
@@ -634,13 +644,23 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 38.1) (xy 166.37 44.45)
+			(xy 165.1 38.1) (xy 166.37 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3ba1e2d1-e183-4cc9-9a52-61f8fab73e22")
+		(uuid "38f65459-b63b-44c3-8552-6eda5359a1ec")
+	)
+	(wire
+		(pts
+			(xy 149.86 38.1) (xy 151.13 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c23cb3c-a34a-432c-b279-307ecf867051")
 	)
 	(wire
 		(pts
@@ -654,13 +674,13 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 38.1) (xy 120.65 38.1)
+			(xy 45.72 38.1) (xy 46.99 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4676c219-36c8-4696-b8cf-82df72e0ab5d")
+		(uuid "57c99fb4-9132-4d5f-ad97-c40abfb5da1b")
 	)
 	(wire
 		(pts
@@ -674,23 +694,13 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 38.1) (xy 91.44 38.1)
+			(xy 88.9 38.1) (xy 90.17 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5b65d066-297a-4103-b5bb-9cd36e268daf")
-	)
-	(wire
-		(pts
-			(xy 135.89 38.1) (xy 137.16 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b6c6184-15bc-4de5-bd8d-090b32819fa2")
+		(uuid "5be61bb6-5e50-46e7-a32b-51603b703708")
 	)
 	(wire
 		(pts
@@ -714,23 +724,13 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 38.1) (xy 105.41 38.1)
+			(xy 74.93 38.1) (xy 76.2 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "821aafdf-8f63-4d6a-a6c2-e979ab6d1800")
-	)
-	(wire
-		(pts
-			(xy 45.72 38.1) (xy 46.99 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90a96cee-831f-49bb-aaeb-d9aef2ad1265")
+		(uuid "86500b3e-01f3-41f2-9cfe-3a3081198d89")
 	)
 	(wire
 		(pts
@@ -754,23 +754,23 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 38.1) (xy 151.13 38.1)
+			(xy 135.89 38.1) (xy 137.16 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9fd1467b-89a5-4328-a22e-5887987a885d")
+		(uuid "9cccc9be-d50e-478d-8aa3-2bf0d7557bbf")
 	)
 	(wire
 		(pts
-			(xy 60.96 38.1) (xy 59.69 38.1)
+			(xy 166.37 38.1) (xy 166.37 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a6afa372-2b34-4784-b4e0-751396f79a00")
+		(uuid "a9498196-e3d8-44b2-b513-c12d5b182914")
 	)
 	(wire
 		(pts
@@ -824,23 +824,33 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 38.1) (xy 90.17 38.1)
+			(xy 104.14 38.1) (xy 105.41 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c23bd02f-c180-41b5-9a24-af60b53175dd")
+		(uuid "bfe51a99-c33f-48ff-9448-9f1627dadff1")
 	)
 	(wire
 		(pts
-			(xy 165.1 38.1) (xy 166.37 38.1)
+			(xy 134.62 38.1) (xy 135.89 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c360d7cf-8d4e-4e9e-ae2b-5f13f84b7543")
+		(uuid "cf3b2cab-c6ac-432a-89d9-526f32a0aaba")
+	)
+	(wire
+		(pts
+			(xy 151.13 38.1) (xy 152.4 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfb25dd6-14b7-4152-badc-7e05c8ae7a6a")
 	)
 	(wire
 		(pts
@@ -874,26 +884,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 38.1) (xy 106.68 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e75dedc1-f9c1-4ecf-a3c7-74cdc769a5b2")
-	)
-	(wire
-		(pts
-			(xy 151.13 38.1) (xy 152.4 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f641b5cc-d0e6-427d-9452-e507699ef1a5")
-	)
-	(wire
-		(pts
 			(xy 120.65 38.1) (xy 120.65 44.45)
 		)
 		(stroke
@@ -901,6 +891,16 @@
 			(type default)
 		)
 		(uuid "f83613ca-477a-4324-9b17-c3d43f65890f")
+	)
+	(wire
+		(pts
+			(xy 60.96 38.1) (xy 59.69 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcbf34ee-78db-4e11-ada2-9a4e8c638bde")
 	)
 	(wire
 		(pts
@@ -1097,7 +1097,7 @@
 	)
 	(symbol
 		(lib_id "Synthia_Symbol_Library:CF14JT10K0")
-		(at 104.14 38.1 180)
+		(at 91.44 38.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1128,7 +1128,7 @@
 			)
 		)
 		(property "Footprint" "Synthia_footprint_library:STA_CF14_STP"
-			(at 104.14 38.1 0)
+			(at 91.44 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1140,7 +1140,7 @@
 			)
 		)
 		(property "Datasheet" "CF14JT10K0"
-			(at 104.14 38.1 0)
+			(at 91.44 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1152,7 +1152,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 104.14 38.1 0)
+			(at 91.44 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1261,7 +1261,7 @@
 	)
 	(symbol
 		(lib_id "Synthia_Symbol_Library:CF14JT10K0")
-		(at 165.1 38.1 180)
+		(at 152.4 38.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1292,7 +1292,7 @@
 			)
 		)
 		(property "Footprint" "Synthia_footprint_library:STA_CF14_STP"
-			(at 165.1 38.1 0)
+			(at 152.4 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1304,7 +1304,7 @@
 			)
 		)
 		(property "Datasheet" "CF14JT10K0"
-			(at 165.1 38.1 0)
+			(at 152.4 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1316,7 +1316,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 165.1 38.1 0)
+			(at 152.4 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2009,7 +2009,7 @@
 	)
 	(symbol
 		(lib_id "Synthia_Symbol_Library:CF14JT10K0")
-		(at 119.38 38.1 180)
+		(at 106.68 38.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2040,7 +2040,7 @@
 			)
 		)
 		(property "Footprint" "Synthia_footprint_library:STA_CF14_STP"
-			(at 119.38 38.1 0)
+			(at 106.68 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2052,7 +2052,7 @@
 			)
 		)
 		(property "Datasheet" "CF14JT10K0"
-			(at 119.38 38.1 0)
+			(at 106.68 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2064,7 +2064,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 119.38 38.1 0)
+			(at 106.68 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2091,7 +2091,7 @@
 	)
 	(symbol
 		(lib_id "Synthia_Symbol_Library:CF14JT10K0")
-		(at 149.86 38.1 180)
+		(at 137.16 38.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2122,7 +2122,7 @@
 			)
 		)
 		(property "Footprint" "Synthia_footprint_library:STA_CF14_STP"
-			(at 149.86 38.1 0)
+			(at 137.16 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2134,7 +2134,7 @@
 			)
 		)
 		(property "Datasheet" "CF14JT10K0"
-			(at 149.86 38.1 0)
+			(at 137.16 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2146,7 +2146,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 149.86 38.1 0)
+			(at 137.16 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2173,7 +2173,7 @@
 	)
 	(symbol
 		(lib_id "Synthia_Symbol_Library:CF14JT10K0")
-		(at 73.66 38.1 180)
+		(at 60.96 38.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2204,7 +2204,7 @@
 			)
 		)
 		(property "Footprint" "Synthia_footprint_library:STA_CF14_STP"
-			(at 73.66 38.1 0)
+			(at 60.96 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2216,7 +2216,7 @@
 			)
 		)
 		(property "Datasheet" "CF14JT10K0"
-			(at 73.66 38.1 0)
+			(at 60.96 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2228,7 +2228,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 73.66 38.1 0)
+			(at 60.96 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2339,7 +2339,7 @@
 	)
 	(symbol
 		(lib_id "Synthia_Symbol_Library:CF14JT10K0")
-		(at 134.62 38.1 180)
+		(at 121.92 38.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2370,7 +2370,7 @@
 			)
 		)
 		(property "Footprint" "Synthia_footprint_library:STA_CF14_STP"
-			(at 134.62 38.1 0)
+			(at 121.92 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2382,7 +2382,7 @@
 			)
 		)
 		(property "Datasheet" "CF14JT10K0"
-			(at 134.62 38.1 0)
+			(at 121.92 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2394,7 +2394,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 134.62 38.1 0)
+			(at 121.92 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2505,7 +2505,7 @@
 	)
 	(symbol
 		(lib_id "Synthia_Symbol_Library:CF14JT10K0")
-		(at 45.72 38.1 180)
+		(at 33.02 38.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2536,7 +2536,7 @@
 			)
 		)
 		(property "Footprint" "Synthia_footprint_library:STA_CF14_STP"
-			(at 45.72 38.1 0)
+			(at 33.02 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2548,7 +2548,7 @@
 			)
 		)
 		(property "Datasheet" "CF14JT10K0"
-			(at 45.72 38.1 0)
+			(at 33.02 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2560,7 +2560,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 45.72 38.1 0)
+			(at 33.02 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2839,7 +2839,7 @@
 	)
 	(symbol
 		(lib_id "Synthia_Symbol_Library:CF14JT10K0")
-		(at 88.9 38.1 180)
+		(at 76.2 38.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2870,7 +2870,7 @@
 			)
 		)
 		(property "Footprint" "Synthia_footprint_library:STA_CF14_STP"
-			(at 88.9 38.1 0)
+			(at 76.2 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2882,7 +2882,7 @@
 			)
 		)
 		(property "Datasheet" "CF14JT10K0"
-			(at 88.9 38.1 0)
+			(at 76.2 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2894,7 +2894,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 88.9 38.1 0)
+			(at 76.2 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
